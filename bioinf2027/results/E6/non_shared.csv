@@ -1,0 +1,9 @@
+target,source,cause,constructs
+RPE1,K562-essential,no construct of the source library targets the gene,270
+RPE1,K562-essential,absent from the source gene matrix,25
+RPE1,K562-essential,below the 27-cell floor,35
+RPE1,K562-essential,both,1
+K562-essential,RPE1,below the 27-cell floor,230
+K562-essential,RPE1,absent from the source gene matrix,64
+K562-essential,RPE1,both,8
+K562-essential,RPE1,no construct of the source library targets the gene,2

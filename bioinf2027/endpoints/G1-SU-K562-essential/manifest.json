@@ -1,0 +1,21 @@
+{
+ "protocol": {
+  "path": "bioinf2027/endpoints/G1-SU-K562-essential/protocol.json",
+  "bytes": 2268,
+  "sha256": "ca000e8b8ce576336def68cedfb25b1f1ac981e3e088e02ce56c76fc8f0530e8"
+ },
+ "tables": {
+  "vcc_labels.csv": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/endpoints/G1-SU-K562-essential/vcc_labels.csv",
+   "bytes": 2922248,
+   "sha256": "6d08166820e9294a16d97ab2c689de3e1c675e89efa3a2c94aa8190db0f1a3a0"
+  },
+  "external_K562-essential.csv": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/endpoints/G1-SU-K562-essential/external_K562-essential.csv",
+   "bytes": 658010,
+   "sha256": "5604ee1161ec815623692db09f0f41098a3245cf7a171948f924689057b78d01"
+  }
+ },
+ "external_reused_from": null,
+ "seconds": 14.853961706161499
+}

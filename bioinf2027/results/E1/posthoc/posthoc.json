@@ -1,0 +1,1509 @@
+{
+ "plan": "bioinf2027/plans/E1b_posthoc.md",
+ "status": "post hoc, secondary, unadjusted (bioinf2027/plans/E1b_posthoc.md)",
+ "decided": "bioinf2027/GATE.md, top section (gate G3, 2026-11-12), item 2",
+ "review": "bioinf2027/reviews/E1b_posthoc_plan_r1.md",
+ "cell_of_record": "G6",
+ "settings": {
+  "replicates": 10000,
+  "vcc_seed": 20270301,
+  "batch_seed": 20270302,
+  "external_seeds": {
+   "RPE1": 20260901,
+   "K562-essential": 20260902
+  },
+  "head_seeds": [
+   0,
+   1,
+   2
+  ],
+  "tolerance": 1e-12,
+  "alpha_of_the_descriptive_holm": 0.05
+ },
+ "vcc_replicate_index_sha256": {
+  "G5 | genes": "adbb41ae6aed9f0f7fd43e12112dc17dc5abcca7d60eb79addc54cb8fc96b32f",
+  "G6 | genes": "afd12c4ef3a649ce2d6e68aab5d4507be0ec71ac047f467a50996128baeb517e",
+  "G5 | batches": "89fb34914549e08a4afaad9a8bd520c682e96295ac573d062990c51cb9d0a7d8",
+  "G6 | batches": "89fb34914549e08a4afaad9a8bd520c682e96295ac573d062990c51cb9d0a7d8"
+ },
+ "external_replicate_index_sha256": {
+  "RPE1": "c243e0e8e7a9bb06f4a04d166ecef121433a4456f19d84f1fcc321b40b84cf0b",
+  "K562-essential": "28817ea3afcd9281f6968e539218881ec2f047fc32d8aa05da6296143062b4c6"
+ },
+ "inputs": {
+  "predictions_manifest": {
+   "path": "bioinf2027/results/E1/predictions_manifest.json",
+   "bytes": 946848,
+   "sha256": "8a7e4be2b70f7260b701091e1d879c3734703a3ca075f73ac731aeb21019ce41"
+  },
+  "preconditions.csv": {
+   "path": "bioinf2027/results/E1/preconditions.csv",
+   "bytes": 63079,
+   "sha256": "57e385db23a1cd6e8bd12ada398e853c8f50ce68e5bedbedd15dce755f9c0677"
+  },
+  "vcc_test.csv": {
+   "path": "bioinf2027/results/E1/vcc_test.csv",
+   "bytes": 244420,
+   "sha256": "464b679ca9b4faece1590012c641c0d8b7d1ef418a25919ccfdfe3e4b40b1591"
+  },
+  "transfer.csv": {
+   "path": "bioinf2027/results/E1/transfer.csv",
+   "bytes": 1936800,
+   "sha256": "2bf0b13c9040042c86d3db58069027f5fd0013b6808ae25d31e08b6ab0643f9e"
+  },
+  "primary_family.csv": {
+   "path": "bioinf2027/results/E1/primary_family.csv",
+   "bytes": 21648,
+   "sha256": "86e25c131d793d1c6f186b09801d053b2676d28a22a74ec7f45542930f696cdc"
+  },
+  "support.csv": {
+   "path": "bioinf2027/results/E1/support.csv",
+   "bytes": 21639,
+   "sha256": "256070e7968bd120d1d303aaa5d53a73f5951d06f915c8d9ca0aaabc3c686f79"
+  },
+  "stats.json": {
+   "path": "bioinf2027/results/E1/stats.json",
+   "bytes": 11794,
+   "sha256": "8941060614819270862901b94a40cb45584ab9698223602ec1177818a468e80c"
+  },
+  "input_records.json": {
+   "path": "bioinf2027/results/E1/input_records.json",
+   "bytes": 40895,
+   "sha256": "8e5203ece9d95b5602ef872e314f35cbe044532422bbaf98b44d3f49d3db73cb"
+  },
+  "cell_manifests": {
+   "G5": {
+    "path": "bioinf2027/endpoints/G5/manifest.json",
+    "bytes": 1749,
+    "sha256": "845cd1dc6de849a711a9e198acb5a26cab3bd376aadffcba5e8347e737962461"
+   },
+   "G6": {
+    "path": "bioinf2027/endpoints/G6/manifest.json",
+    "bytes": 1752,
+    "sha256": "c5947bd85270f863132a9a58f145c3521604e19ffb8129524c3d94ea2f3878cc"
+   }
+  }
+ },
+ "reproduction": {
+  "tolerance": 1e-12,
+  "values_compared": 194,
+  "largest_difference": 0.0,
+  "external_replicate_index": {
+   "RPE1": {
+    "recomputed": "c243e0e8e7a9bb06f4a04d166ecef121433a4456f19d84f1fcc321b40b84cf0b",
+    "stats.json": "c243e0e8e7a9bb06f4a04d166ecef121433a4456f19d84f1fcc321b40b84cf0b",
+    "equal": true
+   },
+   "K562-essential": {
+    "recomputed": "28817ea3afcd9281f6968e539218881ec2f047fc32d8aa05da6296143062b4c6",
+    "stats.json": "28817ea3afcd9281f6968e539218881ec2f047fc32d8aa05da6296143062b4c6",
+    "equal": true
+   }
+  },
+  "intervals_compared": true,
+  "g6_a0_against_submitted": {
+   "recomputed": 0.16454696199193222,
+   "submitted": 0.1645,
+   "main_tex": "earlier_revision/v7/main.tex:512"
+  },
+  "checks": [
+   {
+    "check": "1 precondition",
+    "where": "preconditions.csv, G5, existing, z, r2_arm",
+    "recomputed": -0.14898826779439536,
+    "file": -0.14898826779439536,
+    "difference": 0.0
+   },
+   {
+    "check": "1 precondition",
+    "where": "preconditions.csv, G5, existing, z, r2_C1",
+    "recomputed": -0.057947286303891676,
+    "file": -0.057947286303891676,
+    "difference": 0.0
+   },
+   {
+    "check": "1 precondition",
+    "where": "preconditions.csv, G5, existing, z, r2_difference_estimate",
+    "recomputed": -0.09104098149050369,
+    "file": -0.09104098149050369,
+    "difference": 0.0
+   },
+   {
+    "check": "1 precondition",
+    "where": "preconditions.csv, G5, existing, z, spearman_difference",
+    "recomputed": 0.347873563470152,
+    "file": 0.347873563470152,
+    "difference": 0.0
+   },
+   {
+    "check": "1 precondition",
+    "where": "preconditions.csv, G5, existing, z, r2_difference_lo",
+    "recomputed": -0.5763433049895295,
+    "file": -0.5763433049895295,
+    "difference": 0.0
+   },
+   {
+    "check": "1 precondition",
+    "where": "preconditions.csv, G5, existing, z, r2_difference_hi",
+    "recomputed": 0.21465628570144893,
+    "file": 0.21465628570144893,
+    "difference": 0.0
+   },
+   {
+    "check": "1 precondition",
+    "where": "preconditions.csv, G5, existing, z, spearman_difference_lo",
+    "recomputed": 0.11526757350076869,
+    "file": 0.11526757350076869,
+    "difference": 0.0
+   },
+   {
+    "check": "1 precondition",
+    "where": "preconditions.csv, G5, existing, z, spearman_difference_hi",
+    "recomputed": 0.5459497519496185,
+    "file": 0.5459497519496185,
+    "difference": 0.0
+   },
+   {
+    "check": "1 precondition",
+    "where": "preconditions.csv, G5, rebuilt, z, r2_arm",
+    "recomputed": -0.2979578151316868,
+    "file": -0.2979578151316868,
+    "difference": 0.0
+   },
+   {
+    "check": "1 precondition",
+    "where": "preconditions.csv, G5, rebuilt, z, r2_C1",
+    "recomputed": -0.08235636721194124,
+    "file": -0.08235636721194124,
+    "difference": 0.0
+   },
+   {
+    "check": "1 precondition",
+    "where": "preconditions.csv, G5, rebuilt, z, r2_difference_estimate",
+    "recomputed": -0.21560144791974556,
+    "file": -0.21560144791974556,
+    "difference": 0.0
+   },
+   {
+    "check": "1 precondition",
+    "where": "preconditions.csv, G5, rebuilt, z, spearman_difference",
+    "recomputed": 0.05186037388710243,
+    "file": 0.05186037388710243,
+    "difference": 0.0
+   },
+   {
+    "check": "1 precondition",
+    "where": "preconditions.csv, G5, rebuilt, z, r2_difference_lo",
+    "recomputed": -0.8121888086786161,
+    "file": -0.8121888086786161,
+    "difference": 0.0
+   },
+   {
+    "check": "1 precondition",
+    "where": "preconditions.csv, G5, rebuilt, z, r2_difference_hi",
+    "recomputed": 0.0611768576654226,
+    "file": 0.0611768576654226,
+    "difference": 0.0
+   },
+   {
+    "check": "1 precondition",
+    "where": "preconditions.csv, G5, rebuilt, z, spearman_difference_lo",
+    "recomputed": -0.14342378188144014,
+    "file": -0.14342378188144014,
+    "difference": 0.0
+   },
+   {
+    "check": "1 precondition",
+    "where": "preconditions.csv, G5, rebuilt, z, spearman_difference_hi",
+    "recomputed": 0.2461725995810112,
+    "file": 0.2461725995810112,
+    "difference": 0.0
+   },
+   {
+    "check": "2 VCC test",
+    "where": "vcc_test.csv, G5, existing, B0, forest, row_r2",
+    "recomputed": -0.06404671369986585,
+    "file": -0.06404671369986585,
+    "difference": 0.0
+   },
+   {
+    "check": "2 VCC test",
+    "where": "vcc_test.csv, G5, existing, B0, forest, row_r2_lo",
+    "recomputed": -0.4159883347211742,
+    "file": -0.4159883347211742,
+    "difference": 0.0
+   },
+   {
+    "check": "2 VCC test",
+    "where": "vcc_test.csv, G5, existing, B0, forest, row_r2_hi",
+    "recomputed": 0.07485904788328258,
+    "file": 0.07485904788328258,
+    "difference": 0.0
+   },
+   {
+    "check": "2 VCC test",
+    "where": "vcc_test.csv, G5, existing, B1, forest, row_r2",
+    "recomputed": 0.25297362092221737,
+    "file": 0.25297362092221737,
+    "difference": 0.0
+   },
+   {
+    "check": "2 VCC test",
+    "where": "vcc_test.csv, G5, existing, B1, forest, row_r2_lo",
+    "recomputed": -0.21262792184163434,
+    "file": -0.21262792184163434,
+    "difference": 0.0
+   },
+   {
+    "check": "2 VCC test",
+    "where": "vcc_test.csv, G5, existing, B1, forest, row_r2_hi",
+    "recomputed": 0.5480389953249818,
+    "file": 0.5480389953249818,
+    "difference": 0.0
+   },
+   {
+    "check": "2 VCC test",
+    "where": "vcc_test.csv, G5, existing, B2, forest, row_r2",
+    "recomputed": 0.53526841188095,
+    "file": 0.53526841188095,
+    "difference": 0.0
+   },
+   {
+    "check": "2 VCC test",
+    "where": "vcc_test.csv, G5, existing, B2, forest, row_r2_lo",
+    "recomputed": 0.41123626446088474,
+    "file": 0.41123626446088474,
+    "difference": 0.0
+   },
+   {
+    "check": "2 VCC test",
+    "where": "vcc_test.csv, G5, existing, B2, forest, row_r2_hi",
+    "recomputed": 0.6374693063395153,
+    "file": 0.6374693063395153,
+    "difference": 0.0
+   },
+   {
+    "check": "2 VCC test",
+    "where": "vcc_test.csv, G5, existing, C2, forest, row_r2",
+    "recomputed": -0.1352142050562891,
+    "file": -0.1352142050562891,
+    "difference": 0.0
+   },
+   {
+    "check": "2 VCC test",
+    "where": "vcc_test.csv, G5, existing, C2, forest, row_r2_lo",
+    "recomputed": -0.5156120437729684,
+    "file": -0.5156120437729684,
+    "difference": 0.0
+   },
+   {
+    "check": "2 VCC test",
+    "where": "vcc_test.csv, G5, existing, C2, forest, row_r2_hi",
+    "recomputed": 0.03616304032414819,
+    "file": 0.03616304032414819,
+    "difference": 0.0
+   },
+   {
+    "check": "2 VCC test",
+    "where": "vcc_test.csv, G5, existing, TR, forest, row_r2",
+    "recomputed": 0.8854699567749819,
+    "file": 0.8854699567749819,
+    "difference": 0.0
+   },
+   {
+    "check": "2 VCC test",
+    "where": "vcc_test.csv, G5, existing, TR, forest, row_r2_lo",
+    "recomputed": 0.7671504594091207,
+    "file": 0.7671504594091207,
+    "difference": 0.0
+   },
+   {
+    "check": "2 VCC test",
+    "where": "vcc_test.csv, G5, existing, TR, forest, row_r2_hi",
+    "recomputed": 0.9593054165385272,
+    "file": 0.9593054165385272,
+    "difference": 0.0
+   },
+   {
+    "check": "2 VCC test",
+    "where": "vcc_test.csv, G5, existing, [TR; z], forest, row_r2",
+    "recomputed": 0.7792668922466764,
+    "file": 0.7792668922466764,
+    "difference": 0.0
+   },
+   {
+    "check": "2 VCC test",
+    "where": "vcc_test.csv, G5, existing, [TR; z], forest, row_r2_lo",
+    "recomputed": 0.6468965923522235,
+    "file": 0.6468965923522235,
+    "difference": 0.0
+   },
+   {
+    "check": "2 VCC test",
+    "where": "vcc_test.csv, G5, existing, [TR; z], forest, row_r2_hi",
+    "recomputed": 0.9085654419774122,
+    "file": 0.9085654419774122,
+    "difference": 0.0
+   },
+   {
+    "check": "2 VCC test",
+    "where": "vcc_test.csv, G5, existing, [z; B2], forest, row_r2",
+    "recomputed": 0.6797427707931902,
+    "file": 0.6797427707931902,
+    "difference": 0.0
+   },
+   {
+    "check": "2 VCC test",
+    "where": "vcc_test.csv, G5, existing, [z; B2], forest, row_r2_lo",
+    "recomputed": 0.5918724548265178,
+    "file": 0.5918724548265178,
+    "difference": 0.0
+   },
+   {
+    "check": "2 VCC test",
+    "where": "vcc_test.csv, G5, existing, [z; B2], forest, row_r2_hi",
+    "recomputed": 0.7503662891693279,
+    "file": 0.7503662891693279,
+    "difference": 0.0
+   },
+   {
+    "check": "2 VCC test",
+    "where": "vcc_test.csv, G5, existing, [C1; B2], forest, row_r2",
+    "recomputed": 0.6522930568685127,
+    "file": 0.6522930568685127,
+    "difference": 0.0
+   },
+   {
+    "check": "2 VCC test",
+    "where": "vcc_test.csv, G5, existing, [C1; B2], forest, row_r2_lo",
+    "recomputed": 0.567933874249754,
+    "file": 0.567933874249754,
+    "difference": 0.0
+   },
+   {
+    "check": "2 VCC test",
+    "where": "vcc_test.csv, G5, existing, [C1; B2], forest, row_r2_hi",
+    "recomputed": 0.6980698550784398,
+    "file": 0.6980698550784398,
+    "difference": 0.0
+   },
+   {
+    "check": "2 VCC test",
+    "where": "vcc_test.csv, G5, rebuilt, B0, forest, row_r2",
+    "recomputed": -0.24266962345491402,
+    "file": -0.24266962345491402,
+    "difference": 0.0
+   },
+   {
+    "check": "2 VCC test",
+    "where": "vcc_test.csv, G5, rebuilt, B0, forest, row_r2_lo",
+    "recomputed": -1.0422714006959424,
+    "file": -1.0422714006959424,
+    "difference": 0.0
+   },
+   {
+    "check": "2 VCC test",
+    "where": "vcc_test.csv, G5, rebuilt, B0, forest, row_r2_hi",
+    "recomputed": 0.03424291506263862,
+    "file": 0.03424291506263862,
+    "difference": 0.0
+   },
+   {
+    "check": "2 VCC test",
+    "where": "vcc_test.csv, G5, rebuilt, B1, forest, row_r2",
+    "recomputed": 0.3356104934508913,
+    "file": 0.3356104934508913,
+    "difference": 0.0
+   },
+   {
+    "check": "2 VCC test",
+    "where": "vcc_test.csv, G5, rebuilt, B1, forest, row_r2_lo",
+    "recomputed": -0.07997665331960378,
+    "file": -0.07997665331960378,
+    "difference": 0.0
+   },
+   {
+    "check": "2 VCC test",
+    "where": "vcc_test.csv, G5, rebuilt, B1, forest, row_r2_hi",
+    "recomputed": 0.6281083810134903,
+    "file": 0.6281083810134903,
+    "difference": 0.0
+   },
+   {
+    "check": "2 VCC test",
+    "where": "vcc_test.csv, G5, rebuilt, B2, forest, row_r2",
+    "recomputed": 0.5500480270342653,
+    "file": 0.5500480270342653,
+    "difference": 0.0
+   },
+   {
+    "check": "2 VCC test",
+    "where": "vcc_test.csv, G5, rebuilt, B2, forest, row_r2_lo",
+    "recomputed": 0.3290601378338489,
+    "file": 0.3290601378338489,
+    "difference": 0.0
+   },
+   {
+    "check": "2 VCC test",
+    "where": "vcc_test.csv, G5, rebuilt, B2, forest, row_r2_hi",
+    "recomputed": 0.7670921297945721,
+    "file": 0.7670921297945721,
+    "difference": 0.0
+   },
+   {
+    "check": "2 VCC test",
+    "where": "vcc_test.csv, G5, rebuilt, TR, forest, row_r2",
+    "recomputed": 0.9561477898021469,
+    "file": 0.9561477898021469,
+    "difference": 0.0
+   },
+   {
+    "check": "2 VCC test",
+    "where": "vcc_test.csv, G5, rebuilt, TR, forest, row_r2_lo",
+    "recomputed": 0.9326230626178796,
+    "file": 0.9326230626178796,
+    "difference": 0.0
+   },
+   {
+    "check": "2 VCC test",
+    "where": "vcc_test.csv, G5, rebuilt, TR, forest, row_r2_hi",
+    "recomputed": 0.975525005622526,
+    "file": 0.975525005622526,
+    "difference": 0.0
+   },
+   {
+    "check": "2 VCC test",
+    "where": "vcc_test.csv, G5, existing, C1, boosting, row_r2",
+    "recomputed": -0.04169365138322253,
+    "file": -0.04169365138322253,
+    "difference": 0.0
+   },
+   {
+    "check": "2 VCC test",
+    "where": "vcc_test.csv, G5, existing, C1, boosting, row_r2_lo",
+    "recomputed": -0.25903488807542785,
+    "file": -0.25903488807542785,
+    "difference": 0.0
+   },
+   {
+    "check": "2 VCC test",
+    "where": "vcc_test.csv, G5, existing, C1, boosting, row_r2_hi",
+    "recomputed": -0.01343090993183571,
+    "file": -0.01343090993183571,
+    "difference": 0.0
+   },
+   {
+    "check": "3 external Spearman",
+    "where": "transfer.csv, G5, RPE1, existing, z, spearman_estimate",
+    "recomputed": -0.13328542523962203,
+    "file": -0.13328542523962203,
+    "difference": 0.0
+   },
+   {
+    "check": "3 external Spearman",
+    "where": "transfer.csv, G5, RPE1, existing, z, spearman_lo",
+    "recomputed": -0.1784410206273297,
+    "file": -0.1784410206273297,
+    "difference": 0.0
+   },
+   {
+    "check": "3 external Spearman",
+    "where": "transfer.csv, G5, RPE1, existing, z, spearman_hi",
+    "recomputed": -0.08680551284380282,
+    "file": -0.08680551284380282,
+    "difference": 0.0
+   },
+   {
+    "check": "3 external T",
+    "where": "transfer.csv, G5, RPE1, existing, C2, minus_C1_estimate",
+    "recomputed": -0.12632705732280303,
+    "file": -0.12632705732280303,
+    "difference": 0.0
+   },
+   {
+    "check": "3 external T",
+    "where": "transfer.csv, G5, RPE1, existing, C2, minus_C1_lo",
+    "recomputed": -0.18863538420284548,
+    "file": -0.18863538420284548,
+    "difference": 0.0
+   },
+   {
+    "check": "3 external T",
+    "where": "transfer.csv, G5, RPE1, existing, C2, minus_C1_hi",
+    "recomputed": -0.0638913852980421,
+    "file": -0.0638913852980421,
+    "difference": 0.0
+   },
+   {
+    "check": "3 external T",
+    "where": "transfer.csv, G5, RPE1, existing, C3, minus_C1_estimate",
+    "recomputed": 0.02303203396449329,
+    "file": 0.02303203396449329,
+    "difference": 0.0
+   },
+   {
+    "check": "3 external T",
+    "where": "transfer.csv, G5, RPE1, existing, C3, minus_C1_lo",
+    "recomputed": -0.03823829251911319,
+    "file": -0.03823829251911319,
+    "difference": 0.0
+   },
+   {
+    "check": "3 external T",
+    "where": "transfer.csv, G5, RPE1, existing, C3, minus_C1_hi",
+    "recomputed": 0.08420328471361378,
+    "file": 0.08420328471361378,
+    "difference": 0.0
+   },
+   {
+    "check": "3 external Spearman",
+    "where": "transfer.csv, G5, RPE1, rebuilt, z, spearman_estimate",
+    "recomputed": -0.1348736371457062,
+    "file": -0.1348736371457062,
+    "difference": 0.0
+   },
+   {
+    "check": "3 external Spearman",
+    "where": "transfer.csv, G5, RPE1, rebuilt, z, spearman_lo",
+    "recomputed": -0.1799114240356059,
+    "file": -0.1799114240356059,
+    "difference": 0.0
+   },
+   {
+    "check": "3 external Spearman",
+    "where": "transfer.csv, G5, RPE1, rebuilt, z, spearman_hi",
+    "recomputed": -0.08831677038028075,
+    "file": -0.08831677038028075,
+    "difference": 0.0
+   },
+   {
+    "check": "3 external T",
+    "where": "transfer.csv, G5, RPE1, rebuilt, C2, minus_C1_estimate",
+    "recomputed": -0.13257656873534523,
+    "file": -0.13257656873534523,
+    "difference": 0.0
+   },
+   {
+    "check": "3 external T",
+    "where": "transfer.csv, G5, RPE1, rebuilt, C2, minus_C1_lo",
+    "recomputed": -0.19534307537688478,
+    "file": -0.19534307537688478,
+    "difference": 0.0
+   },
+   {
+    "check": "3 external T",
+    "where": "transfer.csv, G5, RPE1, rebuilt, C2, minus_C1_hi",
+    "recomputed": -0.07050264540376149,
+    "file": -0.07050264540376149,
+    "difference": 0.0
+   },
+   {
+    "check": "3 external T",
+    "where": "transfer.csv, G5, RPE1, rebuilt, C3, minus_C1_estimate",
+    "recomputed": 0.02507504623481041,
+    "file": 0.02507504623481041,
+    "difference": 0.0
+   },
+   {
+    "check": "3 external T",
+    "where": "transfer.csv, G5, RPE1, rebuilt, C3, minus_C1_lo",
+    "recomputed": -0.03475589850222842,
+    "file": -0.03475589850222842,
+    "difference": 0.0
+   },
+   {
+    "check": "3 external T",
+    "where": "transfer.csv, G5, RPE1, rebuilt, C3, minus_C1_hi",
+    "recomputed": 0.08566104185527346,
+    "file": 0.08566104185527346,
+    "difference": 0.0
+   },
+   {
+    "check": "4 L(z)",
+    "where": "primary_family.csv, G5, RPE1, L, z, estimate",
+    "recomputed": -0.0029656117720069652,
+    "file": -0.0029656117720069652,
+    "difference": 0.0
+   },
+   {
+    "check": "4 L(z)",
+    "where": "primary_family.csv, G5, RPE1, L, z, lo",
+    "recomputed": -0.023775699663529413,
+    "file": -0.023775699663529413,
+    "difference": 0.0
+   },
+   {
+    "check": "4 L(z)",
+    "where": "primary_family.csv, G5, RPE1, L, z, hi",
+    "recomputed": 0.018510758678419365,
+    "file": 0.018510758678419365,
+    "difference": 0.0
+   },
+   {
+    "check": "3 external Spearman",
+    "where": "transfer.csv, G5, K562-essential, existing, z, spearman_estimate",
+    "recomputed": -0.28472187884766725,
+    "file": -0.28472187884766725,
+    "difference": 0.0
+   },
+   {
+    "check": "3 external Spearman",
+    "where": "transfer.csv, G5, K562-essential, existing, z, spearman_lo",
+    "recomputed": -0.32676302486249426,
+    "file": -0.32676302486249426,
+    "difference": 0.0
+   },
+   {
+    "check": "3 external Spearman",
+    "where": "transfer.csv, G5, K562-essential, existing, z, spearman_hi",
+    "recomputed": -0.24201443360687788,
+    "file": -0.24201443360687788,
+    "difference": 0.0
+   },
+   {
+    "check": "3 external T",
+    "where": "transfer.csv, G5, K562-essential, existing, C2, minus_C1_estimate",
+    "recomputed": -0.2306479494327447,
+    "file": -0.2306479494327447,
+    "difference": 0.0
+   },
+   {
+    "check": "3 external T",
+    "where": "transfer.csv, G5, K562-essential, existing, C2, minus_C1_lo",
+    "recomputed": -0.2882746055207559,
+    "file": -0.2882746055207559,
+    "difference": 0.0
+   },
+   {
+    "check": "3 external T",
+    "where": "transfer.csv, G5, K562-essential, existing, C2, minus_C1_hi",
+    "recomputed": -0.17270218069431492,
+    "file": -0.17270218069431492,
+    "difference": 0.0
+   },
+   {
+    "check": "3 external T",
+    "where": "transfer.csv, G5, K562-essential, existing, C3, minus_C1_estimate",
+    "recomputed": 0.012672464247199802,
+    "file": 0.012672464247199802,
+    "difference": 0.0
+   },
+   {
+    "check": "3 external T",
+    "where": "transfer.csv, G5, K562-essential, existing, C3, minus_C1_lo",
+    "recomputed": -0.04780795483099418,
+    "file": -0.04780795483099418,
+    "difference": 0.0
+   },
+   {
+    "check": "3 external T",
+    "where": "transfer.csv, G5, K562-essential, existing, C3, minus_C1_hi",
+    "recomputed": 0.07415298305362669,
+    "file": 0.07415298305362669,
+    "difference": 0.0
+   },
+   {
+    "check": "3 external Spearman",
+    "where": "transfer.csv, G5, K562-essential, rebuilt, z, spearman_estimate",
+    "recomputed": -0.2765308254474177,
+    "file": -0.2765308254474177,
+    "difference": 0.0
+   },
+   {
+    "check": "3 external Spearman",
+    "where": "transfer.csv, G5, K562-essential, rebuilt, z, spearman_lo",
+    "recomputed": -0.31854289714551015,
+    "file": -0.31854289714551015,
+    "difference": 0.0
+   },
+   {
+    "check": "3 external Spearman",
+    "where": "transfer.csv, G5, K562-essential, rebuilt, z, spearman_hi",
+    "recomputed": -0.2339786496290588,
+    "file": -0.2339786496290588,
+    "difference": 0.0
+   },
+   {
+    "check": "3 external T",
+    "where": "transfer.csv, G5, K562-essential, rebuilt, C2, minus_C1_estimate",
+    "recomputed": -0.17899842126888485,
+    "file": -0.17899842126888485,
+    "difference": 0.0
+   },
+   {
+    "check": "3 external T",
+    "where": "transfer.csv, G5, K562-essential, rebuilt, C2, minus_C1_lo",
+    "recomputed": -0.23766396208958493,
+    "file": -0.23766396208958493,
+    "difference": 0.0
+   },
+   {
+    "check": "3 external T",
+    "where": "transfer.csv, G5, K562-essential, rebuilt, C2, minus_C1_hi",
+    "recomputed": -0.12043066684631702,
+    "file": -0.12043066684631702,
+    "difference": 0.0
+   },
+   {
+    "check": "3 external T",
+    "where": "transfer.csv, G5, K562-essential, rebuilt, C3, minus_C1_estimate",
+    "recomputed": -0.00046609373495372104,
+    "file": -0.00046609373495372104,
+    "difference": 0.0
+   },
+   {
+    "check": "3 external T",
+    "where": "transfer.csv, G5, K562-essential, rebuilt, C3, minus_C1_lo",
+    "recomputed": -0.0613819263457058,
+    "file": -0.0613819263457058,
+    "difference": 0.0
+   },
+   {
+    "check": "3 external T",
+    "where": "transfer.csv, G5, K562-essential, rebuilt, C3, minus_C1_hi",
+    "recomputed": 0.06007319301079721,
+    "file": 0.06007319301079721,
+    "difference": 0.0
+   },
+   {
+    "check": "4 L(z)",
+    "where": "primary_family.csv, G5, K562-essential, L, z, estimate",
+    "recomputed": 0.00028085857144788395,
+    "file": 0.00028085857144788395,
+    "difference": 0.0
+   },
+   {
+    "check": "4 L(z)",
+    "where": "primary_family.csv, G5, K562-essential, L, z, lo",
+    "recomputed": -0.020656106051428855,
+    "file": -0.020656106051428855,
+    "difference": 0.0
+   },
+   {
+    "check": "4 L(z)",
+    "where": "primary_family.csv, G5, K562-essential, L, z, hi",
+    "recomputed": 0.02181630459566705,
+    "file": 0.02181630459566705,
+    "difference": 0.0
+   },
+   {
+    "check": "1 precondition",
+    "where": "preconditions.csv, G6, existing, z, r2_arm",
+    "recomputed": 0.1495506879247808,
+    "file": 0.1495506879247808,
+    "difference": 0.0
+   },
+   {
+    "check": "1 precondition",
+    "where": "preconditions.csv, G6, existing, z, r2_C1",
+    "recomputed": -0.02928513353801739,
+    "file": -0.02928513353801739,
+    "difference": 0.0
+   },
+   {
+    "check": "1 precondition",
+    "where": "preconditions.csv, G6, existing, z, r2_difference_estimate",
+    "recomputed": 0.1788358214627982,
+    "file": 0.1788358214627982,
+    "difference": 0.0
+   },
+   {
+    "check": "1 precondition",
+    "where": "preconditions.csv, G6, existing, z, spearman_difference",
+    "recomputed": 0.4865400926083744,
+    "file": 0.4865400926083744,
+    "difference": 0.0
+   },
+   {
+    "check": "1 precondition",
+    "where": "preconditions.csv, G6, existing, z, r2_difference_lo",
+    "recomputed": 0.022916815068363953,
+    "file": 0.022916815068363953,
+    "difference": 0.0
+   },
+   {
+    "check": "1 precondition",
+    "where": "preconditions.csv, G6, existing, z, r2_difference_hi",
+    "recomputed": 0.3501775905878301,
+    "file": 0.3501775905878301,
+    "difference": 0.0
+   },
+   {
+    "check": "1 precondition",
+    "where": "preconditions.csv, G6, existing, z, spearman_difference_lo",
+    "recomputed": 0.3124356211051847,
+    "file": 0.3124356211051847,
+    "difference": 0.0
+   },
+   {
+    "check": "1 precondition",
+    "where": "preconditions.csv, G6, existing, z, spearman_difference_hi",
+    "recomputed": 0.6323011154003135,
+    "file": 0.6323011154003135,
+    "difference": 0.0
+   },
+   {
+    "check": "1 precondition",
+    "where": "preconditions.csv, G6, rebuilt, z, r2_arm",
+    "recomputed": -0.034292892063381965,
+    "file": -0.034292892063381965,
+    "difference": 0.0
+   },
+   {
+    "check": "1 precondition",
+    "where": "preconditions.csv, G6, rebuilt, z, r2_C1",
+    "recomputed": -0.033200779434603346,
+    "file": -0.033200779434603346,
+    "difference": 0.0
+   },
+   {
+    "check": "1 precondition",
+    "where": "preconditions.csv, G6, rebuilt, z, r2_difference_estimate",
+    "recomputed": -0.0010921126287786187,
+    "file": -0.0010921126287786187,
+    "difference": 0.0
+   },
+   {
+    "check": "1 precondition",
+    "where": "preconditions.csv, G6, rebuilt, z, spearman_difference",
+    "recomputed": 0.09092281299129733,
+    "file": 0.09092281299129733,
+    "difference": 0.0
+   },
+   {
+    "check": "1 precondition",
+    "where": "preconditions.csv, G6, rebuilt, z, r2_difference_lo",
+    "recomputed": -0.09576658008437484,
+    "file": -0.09576658008437484,
+    "difference": 0.0
+   },
+   {
+    "check": "1 precondition",
+    "where": "preconditions.csv, G6, rebuilt, z, r2_difference_hi",
+    "recomputed": 0.08577498509403784,
+    "file": 0.08577498509403784,
+    "difference": 0.0
+   },
+   {
+    "check": "1 precondition",
+    "where": "preconditions.csv, G6, rebuilt, z, spearman_difference_lo",
+    "recomputed": -0.062064997808566696,
+    "file": -0.062064997808566696,
+    "difference": 0.0
+   },
+   {
+    "check": "1 precondition",
+    "where": "preconditions.csv, G6, rebuilt, z, spearman_difference_hi",
+    "recomputed": 0.24249207372450166,
+    "file": 0.24249207372450166,
+    "difference": 0.0
+   },
+   {
+    "check": "2 VCC test",
+    "where": "vcc_test.csv, G6, existing, B0, forest, row_r2",
+    "recomputed": 0.24206737278277723,
+    "file": 0.24206737278277723,
+    "difference": 0.0
+   },
+   {
+    "check": "2 VCC test",
+    "where": "vcc_test.csv, G6, existing, B0, forest, row_r2_lo",
+    "recomputed": 0.12562044059349464,
+    "file": 0.12562044059349464,
+    "difference": 0.0
+   },
+   {
+    "check": "2 VCC test",
+    "where": "vcc_test.csv, G6, existing, B0, forest, row_r2_hi",
+    "recomputed": 0.356211061917302,
+    "file": 0.356211061917302,
+    "difference": 0.0
+   },
+   {
+    "check": "2 VCC test",
+    "where": "vcc_test.csv, G6, existing, B1, forest, row_r2",
+    "recomputed": 0.2041326459108327,
+    "file": 0.2041326459108327,
+    "difference": 0.0
+   },
+   {
+    "check": "2 VCC test",
+    "where": "vcc_test.csv, G6, existing, B1, forest, row_r2_lo",
+    "recomputed": -0.11552880021873613,
+    "file": -0.11552880021873613,
+    "difference": 0.0
+   },
+   {
+    "check": "2 VCC test",
+    "where": "vcc_test.csv, G6, existing, B1, forest, row_r2_hi",
+    "recomputed": 0.4372358621774649,
+    "file": 0.4372358621774649,
+    "difference": 0.0
+   },
+   {
+    "check": "2 VCC test",
+    "where": "vcc_test.csv, G6, existing, B2, forest, row_r2",
+    "recomputed": 0.4451235562255551,
+    "file": 0.4451235562255551,
+    "difference": 0.0
+   },
+   {
+    "check": "2 VCC test",
+    "where": "vcc_test.csv, G6, existing, B2, forest, row_r2_lo",
+    "recomputed": 0.2619812746322641,
+    "file": 0.2619812746322641,
+    "difference": 0.0
+   },
+   {
+    "check": "2 VCC test",
+    "where": "vcc_test.csv, G6, existing, B2, forest, row_r2_hi",
+    "recomputed": 0.5535788933637119,
+    "file": 0.5535788933637119,
+    "difference": 0.0
+   },
+   {
+    "check": "2 VCC test",
+    "where": "vcc_test.csv, G6, existing, C2, forest, row_r2",
+    "recomputed": 0.038739017595200154,
+    "file": 0.038739017595200154,
+    "difference": 0.0
+   },
+   {
+    "check": "2 VCC test",
+    "where": "vcc_test.csv, G6, existing, C2, forest, row_r2_lo",
+    "recomputed": -0.1621650875521581,
+    "file": -0.1621650875521581,
+    "difference": 0.0
+   },
+   {
+    "check": "2 VCC test",
+    "where": "vcc_test.csv, G6, existing, C2, forest, row_r2_hi",
+    "recomputed": 0.18493456170959166,
+    "file": 0.18493456170959166,
+    "difference": 0.0
+   },
+   {
+    "check": "2 VCC test",
+    "where": "vcc_test.csv, G6, existing, TR, forest, row_r2",
+    "recomputed": 0.9307337089084156,
+    "file": 0.9307337089084156,
+    "difference": 0.0
+   },
+   {
+    "check": "2 VCC test",
+    "where": "vcc_test.csv, G6, existing, TR, forest, row_r2_lo",
+    "recomputed": 0.88698451228315,
+    "file": 0.88698451228315,
+    "difference": 0.0
+   },
+   {
+    "check": "2 VCC test",
+    "where": "vcc_test.csv, G6, existing, TR, forest, row_r2_hi",
+    "recomputed": 0.960648011877518,
+    "file": 0.960648011877518,
+    "difference": 0.0
+   },
+   {
+    "check": "2 VCC test",
+    "where": "vcc_test.csv, G6, existing, [TR; z], forest, row_r2",
+    "recomputed": 0.8672405682596592,
+    "file": 0.8672405682596592,
+    "difference": 0.0
+   },
+   {
+    "check": "2 VCC test",
+    "where": "vcc_test.csv, G6, existing, [TR; z], forest, row_r2_lo",
+    "recomputed": 0.7901931698632734,
+    "file": 0.7901931698632734,
+    "difference": 0.0
+   },
+   {
+    "check": "2 VCC test",
+    "where": "vcc_test.csv, G6, existing, [TR; z], forest, row_r2_hi",
+    "recomputed": 0.92691112134624,
+    "file": 0.92691112134624,
+    "difference": 0.0
+   },
+   {
+    "check": "2 VCC test",
+    "where": "vcc_test.csv, G6, existing, [z; B2], forest, row_r2",
+    "recomputed": 0.6653254484120507,
+    "file": 0.6653254484120507,
+    "difference": 0.0
+   },
+   {
+    "check": "2 VCC test",
+    "where": "vcc_test.csv, G6, existing, [z; B2], forest, row_r2_lo",
+    "recomputed": 0.5528787801502059,
+    "file": 0.5528787801502059,
+    "difference": 0.0
+   },
+   {
+    "check": "2 VCC test",
+    "where": "vcc_test.csv, G6, existing, [z; B2], forest, row_r2_hi",
+    "recomputed": 0.7347181101911432,
+    "file": 0.7347181101911432,
+    "difference": 0.0
+   },
+   {
+    "check": "2 VCC test",
+    "where": "vcc_test.csv, G6, existing, [C1; B2], forest, row_r2",
+    "recomputed": 0.5527825717798955,
+    "file": 0.5527825717798955,
+    "difference": 0.0
+   },
+   {
+    "check": "2 VCC test",
+    "where": "vcc_test.csv, G6, existing, [C1; B2], forest, row_r2_lo",
+    "recomputed": 0.39587424772247504,
+    "file": 0.39587424772247504,
+    "difference": 0.0
+   },
+   {
+    "check": "2 VCC test",
+    "where": "vcc_test.csv, G6, existing, [C1; B2], forest, row_r2_hi",
+    "recomputed": 0.6425667003888383,
+    "file": 0.6425667003888383,
+    "difference": 0.0
+   },
+   {
+    "check": "2 VCC test",
+    "where": "vcc_test.csv, G6, rebuilt, B0, forest, row_r2",
+    "recomputed": -0.10235887723232073,
+    "file": -0.10235887723232073,
+    "difference": 0.0
+   },
+   {
+    "check": "2 VCC test",
+    "where": "vcc_test.csv, G6, rebuilt, B0, forest, row_r2_lo",
+    "recomputed": -0.3466589675141806,
+    "file": -0.3466589675141806,
+    "difference": 0.0
+   },
+   {
+    "check": "2 VCC test",
+    "where": "vcc_test.csv, G6, rebuilt, B0, forest, row_r2_hi",
+    "recomputed": 0.011694152744394615,
+    "file": 0.011694152744394615,
+    "difference": 0.0
+   },
+   {
+    "check": "2 VCC test",
+    "where": "vcc_test.csv, G6, rebuilt, B1, forest, row_r2",
+    "recomputed": 0.4660681917159244,
+    "file": 0.4660681917159244,
+    "difference": 0.0
+   },
+   {
+    "check": "2 VCC test",
+    "where": "vcc_test.csv, G6, rebuilt, B1, forest, row_r2_lo",
+    "recomputed": 0.18243393636028196,
+    "file": 0.18243393636028196,
+    "difference": 0.0
+   },
+   {
+    "check": "2 VCC test",
+    "where": "vcc_test.csv, G6, rebuilt, B1, forest, row_r2_hi",
+    "recomputed": 0.7293984413574925,
+    "file": 0.7293984413574925,
+    "difference": 0.0
+   },
+   {
+    "check": "2 VCC test",
+    "where": "vcc_test.csv, G6, rebuilt, B2, forest, row_r2",
+    "recomputed": 0.7568581899945998,
+    "file": 0.7568581899945998,
+    "difference": 0.0
+   },
+   {
+    "check": "2 VCC test",
+    "where": "vcc_test.csv, G6, rebuilt, B2, forest, row_r2_lo",
+    "recomputed": 0.6923862146051598,
+    "file": 0.6923862146051598,
+    "difference": 0.0
+   },
+   {
+    "check": "2 VCC test",
+    "where": "vcc_test.csv, G6, rebuilt, B2, forest, row_r2_hi",
+    "recomputed": 0.8183618706563018,
+    "file": 0.8183618706563018,
+    "difference": 0.0
+   },
+   {
+    "check": "2 VCC test",
+    "where": "vcc_test.csv, G6, rebuilt, TR, forest, row_r2",
+    "recomputed": 0.9630320510794141,
+    "file": 0.9630320510794141,
+    "difference": 0.0
+   },
+   {
+    "check": "2 VCC test",
+    "where": "vcc_test.csv, G6, rebuilt, TR, forest, row_r2_lo",
+    "recomputed": 0.9413905599476996,
+    "file": 0.9413905599476996,
+    "difference": 0.0
+   },
+   {
+    "check": "2 VCC test",
+    "where": "vcc_test.csv, G6, rebuilt, TR, forest, row_r2_hi",
+    "recomputed": 0.9718459393189864,
+    "file": 0.9718459393189864,
+    "difference": 0.0
+   },
+   {
+    "check": "2 VCC test",
+    "where": "vcc_test.csv, G6, existing, C1, boosting, row_r2",
+    "recomputed": -0.014996274067151427,
+    "file": -0.014996274067151427,
+    "difference": 0.0
+   },
+   {
+    "check": "2 VCC test",
+    "where": "vcc_test.csv, G6, existing, C1, boosting, row_r2_lo",
+    "recomputed": -0.12343800330199102,
+    "file": -0.12343800330199102,
+    "difference": 0.0
+   },
+   {
+    "check": "2 VCC test",
+    "where": "vcc_test.csv, G6, existing, C1, boosting, row_r2_hi",
+    "recomputed": -0.0032099478389703224,
+    "file": -0.0032099478389703224,
+    "difference": 0.0
+   },
+   {
+    "check": "3 external Spearman",
+    "where": "transfer.csv, G6, RPE1, existing, z, spearman_estimate",
+    "recomputed": -0.13635455912386854,
+    "file": -0.13635455912386854,
+    "difference": 0.0
+   },
+   {
+    "check": "3 external Spearman",
+    "where": "transfer.csv, G6, RPE1, existing, z, spearman_lo",
+    "recomputed": -0.18133880786185508,
+    "file": -0.18133880786185508,
+    "difference": 0.0
+   },
+   {
+    "check": "3 external Spearman",
+    "where": "transfer.csv, G6, RPE1, existing, z, spearman_hi",
+    "recomputed": -0.08957704857254249,
+    "file": -0.08957704857254249,
+    "difference": 0.0
+   },
+   {
+    "check": "3 external T",
+    "where": "transfer.csv, G6, RPE1, existing, C2, minus_C1_estimate",
+    "recomputed": -0.1748501835063285,
+    "file": -0.1748501835063285,
+    "difference": 0.0
+   },
+   {
+    "check": "3 external T",
+    "where": "transfer.csv, G6, RPE1, existing, C2, minus_C1_lo",
+    "recomputed": -0.23498693450847394,
+    "file": -0.23498693450847394,
+    "difference": 0.0
+   },
+   {
+    "check": "3 external T",
+    "where": "transfer.csv, G6, RPE1, existing, C2, minus_C1_hi",
+    "recomputed": -0.11486309743547746,
+    "file": -0.11486309743547746,
+    "difference": 0.0
+   },
+   {
+    "check": "3 external T",
+    "where": "transfer.csv, G6, RPE1, existing, C3, minus_C1_estimate",
+    "recomputed": 0.009100549117386576,
+    "file": 0.009100549117386576,
+    "difference": 0.0
+   },
+   {
+    "check": "3 external T",
+    "where": "transfer.csv, G6, RPE1, existing, C3, minus_C1_lo",
+    "recomputed": -0.05308741890538723,
+    "file": -0.05308741890538723,
+    "difference": 0.0
+   },
+   {
+    "check": "3 external T",
+    "where": "transfer.csv, G6, RPE1, existing, C3, minus_C1_hi",
+    "recomputed": 0.070560099260556,
+    "file": 0.070560099260556,
+    "difference": 0.0
+   },
+   {
+    "check": "3 external Spearman",
+    "where": "transfer.csv, G6, RPE1, rebuilt, z, spearman_estimate",
+    "recomputed": -0.1259195466011299,
+    "file": -0.1259195466011299,
+    "difference": 0.0
+   },
+   {
+    "check": "3 external Spearman",
+    "where": "transfer.csv, G6, RPE1, rebuilt, z, spearman_lo",
+    "recomputed": -0.17059743216061896,
+    "file": -0.17059743216061896,
+    "difference": 0.0
+   },
+   {
+    "check": "3 external Spearman",
+    "where": "transfer.csv, G6, RPE1, rebuilt, z, spearman_hi",
+    "recomputed": -0.07979735858180538,
+    "file": -0.07979735858180538,
+    "difference": 0.0
+   },
+   {
+    "check": "3 external T",
+    "where": "transfer.csv, G6, RPE1, rebuilt, C2, minus_C1_estimate",
+    "recomputed": -0.1572369801532392,
+    "file": -0.1572369801532392,
+    "difference": 0.0
+   },
+   {
+    "check": "3 external T",
+    "where": "transfer.csv, G6, RPE1, rebuilt, C2, minus_C1_lo",
+    "recomputed": -0.21757051674902114,
+    "file": -0.21757051674902114,
+    "difference": 0.0
+   },
+   {
+    "check": "3 external T",
+    "where": "transfer.csv, G6, RPE1, rebuilt, C2, minus_C1_hi",
+    "recomputed": -0.09744765673964906,
+    "file": -0.09744765673964906,
+    "difference": 0.0
+   },
+   {
+    "check": "3 external T",
+    "where": "transfer.csv, G6, RPE1, rebuilt, C3, minus_C1_estimate",
+    "recomputed": 0.015200475464913054,
+    "file": 0.015200475464913054,
+    "difference": 0.0
+   },
+   {
+    "check": "3 external T",
+    "where": "transfer.csv, G6, RPE1, rebuilt, C3, minus_C1_lo",
+    "recomputed": -0.04573110516386173,
+    "file": -0.04573110516386173,
+    "difference": 0.0
+   },
+   {
+    "check": "3 external T",
+    "where": "transfer.csv, G6, RPE1, rebuilt, C3, minus_C1_hi",
+    "recomputed": 0.0761878363211651,
+    "file": 0.0761878363211651,
+    "difference": 0.0
+   },
+   {
+    "check": "4 L(z)",
+    "where": "primary_family.csv, G6, RPE1, L, z, estimate",
+    "recomputed": 0.012483444769877727,
+    "file": 0.012483444769877727,
+    "difference": 0.0
+   },
+   {
+    "check": "4 L(z)",
+    "where": "primary_family.csv, G6, RPE1, L, z, lo",
+    "recomputed": -0.017846652498877968,
+    "file": -0.017846652498877968,
+    "difference": 0.0
+   },
+   {
+    "check": "4 L(z)",
+    "where": "primary_family.csv, G6, RPE1, L, z, hi",
+    "recomputed": 0.04217029035815919,
+    "file": 0.04217029035815919,
+    "difference": 0.0
+   },
+   {
+    "check": "3 external Spearman",
+    "where": "transfer.csv, G6, K562-essential, existing, z, spearman_estimate",
+    "recomputed": -0.2642223942607634,
+    "file": -0.2642223942607634,
+    "difference": 0.0
+   },
+   {
+    "check": "3 external Spearman",
+    "where": "transfer.csv, G6, K562-essential, existing, z, spearman_lo",
+    "recomputed": -0.3071176740702163,
+    "file": -0.3071176740702163,
+    "difference": 0.0
+   },
+   {
+    "check": "3 external Spearman",
+    "where": "transfer.csv, G6, K562-essential, existing, z, spearman_hi",
+    "recomputed": -0.22174304802347833,
+    "file": -0.22174304802347833,
+    "difference": 0.0
+   },
+   {
+    "check": "3 external T",
+    "where": "transfer.csv, G6, K562-essential, existing, C2, minus_C1_estimate",
+    "recomputed": -0.2949803487140065,
+    "file": -0.2949803487140065,
+    "difference": 0.0
+   },
+   {
+    "check": "3 external T",
+    "where": "transfer.csv, G6, K562-essential, existing, C2, minus_C1_lo",
+    "recomputed": -0.3525596287115689,
+    "file": -0.3525596287115689,
+    "difference": 0.0
+   },
+   {
+    "check": "3 external T",
+    "where": "transfer.csv, G6, K562-essential, existing, C2, minus_C1_hi",
+    "recomputed": -0.23891448992613948,
+    "file": -0.23891448992613948,
+    "difference": 0.0
+   },
+   {
+    "check": "3 external T",
+    "where": "transfer.csv, G6, K562-essential, existing, C3, minus_C1_estimate",
+    "recomputed": -0.021037706385443868,
+    "file": -0.021037706385443868,
+    "difference": 0.0
+   },
+   {
+    "check": "3 external T",
+    "where": "transfer.csv, G6, K562-essential, existing, C3, minus_C1_lo",
+    "recomputed": -0.0786223360616168,
+    "file": -0.0786223360616168,
+    "difference": 0.0
+   },
+   {
+    "check": "3 external T",
+    "where": "transfer.csv, G6, K562-essential, existing, C3, minus_C1_hi",
+    "recomputed": 0.036823632528527855,
+    "file": 0.036823632528527855,
+    "difference": 0.0
+   },
+   {
+    "check": "3 external Spearman",
+    "where": "transfer.csv, G6, K562-essential, rebuilt, z, spearman_estimate",
+    "recomputed": -0.2599926752535952,
+    "file": -0.2599926752535952,
+    "difference": 0.0
+   },
+   {
+    "check": "3 external Spearman",
+    "where": "transfer.csv, G6, K562-essential, rebuilt, z, spearman_lo",
+    "recomputed": -0.302202309040156,
+    "file": -0.302202309040156,
+    "difference": 0.0
+   },
+   {
+    "check": "3 external Spearman",
+    "where": "transfer.csv, G6, K562-essential, rebuilt, z, spearman_hi",
+    "recomputed": -0.2177403373695023,
+    "file": -0.2177403373695023,
+    "difference": 0.0
+   },
+   {
+    "check": "3 external T",
+    "where": "transfer.csv, G6, K562-essential, rebuilt, C2, minus_C1_estimate",
+    "recomputed": -0.07005032499117943,
+    "file": -0.07005032499117943,
+    "difference": 0.0
+   },
+   {
+    "check": "3 external T",
+    "where": "transfer.csv, G6, K562-essential, rebuilt, C2, minus_C1_lo",
+    "recomputed": -0.12613858276618273,
+    "file": -0.12613858276618273,
+    "difference": 0.0
+   },
+   {
+    "check": "3 external T",
+    "where": "transfer.csv, G6, K562-essential, rebuilt, C2, minus_C1_hi",
+    "recomputed": -0.012705308253171756,
+    "file": -0.012705308253171756,
+    "difference": 0.0
+   },
+   {
+    "check": "3 external T",
+    "where": "transfer.csv, G6, K562-essential, rebuilt, C3, minus_C1_estimate",
+    "recomputed": -0.014834952126859742,
+    "file": -0.014834952126859742,
+    "difference": 0.0
+   },
+   {
+    "check": "3 external T",
+    "where": "transfer.csv, G6, K562-essential, rebuilt, C3, minus_C1_lo",
+    "recomputed": -0.07398118726546356,
+    "file": -0.07398118726546356,
+    "difference": 0.0
+   },
+   {
+    "check": "3 external T",
+    "where": "transfer.csv, G6, K562-essential, rebuilt, C3, minus_C1_hi",
+    "recomputed": 0.045492047525202806,
+    "file": 0.045492047525202806,
+    "difference": 0.0
+   },
+   {
+    "check": "4 L(z)",
+    "where": "primary_family.csv, G6, K562-essential, L, z, estimate",
+    "recomputed": 0.00868710273799922,
+    "file": 0.00868710273799922,
+    "difference": 0.0
+   },
+   {
+    "check": "4 L(z)",
+    "where": "primary_family.csv, G6, K562-essential, L, z, lo",
+    "recomputed": -0.022199872002015564,
+    "file": -0.022199872002015564,
+    "difference": 0.0
+   },
+   {
+    "check": "4 L(z)",
+    "where": "primary_family.csv, G6, K562-essential, L, z, hi",
+    "recomputed": 0.04088547510003711,
+    "file": 0.04088547510003711,
+    "difference": 0.0
+   }
+  ]
+ },
+ "norm_of_z_against_support.csv": {
+  "RPE1": {
+   "median_norm_of_z": 0.11091888301636003,
+   "support.csv": 0.11091888301636003
+  },
+  "K562-essential": {
+   "median_norm_of_z": 0.06264606151924457,
+   "support.csv": 0.06264606151924457
+  }
+ },
+ "outputs": {
+  "posthoc_vcc.csv": {
+   "path": "bioinf2027/results/E1/posthoc/posthoc_vcc.csv",
+   "bytes": 14367,
+   "sha256": "fc0fbb0f35a04ec5cd0355e9c81309ff5bd7c499009ab26ecd722ccdb5bb2650"
+  },
+  "posthoc_label_scale.csv": {
+   "path": "bioinf2027/results/E1/posthoc/posthoc_label_scale.csv",
+   "bytes": 2393,
+   "sha256": "47ddf52bb9fbd6aa9abe75354764064f28ba5c03f357101dd81d5d2d7524f8a6"
+  },
+  "posthoc_external_ranking.csv": {
+   "path": "bioinf2027/results/E1/posthoc/posthoc_external_ranking.csv",
+   "bytes": 23025,
+   "sha256": "db25c10efd903075be453d29c1c9dc66ef6e96a0e707cff150b55d8227a95d15"
+  },
+  "posthoc_vcc_ranking.csv": {
+   "path": "bioinf2027/results/E1/posthoc/posthoc_vcc_ranking.csv",
+   "bytes": 6071,
+   "sha256": "6c103810fe907dbd2070212a042c207728b433b87d1e866cd1b5787cf3d54ec7"
+  },
+  "posthoc_l_controls.csv": {
+   "path": "bioinf2027/results/E1/posthoc/posthoc_l_controls.csv",
+   "bytes": 4370,
+   "sha256": "dff98aeac2085222a71943b192482da739717079abfdcae576f666aa00d5e390"
+  }
+ },
+ "smoke": false,
+ "seconds": 666.9
+}

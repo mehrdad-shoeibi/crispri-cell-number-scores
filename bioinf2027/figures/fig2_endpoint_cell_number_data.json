@@ -1,0 +1,72 @@
+{
+ "figure": "fig2_endpoint_cell_number",
+ "code": {
+  "bioinf2027/scripts/figures/fig2_endpoint_cell_number.py": "1fb634d24fe4ec60011c2a912327990fa76a163fdfc62ab124d9bdd4db24bcd7",
+  "bioinf2027/scripts/figures/figlib.py": "6ce5eb4a41a547d622f887c3002e25524d699a2b8c61fda2ad2737b034dbf617",
+  "bioinf2027/scripts/figures/tablelib.py": "5c546fa57595e02901ba2087d5c2334793762f2cb146db4fd434973bb3fe034f"
+ },
+ "inputs": {
+  "bioinf2027/endpoints/readouts/R2_between.csv": {
+   "path": "bioinf2027/endpoints/readouts/R2_between.csv",
+   "bytes": 6440,
+   "sha256": "69165339c4ffac1f5977fc8d5ec2430751d64650e00309119cb2419c97952e6e"
+  },
+  "bioinf2027/endpoints/readouts/R1_R3_R6.csv": {
+   "path": "bioinf2027/endpoints/readouts/R1_R3_R6.csv",
+   "bytes": 115749,
+   "sha256": "e01a6144d37f0a7fd494385e40956b96bc09e138f3154d31a3d0d12e66b98e8b"
+  },
+  "bioinf2027/endpoints/readouts/supplement/5_6_R5_detail.csv": {
+   "path": "bioinf2027/endpoints/readouts/supplement/5_6_R5_detail.csv",
+   "bytes": 4246,
+   "sha256": "c5d5139a79d55cf91ffad34f08ea7cf025ed42337e3ae69a0da1ff2956ece879"
+  },
+  "bioinf2027/results/S1_supplement/external_association.csv": {
+   "path": "bioinf2027/results/S1_supplement/external_association.csv",
+   "bytes": 5572,
+   "sha256": "655a7060779d46e11030f4cbb513c0fcf11a6442dcf3192bfb8c958dd4a19e2d"
+  },
+  "bioinf2027/results/S1_supplement/vcc_curve.csv": {
+   "path": "bioinf2027/results/S1_supplement/vcc_curve.csv",
+   "bytes": 4165,
+   "sha256": "6870655d080355e2d6edfcbffdadd58d3192a0856ad410b2d678878aef69dc65"
+  },
+  "bioinf2027/results/S1_supplement/external_subsampling.csv": {
+   "path": "bioinf2027/results/S1_supplement/external_subsampling.csv",
+   "bytes": 10007,
+   "sha256": "7c20e81e4d065f3db2a61af8ec66c924bf61e6704ff2369b6b8d437df636d230"
+  }
+ },
+ "inputs_verified": {
+  "bioinf2027/endpoints/readouts/R2_between.csv": "equal to its record in bioinf2027/endpoints/readouts/readouts.json",
+  "bioinf2027/endpoints/readouts/R1_R3_R6.csv": "equal to its record in bioinf2027/endpoints/readouts/readouts.json",
+  "bioinf2027/endpoints/readouts/supplement/5_6_R5_detail.csv": "equal to its record in bioinf2027/endpoints/readouts/supplement/supplement.json",
+  "bioinf2027/results/S1_supplement/external_association.csv": "equal to its record in bioinf2027/results/S1_supplement/s1_supplement_external.json",
+  "bioinf2027/results/S1_supplement/vcc_curve.csv": "equal to its record in bioinf2027/results/S1_supplement/s1_supplement_vcc.json",
+  "bioinf2027/results/S1_supplement/external_subsampling.csv": "equal to its record in bioinf2027/results/S1_supplement/s1_supplement_external.json"
+ },
+ "environment": {
+  "python": "3.13.12",
+  "numpy": "2.4.4",
+  "pandas": "3.0.2",
+  "requirements": {
+   "path": "bioinf2027/requirements.txt",
+   "bytes": 863,
+   "sha256": "f46a415cbe466ba1225adcede4abae7f0dd0b866f29abdf5a6a360e66b1f5702"
+  }
+ },
+ "version": "main",
+ "data_root_inputs": {},
+ "scatter_points": {},
+ "intervals": "VCC: target-gene cluster bootstrap, 10,000 replicates, seed 20270301 (R2, R3); external association: E1b's target-gene draws, seeds 20260901 and 20260902 (S1 (c)); external R3: the readouts' target-gene bootstrap; the curve: S1 (b) and (c) bootstraps; the share has no interval (one fold seed)",
+ "share_rule": "main version: the row E1a's R5 rule uses per data set and setting (bioinf2027/reports/E1a.md:83-84)",
+ "external_labels": "association panel: 27 against 788 and all eligible cells against 788 pooled controls (G1's external table and S1 (c)), not G5's 27 against 700",
+ "bounds": "bioinf2027/factsheets/FS1_S1.md and FS3_S3.md; validation values are descriptive",
+ "outputs": {
+  "fig2_endpoint_cell_number_data.csv": {
+   "path": "bioinf2027/figures/fig2_endpoint_cell_number_data.csv",
+   "bytes": 10413,
+   "sha256": "b61e4de82b7fefb4192c4703f8cc3ac53c694d0e14f74b61bf59eabe3ed6e50f"
+  }
+ }
+}

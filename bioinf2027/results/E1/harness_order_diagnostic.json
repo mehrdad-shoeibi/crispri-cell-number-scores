@@ -1,0 +1,63 @@
+{
+ "purpose": "whether the submitted external C1 and C3 rows were assigned in another construct order",
+ "screens": {
+  "RPE1": {
+   "construct_orders_available": [
+    "eligibility file order",
+    "embedding index order",
+    "endpoint file order",
+    "native delta order"
+   ],
+   "C1: screen stream, VCC training scaler": {
+    "sorted_max_abs_difference": 0.0348160999616427,
+    "same_multiset": false,
+    "distinct_values": true
+   },
+   "C1: screen stream, unscaled": {
+    "sorted_max_abs_difference": 0.03540925939571382,
+    "same_multiset": false,
+    "distinct_values": true
+   },
+   "C3: screen z, VCC training scaler, unshuffled": {
+    "sorted_max_abs_difference": 0.08139628316527059,
+    "same_multiset": false,
+    "distinct_values": true
+   }
+  },
+  "K562-essential": {
+   "construct_orders_available": [
+    "eligibility file order",
+    "embedding index order",
+    "endpoint file order",
+    "native delta order"
+   ],
+   "C1: screen stream, VCC training scaler": {
+    "sorted_max_abs_difference": 0.025519564536701456,
+    "same_multiset": false,
+    "distinct_values": true
+   },
+   "C1: screen stream, unscaled": {
+    "sorted_max_abs_difference": 0.04419408797958191,
+    "same_multiset": false,
+    "distinct_values": true
+   },
+   "C3: screen z, VCC training scaler, unshuffled": {
+    "sorted_max_abs_difference": 0.07347781559066835,
+    "same_multiset": false,
+    "distinct_values": false
+   }
+  }
+ },
+ "inputs": {
+  "stored_predictions": {
+   "path": "earlier_revision/phase4/phase4_ext_predictions.npz",
+   "bytes": 346604,
+   "sha256": "71977763748f670b8447a728b0a42c6f1bbfbe8fd6fb64e252e0277421ac8082"
+  },
+  "first_diagnostic": {
+   "path": "bioinf2027/results/E1/harness_controls_diagnostic.json",
+   "bytes": 1668,
+   "sha256": "4ef1820fd88d8a5b91c1fe873aca3a8fa1cbec7c490c46e818eeabab38dc5166"
+  }
+ }
+}

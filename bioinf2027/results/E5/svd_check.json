@@ -1,0 +1,67 @@
+{
+ "plan": "bioinf2027/plans/E5.md, Section 19",
+ "task": {
+  "embedding": "GenePT",
+  "endpoint": "b",
+  "setting": "within RPE1",
+  "model": "[Bc; e]"
+ },
+ "threads": [
+  1,
+  2,
+  4,
+  8,
+  16
+ ],
+ "matrices": 30,
+ "matrices_with_a_gesdd_failure": 1,
+ "failing": [
+  {
+   "call": 26,
+   "rows": 1135,
+   "columns": 1536,
+   "penalties": 17,
+   "gesdd_converged": {
+    "1": true,
+    "2": true,
+    "4": true,
+    "8": true,
+    "16": false
+   },
+   "rank_at_1e-10": 1121,
+   "smallest_singular_value": 1.9447884401381628e-14,
+   "largest_singular_value": 295.1752189882644,
+   "gesvd_reconstruction_max_abs_error": 1.5698553568199713e-13,
+   "gesvd_orthogonality_max_abs_error": 1.9984014443252818e-14,
+   "predictions": 4828,
+   "prediction_max_abs": 15.397674309964096,
+   "max_abs_difference_gesvd_minus_gesdd": {
+    "1": 3.114841717888339e-12,
+    "2": 7.008615909853688e-12,
+    "4": 7.348788244598836e-12,
+    "8": 5.376143974444858e-12
+   }
+  }
+ ],
+ "numpy": "2.4.4",
+ "scipy": "1.17.1",
+ "blas": [
+  {
+   "internal_api": "openmp",
+   "version": null
+  },
+  {
+   "internal_api": "openblas",
+   "version": "0.3.30",
+   "architecture": "Haswell"
+  },
+  {
+   "internal_api": "openblas",
+   "version": "0.3.31.188.0",
+   "architecture": "Haswell"
+  }
+ ],
+ "script": {
+  "bioinf2027/scripts/check_e5_svd.py": "cca79e179222da35029face6eb036fc69132c572d56e32daa11667e2780b920c"
+ }
+}

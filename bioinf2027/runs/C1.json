@@ -1,0 +1,103 @@
+{
+ "item": "C1",
+ "runs": [
+  {
+   "label": "decision-item-checks",
+   "command": "python bioinf2027/scripts/make_c1_checks.py",
+   "script_sha256": "684537a9d8940d086368c1939806ad4ba661bf45e82e6c3559fd77817a8d0161",
+   "working_directory": "repository root",
+   "commit": "8e5f3fcfc98c6b9e9c8f130b9ba41245deac89bb",
+   "branch": "bioinf-2027",
+   "tracked_files_modified": [
+    "bioinf2027/audit/C1_version_comparison.md",
+    "bioinf2027/runs/D1b.json"
+   ],
+   "untracked_files_in_bioinf2027": [
+    "bioinf2027/PROGRESS.md",
+    "bioinf2027/diag/D1b_rpe1_control_mean_checks.json",
+    "bioinf2027/scripts/make_c1_checks.py"
+   ],
+   "environment": {
+    "python": "3.13.12",
+    "implementation": "CPython",
+    "system": "Linux",
+    "machine": "x86_64",
+    "packages": {
+     "numpy": "2.4.4",
+     "scipy": "1.17.1",
+     "pandas": "3.0.2",
+     "pyarrow": "24.0.0",
+     "h5py": "3.16.0",
+     "pytest": "9.0.3"
+    },
+    "requirements_file": "bioinf2027/requirements.txt",
+    "requirements_sha256": "0237f3a09bb89a8ead20245a623aab1213c84fbec9842f00773684906fd8f501",
+    "matches_requirements": true,
+    "mismatched_distributions": []
+   },
+   "started": "2026-11-09T18:52:55-05:00",
+   "finished": "2026-11-09T18:52:55-05:00",
+   "returncode": 0,
+   "log": "$IGA_STORAGE_ROOT/bioinf2027/logs/C1/20261109T185255_decision-item-checks.log"
+  },
+  {
+   "label": "per-file-inputs",
+   "command": "python bioinf2027/scripts/make_c1_checks.py",
+   "script_sha256": "684537a9d8940d086368c1939806ad4ba661bf45e82e6c3559fd77817a8d0161",
+   "module_sha256": {
+    "bioinf2027/src/bioinf2027/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bioinf2027/src/bioinf2027/config.py": "ae8a841e511f735af8063e132a475b835f6015755fb628d2ee7d04f949b5f760",
+    "bioinf2027/src/bioinf2027/features.py": "109241aaaa33c7a8bc9ddcdaa3bf307924cf8ffb67264aa7f81948f7150b96fb",
+    "bioinf2027/src/bioinf2027/partial.py": "c748fda46f9d5b8eb98ffcccbc3f19b888aceaa4373c0e4a34a7418579c41903",
+    "bioinf2027/src/bioinf2027/provenance.py": "dbfcb8c9cd0c0a965852b466584c89d6005ca7c4851e11fe5560d020ede4eb5d",
+    "bioinf2027/src/bioinf2027/runlog.py": "5e1b325fb507a0a874b516a5ce497efe15eeec0ecd443f54c87a0726a4b1100b",
+    "bioinf2027/src/bioinf2027/singlecell.py": "6de60f867c2f53eb07d8f20cc2ca2feb08a9b342153e4694bbfef151ccdbce97",
+    "bioinf2027/src/bioinf2027/stats.py": "9e5dab5cb78fc6697702d9e82f3ad418939da7830a16259e1c186b1799497505"
+   },
+   "code_changed_during_run": [],
+   "working_directory": "repository root",
+   "commit": "071b26e2a1083e1bcaa2d2f5a5275e792c7bfcf8",
+   "branch": "bioinf-2027",
+   "tracked_files_modified": [
+    "bioinf2027/diag/D1_external_provenance.json",
+    "bioinf2027/diag/D1_label_vs_own_delta_external.csv",
+    "bioinf2027/diag/D1_label_vs_own_delta_vcc.csv",
+    "bioinf2027/diag/D1_regeneration_check.json",
+    "bioinf2027/diag/D1_target_in_features_external.csv",
+    "bioinf2027/diag/D1_target_in_features_external_per_construct.csv",
+    "bioinf2027/diag/D1_target_in_features_vcc.csv",
+    "bioinf2027/diag/D1_vcc_provenance.json",
+    "bioinf2027/runs/D1.json"
+   ],
+   "untracked_files_in_bioinf2027": [
+    "bioinf2027/PROGRESS.md",
+    "bioinf2027/diag/D1_label_vs_own_delta_external_label_floor.csv",
+    "bioinf2027/diag/D1_label_vs_own_delta_vcc_by_level.csv",
+    "bioinf2027/reports/C1.md",
+    "bioinf2027/reports/D0.md"
+   ],
+   "environment": {
+    "python": "3.13.12",
+    "implementation": "CPython",
+    "system": "Linux",
+    "machine": "x86_64",
+    "packages": {
+     "numpy": "2.4.4",
+     "scipy": "1.17.1",
+     "pandas": "3.0.2",
+     "pyarrow": "24.0.0",
+     "h5py": "3.16.0",
+     "pytest": "9.0.3"
+    },
+    "requirements_file": "bioinf2027/requirements.txt",
+    "requirements_sha256": "0237f3a09bb89a8ead20245a623aab1213c84fbec9842f00773684906fd8f501",
+    "matches_requirements": true,
+    "mismatched_distributions": []
+   },
+   "started": "2026-11-09T19:28:34-05:00",
+   "finished": "2026-11-09T19:28:34-05:00",
+   "returncode": 0,
+   "log": "$IGA_STORAGE_ROOT/bioinf2027/logs/C1/20261109T192834_per-file-inputs.log"
+  }
+ ]
+}

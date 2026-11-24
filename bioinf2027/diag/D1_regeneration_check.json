@@ -1,0 +1,747 @@
+{
+ "item": "D1",
+ "compared_against": "071b26e2a1083e1bcaa2d2f5a5275e792c7bfcf8",
+ "rename": {
+  "argmax_fraction": "argmax_fraction_of_rows_with_target_feature",
+  "top2_fraction": "top2_fraction_of_rows_with_target_feature",
+  "top5_fraction": "top5_fraction_of_rows_with_target_feature",
+  "top10_fraction": "top10_fraction_of_rows_with_target_feature",
+  "mapped_argmax_fraction": "mapped_argmax_fraction_of_constructs_with_target_feature",
+  "mapped_top2_fraction": "mapped_top2_fraction_of_constructs_with_target_feature",
+  "mapped_top5_fraction": "mapped_top5_fraction_of_constructs_with_target_feature",
+  "mapped_top10_fraction": "mapped_top10_fraction_of_constructs_with_target_feature"
+ },
+ "tolerance": 1e-12,
+ "tables": {
+  "bioinf2027/diag/D1_label_vs_own_delta_vcc.csv": {
+   "rows_before": 6,
+   "rows_after": 6,
+   "renamed": {},
+   "removed": [],
+   "added": [
+    "descriptive"
+   ],
+   "columns": {
+    "split": {
+     "compared_as": "split",
+     "identical": true,
+     "within_tolerance": true
+    },
+    "predictor": {
+     "compared_as": "predictor",
+     "identical": true,
+     "within_tolerance": true
+    },
+    "outcome": {
+     "compared_as": "outcome",
+     "identical": true,
+     "within_tolerance": true
+    },
+    "subset": {
+     "compared_as": "subset",
+     "identical": true,
+     "within_tolerance": true
+    },
+    "row_unit": {
+     "compared_as": "row_unit",
+     "identical": true,
+     "within_tolerance": true
+    },
+    "n_rows_in_split": {
+     "compared_as": "n_rows_in_split",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "n_values_differing": 0,
+     "missing_pattern_identical": true,
+     "within_tolerance": true
+    },
+    "n_target_genes_in_split": {
+     "compared_as": "n_target_genes_in_split",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "n_values_differing": 0,
+     "missing_pattern_identical": true,
+     "within_tolerance": true
+    },
+    "spearman": {
+     "compared_as": "spearman",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "n_values_differing": 0,
+     "missing_pattern_identical": true,
+     "within_tolerance": true
+    },
+    "spearman_lo": {
+     "compared_as": "spearman_lo",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "n_values_differing": 0,
+     "missing_pattern_identical": true,
+     "within_tolerance": true
+    },
+    "spearman_hi": {
+     "compared_as": "spearman_hi",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "n_values_differing": 0,
+     "missing_pattern_identical": true,
+     "within_tolerance": true
+    },
+    "pearson": {
+     "compared_as": "pearson",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "n_values_differing": 0,
+     "missing_pattern_identical": true,
+     "within_tolerance": true
+    },
+    "pearson_lo": {
+     "compared_as": "pearson_lo",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "n_values_differing": 0,
+     "missing_pattern_identical": true,
+     "within_tolerance": true
+    },
+    "pearson_hi": {
+     "compared_as": "pearson_hi",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "n_values_differing": 0,
+     "missing_pattern_identical": true,
+     "within_tolerance": true
+    },
+    "bootstrap_b": {
+     "compared_as": "bootstrap_b",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "n_values_differing": 0,
+     "missing_pattern_identical": true,
+     "within_tolerance": true
+    },
+    "bootstrap_seed": {
+     "compared_as": "bootstrap_seed",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "n_values_differing": 0,
+     "missing_pattern_identical": true,
+     "within_tolerance": true
+    },
+    "n_skipped": {
+     "compared_as": "n_skipped",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "n_values_differing": 0,
+     "missing_pattern_identical": true,
+     "within_tolerance": true
+    },
+    "n_rows": {
+     "compared_as": "n_rows",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "n_values_differing": 0,
+     "missing_pattern_identical": true,
+     "within_tolerance": true
+    },
+    "n_target_genes": {
+     "compared_as": "n_target_genes",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "n_values_differing": 0,
+     "missing_pattern_identical": true,
+     "within_tolerance": true
+    }
+   },
+   "all_values_identical": true,
+   "all_values_within_tolerance": true
+  },
+  "bioinf2027/diag/D1_label_vs_own_delta_external.csv": {
+   "rows_before": 8,
+   "rows_after": 8,
+   "renamed": {},
+   "removed": [],
+   "added": [
+    "descriptive"
+   ],
+   "columns": {
+    "screen": {
+     "compared_as": "screen",
+     "identical": true,
+     "within_tolerance": true
+    },
+    "predictor": {
+     "compared_as": "predictor",
+     "identical": true,
+     "within_tolerance": true
+    },
+    "outcome": {
+     "compared_as": "outcome",
+     "identical": true,
+     "within_tolerance": true
+    },
+    "subset": {
+     "compared_as": "subset",
+     "identical": true,
+     "within_tolerance": true
+    },
+    "row_unit": {
+     "compared_as": "row_unit",
+     "identical": true,
+     "within_tolerance": true
+    },
+    "n_rows_in_screen": {
+     "compared_as": "n_rows_in_screen",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "n_values_differing": 0,
+     "missing_pattern_identical": true,
+     "within_tolerance": true
+    },
+    "n_target_genes_in_screen": {
+     "compared_as": "n_target_genes_in_screen",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "n_values_differing": 0,
+     "missing_pattern_identical": true,
+     "within_tolerance": true
+    },
+    "spearman": {
+     "compared_as": "spearman",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "n_values_differing": 0,
+     "missing_pattern_identical": true,
+     "within_tolerance": true
+    },
+    "spearman_lo": {
+     "compared_as": "spearman_lo",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "n_values_differing": 0,
+     "missing_pattern_identical": true,
+     "within_tolerance": true
+    },
+    "spearman_hi": {
+     "compared_as": "spearman_hi",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "n_values_differing": 0,
+     "missing_pattern_identical": true,
+     "within_tolerance": true
+    },
+    "pearson": {
+     "compared_as": "pearson",
+     "identical": false,
+     "max_abs_difference": 2.220446049250313e-16,
+     "n_values_differing": 3,
+     "missing_pattern_identical": true,
+     "within_tolerance": true
+    },
+    "pearson_lo": {
+     "compared_as": "pearson_lo",
+     "identical": false,
+     "max_abs_difference": 2.220446049250313e-16,
+     "n_values_differing": 2,
+     "missing_pattern_identical": true,
+     "within_tolerance": true
+    },
+    "pearson_hi": {
+     "compared_as": "pearson_hi",
+     "identical": false,
+     "max_abs_difference": 2.220446049250313e-16,
+     "n_values_differing": 3,
+     "missing_pattern_identical": true,
+     "within_tolerance": true
+    },
+    "bootstrap_b": {
+     "compared_as": "bootstrap_b",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "n_values_differing": 0,
+     "missing_pattern_identical": true,
+     "within_tolerance": true
+    },
+    "bootstrap_seed": {
+     "compared_as": "bootstrap_seed",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "n_values_differing": 0,
+     "missing_pattern_identical": true,
+     "within_tolerance": true
+    },
+    "n_skipped": {
+     "compared_as": "n_skipped",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "n_values_differing": 0,
+     "missing_pattern_identical": true,
+     "within_tolerance": true
+    },
+    "n_rows": {
+     "compared_as": "n_rows",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "n_values_differing": 0,
+     "missing_pattern_identical": true,
+     "within_tolerance": true
+    },
+    "n_target_genes": {
+     "compared_as": "n_target_genes",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "n_values_differing": 0,
+     "missing_pattern_identical": true,
+     "within_tolerance": true
+    }
+   },
+   "all_values_identical": false,
+   "all_values_within_tolerance": true
+  },
+  "bioinf2027/diag/D1_target_in_features_vcc.csv": {
+   "rows_before": 3,
+   "rows_after": 3,
+   "renamed": {
+    "argmax_fraction": "argmax_fraction_of_rows_with_target_feature",
+    "top2_fraction": "top2_fraction_of_rows_with_target_feature",
+    "top5_fraction": "top5_fraction_of_rows_with_target_feature",
+    "top10_fraction": "top10_fraction_of_rows_with_target_feature"
+   },
+   "removed": [],
+   "added": [
+    "argmax_fraction_of_all_rows",
+    "argmax_rows",
+    "top10_fraction_of_all_rows",
+    "top10_rows",
+    "top2_fraction_of_all_rows",
+    "top2_rows",
+    "top5_fraction_of_all_rows",
+    "top5_rows"
+   ],
+   "columns": {
+    "split": {
+     "compared_as": "split",
+     "identical": true,
+     "within_tolerance": true
+    },
+    "n_rows": {
+     "compared_as": "n_rows",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "n_values_differing": 0,
+     "missing_pattern_identical": true,
+     "within_tolerance": true
+    },
+    "n_targets": {
+     "compared_as": "n_targets",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "n_values_differing": 0,
+     "missing_pattern_identical": true,
+     "within_tolerance": true
+    },
+    "n_batches": {
+     "compared_as": "n_batches",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "n_values_differing": 0,
+     "missing_pattern_identical": true,
+     "within_tolerance": true
+    },
+    "rows_with_target_feature": {
+     "compared_as": "rows_with_target_feature",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "n_values_differing": 0,
+     "missing_pattern_identical": true,
+     "within_tolerance": true
+    },
+    "rows_with_target_feature_fraction": {
+     "compared_as": "rows_with_target_feature_fraction",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "n_values_differing": 0,
+     "missing_pattern_identical": true,
+     "within_tolerance": true
+    },
+    "targets_with_feature": {
+     "compared_as": "targets_with_feature",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "n_values_differing": 0,
+     "missing_pattern_identical": true,
+     "within_tolerance": true
+    },
+    "own_delta_median": {
+     "compared_as": "own_delta_median",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "n_values_differing": 0,
+     "missing_pattern_identical": true,
+     "within_tolerance": true
+    },
+    "own_delta_fraction_negative": {
+     "compared_as": "own_delta_fraction_negative",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "n_values_differing": 0,
+     "missing_pattern_identical": true,
+     "within_tolerance": true
+    },
+    "argmax_fraction": {
+     "compared_as": "argmax_fraction_of_rows_with_target_feature",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "n_values_differing": 0,
+     "missing_pattern_identical": true,
+     "within_tolerance": true
+    },
+    "top2_fraction": {
+     "compared_as": "top2_fraction_of_rows_with_target_feature",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "n_values_differing": 0,
+     "missing_pattern_identical": true,
+     "within_tolerance": true
+    },
+    "top5_fraction": {
+     "compared_as": "top5_fraction_of_rows_with_target_feature",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "n_values_differing": 0,
+     "missing_pattern_identical": true,
+     "within_tolerance": true
+    },
+    "top10_fraction": {
+     "compared_as": "top10_fraction_of_rows_with_target_feature",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "n_values_differing": 0,
+     "missing_pattern_identical": true,
+     "within_tolerance": true
+    },
+    "median_rank": {
+     "compared_as": "median_rank",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "n_values_differing": 0,
+     "missing_pattern_identical": true,
+     "within_tolerance": true
+    }
+   },
+   "all_values_identical": true,
+   "all_values_within_tolerance": true
+  },
+  "bioinf2027/diag/D1_target_in_features_external.csv": {
+   "rows_before": 2,
+   "rows_after": 2,
+   "renamed": {
+    "mapped_argmax_fraction": "mapped_argmax_fraction_of_constructs_with_target_feature",
+    "mapped_top2_fraction": "mapped_top2_fraction_of_constructs_with_target_feature",
+    "mapped_top5_fraction": "mapped_top5_fraction_of_constructs_with_target_feature",
+    "mapped_top10_fraction": "mapped_top10_fraction_of_constructs_with_target_feature"
+   },
+   "removed": [],
+   "added": [
+    "label_at_zero_constructs",
+    "mapped_argmax_constructs",
+    "mapped_argmax_fraction_of_all_constructs",
+    "mapped_top10_constructs",
+    "mapped_top10_fraction_of_all_constructs",
+    "mapped_top2_constructs",
+    "mapped_top2_fraction_of_all_constructs",
+    "mapped_top5_constructs",
+    "mapped_top5_fraction_of_all_constructs"
+   ],
+   "columns": {
+    "screen": {
+     "compared_as": "screen",
+     "identical": true,
+     "within_tolerance": true
+    },
+    "n_constructs": {
+     "compared_as": "n_constructs",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "n_values_differing": 0,
+     "missing_pattern_identical": true,
+     "within_tolerance": true
+    },
+    "n_unique_targets": {
+     "compared_as": "n_unique_targets",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "n_values_differing": 0,
+     "missing_pattern_identical": true,
+     "within_tolerance": true
+    },
+    "n_genes_native": {
+     "compared_as": "n_genes_native",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "n_values_differing": 0,
+     "missing_pattern_identical": true,
+     "within_tolerance": true
+    },
+    "n_features_mapped": {
+     "compared_as": "n_features_mapped",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "n_values_differing": 0,
+     "missing_pattern_identical": true,
+     "within_tolerance": true
+    },
+    "target_is_selected_feature_constructs": {
+     "compared_as": "target_is_selected_feature_constructs",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "n_values_differing": 0,
+     "missing_pattern_identical": true,
+     "within_tolerance": true
+    },
+    "target_is_selected_feature_fraction": {
+     "compared_as": "target_is_selected_feature_fraction",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "n_values_differing": 0,
+     "missing_pattern_identical": true,
+     "within_tolerance": true
+    },
+    "target_is_selected_feature_unique_targets": {
+     "compared_as": "target_is_selected_feature_unique_targets",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "n_values_differing": 0,
+     "missing_pattern_identical": true,
+     "within_tolerance": true
+    },
+    "native_n_rows_scored": {
+     "compared_as": "native_n_rows_scored",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "n_values_differing": 0,
+     "missing_pattern_identical": true,
+     "within_tolerance": true
+    },
+    "native_argmax_fraction": {
+     "compared_as": "native_argmax_fraction",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "n_values_differing": 0,
+     "missing_pattern_identical": true,
+     "within_tolerance": true
+    },
+    "native_top2_fraction": {
+     "compared_as": "native_top2_fraction",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "n_values_differing": 0,
+     "missing_pattern_identical": true,
+     "within_tolerance": true
+    },
+    "native_top5_fraction": {
+     "compared_as": "native_top5_fraction",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "n_values_differing": 0,
+     "missing_pattern_identical": true,
+     "within_tolerance": true
+    },
+    "native_top10_fraction": {
+     "compared_as": "native_top10_fraction",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "n_values_differing": 0,
+     "missing_pattern_identical": true,
+     "within_tolerance": true
+    },
+    "native_median_rank": {
+     "compared_as": "native_median_rank",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "n_values_differing": 0,
+     "missing_pattern_identical": true,
+     "within_tolerance": true
+    },
+    "mapped_n_rows_scored": {
+     "compared_as": "mapped_n_rows_scored",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "n_values_differing": 0,
+     "missing_pattern_identical": true,
+     "within_tolerance": true
+    },
+    "mapped_argmax_fraction": {
+     "compared_as": "mapped_argmax_fraction_of_constructs_with_target_feature",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "n_values_differing": 0,
+     "missing_pattern_identical": true,
+     "within_tolerance": true
+    },
+    "mapped_top2_fraction": {
+     "compared_as": "mapped_top2_fraction_of_constructs_with_target_feature",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "n_values_differing": 0,
+     "missing_pattern_identical": true,
+     "within_tolerance": true
+    },
+    "mapped_top5_fraction": {
+     "compared_as": "mapped_top5_fraction_of_constructs_with_target_feature",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "n_values_differing": 0,
+     "missing_pattern_identical": true,
+     "within_tolerance": true
+    },
+    "mapped_top10_fraction": {
+     "compared_as": "mapped_top10_fraction_of_constructs_with_target_feature",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "n_values_differing": 0,
+     "missing_pattern_identical": true,
+     "within_tolerance": true
+    },
+    "mapped_median_rank": {
+     "compared_as": "mapped_median_rank",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "n_values_differing": 0,
+     "missing_pattern_identical": true,
+     "within_tolerance": true
+    },
+    "own_delta_native_median": {
+     "compared_as": "own_delta_native_median",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "n_values_differing": 0,
+     "missing_pattern_identical": true,
+     "within_tolerance": true
+    },
+    "own_delta_native_fraction_negative": {
+     "compared_as": "own_delta_native_fraction_negative",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "n_values_differing": 0,
+     "missing_pattern_identical": true,
+     "within_tolerance": true
+    }
+   },
+   "all_values_identical": true,
+   "all_values_within_tolerance": true
+  },
+  "bioinf2027/diag/D1_target_in_features_external_per_construct.csv": {
+   "rows_before": 3835,
+   "rows_after": 3835,
+   "renamed": {},
+   "removed": [],
+   "added": [],
+   "columns": {
+    "screen": {
+     "compared_as": "screen",
+     "identical": true,
+     "within_tolerance": true
+    },
+    "construct": {
+     "compared_as": "construct",
+     "identical": true,
+     "within_tolerance": true
+    },
+    "target_symbol": {
+     "compared_as": "target_symbol",
+     "identical": true,
+     "within_tolerance": true
+    },
+    "target_ensg": {
+     "compared_as": "target_ensg",
+     "identical": true,
+     "within_tolerance": true
+    },
+    "y_primary": {
+     "compared_as": "y_primary",
+     "identical": false,
+     "max_abs_difference": 8.881784197001252e-16,
+     "n_values_differing": 595,
+     "missing_pattern_identical": true,
+     "within_tolerance": true
+    },
+    "n_perturbed_pool": {
+     "compared_as": "n_perturbed_pool",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "n_values_differing": 0,
+     "missing_pattern_identical": true,
+     "within_tolerance": true
+    },
+    "target_is_selected_feature": {
+     "compared_as": "target_is_selected_feature",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "n_values_differing": 0,
+     "missing_pattern_identical": true,
+     "within_tolerance": true
+    },
+    "target_col_native": {
+     "compared_as": "target_col_native",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "n_values_differing": 0,
+     "missing_pattern_identical": true,
+     "within_tolerance": true
+    },
+    "target_col_mapped": {
+     "compared_as": "target_col_mapped",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "n_values_differing": 0,
+     "missing_pattern_identical": true,
+     "within_tolerance": true
+    },
+    "own_delta_native": {
+     "compared_as": "own_delta_native",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "n_values_differing": 0,
+     "missing_pattern_identical": true,
+     "within_tolerance": true
+    },
+    "own_delta_mapped": {
+     "compared_as": "own_delta_mapped",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "n_values_differing": 0,
+     "missing_pattern_identical": true,
+     "within_tolerance": true
+    },
+    "target_rank_native": {
+     "compared_as": "target_rank_native",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "n_values_differing": 0,
+     "missing_pattern_identical": true,
+     "within_tolerance": true
+    },
+    "target_rank_mapped": {
+     "compared_as": "target_rank_mapped",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "n_values_differing": 0,
+     "missing_pattern_identical": true,
+     "within_tolerance": true
+    },
+    "n_genes_native": {
+     "compared_as": "n_genes_native",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "n_values_differing": 0,
+     "missing_pattern_identical": true,
+     "within_tolerance": true
+    }
+   },
+   "all_values_identical": false,
+   "all_values_within_tolerance": true
+  }
+ },
+ "all_values_identical": false,
+ "all_values_within_tolerance": true
+}

@@ -1,0 +1,56 @@
+{
+ "table": "tableS_a_d2_family",
+ "code": {
+  "bioinf2027/scripts/figures/tableS_a_d2_family.py": "2613330990a2933284042b93130da98e79d62585e2a394dbf72ee288841fcd5a",
+  "bioinf2027/scripts/figures/tablelib.py": "5c546fa57595e02901ba2087d5c2334793762f2cb146db4fd434973bb3fe034f"
+ },
+ "inputs": {
+  "bioinf2027/results/D2/family.csv": {
+   "path": "bioinf2027/results/D2/family.csv",
+   "bytes": 5389,
+   "sha256": "2dc84df00a3962c127dfd8b52ea06ec162ea10d3a0b70b48e3d5e609ffd0ac93"
+  },
+  "bioinf2027/results/D2/supplement/family_read_status.csv": {
+   "path": "bioinf2027/results/D2/supplement/family_read_status.csv",
+   "bytes": 3673,
+   "sha256": "ce71f0006111c4e272b9a176472516cdd8d3274664492b4d090a0bb89bec5a48"
+  }
+ },
+ "inputs_verified": {
+  "bioinf2027/results/D2/family.csv": "equal to its record in bioinf2027/results/D2/stats.json",
+  "bioinf2027/results/D2/supplement/family_read_status.csv": "equal to its record in bioinf2027/results/D2/supplement/supplement.json"
+ },
+ "environment": {
+  "python": "3.13.12",
+  "numpy": "2.4.4",
+  "pandas": "3.0.2",
+  "requirements": {
+   "path": "bioinf2027/requirements.txt",
+   "bytes": 863,
+   "sha256": "f46a415cbe466ba1225adcede4abae7f0dd0b866f29abdf5a6a360e66b1f5702"
+  }
+ },
+ "tex": "booktabs; Unicode symbols (\u2212, \u03c1, \u2192, \u00bd), so a Unicode TeX engine (XeLaTeX or LuaLaTeX)",
+ "sources": {
+  "values": "bioinf2027/results/D2/family.csv",
+  "read status": "bioinf2027/results/D2/supplement/family_read_status.csv"
+ },
+ "family": "18 statistics, Holm at family-wise 0.05; no statistic is interpreted beyond its read status",
+ "read_status_as_saved": [
+  "not read: E1's R5 gate fails on this screen",
+  "not read: reading (f), z fails its VCC precondition in this cell",
+  "read: inconclusive; external statement in readings.csv"
+ ],
+ "outputs": {
+  "tableS_a_d2_family.csv": {
+   "path": "bioinf2027/tables/tableS_a_d2_family.csv",
+   "bytes": 2671,
+   "sha256": "15c14b122fc1ac985d3f5393e77c9c69cb83e9469fbd21bd0b349ce41569d583"
+  },
+  "tableS_a_d2_family.tex": {
+   "path": "bioinf2027/tables/tableS_a_d2_family.tex",
+   "bytes": 3159,
+   "sha256": "e8bbc8e2205f106db423712a7a778225c6557eda463a91fc8804d7738c214f2b"
+  }
+ }
+}

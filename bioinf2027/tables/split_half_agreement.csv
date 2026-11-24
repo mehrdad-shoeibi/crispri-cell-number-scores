@@ -1,0 +1,18 @@
+Setting,Dataset,Perturbed cells per half,Half definition,Groups or constructs,Target genes,Score agreement between halves,Out-of-fold R2 of the five features,Residual agreement [interval],Range over fold seeds,Share explained
+G1,VCC,10,pooled control halves,2843,98,+0.954,+0.970,"+0.541 [+0.404, +0.653]",+0.424 to +0.509,+0.9830
+G1,VCC,27,pooled control halves,532,34,+0.958,+0.970,"+0.232 [+0.070, +0.399]",+0.248 to +0.473,+0.9927
+G1,RPE1,27,pooled control halves,1377,1297,+0.968,+0.992,"+0.216 [+0.160, +0.270]",+0.194 to +0.222,+0.9983
+G1,K562-essential,27,pooled control halves,1704,1629,+0.964,+0.992,"+0.111 [+0.060, +0.163]",+0.097 to +0.118,+0.9991
+G2,VCC,10,pooled control halves,3974,116,+0.944,+0.974,"+0.472 [+0.358, +0.574]",+0.453 to +0.485,+0.9869
+G2,RPE1,10,pooled control halves,1932,1811,+0.945,+0.981,"+0.096 [+0.047, +0.146]",+0.101 to +0.130,+0.9981
+G2,K562-essential,10,pooled control halves,1903,1811,+0.945,+0.981,"+0.136 [+0.088, +0.182]",+0.123 to +0.146,+0.9973
+G5,VCC,10,deciding: 350 controls from each batch half,2843,98,+0.921,+0.948,"+0.387 [+0.314, +0.451]",+0.353 to +0.427,+0.9780
+G5,VCC,10,upper bound: 700 controls of the whole batch,2843,98,+0.953,+0.959,"+0.644 [+0.576, +0.704]",+0.613 to +0.670,+0.9720
+G5,VCC,27,deciding: 350 controls from each batch half,532,34,+0.916,+0.932,"+0.201 [+0.063, +0.341]",+0.175 to +0.351,+0.9851
+G5,VCC,27,upper bound: 700 controls of the whole batch,532,34,+0.958,+0.953,"+0.441 [+0.213, +0.624]",+0.483 to +0.582,+0.9782
+G5,RPE1,27,pooled control halves,1377,1297,+0.967,+0.993,"+0.195 [+0.139, +0.250]",+0.191 to +0.229,+0.9985
+G5,K562-essential,27,pooled control halves,1704,1629,+0.965,+0.993,"+0.154 [+0.105, +0.204]",+0.135 to +0.164,+0.9988
+G6,VCC,10,deciding: 350 controls from each batch half,3974,116,+0.906,+0.950,"+0.341 [+0.269, +0.410]",+0.340 to +0.363,+0.9814
+G6,VCC,10,upper bound: 700 controls of the whole batch,3974,116,+0.942,+0.960,"+0.635 [+0.574, +0.690]",+0.632 to +0.641,+0.9728
+G6,RPE1,10,pooled control halves,1932,1811,+0.945,+0.982,"+0.092 [+0.042, +0.141]",+0.091 to +0.112,+0.9982
+G6,K562-essential,10,pooled control halves,1903,1811,+0.945,+0.982,"+0.141 [+0.093, +0.186]",+0.132 to +0.147,+0.9973

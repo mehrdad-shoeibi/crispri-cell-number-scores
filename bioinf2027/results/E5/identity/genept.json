@@ -1,0 +1,39 @@
+{
+ "plan": "bioinf2027/plans/E5.md, Sections 7 and 18",
+ "inputs": {
+  "zip": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/downloads/genept_v2/GenePT_emebdding_v2.zip",
+   "bytes": 574395233,
+   "sha256": "6193575dcbd7bbf214c8ca3eb518cb3d13272443f98ecd6c26402411a7ca745e"
+  },
+  "pickle": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/downloads/genept_v2_extracted/GenePT_emebdding_v2/GenePT_gene_embedding_ada_text.pickle",
+   "bytes": 460797248,
+   "sha256": "fd297510ddd3040744033fde0b0f2cf15a40ac8b2fd2fb02f10667295e55c862"
+  },
+  "pickle_globals": "none (opcodes read without running, bioinf2027/scripts/safe_pickle.py)"
+ },
+ "vectors": {
+  "genes_in_file": 93428,
+  "width": 1536
+ },
+ "coverage": {
+  "RPE1": {
+   "genes": 1811,
+   "covered": 1797
+  },
+  "K562-essential": {
+   "genes": 1811,
+   "covered": 1796
+  },
+  "VCC": {
+   "genes": 282,
+   "covered": 280
+  }
+ },
+ "output": {
+  "path": "$IGA_STORAGE_ROOT/bioinf2027/E5/identity/genept.npz",
+  "bytes": 14238694,
+  "sha256": "f474fecd21fc064b36df7da34444fd56936f061ba17eab0e23d40628413f38c4"
+ }
+}

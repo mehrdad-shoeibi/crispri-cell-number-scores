@@ -1,0 +1,134 @@
+{
+ "protocol": {
+  "path": "bioinf2027/results/E1/attribution/amendment/protocol.json",
+  "bytes": 5514,
+  "sha256": "6e68325295f7c9b657438d4fac561698da4b0077b796417d3c45d694d2ea9ed2"
+ },
+ "fits": 24,
+ "completed": 24,
+ "failed": [],
+ "reused": 0,
+ "files": {
+  "G6|existing|[TR; C1]|forest|0|all training rows|0": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E1b/attribution/amendment/predictions/G6/041deb62a89c3680d70c.npz",
+   "bytes": 81160,
+   "sha256": "8c869828a19a3996fda9a042e5547ef4cbe1b0bacd2c9ffc82696138f98dca99"
+  },
+  "G6|existing|[TR; C1]|forest|2|all training rows|0": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E1b/attribution/amendment/predictions/G6/8c75b28c44cc56692ede.npz",
+   "bytes": 81156,
+   "sha256": "e3473a1e692712be20ec1c3dfa187aaf99db20cc25c4c7829faea8ca25ea4108"
+  },
+  "G6|existing|[TR; C1]|forest|1|all training rows|0": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E1b/attribution/amendment/predictions/G6/d8e00a3c84801f56ea74.npz",
+   "bytes": 81160,
+   "sha256": "283018e5a2d0c09ce9cbd19f6a827ee23bbc39d8d613e4b84f1613bf6ac0e474"
+  },
+  "G6|rebuilt|[TR; C1]|forest|0|all training rows|0": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E1b/attribution/amendment/predictions/G6/10eef33c1028c0d100ef.npz",
+   "bytes": 81156,
+   "sha256": "a22df1cec4a23755526e8f4f0fc69121c61f78662bfa2e7a347a8a27fb63f66b"
+  },
+  "G6|existing|[TR; C3]|forest|0|all training rows|0": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E1b/attribution/amendment/predictions/G6/5009b079ce25de8a4f27.npz",
+   "bytes": 81160,
+   "sha256": "82fea33572368004500d64de00a6e211633c6690353e7a0d263bf2b74144f315"
+  },
+  "G6|existing|[TR; C3]|forest|1|all training rows|0": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E1b/attribution/amendment/predictions/G6/a3296c199c911714571e.npz",
+   "bytes": 81156,
+   "sha256": "384da90e50a8840b55f836f93eba4b725ea88f5f30a58d8b47059b59ae9f01f2"
+  },
+  "G6|rebuilt|[TR; C1]|forest|1|all training rows|0": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E1b/attribution/amendment/predictions/G6/4ea219941adaca5d340e.npz",
+   "bytes": 81152,
+   "sha256": "efc3655b9f292b779076b2dbed2bce265d03ea4f382409699f0fa639f057872f"
+  },
+  "G6|rebuilt|[TR; C1]|forest|2|all training rows|0": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E1b/attribution/amendment/predictions/G6/8f40a7a408198dfcc158.npz",
+   "bytes": 81148,
+   "sha256": "30c16c7bb0773ad586524936a59a55916f3e8efdcc2092048a3cdd71761845e1"
+  },
+  "G6|existing|[TR; C3]|forest|2|all training rows|0": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E1b/attribution/amendment/predictions/G6/7676a93ba11469c73598.npz",
+   "bytes": 81156,
+   "sha256": "e3748d10f11533c97edb456f01a2b5662db1d88caac03c5962e640a0462f5676"
+  },
+  "G6|existing|[TR; C1]|boosting|0|all training rows|0": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E1b/attribution/amendment/predictions/G6/adfe55ea9e4935159805.npz",
+   "bytes": 81164,
+   "sha256": "a48a979cbc0ff672e577bcf9837ac75f9252784f1dba5b114eb1bc822cb13883"
+  },
+  "G6|existing|[TR; C1]|boosting|1|all training rows|0": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E1b/attribution/amendment/predictions/G6/1f31402b3530d4122746.npz",
+   "bytes": 81168,
+   "sha256": "b138adbdda0cd7f447a1a5b053b4c8a6778789952fae659dd1a998f25a6c1e7a"
+  },
+  "G6|existing|[TR; C1]|boosting|2|all training rows|0": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E1b/attribution/amendment/predictions/G6/8e0e703ff57b19fec3f1.npz",
+   "bytes": 81160,
+   "sha256": "5218c874eb3da7b75e44a4669c91f39abc648d83ee8344d0d9df0149af6be303"
+  },
+  "G6|rebuilt|[TR; C1]|boosting|0|all training rows|0": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E1b/attribution/amendment/predictions/G6/61167e4ff0875038ca9c.npz",
+   "bytes": 81164,
+   "sha256": "9c2920e386593fcffb44dd72d5abbe6054dc2db09fcb288603522a9978aab5f2"
+  },
+  "G6|rebuilt|[TR; C3]|forest|1|all training rows|0": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E1b/attribution/amendment/predictions/G6/04b8ae88f31a9ecdbdf7.npz",
+   "bytes": 81156,
+   "sha256": "ac8ed81a1107038c9a68fb57daac4ccac02bec82a5275f3272409c7d9be805c1"
+  },
+  "G6|rebuilt|[TR; C3]|forest|0|all training rows|0": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E1b/attribution/amendment/predictions/G6/203da8a2ae44148abbbc.npz",
+   "bytes": 81156,
+   "sha256": "05bff66d8ff68572eedeaf3dad45ace7e989958540b099067714f8710ad168e5"
+  },
+  "G6|rebuilt|[TR; C3]|forest|2|all training rows|0": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E1b/attribution/amendment/predictions/G6/34ff5ba2e940b626811e.npz",
+   "bytes": 81152,
+   "sha256": "dd6a3ae9b2b48a2d3b321cc99286644ee650bae94483765c2b4d98430626f005"
+  },
+  "G6|rebuilt|[TR; C1]|boosting|2|all training rows|0": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E1b/attribution/amendment/predictions/G6/16b0f813d0b74b6d1d8a.npz",
+   "bytes": 81160,
+   "sha256": "25376309bf09d1f2b6dacbfad38e6008fe9921c1f9163821ef459493b7eb7093"
+  },
+  "G6|rebuilt|[TR; C1]|boosting|1|all training rows|0": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E1b/attribution/amendment/predictions/G6/fc45112cba265625f655.npz",
+   "bytes": 81160,
+   "sha256": "c70fb4d0a31fc56a97a27564d07deea4a727de8fc5537b016b0b0676bf3eeda7"
+  },
+  "G6|existing|[TR; C3]|boosting|0|all training rows|0": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E1b/attribution/amendment/predictions/G6/263ac91a72c87240eff7.npz",
+   "bytes": 81164,
+   "sha256": "4e166d23a1ab325eddc204c74a32580b8349d3e19d9b1da521ceacdea47ad4bf"
+  },
+  "G6|existing|[TR; C3]|boosting|1|all training rows|0": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E1b/attribution/amendment/predictions/G6/8b28745af606814bb078.npz",
+   "bytes": 81168,
+   "sha256": "e2c88f7e8fc88f9197f28e989ffb68803cf341ceacceacffddca07d374b5d6dd"
+  },
+  "G6|rebuilt|[TR; C3]|boosting|0|all training rows|0": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E1b/attribution/amendment/predictions/G6/fad4fec7f7cfc9aac035.npz",
+   "bytes": 81160,
+   "sha256": "f3dc316a82fe73cf419a5a8e0134d0fad9cac0eea1f3cdc49bcc9c759bc4d996"
+  },
+  "G6|rebuilt|[TR; C3]|boosting|1|all training rows|0": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E1b/attribution/amendment/predictions/G6/b4caa2b6b29cf997f49b.npz",
+   "bytes": 81160,
+   "sha256": "ff3c72c6a7900fb0826b8e54ed159a73133acb936431f4d693eed23d86e1a3d2"
+  },
+  "G6|existing|[TR; C3]|boosting|2|all training rows|0": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E1b/attribution/amendment/predictions/G6/f82daa6f72ff9de0c300.npz",
+   "bytes": 81164,
+   "sha256": "6ac5384560db2ebb2fbaab3ad6d985354272aa75b8431fdcf217d70d208e9b5a"
+  },
+  "G6|rebuilt|[TR; C3]|boosting|2|all training rows|0": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E1b/attribution/amendment/predictions/G6/8cd3d5c87834a296ac19.npz",
+   "bytes": 81160,
+   "sha256": "20612a705f1021178343fc711002fa33cd0351d47ee4768c5c7f0d6fc043b43a"
+  }
+ },
+ "seconds": 4316.4
+}

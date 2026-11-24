@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="178mm" height="105mm" viewBox="0 0 178 105">
+  <text x="1.00" y="4.50" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="2.469" data-pt="7.0" font-weight="bold" text-anchor="start" fill="#000000">(a)</text>
+  <text x="5.00" y="13.00" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="2.293" data-pt="6.5" text-anchor="start" fill="#000000">control cells of the batch</text>
+  <circle cx="6.00" cy="15.50" r="0.75" fill="#C8C8C8" stroke="none" stroke-width="0.00"/>
+  <circle cx="8.60" cy="15.50" r="0.75" fill="#C8C8C8" stroke="none" stroke-width="0.00"/>
+  <circle cx="11.20" cy="15.50" r="0.75" fill="#C8C8C8" stroke="none" stroke-width="0.00"/>
+  <circle cx="13.80" cy="15.50" r="0.75" fill="#C8C8C8" stroke="none" stroke-width="0.00"/>
+  <circle cx="16.40" cy="15.50" r="0.75" fill="#C8C8C8" stroke="none" stroke-width="0.00"/>
+  <circle cx="19.00" cy="15.50" r="0.75" fill="#C8C8C8" stroke="none" stroke-width="0.00"/>
+  <circle cx="21.60" cy="15.50" r="0.75" fill="#C8C8C8" stroke="none" stroke-width="0.00"/>
+  <circle cx="24.20" cy="15.50" r="0.75" fill="#C8C8C8" stroke="none" stroke-width="0.00"/>
+  <circle cx="26.80" cy="15.50" r="0.75" fill="#C8C8C8" stroke="none" stroke-width="0.00"/>
+  <circle cx="29.40" cy="15.50" r="0.75" fill="#C8C8C8" stroke="none" stroke-width="0.00"/>
+  <circle cx="32.00" cy="15.50" r="0.75" fill="#C8C8C8" stroke="none" stroke-width="0.00"/>
+  <circle cx="34.60" cy="15.50" r="0.75" fill="#C8C8C8" stroke="none" stroke-width="0.00"/>
+  <circle cx="6.00" cy="18.10" r="0.75" fill="#C8C8C8" stroke="none" stroke-width="0.00"/>
+  <circle cx="8.60" cy="18.10" r="0.75" fill="#C8C8C8" stroke="none" stroke-width="0.00"/>
+  <circle cx="11.20" cy="18.10" r="0.75" fill="#C8C8C8" stroke="none" stroke-width="0.00"/>
+  <circle cx="13.80" cy="18.10" r="0.75" fill="#C8C8C8" stroke="none" stroke-width="0.00"/>
+  <circle cx="16.40" cy="18.10" r="0.75" fill="#C8C8C8" stroke="none" stroke-width="0.00"/>
+  <circle cx="19.00" cy="18.10" r="0.75" fill="#C8C8C8" stroke="none" stroke-width="0.00"/>
+  <circle cx="21.60" cy="18.10" r="0.75" fill="#C8C8C8" stroke="none" stroke-width="0.00"/>
+  <circle cx="24.20" cy="18.10" r="0.75" fill="#C8C8C8" stroke="none" stroke-width="0.00"/>
+  <circle cx="26.80" cy="18.10" r="0.75" fill="#C8C8C8" stroke="none" stroke-width="0.00"/>
+  <circle cx="29.40" cy="18.10" r="0.75" fill="#C8C8C8" stroke="none" stroke-width="0.00"/>
+  <circle cx="32.00" cy="18.10" r="0.75" fill="#C8C8C8" stroke="none" stroke-width="0.00"/>
+  <circle cx="34.60" cy="18.10" r="0.75" fill="#C8C8C8" stroke="none" stroke-width="0.00"/>
+  <circle cx="6.00" cy="20.70" r="0.75" fill="#C8C8C8" stroke="none" stroke-width="0.00"/>
+  <circle cx="8.60" cy="20.70" r="0.75" fill="#C8C8C8" stroke="none" stroke-width="0.00"/>
+  <circle cx="11.20" cy="20.70" r="0.75" fill="#C8C8C8" stroke="none" stroke-width="0.00"/>
+  <circle cx="13.80" cy="20.70" r="0.75" fill="#C8C8C8" stroke="none" stroke-width="0.00"/>
+  <circle cx="16.40" cy="20.70" r="0.75" fill="#C8C8C8" stroke="none" stroke-width="0.00"/>
+  <circle cx="19.00" cy="20.70" r="0.75" fill="#C8C8C8" stroke="none" stroke-width="0.00"/>
+  <circle cx="21.60" cy="20.70" r="0.75" fill="#C8C8C8" stroke="none" stroke-width="0.00"/>
+  <circle cx="24.20" cy="20.70" r="0.75" fill="#C8C8C8" stroke="none" stroke-width="0.00"/>
+  <circle cx="26.80" cy="20.70" r="0.75" fill="#C8C8C8" stroke="none" stroke-width="0.00"/>
+  <circle cx="29.40" cy="20.70" r="0.75" fill="#C8C8C8" stroke="none" stroke-width="0.00"/>
+  <circle cx="32.00" cy="20.70" r="0.75" fill="#C8C8C8" stroke="none" stroke-width="0.00"/>
+  <circle cx="34.60" cy="20.70" r="0.75" fill="#C8C8C8" stroke="none" stroke-width="0.00"/>
+  <text x="5.00" y="26.50" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="2.293" data-pt="6.5" text-anchor="start" fill="#000000">a perturbation with few perturbed cells</text>
+  <circle cx="6.00" cy="29.00" r="0.75" fill="#555555" stroke="none" stroke-width="0.00"/>
+  <circle cx="8.60" cy="29.00" r="0.75" fill="#555555" stroke="none" stroke-width="0.00"/>
+  <circle cx="11.20" cy="29.00" r="0.75" fill="#555555" stroke="none" stroke-width="0.00"/>
+  <circle cx="13.80" cy="29.00" r="0.75" fill="#555555" stroke="none" stroke-width="0.00"/>
+  <circle cx="16.40" cy="29.00" r="0.75" fill="#555555" stroke="none" stroke-width="0.00"/>
+  <circle cx="19.00" cy="29.00" r="0.75" fill="#555555" stroke="none" stroke-width="0.00"/>
+  <circle cx="21.60" cy="29.00" r="0.75" fill="#555555" stroke="none" stroke-width="0.00"/>
+  <circle cx="24.20" cy="29.00" r="0.75" fill="#555555" stroke="none" stroke-width="0.00"/>
+  <circle cx="26.80" cy="29.00" r="0.75" fill="#555555" stroke="none" stroke-width="0.00"/>
+  <circle cx="29.40" cy="29.00" r="0.75" fill="#555555" stroke="none" stroke-width="0.00"/>
+  <circle cx="32.00" cy="29.00" r="0.75" fill="#555555" stroke="none" stroke-width="0.00"/>
+  <text x="5.00" y="35.00" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="2.293" data-pt="6.5" text-anchor="start" fill="#000000">a perturbation with many perturbed cells</text>
+  <circle cx="6.00" cy="37.50" r="0.75" fill="#555555" stroke="none" stroke-width="0.00"/>
+  <circle cx="8.60" cy="37.50" r="0.75" fill="#555555" stroke="none" stroke-width="0.00"/>
+  <circle cx="11.20" cy="37.50" r="0.75" fill="#555555" stroke="none" stroke-width="0.00"/>
+  <circle cx="13.80" cy="37.50" r="0.75" fill="#555555" stroke="none" stroke-width="0.00"/>
+  <circle cx="16.40" cy="37.50" r="0.75" fill="#555555" stroke="none" stroke-width="0.00"/>
+  <circle cx="19.00" cy="37.50" r="0.75" fill="#555555" stroke="none" stroke-width="0.00"/>
+  <circle cx="21.60" cy="37.50" r="0.75" fill="#555555" stroke="none" stroke-width="0.00"/>
+  <circle cx="24.20" cy="37.50" r="0.75" fill="#555555" stroke="none" stroke-width="0.00"/>
+  <circle cx="26.80" cy="37.50" r="0.75" fill="#555555" stroke="none" stroke-width="0.00"/>
+  <circle cx="29.40" cy="37.50" r="0.75" fill="#555555" stroke="none" stroke-width="0.00"/>
+  <circle cx="32.00" cy="37.50" r="0.75" fill="#555555" stroke="none" stroke-width="0.00"/>
+  <circle cx="34.60" cy="37.50" r="0.75" fill="#555555" stroke="none" stroke-width="0.00"/>
+  <circle cx="6.00" cy="40.10" r="0.75" fill="#555555" stroke="none" stroke-width="0.00"/>
+  <circle cx="8.60" cy="40.10" r="0.75" fill="#555555" stroke="none" stroke-width="0.00"/>
+  <circle cx="11.20" cy="40.10" r="0.75" fill="#555555" stroke="none" stroke-width="0.00"/>
+  <circle cx="13.80" cy="40.10" r="0.75" fill="#555555" stroke="none" stroke-width="0.00"/>
+  <circle cx="16.40" cy="40.10" r="0.75" fill="#555555" stroke="none" stroke-width="0.00"/>
+  <circle cx="19.00" cy="40.10" r="0.75" fill="#555555" stroke="none" stroke-width="0.00"/>
+  <circle cx="21.60" cy="40.10" r="0.75" fill="#555555" stroke="none" stroke-width="0.00"/>
+  <circle cx="24.20" cy="40.10" r="0.75" fill="#555555" stroke="none" stroke-width="0.00"/>
+  <circle cx="26.80" cy="40.10" r="0.75" fill="#555555" stroke="none" stroke-width="0.00"/>
+  <circle cx="29.40" cy="40.10" r="0.75" fill="#555555" stroke="none" stroke-width="0.00"/>
+  <circle cx="32.00" cy="40.10" r="0.75" fill="#555555" stroke="none" stroke-width="0.00"/>
+  <circle cx="34.60" cy="40.10" r="0.75" fill="#555555" stroke="none" stroke-width="0.00"/>
+  <circle cx="6.00" cy="42.70" r="0.75" fill="#555555" stroke="none" stroke-width="0.00"/>
+  <circle cx="8.60" cy="42.70" r="0.75" fill="#555555" stroke="none" stroke-width="0.00"/>
+  <circle cx="11.20" cy="42.70" r="0.75" fill="#555555" stroke="none" stroke-width="0.00"/>
+  <circle cx="13.80" cy="42.70" r="0.75" fill="#555555" stroke="none" stroke-width="0.00"/>
+  <circle cx="16.40" cy="42.70" r="0.75" fill="#555555" stroke="none" stroke-width="0.00"/>
+  <circle cx="19.00" cy="42.70" r="0.75" fill="#555555" stroke="none" stroke-width="0.00"/>
+  <circle cx="21.60" cy="42.70" r="0.75" fill="#555555" stroke="none" stroke-width="0.00"/>
+  <circle cx="24.20" cy="42.70" r="0.75" fill="#555555" stroke="none" stroke-width="0.00"/>
+  <circle cx="26.80" cy="42.70" r="0.75" fill="#555555" stroke="none" stroke-width="0.00"/>
+  <text x="62.00" y="6.50" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="2.469" data-pt="7.0" font-weight="bold" text-anchor="start" fill="#000000">all-cells label</text>
+  <circle cx="63.00" cy="15.50" r="0.75" fill="#C8C8C8" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="65.60" cy="15.50" r="0.75" fill="#C8C8C8" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="68.20" cy="15.50" r="0.75" fill="#C8C8C8" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="70.80" cy="15.50" r="0.75" fill="#C8C8C8" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="73.40" cy="15.50" r="0.75" fill="#C8C8C8" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="76.00" cy="15.50" r="0.75" fill="#C8C8C8" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="78.60" cy="15.50" r="0.75" fill="#C8C8C8" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="81.20" cy="15.50" r="0.75" fill="#C8C8C8" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="83.80" cy="15.50" r="0.75" fill="#C8C8C8" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="86.40" cy="15.50" r="0.75" fill="#C8C8C8" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="89.00" cy="15.50" r="0.75" fill="#C8C8C8" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="91.60" cy="15.50" r="0.75" fill="#C8C8C8" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="63.00" cy="18.10" r="0.75" fill="#C8C8C8" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="65.60" cy="18.10" r="0.75" fill="#C8C8C8" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="68.20" cy="18.10" r="0.75" fill="#C8C8C8" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="70.80" cy="18.10" r="0.75" fill="#C8C8C8" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="73.40" cy="18.10" r="0.75" fill="#C8C8C8" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="76.00" cy="18.10" r="0.75" fill="#C8C8C8" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="78.60" cy="18.10" r="0.75" fill="#C8C8C8" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="81.20" cy="18.10" r="0.75" fill="#C8C8C8" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="83.80" cy="18.10" r="0.75" fill="#C8C8C8" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="86.40" cy="18.10" r="0.75" fill="#C8C8C8" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="89.00" cy="18.10" r="0.75" fill="#C8C8C8" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="91.60" cy="18.10" r="0.75" fill="#C8C8C8" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="63.00" cy="20.70" r="0.75" fill="#C8C8C8" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="65.60" cy="20.70" r="0.75" fill="#C8C8C8" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="68.20" cy="20.70" r="0.75" fill="#C8C8C8" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="70.80" cy="20.70" r="0.75" fill="#C8C8C8" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="73.40" cy="20.70" r="0.75" fill="#C8C8C8" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="76.00" cy="20.70" r="0.75" fill="#C8C8C8" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="78.60" cy="20.70" r="0.75" fill="#C8C8C8" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="81.20" cy="20.70" r="0.75" fill="#C8C8C8" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="83.80" cy="20.70" r="0.75" fill="#C8C8C8" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="86.40" cy="20.70" r="0.75" fill="#C8C8C8" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="89.00" cy="20.70" r="0.75" fill="#C8C8C8" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="91.60" cy="20.70" r="0.75" fill="#C8C8C8" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="63.00" cy="29.00" r="0.75" fill="#555555" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="65.60" cy="29.00" r="0.75" fill="#555555" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="68.20" cy="29.00" r="0.75" fill="#555555" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="70.80" cy="29.00" r="0.75" fill="#555555" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="73.40" cy="29.00" r="0.75" fill="#555555" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="76.00" cy="29.00" r="0.75" fill="#555555" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="78.60" cy="29.00" r="0.75" fill="#555555" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="81.20" cy="29.00" r="0.75" fill="#555555" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="83.80" cy="29.00" r="0.75" fill="#555555" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="86.40" cy="29.00" r="0.75" fill="#555555" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="89.00" cy="29.00" r="0.75" fill="#555555" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="63.00" cy="37.50" r="0.75" fill="#555555" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="65.60" cy="37.50" r="0.75" fill="#555555" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="68.20" cy="37.50" r="0.75" fill="#555555" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="70.80" cy="37.50" r="0.75" fill="#555555" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="73.40" cy="37.50" r="0.75" fill="#555555" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="76.00" cy="37.50" r="0.75" fill="#555555" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="78.60" cy="37.50" r="0.75" fill="#555555" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="81.20" cy="37.50" r="0.75" fill="#555555" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="83.80" cy="37.50" r="0.75" fill="#555555" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="86.40" cy="37.50" r="0.75" fill="#555555" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="89.00" cy="37.50" r="0.75" fill="#555555" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="91.60" cy="37.50" r="0.75" fill="#555555" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="63.00" cy="40.10" r="0.75" fill="#555555" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="65.60" cy="40.10" r="0.75" fill="#555555" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="68.20" cy="40.10" r="0.75" fill="#555555" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="70.80" cy="40.10" r="0.75" fill="#555555" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="73.40" cy="40.10" r="0.75" fill="#555555" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="76.00" cy="40.10" r="0.75" fill="#555555" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="78.60" cy="40.10" r="0.75" fill="#555555" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="81.20" cy="40.10" r="0.75" fill="#555555" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="83.80" cy="40.10" r="0.75" fill="#555555" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="86.40" cy="40.10" r="0.75" fill="#555555" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="89.00" cy="40.10" r="0.75" fill="#555555" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="91.60" cy="40.10" r="0.75" fill="#555555" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="63.00" cy="42.70" r="0.75" fill="#555555" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="65.60" cy="42.70" r="0.75" fill="#555555" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="68.20" cy="42.70" r="0.75" fill="#555555" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="70.80" cy="42.70" r="0.75" fill="#555555" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="73.40" cy="42.70" r="0.75" fill="#555555" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="76.00" cy="42.70" r="0.75" fill="#555555" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="78.60" cy="42.70" r="0.75" fill="#555555" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="81.20" cy="42.70" r="0.75" fill="#555555" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="83.80" cy="42.70" r="0.75" fill="#555555" stroke="#000000" stroke-width="0.30"/>
+  <text x="62.00" y="49.40" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="2.293" data-pt="6.5" text-anchor="start" fill="#000000">every perturbed cell of the row</text>
+  <text x="62.00" y="52.30" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="2.293" data-pt="6.5" text-anchor="start" fill="#000000">against every control cell of the batch</text>
+  <text x="112.00" y="6.50" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="2.469" data-pt="7.0" font-weight="bold" text-anchor="start" fill="#000000">size-fixed label</text>
+  <rect x="110.50" y="12.00" width="36.00" height="33.50" rx="0.80" fill="#FFFFFF" stroke="#555555" stroke-width="0.30"/>
+  <circle cx="113.00" cy="15.50" r="0.75" fill="#C8C8C8" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="115.60" cy="15.50" r="0.75" fill="#C8C8C8" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="118.20" cy="15.50" r="0.75" fill="#C8C8C8" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="120.80" cy="15.50" r="0.75" fill="#C8C8C8" stroke="none" stroke-width="0.00"/>
+  <circle cx="123.40" cy="15.50" r="0.75" fill="#C8C8C8" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="126.00" cy="15.50" r="0.75" fill="#C8C8C8" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="128.60" cy="15.50" r="0.75" fill="#C8C8C8" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="131.20" cy="15.50" r="0.75" fill="#C8C8C8" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="133.80" cy="15.50" r="0.75" fill="#C8C8C8" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="136.40" cy="15.50" r="0.75" fill="#C8C8C8" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="139.00" cy="15.50" r="0.75" fill="#C8C8C8" stroke="none" stroke-width="0.00"/>
+  <circle cx="141.60" cy="15.50" r="0.75" fill="#C8C8C8" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="113.00" cy="18.10" r="0.75" fill="#C8C8C8" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="115.60" cy="18.10" r="0.75" fill="#C8C8C8" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="118.20" cy="18.10" r="0.75" fill="#C8C8C8" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="120.80" cy="18.10" r="0.75" fill="#C8C8C8" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="123.40" cy="18.10" r="0.75" fill="#C8C8C8" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="126.00" cy="18.10" r="0.75" fill="#C8C8C8" stroke="none" stroke-width="0.00"/>
+  <circle cx="128.60" cy="18.10" r="0.75" fill="#C8C8C8" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="131.20" cy="18.10" r="0.75" fill="#C8C8C8" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="133.80" cy="18.10" r="0.75" fill="#C8C8C8" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="136.40" cy="18.10" r="0.75" fill="#C8C8C8" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="139.00" cy="18.10" r="0.75" fill="#C8C8C8" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="141.60" cy="18.10" r="0.75" fill="#C8C8C8" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="113.00" cy="20.70" r="0.75" fill="#C8C8C8" stroke="none" stroke-width="0.00"/>
+  <circle cx="115.60" cy="20.70" r="0.75" fill="#C8C8C8" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="118.20" cy="20.70" r="0.75" fill="#C8C8C8" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="120.80" cy="20.70" r="0.75" fill="#C8C8C8" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="123.40" cy="20.70" r="0.75" fill="#C8C8C8" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="126.00" cy="20.70" r="0.75" fill="#C8C8C8" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="128.60" cy="20.70" r="0.75" fill="#C8C8C8" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="131.20" cy="20.70" r="0.75" fill="#C8C8C8" stroke="none" stroke-width="0.00"/>
+  <circle cx="133.80" cy="20.70" r="0.75" fill="#C8C8C8" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="136.40" cy="20.70" r="0.75" fill="#C8C8C8" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="139.00" cy="20.70" r="0.75" fill="#C8C8C8" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="141.60" cy="20.70" r="0.75" fill="#C8C8C8" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="113.00" cy="29.00" r="0.75" fill="#555555" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="115.60" cy="29.00" r="0.75" fill="#555555" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="118.20" cy="29.00" r="0.75" fill="#555555" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="120.80" cy="29.00" r="0.75" fill="#555555" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="123.40" cy="29.00" r="0.75" fill="#555555" stroke="none" stroke-width="0.00"/>
+  <circle cx="126.00" cy="29.00" r="0.75" fill="#555555" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="128.60" cy="29.00" r="0.75" fill="#555555" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="131.20" cy="29.00" r="0.75" fill="#555555" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="133.80" cy="29.00" r="0.75" fill="#555555" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="136.40" cy="29.00" r="0.75" fill="#555555" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="139.00" cy="29.00" r="0.75" fill="#555555" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="113.00" cy="37.50" r="0.75" fill="#555555" stroke="none" stroke-width="0.00"/>
+  <circle cx="115.60" cy="37.50" r="0.75" fill="#555555" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="118.20" cy="37.50" r="0.75" fill="#555555" stroke="none" stroke-width="0.00"/>
+  <circle cx="120.80" cy="37.50" r="0.75" fill="#555555" stroke="none" stroke-width="0.00"/>
+  <circle cx="123.40" cy="37.50" r="0.75" fill="#555555" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="126.00" cy="37.50" r="0.75" fill="#555555" stroke="none" stroke-width="0.00"/>
+  <circle cx="128.60" cy="37.50" r="0.75" fill="#555555" stroke="none" stroke-width="0.00"/>
+  <circle cx="131.20" cy="37.50" r="0.75" fill="#555555" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="133.80" cy="37.50" r="0.75" fill="#555555" stroke="none" stroke-width="0.00"/>
+  <circle cx="136.40" cy="37.50" r="0.75" fill="#555555" stroke="none" stroke-width="0.00"/>
+  <circle cx="139.00" cy="37.50" r="0.75" fill="#555555" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="141.60" cy="37.50" r="0.75" fill="#555555" stroke="none" stroke-width="0.00"/>
+  <circle cx="113.00" cy="40.10" r="0.75" fill="#555555" stroke="none" stroke-width="0.00"/>
+  <circle cx="115.60" cy="40.10" r="0.75" fill="#555555" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="118.20" cy="40.10" r="0.75" fill="#555555" stroke="none" stroke-width="0.00"/>
+  <circle cx="120.80" cy="40.10" r="0.75" fill="#555555" stroke="none" stroke-width="0.00"/>
+  <circle cx="123.40" cy="40.10" r="0.75" fill="#555555" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="126.00" cy="40.10" r="0.75" fill="#555555" stroke="none" stroke-width="0.00"/>
+  <circle cx="128.60" cy="40.10" r="0.75" fill="#555555" stroke="none" stroke-width="0.00"/>
+  <circle cx="131.20" cy="40.10" r="0.75" fill="#555555" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="133.80" cy="40.10" r="0.75" fill="#555555" stroke="none" stroke-width="0.00"/>
+  <circle cx="136.40" cy="40.10" r="0.75" fill="#555555" stroke="none" stroke-width="0.00"/>
+  <circle cx="139.00" cy="40.10" r="0.75" fill="#555555" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="141.60" cy="40.10" r="0.75" fill="#555555" stroke="none" stroke-width="0.00"/>
+  <circle cx="113.00" cy="42.70" r="0.75" fill="#555555" stroke="none" stroke-width="0.00"/>
+  <circle cx="115.60" cy="42.70" r="0.75" fill="#555555" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="118.20" cy="42.70" r="0.75" fill="#555555" stroke="none" stroke-width="0.00"/>
+  <circle cx="120.80" cy="42.70" r="0.75" fill="#555555" stroke="none" stroke-width="0.00"/>
+  <circle cx="123.40" cy="42.70" r="0.75" fill="#555555" stroke="#000000" stroke-width="0.30"/>
+  <circle cx="126.00" cy="42.70" r="0.75" fill="#555555" stroke="none" stroke-width="0.00"/>
+  <circle cx="128.60" cy="42.70" r="0.75" fill="#555555" stroke="none" stroke-width="0.00"/>
+  <circle cx="131.20" cy="42.70" r="0.75" fill="#555555" stroke="none" stroke-width="0.00"/>
+  <circle cx="133.80" cy="42.70" r="0.75" fill="#555555" stroke="none" stroke-width="0.00"/>
+  <text x="145.00" y="44.30" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="2.293" data-pt="6.5" text-anchor="end" fill="#555555">one draw</text>
+  <text x="112.00" y="49.40" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="2.293" data-pt="6.5" text-anchor="start" fill="#000000">27 or 10 perturbed cells drawn at random</text>
+  <text x="112.00" y="52.30" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="2.293" data-pt="6.5" text-anchor="start" fill="#000000">against 700 or 788 control cells drawn at random</text>
+  <text x="112.00" y="55.20" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="2.293" data-pt="6.5" text-anchor="start" fill="#000000">repeated 25 times; the label is the median over the draws</text>
+  <circle cx="6.00" cy="54.30" r="0.75" fill="#555555" stroke="none" stroke-width="0.00"/>
+  <text x="7.60" y="55.20" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="2.293" data-pt="6.5" text-anchor="start" fill="#000000">perturbed cell</text>
+  <circle cx="28.00" cy="54.30" r="0.75" fill="#C8C8C8" stroke="none" stroke-width="0.00"/>
+  <text x="29.60" y="55.20" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="2.293" data-pt="6.5" text-anchor="start" fill="#000000">control cell</text>
+  <circle cx="46.00" cy="54.30" r="0.75" fill="#C8C8C8" stroke="#000000" stroke-width="0.30"/>
+  <text x="47.60" y="55.20" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="2.293" data-pt="6.5" text-anchor="start" fill="#000000">cell used for the label</text>
+  <text x="1.00" y="66.00" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="2.469" data-pt="7.0" font-weight="bold" text-anchor="start" fill="#000000">(b)</text>
+  <text x="73.40" y="66.00" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="2.293" data-pt="6.5" text-anchor="middle" fill="#000000">label against cell</text>
+  <text x="73.40" y="68.90" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="2.293" data-pt="6.5" text-anchor="middle" fill="#000000">number</text>
+  <text x="96.20" y="66.00" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="2.293" data-pt="6.5" text-anchor="middle" fill="#000000">embedding against</text>
+  <text x="96.20" y="68.90" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="2.293" data-pt="6.5" text-anchor="middle" fill="#000000">a random control</text>
+  <text x="119.00" y="66.00" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="2.293" data-pt="6.5" text-anchor="middle" fill="#000000">what the size-fixed</text>
+  <text x="119.00" y="68.90" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="2.293" data-pt="6.5" text-anchor="middle" fill="#000000">label follows</text>
+  <text x="141.80" y="66.00" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="2.293" data-pt="6.5" text-anchor="middle" fill="#000000">between the two</text>
+  <text x="141.80" y="68.90" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="2.293" data-pt="6.5" text-anchor="middle" fill="#000000">Replogle screens</text>
+  <text x="164.60" y="66.00" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="2.293" data-pt="6.5" text-anchor="middle" fill="#000000">unseen target genes</text>
+  <text x="164.60" y="68.90" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="2.293" data-pt="6.5" text-anchor="middle" fill="#000000">from gene vectors</text>
+  <line x1="5.00" y1="71.80" x2="176.00" y2="71.80" stroke="#000000" stroke-width="0.25"/>
+  <text x="5.00" y="75.80" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="2.469" data-pt="7.0" font-weight="bold" text-anchor="start" fill="#000000">VCC</text>
+  <text x="5.00" y="78.80" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="2.293" data-pt="6.5" text-anchor="start" fill="#000000">140, 49 and 93 target genes</text>
+  <circle cx="73.40" cy="76.30" r="1.40" fill="#222222" stroke="none" stroke-width="0.00"/>
+  <circle cx="96.20" cy="76.30" r="1.40" fill="#222222" stroke="none" stroke-width="0.00"/>
+  <circle cx="119.00" cy="76.30" r="1.40" fill="#222222" stroke="none" stroke-width="0.00"/>
+  <circle cx="164.60" cy="76.30" r="1.25" fill="#FFFFFF" stroke="#222222" stroke-width="0.35"/>
+  <line x1="5.00" y1="80.80" x2="176.00" y2="80.80" stroke="#BBBBBB" stroke-width="0.20"/>
+  <text x="5.00" y="84.80" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="2.469" data-pt="7.0" font-weight="bold" text-anchor="start" fill="#000000">Replogle RPE1</text>
+  <text x="5.00" y="87.80" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="2.293" data-pt="6.5" text-anchor="start" fill="#000000">1,932 constructs</text>
+  <circle cx="73.40" cy="85.30" r="1.40" fill="#222222" stroke="none" stroke-width="0.00"/>
+  <circle cx="119.00" cy="85.30" r="1.40" fill="#222222" stroke="none" stroke-width="0.00"/>
+  <circle cx="141.80" cy="85.30" r="1.40" fill="#222222" stroke="none" stroke-width="0.00"/>
+  <circle cx="164.60" cy="85.30" r="1.40" fill="#222222" stroke="none" stroke-width="0.00"/>
+  <line x1="5.00" y1="89.80" x2="176.00" y2="89.80" stroke="#BBBBBB" stroke-width="0.20"/>
+  <text x="5.00" y="93.80" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="2.469" data-pt="7.0" font-weight="bold" text-anchor="start" fill="#000000">Replogle K562-essential</text>
+  <text x="5.00" y="96.80" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="2.293" data-pt="6.5" text-anchor="start" fill="#000000">1,903 constructs</text>
+  <circle cx="73.40" cy="94.30" r="1.40" fill="#222222" stroke="none" stroke-width="0.00"/>
+  <circle cx="119.00" cy="94.30" r="1.40" fill="#222222" stroke="none" stroke-width="0.00"/>
+  <circle cx="141.80" cy="94.30" r="1.40" fill="#222222" stroke="none" stroke-width="0.00"/>
+  <circle cx="164.60" cy="94.30" r="1.40" fill="#222222" stroke="none" stroke-width="0.00"/>
+  <line x1="5.00" y1="98.80" x2="176.00" y2="98.80" stroke="#BBBBBB" stroke-width="0.20"/>
+  <circle cx="63.00" cy="102.40" r="1.40" fill="#222222" stroke="none" stroke-width="0.00"/>
+  <text x="65.20" y="103.30" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="2.293" data-pt="6.5" text-anchor="start" fill="#000000">used</text>
+  <circle cx="84.00" cy="102.40" r="1.25" fill="#FFFFFF" stroke="#222222" stroke-width="0.35"/>
+  <text x="86.20" y="103.30" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="2.293" data-pt="6.5" text-anchor="start" fill="#000000">used, descriptive only</text>
+</svg>

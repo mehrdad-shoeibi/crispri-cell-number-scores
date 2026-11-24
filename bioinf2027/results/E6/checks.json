@@ -1,0 +1,149 @@
+{
+ "plan": "bioinf2027/plans/E6.md, Sections 3, 4 and 6 as amended by Sections 13 to 15",
+ "inputs": {
+  "features_mapped_in_both_screens": 1303,
+  "e4_features": {
+   "path": "bioinf2027/results/E4/features.json",
+   "bytes": 12462,
+   "sha256": "b588c4f6d7c170ce8a7aab7f808807d06a6192a45c319bfe72d572365c7c656c"
+  },
+  "shared_genes": 7226,
+  "target_genes_in_the_union": 2111,
+  "endpoint_manifests": {
+   "G1": {
+    "path": "bioinf2027/endpoints/G1/manifest.json",
+    "bytes": 1748,
+    "sha256": "4b85517801ed167a901cefdc0cdba89f5898233be2edbda15cc9852cdd08cc28"
+   },
+   "G2": {
+    "path": "bioinf2027/endpoints/G2/manifest.json",
+    "bytes": 1751,
+    "sha256": "61d7ba70991db5b5f5dec46999ce33555fac161e685d113246e909227420c775"
+   },
+   "G5": {
+    "path": "bioinf2027/endpoints/G5/manifest.json",
+    "bytes": 1749,
+    "sha256": "845cd1dc6de849a711a9e198acb5a26cab3bd376aadffcba5e8347e737962461"
+   },
+   "G6": {
+    "path": "bioinf2027/endpoints/G6/manifest.json",
+    "bytes": 1752,
+    "sha256": "c5947bd85270f863132a9a58f145c3521604e19ffb8129524c3d94ea2f3878cc"
+   }
+  }
+ },
+ "harness_check": {
+  "fit": {
+   "context": "G1",
+   "label": "rebuilt",
+   "representation": "x",
+   "head": "forest",
+   "seed": 0,
+   "variant": "all training rows",
+   "realisation": 0
+  },
+  "e1b_file": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E1b/predictions/G1/fa26363feb91d660973f.npz",
+   "bytes": 90020,
+   "sha256": "5105b1109c7263dd233310341e19c9c61a484475f3b1d13e336849819614fd9f"
+  },
+  "max_abs_difference": 0.0,
+  "tolerance": 1e-12,
+  "passed": true
+ },
+ "timing_probe": {
+  "fits": [
+   {
+    "source": "RPE1",
+    "representation": "z",
+    "seconds": 154.70245838165283,
+    "training_rows": 1534
+   },
+   {
+    "source": "RPE1",
+    "representation": "x",
+    "seconds": 261.3718535900116,
+    "training_rows": 1534
+   },
+   {
+    "source": "RPE1",
+    "representation": "[x; m]",
+    "seconds": 288.22275400161743,
+    "training_rows": 1534
+   },
+   {
+    "source": "RPE1",
+    "representation": "C1",
+    "seconds": 166.0978982448578,
+    "training_rows": 1534
+   },
+   {
+    "source": "RPE1",
+    "representation": "m",
+    "seconds": 1.076779842376709,
+    "training_rows": 1534
+   },
+   {
+    "source": "RPE1",
+    "representation": "TR",
+    "seconds": 0.5985350608825684,
+    "training_rows": 1534
+   },
+   {
+    "source": "K562-essential",
+    "representation": "z",
+    "seconds": 130.2933864593506,
+    "training_rows": 1533
+   },
+   {
+    "source": "K562-essential",
+    "representation": "x",
+    "seconds": 227.08988404273987,
+    "training_rows": 1533
+   },
+   {
+    "source": "K562-essential",
+    "representation": "[x; m]",
+    "seconds": 231.8758566379547,
+    "training_rows": 1533
+   },
+   {
+    "source": "K562-essential",
+    "representation": "C1",
+    "seconds": 175.4378957748413,
+    "training_rows": 1533
+   },
+   {
+    "source": "K562-essential",
+    "representation": "m",
+    "seconds": 0.9202797412872314,
+    "training_rows": 1533
+   },
+   {
+    "source": "K562-essential",
+    "representation": "TR",
+    "seconds": 0.5816636085510254,
+    "training_rows": 1533
+   }
+  ],
+  "seconds_per_representation": {
+   "z": 142.4979224205017,
+   "x": 244.23086881637573,
+   "[x; m]": 260.0493053197861,
+   "C1": 170.76789700984955,
+   "m": 0.9985297918319702,
+   "TR": 0.5900993347167969
+  }
+ },
+ "projected_cpu_hours_for_50_refits": 113.7,
+ "refits": 20,
+ "projected_cpu_hours": 190.9,
+ "seeds_of_the_700_control_endpoints": [
+  0
+ ],
+ "rules": {
+  "refits": "Section 6, item 9: 50 refits, cut to 20 if they project more than 48 hours of CPU",
+  "seeds": "Section 10: if the run projects more than 200 hours of CPU, the 700-control endpoints run with head seed 0 only"
+ },
+ "seconds": 3012.4
+}

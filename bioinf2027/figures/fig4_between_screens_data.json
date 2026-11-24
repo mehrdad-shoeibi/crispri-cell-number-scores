@@ -1,0 +1,63 @@
+{
+ "figure": "fig4_between_screens",
+ "code": {
+  "bioinf2027/scripts/figures/fig4_between_screens.py": "bae1aab1737fcf40e676ca63c315e1ee536d45fcb336c57c98c86735402352db",
+  "bioinf2027/scripts/figures/figlib.py": "6ce5eb4a41a547d622f887c3002e25524d699a2b8c61fda2ad2737b034dbf617",
+  "bioinf2027/scripts/figures/tablelib.py": "5c546fa57595e02901ba2087d5c2334793762f2cb146db4fd434973bb3fe034f"
+ },
+ "inputs": {
+  "bioinf2027/results/E6/family.csv": {
+   "path": "bioinf2027/results/E6/family.csv",
+   "bytes": 10639,
+   "sha256": "8afd41db341bbc341a56f58a040ece5eff8da09aaa60581ec21ebafc82f75ff1"
+  },
+  "bioinf2027/results/E2/stats/family.csv": {
+   "path": "bioinf2027/results/E2/stats/family.csv",
+   "bytes": 12594,
+   "sha256": "4485a1b47f670c0260cc112af350e2ccebeffeb6fe40fbbf801317c2748acf9e"
+  },
+  "bioinf2027/results/E6/family_pass/supplement/absolute.csv": {
+   "path": "bioinf2027/results/E6/family_pass/supplement/absolute.csv",
+   "bytes": 5915,
+   "sha256": "5cb0f5a70c81d5f74bdbd564d57b23121c3ceadb068dfba5a45f50df2d967457"
+  },
+  "bioinf2027/results/E6/transfer.csv": {
+   "path": "bioinf2027/results/E6/transfer.csv",
+   "bytes": 247612,
+   "sha256": "10b24e18c7ae19788f70cfd876fbc4675ed02845771a4fc8fa3de0808e6d8b8f"
+  },
+  "bioinf2027/results/E2/stats/e6.csv": {
+   "path": "bioinf2027/results/E2/stats/e6.csv",
+   "bytes": 31245,
+   "sha256": "1a08ef21c77de39781841b6b88824cb05a426718c17d594b6e9de056ef1aaaf1"
+  }
+ },
+ "inputs_verified": {
+  "bioinf2027/results/E6/family.csv": "equal to its record in bioinf2027/results/E2/stats/stats.json",
+  "bioinf2027/results/E2/stats/family.csv": "equal to its record in bioinf2027/results/E2/null_external/stats.json",
+  "bioinf2027/results/E6/family_pass/supplement/absolute.csv": "equal to its record in bioinf2027/results/E6/family_pass/supplement/supplement.json",
+  "bioinf2027/results/E6/transfer.csv": "equal to its record in bioinf2027/results/E6/stats.json",
+  "bioinf2027/results/E2/stats/e6.csv": "equal to its record in bioinf2027/results/E2/stats/stats.json"
+ },
+ "environment": {
+  "python": "3.13.12",
+  "numpy": "2.4.4",
+  "pandas": "3.0.2",
+  "requirements": {
+   "path": "bioinf2027/requirements.txt",
+   "bytes": 863,
+   "sha256": "f46a415cbe466ba1225adcede4abae7f0dd0b866f29abdf5a6a360e66b1f5702"
+  }
+ },
+ "scope": "gene-disjoint predictions, 27 against 788 cells, forest, E1b's joint target-gene draws",
+ "families": "E6's T: Holm over E6's 24; E2's T of test (iii): Holm within E2's 30",
+ "marker": "* Stack: possibly in Stack's pre-training data [VERIFY] (bioinf2027/results/E2/pretraining_check.json)",
+ "bounds": "bioinf2027/factsheets/FS4_S4.md (above a Gaussian control only; none shown beyond the trivial predictors)",
+ "outputs": {
+  "fig4_between_screens_data.csv": {
+   "path": "bioinf2027/figures/fig4_between_screens_data.csv",
+   "bytes": 5236,
+   "sha256": "c11de8af6a97e327b5701566401d820247a2cffdd8c9369a32109982e1118fe6"
+  }
+ }
+}

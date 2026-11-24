@@ -1,0 +1,99 @@
+{
+ "plan": "bioinf2027/plans/E4.md, Section 4 as amended by Sections 10 to 13; depth-thinned stage (Sections 10.1, item 3b, and 10.2, item 9)",
+ "features": {
+  "G5-DT-RPE1 | draw 1": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E4/features/G5-DT-RPE1_draw_1.npz",
+   "bytes": 49199904,
+   "sha256": "273fd62ac4e633ef0eff0efbc0d599c3f783a9f6ac7f48359d74a9988a8b70a2"
+  },
+  "G5-DT-RPE1 | draw 2": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E4/features/G5-DT-RPE1_draw_2.npz",
+   "bytes": 49199904,
+   "sha256": "61f7032e58a30157ea276b8038214ca16de9ae04467bc5e2c077354ea9e595bd"
+  },
+  "G5-DT-RPE1 | draw 3": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E4/features/G5-DT-RPE1_draw_3.npz",
+   "bytes": 49199904,
+   "sha256": "482951bd2192115378bec42b7b8ce48e090410db5582bad56e523f04a8bbe846"
+  },
+  "G6-DT-RPE1 | draw 1": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E4/features/G6-DT-RPE1_draw_1.npz",
+   "bytes": 95241856,
+   "sha256": "0d17a517f20d87db8eac2ba0a1aa20557bb1fba94cac49d7fb8367c9e34010b9"
+  },
+  "G6-DT-RPE1 | draw 2": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E4/features/G6-DT-RPE1_draw_2.npz",
+   "bytes": 95241856,
+   "sha256": "c6c73b8a6a516e7cd71703a062b848c61d759297e1de4e987e36f640e6e3ee43"
+  },
+  "G6-DT-RPE1 | draw 3": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E4/features/G6-DT-RPE1_draw_3.npz",
+   "bytes": 95241856,
+   "sha256": "e0aa975d7af5c551206f171c74a9d5a4138227586130ec4a72405599d785003c"
+  },
+  "G5-DT-K562-essential | draw 1": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E4/features/G5-DT-K562-essential_draw_1.npz",
+   "bytes": 49199904,
+   "sha256": "7eb2a4e3cfc266a6d9f1de8aa7a8ce031944809022d1718f8da5d8f6e85f20a5"
+  },
+  "G5-DT-K562-essential | draw 2": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E4/features/G5-DT-K562-essential_draw_2.npz",
+   "bytes": 49199904,
+   "sha256": "53abe3640c93f43baf5c669804b30ad3a510489515568e0383a38417906baa8d"
+  },
+  "G5-DT-K562-essential | draw 3": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E4/features/G5-DT-K562-essential_draw_3.npz",
+   "bytes": 49199904,
+   "sha256": "5fbef12ec4a79a6bd6a19982124dd930a3da85cff3283902e7b6ed262f686a78"
+  },
+  "G6-DT-K562-essential | draw 1": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E4/features/G6-DT-K562-essential_draw_1.npz",
+   "bytes": 95241856,
+   "sha256": "d5efcdb5838ccb7ec27d6c72681fc382a14f6f7bacda6771ef0e4180cdc096c4"
+  },
+  "G6-DT-K562-essential | draw 2": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E4/features/G6-DT-K562-essential_draw_2.npz",
+   "bytes": 95241856,
+   "sha256": "44f69a1818a09d6c8c91feb3d34ca5df216b2ca7eee4e191952f95e38a18dcce"
+  },
+  "G6-DT-K562-essential | draw 3": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E4/features/G6-DT-K562-essential_draw_3.npz",
+   "bytes": 95241856,
+   "sha256": "afdf8438bd9657728a576cad132b9cea71fd20d08c023669e71097b8da1d1c1f"
+  }
+ },
+ "checks": {
+  "RPE1": {
+   "depth_target": 8194.0,
+   "pools_equal_to_the_unthinned_cells": true,
+   "thinned_totals": "the label pass's thinned totals, by construction"
+  },
+  "K562-essential": {
+   "depth_target": 9245.0,
+   "pools_equal_to_the_unthinned_cells": true,
+   "thinned_totals": "the label pass's thinned totals, by construction"
+  }
+ },
+ "inputs": {
+  "label_cache": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/cache/E1a_labels/manifest.json",
+   "bytes": 2722,
+   "sha256": "a92c8fe030ed806c1af944d8de24820cce7a6bbc18b305e602c5ac7545979a96"
+  },
+  "e4_extraction": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/cache/E4/manifest.json",
+   "bytes": 2903,
+   "sha256": "6b9060186a809f4e02a0afd36257f632c31ac03f78f465d269a1d069a12cd23b"
+  },
+  "main_features": {
+   "path": "bioinf2027/results/E4/features.json",
+   "bytes": 12462,
+   "sha256": "b588c4f6d7c170ce8a7aab7f808807d06a6192a45c319bfe72d572365c7c656c"
+  }
+ },
+ "seeds": {
+  "label-pass thinning": 20270405,
+  "hypergeometric": 20271106
+ },
+ "seconds": 4423.3
+}

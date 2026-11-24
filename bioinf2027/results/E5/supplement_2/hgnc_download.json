@@ -1,0 +1,18 @@
+{
+ "decision": "the answer of 2026-11-17 to the stop of 06:50, item 7 (9), bioinf2027/GATE.md, top section",
+ "plan": "bioinf2027/plans/E5_supplement_2.md, Section 5",
+ "source": "https://storage.googleapis.com/public-download-files/hgnc/tsv/tsv/hgnc_complete_set.txt",
+ "linked_from": "https://www.genenames.org/download/archive/",
+ "licence_page": "https://www.genenames.org/about/license/",
+ "licence_as_stated": "The HUGO Gene Nomenclature Committee (HGNC) wants to ensure that our information is accessible to the public and free to use, for this reason all data is released under the Creative Commons Public Domain (CC0) License .",
+ "file": {
+  "name": "hgnc_complete_set.txt",
+  "date_utc": "2026-11-17T18:16:57Z",
+  "last_modified": "Fri, 13 Nov 2026 12:59:59 GMT",
+  "bytes": 17007798,
+  "sha256": "6df77ac3cbaeb86a6dce5e17d851ebb27b6b3cdcd2471a211a3d8464f00c54c4",
+  "seconds": 2.0,
+  "path": "$IGA_STORAGE_ROOT/bioinf2027/downloads/hgnc/hgnc_complete_set.txt"
+ },
+ "complete": true
+}

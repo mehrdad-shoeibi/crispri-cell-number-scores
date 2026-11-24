@@ -1,0 +1,110 @@
+{
+ "gate": "G4, bioinf2027/GATE.md, decided section of 2026-11-17 (the G4 question of 13:40)",
+ "environment": "the pipeline environment (bioinf2027/requirements.txt), a virtual environment in the user's environments folder on the home disk (not recorded by path)",
+ "installed": "2026-11-17T19:19:04-0500 to 2026-11-17T19:19:07-0500",
+ "python": "3.13.12",
+ "requested": "matplotlib==3.10.8",
+ "constraints": "every pin of bioinf2027/requirements.txt as it stood before the install (pip --constraint)",
+ "dry_run_first": "pip install --dry-run with the same constraints: seven new packages, no existing package changed",
+ "existing_pins_moved": 0,
+ "freeze_difference": "pip freeze before and after differ only by the seven added lines",
+ "pip_cache": "$IGA_STORAGE_ROOT/bioinf2027/pip_cache",
+ "bytecode": "pip --no-compile",
+ "home_disk_free_gb_before": 21,
+ "home_disk_free_gb_after": 21,
+ "import_check": "import matplotlib; matplotlib.pyplot with the Agg backend: passed (matplotlib 3.10.8)",
+ "added_packages": {
+  "matplotlib": {
+   "version": "3.10.8",
+   "wheel": "matplotlib-3.10.8-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+   "wheel_sha256": "a0a7f52498f72f13d4a25ea70f35f4cb60642b466cbb0a9be951b5bc3f45a486",
+   "licence_as_stated": {
+    "license_expression_or_first_line": "License agreement for matplotlib versions 1.3.0 and later",
+    "classifiers": [
+     "License :: OSI Approved :: Python Software Foundation License"
+    ],
+    "licence_files": [
+     "matplotlib-3.10.8.dist-info/LICENSE"
+    ]
+   },
+   "licence_note": "the project's LICENSE file opens 'License agreement for matplotlib versions 1.3.0 and later' (the Matplotlib Development Team's licence, modelled on the PSF licence); its classifier is 'License :: OSI Approved :: Python Software Foundation License'"
+  },
+  "contourpy": {
+   "version": "1.4.0",
+   "wheel": "contourpy-1.4.0-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+   "wheel_sha256": "f1219a8898523cba821085f2da8a1b962cc696325763f09d7f93538ba43b2d70",
+   "licence_as_stated": {
+    "license_expression_or_first_line": "BSD-3-Clause",
+    "classifiers": [],
+    "licence_files": [
+     "contourpy-1.4.0.dist-info/licenses/LICENSE"
+    ]
+   }
+  },
+  "cycler": {
+   "version": "0.12.1",
+   "wheel": "cycler-0.12.1-py3-none-any.whl",
+   "wheel_sha256": "85cef7cff222d8644161529808465972e51340599459b8ac3ccbac5a854e0d30",
+   "licence_as_stated": {
+    "license_expression_or_first_line": "Copyright (c) 2015, matplotlib project",
+    "classifiers": [
+     "License :: OSI Approved :: BSD License"
+    ],
+    "licence_files": [
+     "cycler-0.12.1.dist-info/LICENSE"
+    ]
+   }
+  },
+  "fonttools": {
+   "version": "4.68.0",
+   "wheel": "fonttools-4.68.0-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+   "wheel_sha256": "08851f7d2b983412f490b73a7c56f17cbda1d4d85d2ad3f857564bf15b5d9475",
+   "licence_as_stated": {
+    "license_expression_or_first_line": "MIT",
+    "classifiers": [],
+    "licence_files": [
+     "fonttools-4.68.0.dist-info/licenses/LICENSE",
+     "fonttools-4.68.0.dist-info/licenses/LICENSE.external"
+    ]
+   }
+  },
+  "kiwisolver": {
+   "version": "1.5.1",
+   "wheel": "kiwisolver-1.5.1-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+   "wheel_sha256": "74ad5c3dad54a4641b4c28cd15ded70899d04459c6c7aeacafea716be97cce6d",
+   "licence_as_stated": {
+    "license_expression_or_first_line": "The Kiwi licensing terms (the License field's first heading)",
+    "classifiers": [
+     "License :: OSI Approved :: BSD License"
+    ],
+    "licence_files": [
+     "kiwisolver-1.5.1.dist-info/licenses/LICENSE"
+    ]
+   }
+  },
+  "pillow": {
+   "version": "13.0.0",
+   "wheel": "pillow-13.0.0-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+   "wheel_sha256": "5f56499c1a74d2b862beb0c33b8016f99d095858455df9d21583bbbc1c15b582",
+   "licence_as_stated": {
+    "license_expression_or_first_line": "MIT-CMU",
+    "classifiers": [],
+    "licence_files": [
+     "pillow-13.0.0.dist-info/licenses/LICENSE"
+    ]
+   }
+  },
+  "pyparsing": {
+   "version": "3.3.3",
+   "wheel": "pyparsing-3.3.3-py3-none-any.whl",
+   "wheel_sha256": "ece8c00a69cf01b45d0b1dedabb469c90d8caf996d4fda40f147627a122849a4",
+   "licence_as_stated": {
+    "license_expression_or_first_line": "MIT",
+    "classifiers": [],
+    "licence_files": [
+     "pyparsing-3.3.3.dist-info/licenses/LICENSE"
+    ]
+   }
+  }
+ }
+}

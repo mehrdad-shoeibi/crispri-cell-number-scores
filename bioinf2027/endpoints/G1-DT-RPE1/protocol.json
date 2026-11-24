@@ -1,0 +1,103 @@
+{
+ "cell": "G1-DT-RPE1",
+ "plan": "bioinf2027/plans/E1_design.md, Sections 7 to 9, 21, 23 and 24",
+ "spec": {
+  "n_pert": 27,
+  "controls": "pooled",
+  "n_ctrl": 788,
+  "unit": "row",
+  "norm": "thinned RPE1",
+  "screens": [
+   "RPE1"
+  ],
+  "halves": [],
+  "simulate": false,
+  "external_from": "G1"
+ },
+ "statistic": "log1p(max(0, anderson_ksamp([a, b]).statistic)), scipy default midrank variant",
+ "seeds": [
+  20260801,
+  20260802,
+  20260803,
+  20260804,
+  20260805,
+  20260806,
+  20260807,
+  20260808,
+  20260809,
+  20260810,
+  20260811,
+  20260812,
+  20260813,
+  20260814,
+  20260815,
+  20260816,
+  20260817,
+  20260818,
+  20260819,
+  20260820,
+  20260821,
+  20260822,
+  20260823,
+  20260824,
+  20260825
+ ],
+ "minimum_valid_draws": 20,
+ "modes": "external mode for every label; on VCC also source mode from the same draws (Section 24.1, item 3): every primary statistic is repeated with the source-mode VCC labels against the unchanged external endpoints",
+ "thinning": {
+  "seed": 20270405,
+  "order": "controls of the training file (every needed column, rows then columns, then every rest), then the perturbed cells of the training, validation and test files (own counts, then rests)"
+ },
+ "halves": null,
+ "simulation": null,
+ "inputs": {
+  "count_cache_manifest": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/cache/E1a_labels/manifest.json",
+   "bytes": 2722,
+   "sha256": "a92c8fe030ed806c1af944d8de24820cce7a6bbc18b305e602c5ac7545979a96"
+  },
+  "first_pass_check": {
+   "first_pass_manifest": {
+    "path": "$IGA_STORAGE_ROOT/bioinf2027/cache/E1a/manifest.json",
+    "bytes": 52966,
+    "sha256": "128f5c9f17c52fb556fe0d4c59cc0a8702fafe6bfb975ea012a0b540b1ba4118"
+   },
+   "vcc_train": {
+    "pert_own_ext": true,
+    "pert_own_src": true,
+    "pert_rows": true,
+    "pert_totals": true,
+    "nt_values_ext": true,
+    "nt_values_src": true,
+    "nt_shared_total_RPE1": true,
+    "nt_shared_total_K562-essential": true
+   },
+   "vcc_val": {
+    "pert_own_ext": true,
+    "pert_own_src": true,
+    "pert_rows": true,
+    "pert_totals": true
+   },
+   "vcc_test": {
+    "pert_own_ext": true,
+    "pert_own_src": true,
+    "pert_rows": true,
+    "pert_totals": true
+   },
+   "screen_RPE1": {
+    "nt_values": true,
+    "pert_own": true,
+    "nt_shared_total": true,
+    "constructs": true
+   },
+   "screen_K562-essential": {
+    "nt_values": true,
+    "pert_own": true,
+    "nt_shared_total": true,
+    "constructs": true
+   },
+   "passed": true
+  },
+  "rows": 6077
+ }
+}

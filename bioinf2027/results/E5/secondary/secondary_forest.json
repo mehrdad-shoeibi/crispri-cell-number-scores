@@ -1,0 +1,532 @@
+{
+ "plan": "bioinf2027/plans/E5.md, Sections 3 to 8, 11 and 16 to 20 (secondary, unadjusted, and diagnostics)",
+ "smoke": false,
+ "part": "forest",
+ "replicates": 10000,
+ "seeds": {
+  "settings": {
+   "within RPE1": 20271121,
+   "within K562-essential": 20271122,
+   "RPE1 to K562-essential": 20271123,
+   "K562-essential to RPE1": 20271124
+  },
+  "VCC": 20271125,
+  "union folds": 20271204,
+  "within folds": 20271127,
+  "prefix folds": {
+   "within": 20271127,
+   "between": 20271204
+  },
+  "inner folds": 20271128,
+  "shuffle": 20271126,
+  "forest head seeds": [
+   0,
+   1,
+   2
+  ]
+ },
+ "ridge_grid": [
+  0.01,
+  0.03162277660168379,
+  0.1,
+  0.31622776601683794,
+  1.0,
+  3.1622776601683795,
+  10.0,
+  31.622776601683793,
+  100.0,
+  316.22776601683796,
+  1000.0,
+  3162.2776601683795,
+  10000.0,
+  31622.776601683792,
+  100000.0,
+  316227.7660168379,
+  1000000.0
+ ],
+ "forest": {
+  "n_estimators": 200,
+  "max_depth": 20,
+  "min_samples_leaf": 2
+ },
+ "settings": [
+  "within RPE1",
+  "within K562-essential",
+  "RPE1 to K562-essential",
+  "K562-essential to RPE1"
+ ],
+ "inputs": {
+  "harness": {
+   "RPE1": {
+    "genes": 1811,
+    "b_column": "b27",
+    "genes_with_b": 1811,
+    "genes_with_halves": 1297
+   },
+   "K562-essential": {
+    "genes": 1811,
+    "b_column": "b27",
+    "genes_with_b": 1811,
+    "genes_with_halves": 1629
+   },
+   "union_genes": 2111,
+   "features_mapped_in_both": 1303,
+   "inputs": {
+    "G1_manifest": {
+     "path": "bioinf2027/endpoints/G1/manifest.json",
+     "bytes": 1748,
+     "sha256": "4b85517801ed167a901cefdc0cdba89f5898233be2edbda15cc9852cdd08cc28"
+    },
+    "supplement": {
+     "path": "bioinf2027/endpoints/readouts/supplement/supplement.json",
+     "bytes": 11390,
+     "sha256": "44ff27afec8c9f77321153d02e51f35c581180028ce1e17a61a2c3abf1055310"
+    },
+    "endpoint_b": {
+     "path": "bioinf2027/results/E5/endpoint_b/endpoint_b.json",
+     "bytes": 4550,
+     "sha256": "5884cbad1399d72dbff35828d5ac1f971f61a4093cddd23a9dec8bda244adbd2"
+    },
+    "gates_b": {
+     "path": "bioinf2027/results/E5/endpoint_b/gates.json",
+     "bytes": 3179,
+     "sha256": "3fedfcc48d059d778296356cbb3231dc5a32512f5f305cd812831a611a3ca80b"
+    }
+   }
+  },
+  "G1_manifest": {
+   "path": "bioinf2027/endpoints/G1/manifest.json",
+   "bytes": 1748,
+   "sha256": "4b85517801ed167a901cefdc0cdba89f5898233be2edbda15cc9852cdd08cc28"
+  },
+  "genes_RPE1.csv": {
+   "path": "bioinf2027/results/E5/endpoint_b/genes_RPE1.csv",
+   "bytes": 867766,
+   "sha256": "b7e44e3080d233e4ceb51ab9495e3dcbfc21c125d3395d28449399065d915115"
+  },
+  "genes_K562-essential.csv": {
+   "path": "bioinf2027/results/E5/endpoint_b/genes_K562-essential.csv",
+   "bytes": 987631,
+   "sha256": "405398f1bdb74fafd8c96c109e066cf93de14b216e2e396d5be9fc55cda7f9d9"
+  },
+  "prefit": {
+   "path": "bioinf2027/results/E5/prefit/prefit.json",
+   "bytes": 2657,
+   "sha256": "a6eeadcc14ea3643ee28465b8a78766fafa5eb2bdc3dd20397c89e4b8e9a6899"
+  },
+  "prefit_revised": {
+   "path": "bioinf2027/results/E5/prefit/prefit_revised.json",
+   "bytes": 2587,
+   "sha256": "27fb45e24b7d6f5c0e1f1b4bab6d564668826c8f9d67c6f3b4359c90be30be6e"
+  },
+  "embeddings": {
+   "Geneformer": {
+    "path": "$IGA_STORAGE_ROOT/bioinf2027/E5/identity/geneformer_token.npz",
+    "bytes": 7257298,
+    "sha256": "73f0a9d21a2f313caa35d089bb9cdffc67555b1ef846f9cc5a019967284a5fcb"
+   },
+   "scGPT": {
+    "path": "$IGA_STORAGE_ROOT/bioinf2027/E5/identity/scgpt_gene.npz",
+    "bytes": 4802538,
+    "sha256": "9297d8b6790a573da5690d02761fa1689c0ed7b182aed601fc3781a9153e2c89"
+   },
+   "GenePT": {
+    "path": "$IGA_STORAGE_ROOT/bioinf2027/E5/identity/genept.npz",
+    "bytes": 14238694,
+    "sha256": "f474fecd21fc064b36df7da34444fd56936f061ba17eab0e23d40628413f38c4"
+   }
+  }
+ },
+ "code": {
+  "bioinf2027/scripts/make_e5_secondary.py": "685255dc6a40c7391e4c274061f5bd29a19c4fe8c58648eff877837088446877",
+  "bioinf2027/scripts/make_e5_fits.py": "bfad78082f63fdd3480c0190da7969e55d85eff1498111dfa7b01162055282c0",
+  "bioinf2027/scripts/e5fit.py": "d1dc23d63b23d13a5608ed62371e115d7d9f9da54d37ee3dc659d2deb4c72063",
+  "bioinf2027/scripts/e5lib.py": "764ebe2010d1655e3fe4dfb6b117783bcea739ad2b0958596c317618af8da9c4",
+  "bioinf2027/src/bioinf2027/heads.py": "c03831822a147661bfd3fd1ae36dfa51c003b679941a90208156c8d410abd9f7"
+ },
+ "fits": 72,
+ "fits_reused": 0,
+ "forest_seconds_total": 310627.5,
+ "forest_fits": {
+  "path": "$IGA_STORAGE_ROOT/bioinf2027/E5/secondary/forest_fits",
+  "files": 72,
+  "total_bytes": 15328512,
+  "sha256_of_listing": "28f04e40b424c3ac1028b6bbbb618a74445ddebd2aa9de1b5f166c035eebcc22",
+  "listing_format": "relative path, bytes, sha256, one file per line, sorted",
+  "entries": [
+   {
+    "path": "02af489a675b9f00505c40fb.npz",
+    "bytes": 213320,
+    "sha256": "e6cace5b47048005095af9c50a28a5df533c04217651672ed500b7978aa198c1"
+   },
+   {
+    "path": "039783219e0300756f591e21.npz",
+    "bytes": 213364,
+    "sha256": "a39f06d67405410b79e84a45380a7a802cf400395806fc5b924b36b393682f53"
+   },
+   {
+    "path": "05342df77d1db3402b014ab2.npz",
+    "bytes": 213384,
+    "sha256": "9281fef9f061961bb5c4cca333c67185322cdc4895463d6f02ac1071425dcf87"
+   },
+   {
+    "path": "0a244edaf36cf2565db2d5e6.npz",
+    "bytes": 212440,
+    "sha256": "e34c8e649da41de753779c3a0fc7eb2418bd0a3d6dbe61de1dc0cb036b6b37e1"
+   },
+   {
+    "path": "0f54a3d47b4ec681fdb8ac1b.npz",
+    "bytes": 212452,
+    "sha256": "10b2f777b8382550d52085171401b79198c8b0475ef8d9d92080da4e29d17109"
+   },
+   {
+    "path": "0fd42cd539d4f1006dbfe984.npz",
+    "bytes": 213324,
+    "sha256": "8fca4ead83c3d4b92f513355d98cd2823423b2c7773fc2467315df3e829d0ad5"
+   },
+   {
+    "path": "1a62c013b956990facd5258d.npz",
+    "bytes": 212432,
+    "sha256": "d2856448c5b61b00588822b2b9bd5ac35eb45bd46d1eda44cf0515fa1f5fec07"
+   },
+   {
+    "path": "1e211e7024166b982568b5d8.npz",
+    "bytes": 213324,
+    "sha256": "a2a54eba79fe9722ea670de0a8a003560bf2bb9d19e52241f2482d6eb6a32577"
+   },
+   {
+    "path": "21e434ce34fe91ef53c4470f.npz",
+    "bytes": 213320,
+    "sha256": "0886d40f709b1c003b525bfc4accc7397c9f3ffc1c6ea56e213512fe7fe95984"
+   },
+   {
+    "path": "233c710ee3b56ea7e3cc20b9.npz",
+    "bytes": 212452,
+    "sha256": "16a9b6154ad0db923589e93fc274b5f9c54d19b9d228b123889133fccf1f1505"
+   },
+   {
+    "path": "24711921e73b1c2065800438.npz",
+    "bytes": 213364,
+    "sha256": "96c30f77810411ed55697552053c81c3fdf0b3114121747a451fdaa1b2813d12"
+   },
+   {
+    "path": "2c88c9d8105fb0fdd73161e8.npz",
+    "bytes": 213368,
+    "sha256": "b8bcf443c94187e930d2402bc6d8f50e1fe40af3c37323905e9bf1d6eb49f20b"
+   },
+   {
+    "path": "2e1f67eabb034b743b59fa27.npz",
+    "bytes": 212432,
+    "sha256": "a2af5e4c277e9b982e5aa7695a9aa70d5866dec4e5809d1f23bf7edfb8d40faa"
+   },
+   {
+    "path": "2e49bed61b72a02a1954170f.npz",
+    "bytes": 213340,
+    "sha256": "13cccd59e32a301d9fdae7df982f2a35de33680fecccb36043bf096a5c32a124"
+   },
+   {
+    "path": "2f26853082fc6b9cd6254b3b.npz",
+    "bytes": 213324,
+    "sha256": "e9f4cba52bde8943c4f8562df35b90fceb145dbad2f7bdc4dcbb5309f0ec209a"
+   },
+   {
+    "path": "38103b706aaabdf446c09d63.npz",
+    "bytes": 212452,
+    "sha256": "12e413121063dd094a0948d2d8543e6281e81da9b319e2e95f9f770d1f204cbc"
+   },
+   {
+    "path": "3a5e3cc12ddb6ec8c205207b.npz",
+    "bytes": 213364,
+    "sha256": "b8c3c298800a365ed38fdc05d6df3a047391a55be8f9cda4668ed321257d938e"
+   },
+   {
+    "path": "3ddae8d632bb390279cd4ef5.npz",
+    "bytes": 213368,
+    "sha256": "8be586cc1a30d91c52d921753ea235a891ddcd128764540f51b3b5c6b451cabd"
+   },
+   {
+    "path": "48a6c330507fdef304a383de.npz",
+    "bytes": 213340,
+    "sha256": "64912b3fc0b7cbd168b984ee89357821e7320151bb64ff8c85745362c6dd51f5"
+   },
+   {
+    "path": "4aa96ef74300dc97b1cb5132.npz",
+    "bytes": 213368,
+    "sha256": "fc644e101258f1ff38951fd6bcdd077df615116de2cf1044a1757530a2375b0d"
+   },
+   {
+    "path": "58d97edc20232ea9c67ef611.npz",
+    "bytes": 212456,
+    "sha256": "5938f0e8cca1cfea8fcd85730b2d8895f19291007dba6703fc1a963f6d566d97"
+   },
+   {
+    "path": "5cf83334922b3fbb24382040.npz",
+    "bytes": 213364,
+    "sha256": "aa8a4c0d6a654e7c99a9c252a74bbf3c05a78b9f06b496840733d23d35765f15"
+   },
+   {
+    "path": "5dd7ef6ba86626e0ad887dbf.npz",
+    "bytes": 213368,
+    "sha256": "96c00f9d54a377e6f3456a653ef5203a27f85d2460b12ac8e0c6176cf9ad904b"
+   },
+   {
+    "path": "62f3023caaffcdcb34478b85.npz",
+    "bytes": 212432,
+    "sha256": "0d8e65ac9bea8cbd264306a095456681c0421b3627eaef53252dcaccd623bf1e"
+   },
+   {
+    "path": "6363a2014b9a81e38c9800de.npz",
+    "bytes": 213368,
+    "sha256": "4b60a9f66b9c97bf82db9abada94043d51a622999abd0a4f4e20f017bd1e80cb"
+   },
+   {
+    "path": "640707ab6554b4ae72368449.npz",
+    "bytes": 212456,
+    "sha256": "7a856dc8f8c2f30a3c336e56e5913a60e3e0c244bda4af0056c944687f1ec5e4"
+   },
+   {
+    "path": "6ea636b42fab36df4ae22863.npz",
+    "bytes": 212436,
+    "sha256": "899dbf3a2c8dfc3ea70d7f0c2b242ae0f257d8e9ddfd86c4edb235884b7240d9"
+   },
+   {
+    "path": "6ffb370010ae95725138a77b.npz",
+    "bytes": 212456,
+    "sha256": "28c682264d0996d663890c5f3b1ca0feef8f0539a51f6db5caf52b49987ec995"
+   },
+   {
+    "path": "732a49a5303745580c1630a2.npz",
+    "bytes": 213384,
+    "sha256": "23c24dde21a2913fa957b62b8d2f5d92a63e748974e9d622ac851d5649389952"
+   },
+   {
+    "path": "765ead36678026fd1e3fdfe3.npz",
+    "bytes": 213320,
+    "sha256": "96b41e74cffb8bda044ed51aa5859ec6fb02ebe51011131ce301e6a642976b33"
+   },
+   {
+    "path": "77d5075c55d2bbc1a325d779.npz",
+    "bytes": 213324,
+    "sha256": "fee6519fc1946477b0e39e92a0aa482bc2ca3ae80b9eadf9929dedeaa4276624"
+   },
+   {
+    "path": "88ab6bb697f7949a4e52a975.npz",
+    "bytes": 212436,
+    "sha256": "21af90e35ee14b6a63bd6a34110fa8d39ff8a6861fa92bf50b05f3fd60c9f35f"
+   },
+   {
+    "path": "88c8bb9391c1e23007026a8d.npz",
+    "bytes": 213340,
+    "sha256": "aa485bad6343f9fe28aa384000268d877e8b4caae02d7bcdd782742d4dff07b6"
+   },
+   {
+    "path": "892903d358dc896ff9ca4e14.npz",
+    "bytes": 213324,
+    "sha256": "62af88ea051321f4e8825c5578579cfccb59289e6db9445e44362193bf9ad560"
+   },
+   {
+    "path": "8a40acacf22695df81c5da3f.npz",
+    "bytes": 212452,
+    "sha256": "9cd2bd09258696c7c163443c27363dacec80ef43b6a968d197f4d193eed3c161"
+   },
+   {
+    "path": "8d989047966a5b0a970b1390.npz",
+    "bytes": 213320,
+    "sha256": "729496582ed2f1673288f147e7a27009f1fff76df5916a15ceb502f2d2fa684c"
+   },
+   {
+    "path": "8e1db11e13bd9a9e6fe32ce0.npz",
+    "bytes": 212456,
+    "sha256": "270aac100a941e8c16c49cd1a22d07c9ce4f49f94bb48f141bbd2d03efb356d5"
+   },
+   {
+    "path": "a3e44ae277d9cb65af1526d8.npz",
+    "bytes": 212436,
+    "sha256": "165c3dfb69c723204ea7366c5af6125b015b16c34e5d7f2916f2bbfd793b8e2c"
+   },
+   {
+    "path": "a46ec2c1a50dee8816c2bc5e.npz",
+    "bytes": 213384,
+    "sha256": "421b070d4b13077d2ecef4ddcd93ba754310a32c8b5cf0b05f6768297a20980c"
+   },
+   {
+    "path": "a4bbcc3344cd50dd5442b8da.npz",
+    "bytes": 212436,
+    "sha256": "f3018df73069eff2c44de1f66fd86429d2238d0063e8d174cc7f7d25aba7ed3f"
+   },
+   {
+    "path": "a7c9973e6f2693b394f9f33b.npz",
+    "bytes": 212436,
+    "sha256": "58bdd564e05025dd2fba72aaf502df3b0cd611aa2a58d066ff7ef90edb6839ab"
+   },
+   {
+    "path": "a8e9af86f09f5cf04f851d7c.npz",
+    "bytes": 212440,
+    "sha256": "58e816b1e56f48459fdd995a71e4083cb321de71c6cb2eece4326a8e8475b1fe"
+   },
+   {
+    "path": "ac0b48f18642eb5df446790b.npz",
+    "bytes": 212432,
+    "sha256": "95a070831b8e4028ac61cf99adbd4b7e777cfe12bf7b3b579e5873e188d8d4f9"
+   },
+   {
+    "path": "b0f0c7ae92300d17408ca6f0.npz",
+    "bytes": 213320,
+    "sha256": "46bc6dc549481e07b7528a99142c0063505d57e71901c0a6e7f4f8050c094ec4"
+   },
+   {
+    "path": "b2786451264a85edfcad8e26.npz",
+    "bytes": 212456,
+    "sha256": "4f72ed4c89f9871af3f02c96b37e9f3646431e2184e11b419b6ee3cf88551868"
+   },
+   {
+    "path": "b2c3d636ca5e69ad99d32456.npz",
+    "bytes": 212432,
+    "sha256": "965ac1a116d742fa41bddb74d828ebef0a6b8835995e1450142ad033b7c980f3"
+   },
+   {
+    "path": "b2e41a1413c5ef5368ef43ba.npz",
+    "bytes": 212440,
+    "sha256": "dfb0203ed7d3885625f5022a42163ff6a3b97522dc0f8b82e0904e06697ca405"
+   },
+   {
+    "path": "b68cfeb6c3a6f7574efc9d9a.npz",
+    "bytes": 212436,
+    "sha256": "119840ad05c1d36b5e7a697218359e092f2192d5deae6515a52c387bdef1ab3b"
+   },
+   {
+    "path": "b9ead86aedc0db66f197669f.npz",
+    "bytes": 212440,
+    "sha256": "c495067d8787be57e167b2f70302a95eddfe7b34cc3c4dfe1509b9527acf9a75"
+   },
+   {
+    "path": "b9f364aad3c9ed8ae2593247.npz",
+    "bytes": 213340,
+    "sha256": "30cd4c2d97c8bd8841519df66fcb6d852886733e0f9ca7094396517b3a8e5d33"
+   },
+   {
+    "path": "bb0af026436bb2d6a8b0015f.npz",
+    "bytes": 212436,
+    "sha256": "051b79c43de3fcefcae0a284c34c21fb297659d4533928600af6247fbcd42ed4"
+   },
+   {
+    "path": "bcb7b0147b445cbc4e0f7508.npz",
+    "bytes": 213340,
+    "sha256": "ba3e12d0dad09daf0ae8e4a61df0c11d9203e807bee750736a739210b0018377"
+   },
+   {
+    "path": "be2eb42674730ee6a6d2f16f.npz",
+    "bytes": 212436,
+    "sha256": "887654bad55ef7dce05043dc0663d4deec5e52b41d939e4cb91d67bf08d17ad6"
+   },
+   {
+    "path": "c1c0b576159b2e491c47c495.npz",
+    "bytes": 212436,
+    "sha256": "76c199d242d4a636cffa59894bc9e4852950d37c15bfe20f9f4d34c3b848e66f"
+   },
+   {
+    "path": "c27df1b1e7d8b125cfd9bc55.npz",
+    "bytes": 213384,
+    "sha256": "58a932921aed0024832352f15a7110f68dbbbab65951ece810df6c77d1718ca9"
+   },
+   {
+    "path": "cb74528ffb085c15f2cf8ea1.npz",
+    "bytes": 213364,
+    "sha256": "47b9599d2420b5eb35ff7edf2e374aaea595057f4033c21a86dbb118a1ee2d10"
+   },
+   {
+    "path": "cfcb5a9a29afba3c83b213e9.npz",
+    "bytes": 213364,
+    "sha256": "efe872c262d33978d790a4bef2752613893d90b78ef7448762fe98f152f1fc81"
+   },
+   {
+    "path": "d113b015d41067aa387fb926.npz",
+    "bytes": 212436,
+    "sha256": "af0f7461f018a1df77db1a262804ac7cc161e06ded82e2f8eec391ac562aad3f"
+   },
+   {
+    "path": "d1fa6c847a6c7d93787af8bd.npz",
+    "bytes": 212436,
+    "sha256": "dcd0a351ad5e91a866c1fce37fd97a576489500a850ba9220879ba18772f4ba4"
+   },
+   {
+    "path": "d4c27907120a3d00fc46d4f7.npz",
+    "bytes": 213320,
+    "sha256": "8899f7a5eb010aeb053f27a81cd870b42b71f65374eb9c251ccc7444c613fd55"
+   },
+   {
+    "path": "d7d6fc0aab64720d5f1fdc14.npz",
+    "bytes": 212456,
+    "sha256": "e9966f272c789eb13caa2257aa1faff379ebd200996422c8785704f7def32e5a"
+   },
+   {
+    "path": "e023910123ae2581a3117c32.npz",
+    "bytes": 212452,
+    "sha256": "51926d7be4159b0d073b743b3edc9432e7048cd4424c9af8123ec3f2bb50371f"
+   },
+   {
+    "path": "ea5a94d84c53c04b62b32832.npz",
+    "bytes": 212452,
+    "sha256": "082722b00cad3b8245abcbb6a3a551d89af746cf6062daa6eadb139731e36090"
+   },
+   {
+    "path": "ec93f6027ea551edfb1e533c.npz",
+    "bytes": 212440,
+    "sha256": "8ce6389f891124de3d77397de4fe3eda3fb1fc5bfb9349e341b326183d7b4cfa"
+   },
+   {
+    "path": "efe3e860e5843ba7e09ff47f.npz",
+    "bytes": 212436,
+    "sha256": "e6f63be534e1b321be18f2159ee4e6018e338898d3385d73cb430d8708d435cf"
+   },
+   {
+    "path": "f54594506a3bb9e3de972f23.npz",
+    "bytes": 212440,
+    "sha256": "c7d656e3b51072915723ab277e3638cda9618b92e828f7d337c1d9a080911a91"
+   },
+   {
+    "path": "f6868f6dac39ed901a41d513.npz",
+    "bytes": 213368,
+    "sha256": "651bb45ca4291b67c90627083e6616f0991088b368df47ecef584bc0328792cc"
+   },
+   {
+    "path": "f8c35f3763a9036862a6ee86.npz",
+    "bytes": 213384,
+    "sha256": "eabb7d5a0af29564f295bfe30e53f81380ff113cff61a2e1d57a3f95062c58bc"
+   },
+   {
+    "path": "fcdc6ae2c1620a847e19ae5c.npz",
+    "bytes": 213384,
+    "sha256": "b3b1f46c3d96f139c3b84a22a1896460b4360ccd04d507c611a740501b745e58"
+   },
+   {
+    "path": "feb90fa8cedbb755bfbfe552.npz",
+    "bytes": 213340,
+    "sha256": "6089b5e31fcf18f9827ae2583281749271e51ea283d85522bac60c51d0230516"
+   },
+   {
+    "path": "ffad8ac46c3a5ba6edf9342c.npz",
+    "bytes": 213324,
+    "sha256": "e00476ea5f2e61d2a39283c0b861e1da53ade374ae0151905ecbf20f4840fbf4"
+   },
+   {
+    "path": "fff842e48b35d47bce357670.npz",
+    "bytes": 212432,
+    "sha256": "a13adc335153ff093de2e2f771c52728b851d162327c5720b6af9ed61d0db0ef"
+   }
+  ]
+ },
+ "covered_genes": {
+  "RPE1": 1773,
+  "K562-essential": 1765
+ },
+ "rule": "Spearman per head seed, averaged over the seeds inside each replicate (E1_design.md, Section 10); Bc as its rank columns",
+ "outputs": {
+  "forest.csv": {
+   "path": "bioinf2027/results/E5/secondary/forest.csv",
+   "bytes": 18144,
+   "sha256": "f1c65b99b7ec6394723ec03f8d69d0571ffd6ae1de18084af0a40ac686b63024"
+  }
+ },
+ "seconds": 40380.3
+}

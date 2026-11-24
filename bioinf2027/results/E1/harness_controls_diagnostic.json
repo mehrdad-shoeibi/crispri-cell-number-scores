@@ -1,0 +1,50 @@
+{
+ "purpose": "which construction of the external C1 and C3 reproduces the stored predictions",
+ "candidates": 15,
+ "best": [
+  {
+   "screen": "K562-essential",
+   "arm": "C1",
+   "construction": "Gaussian, stream K562-essential, scaled with a scaler fitted on the screen",
+   "max_abs_difference_from_the_stored_prediction": 0.1638596302,
+   "external_spearman": 0.0209822583,
+   "stored_external_spearman": 0.0318313398
+  },
+  {
+   "screen": "K562-essential",
+   "arm": "C3",
+   "construction": "z scaled with the VCC training scaler, shuffled with stream K562-essential",
+   "max_abs_difference_from_the_stored_prediction": 0.1554191164,
+   "external_spearman": 0.0041633104,
+   "stored_external_spearman": -0.0039507247
+  },
+  {
+   "screen": "RPE1",
+   "arm": "C1",
+   "construction": "Gaussian, stream RPE1, scaled with the VCC training scaler",
+   "max_abs_difference_from_the_stored_prediction": 0.1403665508,
+   "external_spearman": -0.0085801572,
+   "stored_external_spearman": -0.033780836
+  },
+  {
+   "screen": "RPE1",
+   "arm": "C3",
+   "construction": "z scaled with the VCC training scaler, shuffled with stream RPE1",
+   "max_abs_difference_from_the_stored_prediction": 0.1837108046,
+   "external_spearman": 0.0375055159,
+   "stored_external_spearman": 0.0441657676
+  }
+ ],
+ "inputs": {
+  "stored_predictions": {
+   "path": "earlier_revision/phase4/phase4_ext_predictions.npz",
+   "bytes": 346604,
+   "sha256": "71977763748f670b8447a728b0a42c6f1bbfbe8fd6fb64e252e0277421ac8082"
+  },
+  "checks": {
+   "path": "bioinf2027/results/E1/checks.json",
+   "bytes": 13487,
+   "sha256": "cf4d448fa2b7acf906bca8186a1ef19d12975a53f84aa2ad321cd0364d3f9ebf"
+  }
+ }
+}

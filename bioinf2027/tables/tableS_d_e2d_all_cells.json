@@ -1,0 +1,61 @@
+{
+ "table": "tableS_d_e2d_all_cells",
+ "code": {
+  "bioinf2027/scripts/figures/tableS_d_e2d.py": "287134ae9af9f5bb7829098d43f791d3b5d6010ee7339f5035f72a801347622c",
+  "bioinf2027/scripts/figures/tablelib.py": "5c546fa57595e02901ba2087d5c2334793762f2cb146db4fd434973bb3fe034f"
+ },
+ "inputs": {
+  "bioinf2027/results/E2/null_external/null_external.csv": {
+   "path": "bioinf2027/results/E2/null_external/null_external.csv",
+   "bytes": 31683,
+   "sha256": "99381a0ebb00d6f6b0ac272d9ff1f3bad0a5c5bc749fbecaa00f94cfda9cb588"
+  },
+  "bioinf2027/results/E2/null_external_followup/existing_label/null_external.csv": {
+   "path": "bioinf2027/results/E2/null_external_followup/existing_label/null_external.csv",
+   "bytes": 33681,
+   "sha256": "982695a09acc62a1a4b484f0f82abcfef43e47ca52cdc77d7a13d1d945e7a2af"
+  },
+  "bioinf2027/results/E2/null_external_followup/existing_label/saved.csv": {
+   "path": "bioinf2027/results/E2/null_external_followup/existing_label/saved.csv",
+   "bytes": 45507,
+   "sha256": "5c11a43575d09816ed8d074b004ab1e20701fc451cbcf4408ec055d70a5925e2"
+  },
+  "bioinf2027/results/S1_supplement/external_control.csv": {
+   "path": "bioinf2027/results/S1_supplement/external_control.csv",
+   "bytes": 32753,
+   "sha256": "2dd58df4b59de75f3a89ce4e5cc4952ab796a87b0c6e5bf903f1f6765bf666a0"
+  }
+ },
+ "inputs_verified": {
+  "bioinf2027/results/E2/null_external/null_external.csv": "equal to its record in bioinf2027/results/E2/null_external/stats.json",
+  "bioinf2027/results/E2/null_external_followup/existing_label/null_external.csv": "equal to its record in bioinf2027/results/E2/null_external_followup/existing_label/stats.json",
+  "bioinf2027/results/E2/null_external_followup/existing_label/saved.csv": "equal to its record in bioinf2027/results/E2/null_external_followup/existing_label/saved.json",
+  "bioinf2027/results/S1_supplement/external_control.csv": "equal to its record in bioinf2027/results/S1_supplement/s1_supplement_control.json"
+ },
+ "environment": {
+  "python": "3.13.12",
+  "numpy": "2.4.4",
+  "pandas": "3.0.2",
+  "requirements": {
+   "path": "bioinf2027/requirements.txt",
+   "bytes": 863,
+   "sha256": "f46a415cbe466ba1225adcede4abae7f0dd0b866f29abdf5a6a360e66b1f5702"
+  }
+ },
+ "tex": "booktabs; Unicode symbols (\u2212, \u03c1, \u2192, \u00bd), so a Unicode TeX engine (XeLaTeX or LuaLaTeX)",
+ "part": "2 of 2, heads trained on the all-cells (existing) VCC label; external label at 27 against 788 cells except the last two value columns (all eligible perturbed cells against 788 pooled controls)",
+ "status": "post hoc, unadjusted, not part of any family; no statement about why the external values are negative (G7, item 6); e \u2212 C1 on the all-cells external label carries no reading (bioinf2027/plans/S1_supplement.md, Section 4)",
+ "intervals": "E1b's joint external target-gene draws (seeds 20260901 and 20260902), head seeds averaged inside each replicate",
+ "outputs": {
+  "tableS_d_e2d_all_cells.csv": {
+   "path": "bioinf2027/tables/tableS_d_e2d_all_cells.csv",
+   "bytes": 4928,
+   "sha256": "dc9f164a87c56f9cea007b56fcac6c1798d78a779ce4149e5c9e3f0764182be9"
+  },
+  "tableS_d_e2d_all_cells.tex": {
+   "path": "bioinf2027/tables/tableS_d_e2d_all_cells.tex",
+   "bytes": 5175,
+   "sha256": "7d8259b62805994ebf816075ae6bf31e1034c24e465c82e1dc33153bf7beee24"
+  }
+ }
+}

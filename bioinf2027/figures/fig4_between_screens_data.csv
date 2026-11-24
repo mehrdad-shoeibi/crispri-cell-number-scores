@@ -1,0 +1,35 @@
+panel,direction,representation,estimate,lo,hi,state,marker,source
+a,RPE1 to K562-essential,z,0.14265028335969734,0.0878116022250804,0.1971609595763238,Holm-positive,,bioinf2027/results/E6/family.csv:2
+a,RPE1 to K562-essential,x,0.11591986020318143,0.06326248809670744,0.16717888553304946,Holm-positive,,bioinf2027/results/E6/family.csv:4
+a,RPE1 to K562-essential,m,0.2222530378413147,0.16729562976540113,0.27595297033274496,Holm-positive,,bioinf2027/results/E6/family.csv:6
+a,RPE1 to K562-essential,[x; m],0.21309822323400499,0.1595674228369579,0.26642330653138596,Holm-positive,,bioinf2027/results/E6/family.csv:8
+a,RPE1 to K562-essential,scGPT,0.1308805234149952,0.07537440350304754,0.1871115477837351,Holm-positive,,bioinf2027/results/E2/stats/family.csv:10
+a,RPE1 to K562-essential,Stack,0.17029651909182883,0.11532985194301203,0.22394723369210304,Holm-positive,possibly in Stack's pre-training data [VERIFY],bioinf2027/results/E2/stats/family.csv:20
+a,RPE1 to K562-essential,PCA-50,0.16543021107655861,0.10552693595126952,0.22501889191641394,Holm-positive,,bioinf2027/results/E2/stats/family.csv:30
+b,RPE1 to K562-essential,z,0.14379596930230423,0.10177489899229722,0.18642907724599206,,,bioinf2027/results/E6/family_pass/supplement/absolute.csv:2
+b,RPE1 to K562-essential,x,0.11706554614578833,0.07649709324210274,0.15778040754235062,,,bioinf2027/results/E6/family_pass/supplement/absolute.csv:3
+b,RPE1 to K562-essential,m,0.2233987237839216,0.18072675075796577,0.2651325513427813,,,bioinf2027/results/E6/family_pass/supplement/absolute.csv:4
+b,RPE1 to K562-essential,[x; m],0.21424390917661187,0.1717627089736331,0.25598662183018644,,,bioinf2027/results/E6/family_pass/supplement/absolute.csv:5
+b,RPE1 to K562-essential,scGPT,0.1359567984339152,0.09368251439689732,0.1769235209977688,,,bioinf2027/results/E2/stats/e6.csv:36
+b,RPE1 to K562-essential,Stack,0.17869393793070365,0.13672763856471312,0.22036439255128243,,possibly in Stack's pre-training data [VERIFY],bioinf2027/results/E2/stats/e6.csv:52
+b,RPE1 to K562-essential,PCA-50,0.12634505718494812,0.08243489633223185,0.17054531513768137,,,bioinf2027/results/E2/stats/e6.csv:66
+b,RPE1 to K562-essential,"B1, target screen, untrained",0.7974876744047975,0.7688422868243815,0.8237812470061892,,,bioinf2027/results/E6/family_pass/supplement/absolute.csv:11
+b,RPE1 to K562-essential,"B2, target screen, untrained",0.9757929643027581,0.9725381640412474,0.978430781621373,,,bioinf2027/results/E6/family_pass/supplement/absolute.csv:12
+b,RPE1 to K562-essential,"TR, trained on the source screen",0.9939157094784005,0.9929706845707256,0.9945896432467515,,,bioinf2027/results/E6/transfer.csv:74
+a,K562-essential to RPE1,z,0.14401020776045825,0.0876357897835148,0.1994419902759975,Holm-positive,,bioinf2027/results/E6/family.csv:14
+a,K562-essential to RPE1,x,0.14890124119092465,0.09184792804372058,0.20646807792061708,Holm-positive,,bioinf2027/results/E6/family.csv:16
+a,K562-essential to RPE1,m,0.15348313257501917,0.09472474352882765,0.2139144203910125,Holm-positive,,bioinf2027/results/E6/family.csv:18
+a,K562-essential to RPE1,[x; m],0.20942629888442055,0.1528216358250788,0.2660810391965519,Holm-positive,,bioinf2027/results/E6/family.csv:20
+a,K562-essential to RPE1,scGPT,0.14328197978237447,0.08275518905933966,0.20192726164370953,Holm-positive,,bioinf2027/results/E2/stats/family.csv:11
+a,K562-essential to RPE1,Stack,0.16473624231524692,0.11063189990187962,0.2191133718652454,Holm-positive,possibly in Stack's pre-training data [VERIFY],bioinf2027/results/E2/stats/family.csv:21
+a,K562-essential to RPE1,PCA-50,0.12970903447143145,0.06976159064882183,0.19097408981776276,Holm-positive,,bioinf2027/results/E2/stats/family.csv:31
+b,K562-essential to RPE1,z,0.15069809198029752,0.10650166254233816,0.193315324993959,,,bioinf2027/results/E6/family_pass/supplement/absolute.csv:13
+b,K562-essential to RPE1,x,0.15558912541076392,0.11048515027573748,0.19917655282311553,,,bioinf2027/results/E6/family_pass/supplement/absolute.csv:14
+b,K562-essential to RPE1,m,0.16017101679485843,0.11444667623470108,0.2062592669178722,,,bioinf2027/results/E6/family_pass/supplement/absolute.csv:15
+b,K562-essential to RPE1,[x; m],0.2161141831042598,0.17325618105778706,0.2576073368088792,,,bioinf2027/results/E6/family_pass/supplement/absolute.csv:16
+b,K562-essential to RPE1,scGPT,0.1492702524924294,0.1025960916359179,0.19392989880857492,,,bioinf2027/results/E2/stats/e6.csv:44
+b,K562-essential to RPE1,Stack,0.16095577086222712,0.11746826619250822,0.20287024752741192,,possibly in Stack's pre-training data [VERIFY],bioinf2027/results/E2/stats/e6.csv:59
+b,K562-essential to RPE1,PCA-50,0.0977742966792624,0.05184152045899082,0.1439719127075485,,,bioinf2027/results/E2/stats/e6.csv:74
+b,K562-essential to RPE1,"B1, target screen, untrained",0.8480187925326383,0.8224188242554221,0.8725738080791235,,,bioinf2027/results/E6/family_pass/supplement/absolute.csv:22
+b,K562-essential to RPE1,"B2, target screen, untrained",0.9783510522528455,0.9745523674046538,0.9816464269509875,,,bioinf2027/results/E6/family_pass/supplement/absolute.csv:23
+b,K562-essential to RPE1,"TR, trained on the source screen",0.9948556209114424,0.9939759930730622,0.9954740346734521,,,bioinf2027/results/E6/transfer.csv:506

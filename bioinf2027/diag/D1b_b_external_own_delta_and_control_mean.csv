@@ -1,0 +1,13 @@
+screen,subset,statistic,row_unit,n_rows,n_target_genes,estimate,lo,hi,n_skipped
+RPE1,all,spearman_control_mean_vs_negated_own_delta,construct,1932,1811,0.9165715843432516,0.8975619235020768,0.9340753103289688,0
+RPE1,all,partial_spearman_label_negated_own_delta_given_control_mean,construct,1932,1811,0.9488632942890618,0.942326548647697,0.9541564612370207,0
+RPE1,all,partial_spearman_label_control_mean_given_negated_own_delta,construct,1932,1811,-0.5886109927291538,-0.6532471791198519,-0.5200104955563518,0
+RPE1,target_not_in_features,spearman_control_mean_vs_negated_own_delta,construct,1579,1481,0.9205516153970768,0.9002155322700693,0.939012366110886,0
+RPE1,target_not_in_features,partial_spearman_label_negated_own_delta_given_control_mean,construct,1579,1481,0.9465897977980853,0.9393056724831909,0.9524407977664912,0
+RPE1,target_not_in_features,partial_spearman_label_control_mean_given_negated_own_delta,construct,1579,1481,-0.5832575782656738,-0.6542194735234947,-0.5077481782339474,0
+K562-essential,all,spearman_control_mean_vs_negated_own_delta,construct,1903,1811,0.8774780866992478,0.8536341204233329,0.8999699876933019,0
+K562-essential,all,partial_spearman_label_negated_own_delta_given_control_mean,construct,1903,1811,0.9538491097889656,0.9471829094984213,0.9587957413157546,0
+K562-essential,all,partial_spearman_label_control_mean_given_negated_own_delta,construct,1903,1811,-0.5601013514642044,-0.6161357923808212,-0.49728598808379804,0
+K562-essential,target_not_in_features,spearman_control_mean_vs_negated_own_delta,construct,1566,1496,0.8864139577032094,0.8617066489472069,0.9095540478460741,0
+K562-essential,target_not_in_features,partial_spearman_label_negated_own_delta_given_control_mean,construct,1566,1496,0.9516036222663494,0.9431983421487509,0.9574496426468599,0
+K562-essential,target_not_in_features,partial_spearman_label_control_mean_given_negated_own_delta,construct,1566,1496,-0.5663525262295777,-0.6334930163714091,-0.4922194694718452,0

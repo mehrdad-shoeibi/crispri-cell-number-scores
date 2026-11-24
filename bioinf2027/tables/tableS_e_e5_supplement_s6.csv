@@ -1,0 +1,11 @@
+Screen,Quantity,Constructs,Estimate [interval],Line
+RPE1,D_27,200,"+0.010 [-0.004, +0.023]",2
+RPE1,D_40,200,"-0.006 [-0.019, +0.006]",3
+RPE1,D_60,200,"-0.003 [-0.013, +0.007]",4
+RPE1,D_100,200,"-0.004 [-0.011, +0.002]",5
+RPE1,"rho(n_pool, b full), sampled constructs, descriptive",200,-0.084,6
+K562-essential,D_27,200,"+0.033 [-0.035, +0.100]",8
+K562-essential,D_40,200,"+0.005 [-0.050, +0.060]",9
+K562-essential,D_60,200,"+0.009 [-0.037, +0.059]",10
+K562-essential,D_100,200,"+0.008 [-0.032, +0.047]",11
+K562-essential,"rho(n_pool, b full), sampled constructs, descriptive",200,+0.425,12

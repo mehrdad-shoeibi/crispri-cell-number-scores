@@ -1,0 +1,13 @@
+side,cells,genes,q25,q50,q75,n_cells
+VCC,control,all,43595.75,54611.0,68422.5,38176
+VCC train,"perturbed, modelled rows",all,42966.0,53872.5,67487.0,175980
+VCC val,"perturbed, modelled rows",all,42923.0,54155.0,67988.0,58796
+VCC test,"perturbed, modelled rows",all,42916.25,54045.5,67856.0,128874
+RPE1,control,all,9307.0,11720.0,14983.0,11485
+RPE1,"perturbed, eligible constructs",all,9221.0,11939.0,15773.0,197121
+VCC,control,shared with RPE1,37426.25,46904.0,58705.0,38176
+RPE1,control,shared with VCC,6470.0,8194.0,10542.0,11485
+K562-essential,control,all,11132.0,13714.0,16849.0,10691
+K562-essential,"perturbed, eligible constructs",all,10321.0,13146.0,16623.0,273279
+VCC,control,shared with K562-essential,36286.75,45513.5,56948.5,38176
+K562-essential,control,shared with VCC,7550.0,9245.0,11376.5,10691

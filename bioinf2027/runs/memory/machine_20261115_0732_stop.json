@@ -1,0 +1,201 @@
+{
+ "note": "machine memory after the 07:32 memory stop, none of my jobs running; other users' processes as sizes only (no names or commands); samples about 10 s apart",
+ "machine_total_gb": 62.7,
+ "samples": [
+  {
+   "time": "2026-11-15T07:34:43-05:00",
+   "available_gb": 32.4,
+   "swap_used_gb": 0.5,
+   "mine_rss_gb": 0.53,
+   "others_rss_gb": 29.4,
+   "largest_other_gb": [
+    14.9,
+    11.1,
+    0.9
+   ]
+  },
+  {
+   "time": "2026-11-15T07:35:06-05:00",
+   "available_gb": 27.8,
+   "swap_used_gb": 0.5,
+   "mine_rss_gb": 0.53,
+   "others_rss_gb": 34.0,
+   "largest_other_gb": [
+    15.7,
+    15.1,
+    0.8
+   ]
+  },
+  {
+   "time": "2026-11-15T07:35:16-05:00",
+   "available_gb": 27.1,
+   "swap_used_gb": 0.5,
+   "mine_rss_gb": 0.53,
+   "others_rss_gb": 34.8,
+   "largest_other_gb": [
+    16.0,
+    15.4,
+    0.8
+   ]
+  },
+  {
+   "time": "2026-11-15T07:35:26-05:00",
+   "available_gb": 40.6,
+   "swap_used_gb": 0.5,
+   "mine_rss_gb": 0.54,
+   "others_rss_gb": 21.0,
+   "largest_other_gb": [
+    15.8,
+    1.9,
+    0.8
+   ]
+  },
+  {
+   "time": "2026-11-15T07:35:36-05:00",
+   "available_gb": 40.2,
+   "swap_used_gb": 0.5,
+   "mine_rss_gb": 0.56,
+   "others_rss_gb": 21.4,
+   "largest_other_gb": [
+    16.2,
+    1.9,
+    0.8
+   ]
+  },
+  {
+   "time": "2026-11-15T07:35:46-05:00",
+   "available_gb": 55.0,
+   "swap_used_gb": 0.5,
+   "mine_rss_gb": 0.51,
+   "others_rss_gb": 6.8,
+   "largest_other_gb": [
+    1.9,
+    1.9,
+    0.5
+   ]
+  },
+  {
+   "time": "2026-11-15T07:35:56-05:00",
+   "available_gb": 55.1,
+   "swap_used_gb": 0.5,
+   "mine_rss_gb": 0.52,
+   "others_rss_gb": 6.9,
+   "largest_other_gb": [
+    1.9,
+    1.9,
+    0.5
+   ]
+  },
+  {
+   "time": "2026-11-15T07:36:06-05:00",
+   "available_gb": 55.1,
+   "swap_used_gb": 0.5,
+   "mine_rss_gb": 0.52,
+   "others_rss_gb": 6.9,
+   "largest_other_gb": [
+    1.9,
+    1.9,
+    0.5
+   ]
+  },
+  {
+   "time": "2026-11-15T07:36:16-05:00",
+   "available_gb": 56.7,
+   "swap_used_gb": 0.5,
+   "mine_rss_gb": 0.52,
+   "others_rss_gb": 4.9,
+   "largest_other_gb": [
+    1.9,
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "time": "2026-11-15T07:36:26-05:00",
+   "available_gb": 55.8,
+   "swap_used_gb": 0.5,
+   "mine_rss_gb": 0.52,
+   "others_rss_gb": 6.1,
+   "largest_other_gb": [
+    2.0,
+    1.2,
+    0.5
+   ]
+  },
+  {
+   "time": "2026-11-15T07:36:36-05:00",
+   "available_gb": 44.1,
+   "swap_used_gb": 0.5,
+   "mine_rss_gb": 0.52,
+   "others_rss_gb": 17.5,
+   "largest_other_gb": [
+    14.5,
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "time": "2026-11-15T07:36:46-05:00",
+   "available_gb": 43.4,
+   "swap_used_gb": 0.5,
+   "mine_rss_gb": 0.52,
+   "others_rss_gb": 18.2,
+   "largest_other_gb": [
+    15.2,
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "time": "2026-11-15T07:36:56-05:00",
+   "available_gb": 42.8,
+   "swap_used_gb": 0.5,
+   "mine_rss_gb": 0.52,
+   "others_rss_gb": 18.8,
+   "largest_other_gb": [
+    15.8,
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "time": "2026-11-15T07:37:06-05:00",
+   "available_gb": 56.9,
+   "swap_used_gb": 0.5,
+   "mine_rss_gb": 0.52,
+   "others_rss_gb": 4.4,
+   "largest_other_gb": [
+    1.9,
+    0.5,
+    0.4
+   ]
+  },
+  {
+   "time": "2026-11-15T07:37:16-05:00",
+   "available_gb": 57.0,
+   "swap_used_gb": 0.5,
+   "mine_rss_gb": 0.52,
+   "others_rss_gb": 4.6,
+   "largest_other_gb": [
+    1.9,
+    0.5,
+    0.4
+   ]
+  },
+  {
+   "time": "2026-11-15T07:37:26-05:00",
+   "available_gb": 57.1,
+   "swap_used_gb": 0.5,
+   "mine_rss_gb": 0.52,
+   "others_rss_gb": 4.6,
+   "largest_other_gb": [
+    1.9,
+    0.5,
+    0.4
+   ]
+  }
+ ],
+ "available_gb_min": 27.1,
+ "available_gb_max": 57.1,
+ "others_rss_gb_max": 34.8
+}

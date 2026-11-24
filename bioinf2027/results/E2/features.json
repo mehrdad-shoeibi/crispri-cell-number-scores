@@ -1,0 +1,71 @@
+{
+ "plan": "bioinf2027/plans/E2.md, Sections 3, 4 and 16",
+ "rows": 11764,
+ "outputs": {
+  "pca": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E2/features/pca_basis.npz",
+   "bytes": 6158890,
+   "sha256": "d63382a7a47127056e89418cc15b2d4814ac71c7f9895c1324380373f710abe0",
+   "explained_by_50": 0.27047093641050846,
+   "explained_by_768": 0.6383174683296359,
+   "check": {
+    "vcc_G6_test_rows": {
+     "rows": 50,
+     "largest_relative_difference": 1.0275928838369924e-05
+    },
+    "RPE1": {
+     "constructs": 50,
+     "largest_relative_difference": 2.6635823190525888e-08
+    },
+    "K562-essential": {
+     "constructs": 50,
+     "largest_relative_difference": 2.5190480059165844e-08
+    },
+    "tolerance": 0.0001,
+    "passed": true
+   }
+  },
+  "geneformer_null": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E2/features/geneformer_null.npz",
+   "bytes": 37268854,
+   "sha256": "547a0eda9410930ecd58ff0ef80878b26a106af90f5cb6a3617179beaf6a2290",
+   "store": "$IGA_STORAGE_ROOT/MADA/cache/foundation_models/geneformer/full_feature_extraction_v2/nt_embeddings"
+  },
+  "stack": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E2/features/stack.npz",
+   "bytes": 177651336,
+   "sha256": "89e40a7a569fdc1fd1c0d77a7a27415ff6bded3d27eebe376cc7dbd5cc5ad4d3",
+   "width": 1600,
+   "rows_with_replacement": 0,
+   "constructs_without_cells": {
+    "RPE1": 0,
+    "K562-essential": 0
+   }
+  },
+  "scgpt": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E2/features/scgpt.npz",
+   "bytes": 58567560,
+   "sha256": "baf6fadc52d34e8a8ed650da2b0003087bd5c13cbda1b22f830f33352ee15ea8",
+   "width": 512,
+   "rows_with_replacement": 0,
+   "constructs_without_cells": {
+    "RPE1": 0,
+    "K562-essential": 0
+   }
+  },
+  "pca50_null": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E2/features/pca50_null.npz",
+   "bytes": 3482646,
+   "sha256": "d882612fa004872e25a598fd3e4fad14fe6a6723a7d737cacb635ad8c0e62f1c",
+   "rows_with_replacement": 0,
+   "basis": {
+    "path": "$IGA_STORAGE_ROOT/bioinf2027/E2/features/pca_basis.npz",
+    "bytes": 6158890,
+    "sha256": "d63382a7a47127056e89418cc15b2d4814ac71c7f9895c1324380373f710abe0"
+   },
+   "width": 50
+  }
+ },
+ "n0_seed": 20271122,
+ "seconds": 41.1
+}

@@ -1,0 +1,335 @@
+{
+ "purpose": "the data-root inputs of E6's fits and statistics, hashed after the runs and checked against their records",
+ "plan": "bioinf2027/plans/E6.md, Section 3.4 and stop rule 1; bioinf2027/reviews/E6_audit_r1.md",
+ "references": {
+  "bioinf2027/results/E1/input_records.json": {
+   "path": "bioinf2027/results/E1/input_records.json",
+   "bytes": 40895,
+   "sha256": "8e5203ece9d95b5602ef872e314f35cbe044532422bbaf98b44d3f49d3db73cb",
+   "committed": "2026-11-10T11:46:45-05:00"
+  },
+  "bioinf2027/endpoints/R0_provenance.json": {
+   "path": "bioinf2027/endpoints/R0_provenance.json",
+   "bytes": 52968,
+   "sha256": "1ae5a21cc2b69d3c911b33d5a6368a58c7b469ffb697b4313974588d48c8a826",
+   "committed": "2026-11-09T22:26:13-05:00"
+  }
+ },
+ "runs_covered": [
+  {
+   "label": "e6-fits-smoke",
+   "command": "python bioinf2027/scripts/make_e6_fits.py --smoke",
+   "started": "2026-11-10T14:27:25-05:00",
+   "finished": "2026-11-10T14:45:06-05:00"
+  },
+  {
+   "label": "e6-stats-smoke",
+   "command": "python bioinf2027/scripts/make_e6_stats.py --smoke",
+   "started": "2026-11-10T14:46:35-05:00",
+   "finished": "2026-11-10T14:47:33-05:00"
+  },
+  {
+   "label": "e6-stats-smoke",
+   "command": "python bioinf2027/scripts/make_e6_stats.py --smoke",
+   "started": "2026-11-10T14:48:57-05:00",
+   "finished": "2026-11-10T14:52:50-05:00"
+  },
+  {
+   "label": "e6-fits-smoke-tier1",
+   "command": "python bioinf2027/scripts/make_e6_fits.py --smoke --tier 1",
+   "started": "2026-11-11T11:24:50-05:00",
+   "finished": "2026-11-11T11:24:56-05:00"
+  },
+  {
+   "label": "e6-fits-smoke-tier2",
+   "command": "python bioinf2027/scripts/make_e6_fits.py --smoke --tier 2",
+   "started": "2026-11-11T11:24:56-05:00",
+   "finished": "2026-11-11T11:25:02-05:00"
+  },
+  {
+   "label": "e6-fits-smoke-tier3",
+   "command": "python bioinf2027/scripts/make_e6_fits.py --smoke --tier 3",
+   "started": "2026-11-11T11:25:02-05:00",
+   "finished": "2026-11-11T11:25:38-05:00"
+  },
+  {
+   "label": "e6-stats-smoke-family",
+   "command": "python bioinf2027/scripts/make_e6_stats.py --smoke --pass family",
+   "started": "2026-11-11T11:25:38-05:00",
+   "finished": "2026-11-11T11:26:28-05:00"
+  },
+  {
+   "label": "e6-stats-smoke-full",
+   "command": "python bioinf2027/scripts/make_e6_stats.py --smoke --pass full",
+   "started": "2026-11-11T11:26:29-05:00",
+   "finished": "2026-11-11T11:27:39-05:00"
+  },
+  {
+   "label": "e6-stats-smoke-family",
+   "command": "python bioinf2027/scripts/make_e6_stats.py --smoke --pass family",
+   "started": "2026-11-11T11:30:03-05:00",
+   "finished": "2026-11-11T11:30:41-05:00"
+  },
+  {
+   "label": "e6-stats-smoke-full",
+   "command": "python bioinf2027/scripts/make_e6_stats.py --smoke --pass full",
+   "started": "2026-11-11T11:30:41-05:00",
+   "finished": "2026-11-11T11:32:10-05:00"
+  },
+  {
+   "label": "e6-check",
+   "command": "python bioinf2027/scripts/make_e6_fits.py --check",
+   "started": "2026-11-12T17:01:27-05:00",
+   "finished": "2026-11-12T17:51:41-05:00"
+  },
+  {
+   "label": "e6-fits-tier1",
+   "command": "python bioinf2027/scripts/make_e6_fits.py --tier 1 --workers 9",
+   "started": "2026-11-12T17:52:28-05:00",
+   "finished": "2026-11-12T19:50:59-05:00"
+  },
+  {
+   "label": "e6-fits-tier2",
+   "command": "python bioinf2027/scripts/make_e6_fits.py --tier 2 --workers 9",
+   "started": "2026-11-12T19:51:59-05:00",
+   "finished": "2026-11-13T06:52:32-05:00"
+  },
+  {
+   "label": "e6-fits-tier2-z-minus-smoke",
+   "command": "python bioinf2027/scripts/make_e6_fits.py --tier 2 --smoke",
+   "started": "2026-11-13T06:53:22-05:00",
+   "finished": "2026-11-13T06:53:30-05:00"
+  },
+  {
+   "label": "e6-stats-family-smoke",
+   "command": "python bioinf2027/scripts/make_e6_stats.py --pass family --smoke",
+   "started": "2026-11-13T06:54:27-05:00",
+   "finished": "2026-11-13T06:55:23-05:00"
+  },
+  {
+   "label": "e6-fits-tier2-z-minus",
+   "command": "python bioinf2027/scripts/make_e6_fits.py --tier 2 --workers 9",
+   "started": "2026-11-13T06:54:07-05:00",
+   "finished": "2026-11-13T07:07:25-05:00"
+  },
+  {
+   "label": "e6-stats-family",
+   "command": "python bioinf2027/scripts/make_e6_stats.py --pass family",
+   "started": "2026-11-13T07:07:55-05:00",
+   "finished": "2026-11-13T08:00:35-05:00"
+  },
+  {
+   "label": "e6-stats-family-smoke-input-check",
+   "command": "python bioinf2027/scripts/make_e6_stats.py --pass family --smoke",
+   "started": "2026-11-13T08:22:19-05:00",
+   "finished": "2026-11-13T08:23:15-05:00"
+  },
+  {
+   "label": "e6-fits-tier3",
+   "command": "python bioinf2027/scripts/make_e6_fits.py --tier 3 --workers 8",
+   "started": "2026-11-13T07:08:06-05:00",
+   "finished": "2026-11-14T02:39:44-05:00"
+  }
+ ],
+ "first_e6_run_started": "2026-11-10T14:27:25-05:00",
+ "inputs": {
+  "RPE1_z": {
+   "path": "$IGA_STORAGE_ROOT/IGA_GENEFORMER_EXT/rpe1_topup/z_rpe1_1932.npy",
+   "bytes": 5935232,
+   "sha256": "f115a777bd78f644219189b6589086978c2b57fd51b32d9ece39c5ba42fdd904",
+   "modified": "2026-08-10T23:43:01-04:00",
+   "read_by": "make_e6_fits.py load_inputs, through e1inputs.load_screen_inputs (_ordered_z)",
+   "record": "bioinf2027/results/E1/input_records.json",
+   "recorded_bytes": 5935232,
+   "recorded_sha256": "f115a777bd78f644219189b6589086978c2b57fd51b32d9ece39c5ba42fdd904",
+   "equal_to_record": true,
+   "modified_before_the_record_was_committed": true,
+   "modified_before_the_first_e6_run": true
+  },
+  "RPE1_z_index": {
+   "path": "$IGA_STORAGE_ROOT/IGA_GENEFORMER_EXT/rpe1_topup/rpe1_construct_index.parquet",
+   "bytes": 48467,
+   "sha256": "37f05c17c268f039bfcf011ccde1a70b0e9eb020b9c60298b03c0892daed43ec",
+   "modified": "2026-08-10T23:43:01-04:00",
+   "read_by": "make_e6_fits.py load_inputs, through e1inputs.load_screen_inputs (_ordered_z)",
+   "record": "bioinf2027/results/E1/input_records.json",
+   "recorded_bytes": 48467,
+   "recorded_sha256": "37f05c17c268f039bfcf011ccde1a70b0e9eb020b9c60298b03c0892daed43ec",
+   "equal_to_record": true,
+   "modified_before_the_record_was_committed": true,
+   "modified_before_the_first_e6_run": true
+  },
+  "K562-essential_z": {
+   "path": "$IGA_STORAGE_ROOT/IGA_GENEFORMER_EXT/k562_essential/z/z_k562_1903.npy",
+   "bytes": 5846144,
+   "sha256": "ce88160c8a525b3ea4608cfc8978ee0f71e24dde3d6fb0c5335f0bcf3f790a26",
+   "modified": "2026-08-11T11:47:44-04:00",
+   "read_by": "make_e6_fits.py load_inputs, through e1inputs.load_screen_inputs (_ordered_z)",
+   "record": "bioinf2027/results/E1/input_records.json",
+   "recorded_bytes": 5846144,
+   "recorded_sha256": "ce88160c8a525b3ea4608cfc8978ee0f71e24dde3d6fb0c5335f0bcf3f790a26",
+   "equal_to_record": true,
+   "modified_before_the_record_was_committed": true,
+   "modified_before_the_first_e6_run": true
+  },
+  "K562-essential_z_index": {
+   "path": "$IGA_STORAGE_ROOT/IGA_GENEFORMER_EXT/k562_essential/z/k562_construct_index.parquet",
+   "bytes": 47129,
+   "sha256": "8d5f3e8aec2471e797dfa74c090496579a8351ba9feed35440df540c5821bbf7",
+   "modified": "2026-08-11T11:47:44-04:00",
+   "read_by": "make_e6_fits.py load_inputs, through e1inputs.load_screen_inputs (_ordered_z)",
+   "record": "bioinf2027/results/E1/input_records.json",
+   "recorded_bytes": 47129,
+   "recorded_sha256": "8d5f3e8aec2471e797dfa74c090496579a8351ba9feed35440df540c5821bbf7",
+   "equal_to_record": true,
+   "modified_before_the_record_was_committed": true,
+   "modified_before_the_first_e6_run": true
+  },
+  "RPE1_native": {
+   "path": "$IGA_STORAGE_ROOT/IGA_GENEFORMER_EXT/x_cell/x_cell_rpe1_native.npz",
+   "bytes": 135997838,
+   "sha256": "ee766e65c18cace39b7a7d225b3e218d22330b564b765759c6f63371d3e3ec57",
+   "modified": "2026-08-10T23:41:03-04:00",
+   "read_by": "make_e6_fits.py load_inputs, through e1inputs.load_screen_inputs",
+   "record": "bioinf2027/results/E1/input_records.json",
+   "recorded_bytes": 135997838,
+   "recorded_sha256": "ee766e65c18cace39b7a7d225b3e218d22330b564b765759c6f63371d3e3ec57",
+   "equal_to_record": true,
+   "modified_before_the_record_was_committed": true,
+   "modified_before_the_first_e6_run": true
+  },
+  "RPE1_mapped_with_ids": {
+   "path": "$IGA_STORAGE_ROOT/IGA_GENEFORMER_EXT/x_cell/x_cell_rpe1_mapped.npz",
+   "bytes": 16229294,
+   "sha256": "ddc3cab022073333f3307f06f08ceab64a4f45b453f4a95ff721452dee06fe1e",
+   "modified": "2026-08-10T23:41:03-04:00",
+   "read_by": "make_e6_fits.py load_inputs, through e1inputs.load_screen_inputs",
+   "record": "bioinf2027/results/E1/input_records.json",
+   "recorded_bytes": 16229294,
+   "recorded_sha256": "ddc3cab022073333f3307f06f08ceab64a4f45b453f4a95ff721452dee06fe1e",
+   "equal_to_record": true,
+   "modified_before_the_record_was_committed": true,
+   "modified_before_the_first_e6_run": true
+  },
+  "RPE1_submitted_x": {
+   "path": "$IGA_STORAGE_ROOT/IGA_GENEFORMER_EXT/x_cell/x_cell_rpe1_1932_mapped.npy",
+   "bytes": 15456128,
+   "sha256": "d14cd7e0cdddc04ea81ea6ddf149ee1bb01fc091ebdf6cf3489bc274d5bd33c8",
+   "modified": "2026-08-10T23:43:01-04:00",
+   "read_by": "make_e6_fits.py load_inputs, through e1inputs.load_screen_inputs",
+   "record": "bioinf2027/results/E1/input_records.json",
+   "recorded_bytes": 15456128,
+   "recorded_sha256": "d14cd7e0cdddc04ea81ea6ddf149ee1bb01fc091ebdf6cf3489bc274d5bd33c8",
+   "equal_to_record": true,
+   "modified_before_the_record_was_committed": true,
+   "modified_before_the_first_e6_run": true
+  },
+  "K562-essential_native": {
+   "path": "$IGA_STORAGE_ROOT/IGA_GENEFORMER_EXT/k562_essential/x_cell/x_cell_k562_native.npz",
+   "bytes": 130987790,
+   "sha256": "f8127fbc14cdefd340235da4815908a3b5a4a14b3c8f0456e8ac7d60c9e765f2",
+   "modified": "2026-08-11T11:47:44-04:00",
+   "read_by": "make_e6_fits.py load_inputs, through e1inputs.load_screen_inputs",
+   "record": "bioinf2027/results/E1/input_records.json",
+   "recorded_bytes": 130987790,
+   "recorded_sha256": "f8127fbc14cdefd340235da4815908a3b5a4a14b3c8f0456e8ac7d60c9e765f2",
+   "equal_to_record": true,
+   "modified_before_the_record_was_committed": true,
+   "modified_before_the_first_e6_run": true
+  },
+  "K562-essential_submitted_x": {
+   "path": "$IGA_STORAGE_ROOT/IGA_GENEFORMER_EXT/k562_essential/x_cell/x_cell_k562_1903_mapped.npy",
+   "bytes": 15224128,
+   "sha256": "326142005d94fadf682a5d71a2dfaea5ba40ba4a5f40e61b2918e6f74f374965",
+   "modified": "2026-08-11T11:47:44-04:00",
+   "read_by": "make_e6_fits.py load_inputs, through e1inputs.load_screen_inputs",
+   "record": "bioinf2027/results/E1/input_records.json",
+   "recorded_bytes": 15224128,
+   "recorded_sha256": "326142005d94fadf682a5d71a2dfaea5ba40ba4a5f40e61b2918e6f74f374965",
+   "equal_to_record": true,
+   "modified_before_the_record_was_committed": true,
+   "modified_before_the_first_e6_run": true
+  },
+  "RPE1_single_cell": {
+   "path": "$IGA_STORAGE_ROOT/IGA_MAIN/data/replogle/raw_singlecell/rpe1_raw_singlecell_01.h5ad",
+   "bytes": 8700873216,
+   "sha256": "9b05ef1f81526216fa008d677e9e0d03dce9a2f7a95499a4fb81e505e9d88ef1",
+   "modified": "2026-05-27T20:18:43-04:00",
+   "read_by": "make_e6_fits.py (e1inputs.native_symbols, shared_gene_inputs) and make_e6_stats.py non_shared_causes; var annotations only",
+   "record": "bioinf2027/results/E1/input_records.json",
+   "recorded_bytes": 8700873216,
+   "recorded_sha256": "9b05ef1f81526216fa008d677e9e0d03dce9a2f7a95499a4fb81e505e9d88ef1",
+   "equal_to_record": true,
+   "modified_before_the_record_was_committed": true,
+   "modified_before_the_first_e6_run": true
+  },
+  "K562-essential_single_cell": {
+   "path": "$IGA_STORAGE_ROOT/IGA_MAIN/data/replogle/raw_singlecell/K562_essential_raw_singlecell_01.h5ad",
+   "bytes": 10661879995,
+   "sha256": "3e5a63a9e892b21029bb55fca4e12517a49aad7af6c14133ca63d12cf68c6cee",
+   "modified": "2026-07-30T20:41:30-04:00",
+   "read_by": "make_e6_fits.py (e1inputs.native_symbols, shared_gene_inputs) and make_e6_stats.py non_shared_causes; var annotations only",
+   "record": "bioinf2027/results/E1/input_records.json",
+   "recorded_bytes": 10661879995,
+   "recorded_sha256": "3e5a63a9e892b21029bb55fca4e12517a49aad7af6c14133ca63d12cf68c6cee",
+   "equal_to_record": true,
+   "modified_before_the_record_was_committed": true,
+   "modified_before_the_first_e6_run": true
+  },
+  "vcc_var_gene_names": {
+   "path": "$IGA_STORAGE_ROOT/IGA_MAIN/cache/vcc/var_gene_names.npy",
+   "bytes": 152515,
+   "sha256": "9f35391f26907834f50e881c7d3fb32351cc6a3c5449230436731182d7c91c85",
+   "modified": "2026-04-24T15:07:39-04:00",
+   "read_by": "features.hvg_symbols, in make_e6_fits.py load_inputs and e1inputs.load_screen_inputs",
+   "record": "bioinf2027/results/E1/input_records.json",
+   "recorded_bytes": 152515,
+   "recorded_sha256": "9f35391f26907834f50e881c7d3fb32351cc6a3c5449230436731182d7c91c85",
+   "equal_to_record": true,
+   "modified_before_the_record_was_committed": true,
+   "modified_before_the_first_e6_run": true
+  },
+  "vcc_selected_genes": {
+   "path": "$IGA_STORAGE_ROOT/IGA_MAIN/cache/vcc/variants/delta_hvg/selected_genes.npy",
+   "bytes": 8128,
+   "sha256": "805d17402aa2804f843ca9f57459bb85d50c067df02a3d214ee5b5ee4229bb01",
+   "modified": "2026-04-25T00:51:10-04:00",
+   "read_by": "features.hvg_symbols, in make_e6_fits.py load_inputs and e1inputs.load_screen_inputs",
+   "record": "bioinf2027/results/E1/input_records.json",
+   "recorded_bytes": 8128,
+   "recorded_sha256": "805d17402aa2804f843ca9f57459bb85d50c067df02a3d214ee5b5ee4229bb01",
+   "equal_to_record": true,
+   "modified_before_the_record_was_committed": true,
+   "modified_before_the_first_e6_run": true
+  },
+  "RPE1_eligibility": {
+   "path": "$IGA_STORAGE_ROOT/IGA_MAIN/results_v4/harmonized_endpoint_v1/rpe1_eligibility.csv",
+   "bytes": 228919,
+   "sha256": "71da80a16e6cd982fd280b616675106f770ad01f8aeeb5a0aa309fdf996ba071",
+   "modified": "2026-07-30T14:55:38-04:00",
+   "read_by": "make_e6_stats.py non_shared_causes",
+   "record": "bioinf2027/endpoints/R0_provenance.json",
+   "recorded_bytes": 228919,
+   "recorded_sha256": "71da80a16e6cd982fd280b616675106f770ad01f8aeeb5a0aa309fdf996ba071",
+   "equal_to_record": true,
+   "modified_before_the_record_was_committed": true,
+   "modified_before_the_first_e6_run": true
+  },
+  "K562-essential_eligibility": {
+   "path": "$IGA_STORAGE_ROOT/IGA_MAIN/results_v4/harmonized_endpoint_k562_essential_v1/eligibility.csv",
+   "bytes": 190992,
+   "sha256": "b10de8bfbf95c825efeaa6f562bb0ed9981f55897242ce91c5c22f7b773f9158",
+   "modified": "2026-07-30T21:20:04-04:00",
+   "read_by": "make_e6_stats.py non_shared_causes",
+   "record": "bioinf2027/endpoints/R0_provenance.json",
+   "recorded_bytes": 190992,
+   "recorded_sha256": "b10de8bfbf95c825efeaa6f562bb0ed9981f55897242ce91c5c22f7b773f9158",
+   "equal_to_record": true,
+   "modified_before_the_record_was_committed": true,
+   "modified_before_the_first_e6_run": true
+  }
+ },
+ "differing": [],
+ "passed": true,
+ "seconds": 82.0
+}

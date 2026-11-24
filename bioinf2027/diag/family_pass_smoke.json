@@ -1,0 +1,266 @@
+{
+ "plans": "bioinf2027/plans/E4.md and E6.md, Section 16",
+ "items": {
+  "E4": {
+   "full_pass_stats": {
+    "path": "$IGA_STORAGE_ROOT/bioinf2027/scratch/E4_stats_smoke/stats.json",
+    "bytes": 8884,
+    "sha256": "105511531295a3dd748206580cfd799df20cc5cfecde1e25f0843917dce3eeda"
+   },
+   "family_pass_stats": {
+    "path": "$IGA_STORAGE_ROOT/bioinf2027/scratch/E4_stats_smoke/family_pass/stats.json",
+    "bytes": 6123,
+    "sha256": "70e2bdeb002018418f802c496ce2f6d6afbd91418329a8e562d396e5a892fc5c"
+   },
+   "family_pass_check": {
+    "family_pass": "$IGA_STORAGE_ROOT/bioinf2027/scratch/E4_stats_smoke/family_pass",
+    "files": {
+     "family.csv": {
+      "rows": 16,
+      "compared_with": "family.csv",
+      "rows_missing_from_the_full_pass": 0,
+      "columns_compared": 24,
+      "columns_absent_from_the_full_pass": [],
+      "differing": [],
+      "excluded": [
+       "precondition_matched_passed",
+       "precondition_matched_estimate",
+       "precondition_matched_lo"
+      ],
+      "passed": true
+     },
+     "readings.csv": {
+      "rows": 8,
+      "compared_with": "readings.csv",
+      "rows_missing_from_the_full_pass": 0,
+      "columns_compared": 13,
+      "columns_absent_from_the_full_pass": [],
+      "differing": [],
+      "excluded": [],
+      "passed": true
+     },
+     "refits.csv": {
+      "rows": 8,
+      "compared_with": "refits.csv",
+      "rows_missing_from_the_full_pass": 0,
+      "columns_compared": 7,
+      "columns_absent_from_the_full_pass": [],
+      "differing": [],
+      "excluded": [],
+      "passed": true
+     },
+     "z_minus_c2.csv": {
+      "rows": 8,
+      "compared_with": "secondary.csv",
+      "rows_missing_from_the_full_pass": 0,
+      "columns_compared": 8,
+      "columns_absent_from_the_full_pass": [],
+      "differing": [],
+      "excluded": [],
+      "passed": true
+     }
+    },
+    "passed": true
+   },
+   "finite_values_per_family_table": {
+    "family.csv": 96,
+    "readings.csv": 32,
+    "refits.csv": 40,
+    "z_minus_c2.csv": 28
+   },
+   "smoke_runs": [
+    {
+     "label": "e4-fits-smoke-tier1",
+     "commit": "4c1d8c92f4be38a55d577dd0edc73dbbafa62fbf",
+     "returncode": 0,
+     "finished": "2026-11-11T11:17:29-05:00"
+    },
+    {
+     "label": "e4-fits-smoke-tier2",
+     "commit": "4c1d8c92f4be38a55d577dd0edc73dbbafa62fbf",
+     "returncode": 0,
+     "finished": "2026-11-11T11:18:03-05:00"
+    },
+    {
+     "label": "e4-fits-smoke-tier3",
+     "commit": "4c1d8c92f4be38a55d577dd0edc73dbbafa62fbf",
+     "returncode": 0,
+     "finished": "2026-11-11T11:21:19-05:00"
+    },
+    {
+     "label": "e4-stats-smoke-family",
+     "commit": "4c1d8c92f4be38a55d577dd0edc73dbbafa62fbf",
+     "returncode": 1,
+     "finished": "2026-11-11T11:21:30-05:00"
+    },
+    {
+     "label": "e4-stats-smoke-family",
+     "commit": "4c1d8c92f4be38a55d577dd0edc73dbbafa62fbf",
+     "returncode": 0,
+     "finished": "2026-11-11T11:22:13-05:00"
+    },
+    {
+     "label": "e4-stats-smoke-full",
+     "commit": "4c1d8c92f4be38a55d577dd0edc73dbbafa62fbf",
+     "returncode": 3,
+     "finished": "2026-11-11T11:23:04-05:00"
+    },
+    {
+     "label": "e4-stats-smoke-family",
+     "commit": "4c1d8c92f4be38a55d577dd0edc73dbbafa62fbf",
+     "returncode": 0,
+     "finished": "2026-11-11T11:23:59-05:00"
+    },
+    {
+     "label": "e4-stats-smoke-full",
+     "commit": "4c1d8c92f4be38a55d577dd0edc73dbbafa62fbf",
+     "returncode": 0,
+     "finished": "2026-11-11T11:24:50-05:00"
+    },
+    {
+     "label": "e4-stats-smoke-family",
+     "commit": "e75e7fe04c4e76467d53865b8be42f7224ce5ad4",
+     "returncode": 0,
+     "finished": "2026-11-11T11:29:12-05:00"
+    },
+    {
+     "label": "e4-stats-smoke-full",
+     "commit": "e75e7fe04c4e76467d53865b8be42f7224ce5ad4",
+     "returncode": 0,
+     "finished": "2026-11-11T11:30:03-05:00"
+    }
+   ]
+  },
+  "E6": {
+   "full_pass_stats": {
+    "path": "$IGA_STORAGE_ROOT/bioinf2027/scratch/E6_stats_smoke/stats.json",
+    "bytes": 5930,
+    "sha256": "2ae4d5715a31f46ac44636de5f9e7f5fc895968182f9b63571cb5bee1e8cb9c7"
+   },
+   "family_pass_stats": {
+    "path": "$IGA_STORAGE_ROOT/bioinf2027/scratch/E6_stats_smoke/family_pass/stats.json",
+    "bytes": 3295,
+    "sha256": "59b358809304eb887dfa5b71b7aff6ab1fc0e95e84c78f2d79b54acff24a5484"
+   },
+   "family_pass_check": {
+    "family_pass": "$IGA_STORAGE_ROOT/bioinf2027/scratch/E6_stats_smoke/family_pass",
+    "files": {
+     "family.csv": {
+      "rows": 24,
+      "compared_with": "family.csv",
+      "rows_missing_from_the_full_pass": 0,
+      "columns_compared": 19,
+      "columns_absent_from_the_full_pass": [],
+      "differing": [],
+      "excluded": [],
+      "passed": true
+     },
+     "positive_controls.csv": {
+      "rows": 6,
+      "compared_with": "positive_controls.csv",
+      "rows_missing_from_the_full_pass": 0,
+      "columns_compared": 10,
+      "columns_absent_from_the_full_pass": [],
+      "differing": [],
+      "excluded": [],
+      "passed": true
+     },
+     "readings.csv": {
+      "rows": 14,
+      "compared_with": "readings.csv",
+      "rows_missing_from_the_full_pass": 0,
+      "columns_compared": 8,
+      "columns_absent_from_the_full_pass": [],
+      "differing": [],
+      "excluded": [],
+      "passed": true
+     },
+     "refits.csv": {
+      "rows": 4,
+      "compared_with": "refits.csv",
+      "rows_missing_from_the_full_pass": 0,
+      "columns_compared": 5,
+      "columns_absent_from_the_full_pass": [],
+      "differing": [],
+      "excluded": [],
+      "passed": true
+     },
+     "paired_with_E1.csv": {
+      "rows": 64,
+      "compared_with": "paired_with_E1.csv",
+      "rows_missing_from_the_full_pass": 0,
+      "columns_compared": 17,
+      "columns_absent_from_the_full_pass": [],
+      "differing": [],
+      "excluded": [],
+      "passed": true
+     },
+     "secondary.csv": {
+      "rows": 9,
+      "compared_with": "secondary.csv",
+      "rows_missing_from_the_full_pass": 0,
+      "columns_compared": 7,
+      "columns_absent_from_the_full_pass": [],
+      "differing": [],
+      "excluded": [],
+      "passed": true
+     }
+    },
+    "passed": true
+   },
+   "finite_values_per_family_table": {
+    "family.csv": 96,
+    "positive_controls.csv": 21,
+    "readings.csv": 0,
+    "refits.csv": 20,
+    "paired_with_E1.csv": 76,
+    "secondary.csv": 54
+   },
+   "smoke_runs": [
+    {
+     "label": "e6-fits-smoke-tier1",
+     "commit": "4c1d8c92f4be38a55d577dd0edc73dbbafa62fbf",
+     "returncode": 0,
+     "finished": "2026-11-11T11:24:56-05:00"
+    },
+    {
+     "label": "e6-fits-smoke-tier2",
+     "commit": "4c1d8c92f4be38a55d577dd0edc73dbbafa62fbf",
+     "returncode": 0,
+     "finished": "2026-11-11T11:25:02-05:00"
+    },
+    {
+     "label": "e6-fits-smoke-tier3",
+     "commit": "4c1d8c92f4be38a55d577dd0edc73dbbafa62fbf",
+     "returncode": 0,
+     "finished": "2026-11-11T11:25:38-05:00"
+    },
+    {
+     "label": "e6-stats-smoke-family",
+     "commit": "4c1d8c92f4be38a55d577dd0edc73dbbafa62fbf",
+     "returncode": 0,
+     "finished": "2026-11-11T11:26:28-05:00"
+    },
+    {
+     "label": "e6-stats-smoke-full",
+     "commit": "4c1d8c92f4be38a55d577dd0edc73dbbafa62fbf",
+     "returncode": 0,
+     "finished": "2026-11-11T11:27:39-05:00"
+    },
+    {
+     "label": "e6-stats-smoke-family",
+     "commit": "e75e7fe04c4e76467d53865b8be42f7224ce5ad4",
+     "returncode": 0,
+     "finished": "2026-11-11T11:30:41-05:00"
+    },
+    {
+     "label": "e6-stats-smoke-full",
+     "commit": "e75e7fe04c4e76467d53865b8be42f7224ce5ad4",
+     "returncode": 0,
+     "finished": "2026-11-11T11:32:10-05:00"
+    }
+   ]
+  }
+ },
+ "passed": true
+}

@@ -1,0 +1,50 @@
+panel,quantity,encoder,screen,cell,metric,estimate,lo,hi,n,descriptive,marker,source
+a,"e − C1, all-cells label",Geneformer,VCC test,G6,r2,0.1788358214627982,0.022916815068363953,0.3501775905878301,"3972 rows, 93 target genes",False,,bioinf2027/results/E2/stats/vcc.csv:155
+a,"e − C1, all-cells label",scGPT,VCC test,G6,r2,0.19032707290448023,0.05332383033155658,0.34696250404804835,"3972 rows, 93 target genes",False,,bioinf2027/results/E2/stats/vcc.csv:519
+a,"e − C1, all-cells label",Stack,VCC test,G6,r2,0.1547482225192558,-0.016430220438169555,0.31347091839498525,"3972 rows, 93 target genes",False,,bioinf2027/results/E2/stats/vcc.csv:861
+a,"e − C1, all-cells label",PCA-50,VCC test,G6,r2,0.1241188045537102,-0.07926356898166628,0.3272458818748536,"3972 rows, 93 target genes",False,,bioinf2027/results/E2/stats/vcc.csv:1221
+a,"e − C1, size-fixed label",Geneformer,VCC test,G6,r2,-0.0010921126287786187,-0.09576658008437484,0.08577498509403784,"3972 rows, 93 target genes",False,,bioinf2027/results/E2/stats/vcc.csv:156
+a,"e − C1, size-fixed label",scGPT,VCC test,G6,r2,-0.030395808547540943,-0.15179807966866765,0.06515484756874114,"3972 rows, 93 target genes",False,,bioinf2027/results/E2/stats/vcc.csv:520
+a,"e − C1, size-fixed label",Stack,VCC test,G6,r2,-0.06582954713946794,-0.3307817876911814,0.11722214283329725,"3972 rows, 93 target genes",False,,bioinf2027/results/E2/stats/vcc.csv:862
+a,"e − C1, size-fixed label",PCA-50,VCC test,G6,r2,-0.06317660133621272,-0.2926140452547257,0.11047277213610256,"3972 rows, 93 target genes",False,,bioinf2027/results/E2/stats/vcc.csv:1222
+a,paired drop P-d,Geneformer,VCC test,G6,r2,0.1799279340915768,0.0638976552716746,0.33594716671172725,"3972 rows, 93 target genes",False,,bioinf2027/results/E2/stats/vcc.csv:157
+a,paired drop P-d,scGPT,VCC test,G6,r2,0.22072288145202118,0.11970525221245083,0.38658415396621915,"3972 rows, 93 target genes",False,,bioinf2027/results/E2/stats/vcc.csv:521
+a,paired drop P-d,Stack,VCC test,G6,r2,0.22057776965872372,0.10505342899642588,0.4253518100725459,"3972 rows, 93 target genes",False,,bioinf2027/results/E2/stats/vcc.csv:863
+a,paired drop P-d,PCA-50,VCC test,G6,r2,0.18729540588992294,0.0534590083191822,0.3779042025203417,"3972 rows, 93 target genes",False,,bioinf2027/results/E2/stats/vcc.csv:1223
+b,"N0 − C1, all-cells label",Geneformer,VCC test,G6,r2,0.28286883054725404,0.1765928411028883,0.4384458396505921,"3972 rows, 93 target genes",False,,bioinf2027/results/E2/stats/vcc.csv:170
+b,"N0 − C1, all-cells label",scGPT,VCC test,G6,r2,0.25261934720572227,0.1504535715036318,0.39135751361651716,"3972 rows, 93 target genes",False,,bioinf2027/results/E2/stats/vcc.csv:534
+b,"N0 − C1, all-cells label",Stack,VCC test,G6,r2,0.2859180077516055,0.17986791088001114,0.4376109930934524,"3972 rows, 93 target genes",False,,bioinf2027/results/E2/stats/vcc.csv:876
+b,"N0 − C1, all-cells label",PCA-50,VCC test,G6,r2,0.2905722538093037,0.18429162282370293,0.4554051903490134,"3972 rows, 93 target genes",False,,bioinf2027/results/E2/stats/vcc.csv:1236
+b,"e − N0, all-cells label",Geneformer,VCC test,G6,r2,-0.10403300908445587,-0.2683521088458696,0.016914615308897415,"3972 rows, 93 target genes",False,,bioinf2027/results/E2/stats/vcc.csv:172
+b,"e − N0, all-cells label",scGPT,VCC test,G6,r2,-0.06229227430124204,-0.18175406419394158,0.031122753212512965,"3972 rows, 93 target genes",False,,bioinf2027/results/E2/stats/vcc.csv:536
+b,"e − N0, all-cells label",Stack,VCC test,G6,r2,-0.13116978523234965,-0.3389760051639936,0.01074182113784531,"3972 rows, 93 target genes",False,,bioinf2027/results/E2/stats/vcc.csv:878
+b,"e − N0, all-cells label",PCA-50,VCC test,G6,r2,-0.16645344925559347,-0.39453069044168587,0.006115901278169028,"3972 rows, 93 target genes",False,,bioinf2027/results/E2/stats/vcc.csv:1238
+c,"e − B0, all-cells label",Geneformer,VCC test,G6,r2,-0.09251668485799644,-0.28142411478030205,0.04653832799122837,"3972 rows, 93 target genes",False,,bioinf2027/results/E2/stats/vcc.csv:158
+c,"e − B0, all-cells label",scGPT,VCC test,G6,r2,-0.07079817629113283,-0.2278850494162796,0.04187040972196501,"3972 rows, 93 target genes",False,,bioinf2027/results/E2/stats/vcc.csv:522
+c,"e − B0, all-cells label",Stack,VCC test,G6,r2,-0.10381854193092035,-0.3295355651836747,0.05102812207043626,"3972 rows, 93 target genes",False,,bioinf2027/results/E2/stats/vcc.csv:864
+c,"e − B0, all-cells label",PCA-50,VCC test,G6,r2,-0.15770960926248984,-0.4054147591136742,0.021983502253822774,"3972 rows, 93 target genes",False,,bioinf2027/results/E2/stats/vcc.csv:1224
+c,"Δ, all-cells label",Geneformer,VCC test,G6,r2,0.2400158160611538,0.11737521714031816,0.4161692235727132,"3972 rows, 93 target genes",False,,bioinf2027/results/E2/stats/vcc.csv:184
+c,"Δ, all-cells label",scGPT,VCC test,G6,r2,0.26824509785029477,0.13248863220596382,0.46453265320011783,"3972 rows, 93 target genes",False,,bioinf2027/results/E2/stats/vcc.csv:548
+c,"Δ, all-cells label",Stack,VCC test,G6,r2,0.26187384119986146,0.15399582953584895,0.4218813858158465,"3972 rows, 93 target genes",False,,bioinf2027/results/E2/stats/vcc.csv:890
+c,"Δ, all-cells label",PCA-50,VCC test,G6,r2,0.14690596131058548,0.013804449904917155,0.2964559771872084,"3972 rows, 93 target genes",False,,bioinf2027/results/E2/stats/vcc.csv:1250
+c,"D½, all-cells label",Geneformer,VCC test,G6,r2,-0.1505979053297547,-0.298547241402868,-0.06047828097532814,"3972 rows, 93 target genes",False,,bioinf2027/results/E2/stats/vcc.csv:186
+c,"D½, all-cells label",scGPT,VCC test,G6,r2,-0.17308156139805464,-0.3250292967963826,-0.08005900286252512,"3972 rows, 93 target genes",False,,bioinf2027/results/E2/stats/vcc.csv:550
+c,"D½, all-cells label",Stack,VCC test,G6,r2,-0.18449972994023356,-0.33941462017339225,-0.10175541462723131,"3972 rows, 93 target genes",False,,bioinf2027/results/E2/stats/vcc.csv:892
+c,"D½, all-cells label",PCA-50,VCC test,G6,r2,-0.08484655903373037,-0.20650922571514974,0.01121531739484986,"3972 rows, 93 target genes",False,,bioinf2027/results/E2/stats/vcc.csv:1252
+c,"B0 head alone (absolute), all-cells label",B0,VCC test,G6,r2,0.24206737278277723,0.12562044059349464,0.356211061917302,"3972 rows, 93 target genes",False,,bioinf2027/results/E2/stats/vcc.csv:1644
+d,"N0 − C1, all-cells external label",Geneformer,RPE1,G6,spearman,0.33241256112596373,0.27745776233276903,0.3878107789914388,,False,,bioinf2027/results/S1_supplement/external_control.csv:23
+d,"N0 − C1, size-fixed external label",Geneformer,RPE1,G6,spearman,-0.03444073887830626,-0.09145829225407759,0.023277374112658344,,False,,bioinf2027/results/E2/null_external_followup/existing_label/null_external.csv:18
+d,"N0 − C1, all-cells external label",Geneformer,K562-essential,G6,spearman,0.37016317904296775,0.31399331012215637,0.4242448594699671,,False,,bioinf2027/results/S1_supplement/external_control.csv:64
+d,"N0 − C1, size-fixed external label",Geneformer,K562-essential,G6,spearman,-0.008397458542356639,-0.06995109197928441,0.052442363571081466,,False,,bioinf2027/results/E2/null_external_followup/existing_label/null_external.csv:24
+d,"N0 − C1, all-cells external label",scGPT,RPE1,G6,spearman,0.3407480178524065,0.2876538714237714,0.3949030075994587,,False,,bioinf2027/results/S1_supplement/external_control.csv:28
+d,"N0 − C1, size-fixed external label",scGPT,RPE1,G6,spearman,-0.006923021544366956,-0.06339407936648847,0.05075421558601949,,False,,bioinf2027/results/E2/null_external_followup/existing_label/null_external.csv:42
+d,"N0 − C1, all-cells external label",scGPT,K562-essential,G6,spearman,0.3621749220405075,0.30529455834594166,0.4193337156338416,,False,,bioinf2027/results/S1_supplement/external_control.csv:69
+d,"N0 − C1, size-fixed external label",scGPT,K562-essential,G6,spearman,-0.0037606678352831054,-0.06404583450630336,0.05785487476041094,,False,,bioinf2027/results/E2/null_external_followup/existing_label/null_external.csv:48
+d,"N0 − C1, all-cells external label",Stack,RPE1,G6,spearman,0.357932719575735,0.3037023970248614,0.4115140428011869,,False,possibly in Stack's pre-training data [VERIFY],bioinf2027/results/S1_supplement/external_control.csv:33
+d,"N0 − C1, size-fixed external label",Stack,RPE1,G6,spearman,-0.019397098907772876,-0.07725208341525165,0.038920939744819326,,False,possibly in Stack's pre-training data [VERIFY],bioinf2027/results/E2/null_external_followup/existing_label/null_external.csv:66
+d,"N0 − C1, all-cells external label",Stack,K562-essential,G6,spearman,0.3860098404445329,0.32945813746544533,0.44193972740367443,,False,possibly in Stack's pre-training data [VERIFY],bioinf2027/results/S1_supplement/external_control.csv:74
+d,"N0 − C1, size-fixed external label",Stack,K562-essential,G6,spearman,-0.011608698964787209,-0.0725403163829472,0.05008018755715518,,False,possibly in Stack's pre-training data [VERIFY],bioinf2027/results/E2/null_external_followup/existing_label/null_external.csv:72
+d,"N0 − C1, all-cells external label",PCA-50,RPE1,G6,spearman,0.36048566352070094,0.3008230966970832,0.4175124347018621,,False,,bioinf2027/results/S1_supplement/external_control.csv:38
+d,"N0 − C1, size-fixed external label",PCA-50,RPE1,G6,spearman,0.024742473441742383,-0.037915889551943485,0.08721820991091263,,False,,bioinf2027/results/E2/null_external_followup/existing_label/null_external.csv:90
+d,"N0 − C1, all-cells external label",PCA-50,K562-essential,G6,spearman,0.3527688048254865,0.29611469727903045,0.41037554384675273,,False,,bioinf2027/results/S1_supplement/external_control.csv:79
+d,"N0 − C1, size-fixed external label",PCA-50,K562-essential,G6,spearman,0.01870999636947685,-0.040571161588624276,0.07818027275854851,,False,,bioinf2027/results/E2/null_external_followup/existing_label/null_external.csv:96

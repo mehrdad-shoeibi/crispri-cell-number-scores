@@ -1,0 +1,64 @@
+{
+ "plan": "bioinf2027/plans/E5.md, Sections 7 and 18",
+ "inputs": {
+  "checkpoint": {
+   "path": "$IGA_STORAGE_ROOT/MADA/cache/foundation_models/geneformer-repo/Geneformer-V2-104M/model.safetensors",
+   "bytes": 417571156,
+   "sha256": "fff5cba29ddd8792991fa77b4872246fbe548a178cebda3775cdc72b67780e7f",
+   "locked_sha256": "fff5cba29ddd8792991fa77b4872246fbe548a178cebda3775cdc72b67780e7f",
+   "equals_the_lock": true
+  },
+  "model_config": {
+   "path": "$IGA_STORAGE_ROOT/MADA/cache/foundation_models/geneformer-repo/Geneformer-V2-104M/config.json",
+   "bytes": 590,
+   "sha256": "467d4492f0dd53b4d60afffe20812db484ca1cf9fdbeb6a6e060e93564f70859"
+  },
+  "token_dictionary": {
+   "path": "$IGA_STORAGE_ROOT/MADA/cache/foundation_models/geneformer-repo/geneformer/token_dictionary_gc104M.pkl",
+   "bytes": 425590,
+   "sha256": "67c445f4385127adfc48dcc072320cd65d6822829bf27dd38070e6e787bc597f",
+   "locked_sha256": "67c445f4385127adfc48dcc072320cd65d6822829bf27dd38070e6e787bc597f",
+   "equals_the_lock": true
+  },
+  "ensembl_mapping_dictionary": {
+   "path": "$IGA_STORAGE_ROOT/MADA/cache/foundation_models/geneformer-repo/geneformer/ensembl_mapping_dict_gc104M.pkl",
+   "bytes": 3957652,
+   "sha256": "0819bcbd869cfa14279449b037eb9ed1d09a91310e77bd1a19d927465030e95c",
+   "locked_sha256": "0819bcbd869cfa14279449b037eb9ed1d09a91310e77bd1a19d927465030e95c",
+   "equals_the_lock": true
+  },
+  "gene_name_id_dictionary": {
+   "path": "$IGA_STORAGE_ROOT/MADA/cache/foundation_models/geneformer-repo/geneformer/gene_name_id_dict_gc104M.pkl",
+   "bytes": 1660882,
+   "sha256": "fabfa0c2f49c598c59ae432a32c3499a5908c033756c663b5e0cddf58deea8e1"
+  }
+ },
+ "matrix": {
+  "key": "bert.embeddings.word_embeddings.weight",
+  "shape": [
+   20275,
+   768
+  ]
+ },
+ "coverage": {
+  "RPE1": {
+   "genes": 1811,
+   "covered": 1810
+  },
+  "K562-essential": {
+   "genes": 1811,
+   "covered": 1811
+  },
+  "VCC": {
+   "genes": 282,
+   "covered": 282
+  }
+ },
+ "VCC symbols without an ID": [],
+ "output": {
+  "path": "$IGA_STORAGE_ROOT/bioinf2027/E5/identity/geneformer_token.npz",
+  "bytes": 7257298,
+  "sha256": "73f0a9d21a2f313caa35d089bb9cdffc67555b1ef846f9cc5a019967284a5fcb"
+ },
+ "seconds": 5.2
+}

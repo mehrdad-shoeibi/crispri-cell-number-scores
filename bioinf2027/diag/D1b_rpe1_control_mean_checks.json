@@ -1,0 +1,139 @@
+{
+ "plan": "bioinf2027/plans/D1b.md, Section 7.2",
+ "paths_relative_to": "$IGA_STORAGE_ROOT",
+ "inputs": {
+  "single_cell_counts": "$IGA_STORAGE_ROOT/IGA_MAIN/data/replogle/raw_singlecell/rpe1_raw_singlecell_01.h5ad",
+  "stored_control_index": "$IGA_STORAGE_ROOT/IGA_GENEFORMER_EXT/scratch/nt_oidx.npy",
+  "construct_list": "$IGA_STORAGE_ROOT/IGA_MAIN/results_v4/transfer_pretest_lock_v1/arm1_rpe1_construct_list.csv",
+  "persisted_delta_matrix": "$IGA_STORAGE_ROOT/IGA_GENEFORMER_EXT/x_cell/x_cell_rpe1_native.npz",
+  "mid_pass_state": "$IGA_STORAGE_ROOT/IGA_GENEFORMER_EXT/checkpoints/rpe1_xcell/xcell_state.pkl",
+  "recorded_manifest": "$IGA_STORAGE_ROOT/IGA_GENEFORMER_EXT/manifests/phase2_rpe1_manifest.json"
+ },
+ "recorded_values": {
+  "control_cells": {
+   "value": 11485,
+   "source": "earlier_revision/experiment_specs/phase2_rpe1_topup_and_xcell.md:55-56; $IGA_STORAGE_ROOT/IGA_GENEFORMER_EXT/logs/phase2_embed_xcell.json, acc_trace.nt_count"
+  },
+  "pass_cells": {
+   "value": 208606,
+   "source": "earlier_revision/experiment_specs/phase2_rpe1_topup_and_xcell.md:55-56; $IGA_STORAGE_ROOT/IGA_GENEFORMER_EXT/logs/phase2_embed_xcell.json, acc_trace.total_cells"
+  },
+  "pass_chunks": {
+   "value": 42,
+   "source": "$IGA_STORAGE_ROOT/IGA_GENEFORMER_EXT/logs/phase2_embed_xcell.json, chunks; earlier_revision/experiment_specs/phase2_rpe1_topup_and_xcell.md:72"
+  },
+  "constructs": {
+   "value": 1932,
+   "source": "earlier_revision/experiment_specs/phase2_rpe1_topup_and_xcell.md:24"
+  },
+  "snapshot_chunks": {
+   "value": 40,
+   "source": "earlier_revision/experiment_specs/phase2_rpe1_topup_and_xcell.md:72-73; bioinf2027/diag/D1b_provenance.json at commit bd78b5e, state_updates"
+  },
+  "snapshot_cells": {
+   "value": 200000,
+   "source": "bioinf2027/diag/D1b_provenance.json at commit bd78b5e, state_total_cells"
+  },
+  "snapshot_control_cells": {
+   "value": 11007,
+   "source": "bioinf2027/diag/D1b_provenance.json at commit bd78b5e, state_nt_count; earlier_revision/experiment_specs/phase4_prep.md:490"
+  }
+ },
+ "chunk": 5000,
+ "normalisation": "log1p(counts / cell total * 10000) in double precision, total over all genes, after a single-precision cast on read as in the recorded pass",
+ "checks": {
+  "stored_index": {
+   "stored_rows": 11485,
+   "stored_rows_in_range": true,
+   "stored_rows_strictly_ascending": true,
+   "rows_by_recorded_rule": 11485,
+   "rows_by_endpoint_rule": 11485,
+   "stored_equals_recorded_rule": true,
+   "stored_equals_endpoint_rule": true,
+   "recorded_rule_text": "gene annotation equal to 'non-targeting'",
+   "endpoint_rule_text": "gene annotation containing 'non-targeting', ignoring case",
+   "control_cells_also_carrying_a_listed_construct": 0,
+   "pass_cells": 208606,
+   "pass_chunks": 42,
+   "constructs_listed": 1932,
+   "constructs_listed_unique": true,
+   "constructs_with_cells": 1932,
+   "passed": true
+  },
+  "checkpoint_prefix": {
+   "recorded_updates": 40,
+   "recorded_cells": 200000,
+   "recorded_control_cells": 11007,
+   "repeated_chunks": 40,
+   "repeated_cells": 200000,
+   "repeated_control_cells": 11007,
+   "constructs_in_recorded_state": 1932,
+   "constructs_seen_in_repeated_pass": 1932,
+   "construct_sets_equal": true,
+   "constructs_unknown_to_the_list": [],
+   "constructs_with_a_count_but_no_sum": [],
+   "constructs_with_a_different_count": [],
+   "max_abs_difference_of_sums": 0.0,
+   "max_relative_difference_of_sums": 0.0,
+   "tolerance": "absolute 1e-09 plus relative 1e-12 of the recorded sum, element by element",
+   "largest_excess_over_the_tolerance": -1e-09,
+   "passed": true,
+   "perturbed_cells_per_construct_at_the_snapshot": {
+    "q000": 25.0,
+    "q025": 48.0,
+    "q050": 73.0,
+    "q075": 113.0,
+    "q100": 3451.0
+   }
+  },
+  "identity": {
+   "control_cells": 11485,
+   "pass_cells": 208606,
+   "pass_chunks": 42,
+   "n_genes": 8749,
+   "persisted_shape": [
+    1932,
+    8749
+   ],
+   "constructs_compared": 1932,
+   "construct_ids_equal_and_in_the_same_order": true,
+   "constructs_without_cells": 0,
+   "identity_max_abs_diff": 0.0,
+   "identity_tolerance": 1e-09,
+   "perturbed_cells_per_construct": {
+    "q000": 27.0,
+    "q025": 50.0,
+    "q050": 76.0,
+    "q075": 118.0,
+    "q100": 3580.0
+   },
+   "persisted_shape_matches": true,
+   "passed": true
+  }
+ },
+ "all_passed": true,
+ "input_digests": {
+  "construct_list_sha256": "e4d7534822a32564eaae0ed16f4e3dfa88616a00ecd2d7284140155b2985e3b2",
+  "construct_list_against_recorded_manifest": "equal",
+  "stored_control_index_sha256": "7daa49d62f35be91b8c8645b19310aff8fa3d7458185732625063b224d3ea696",
+  "persisted_delta_matrix_sha256": "ee766e65c18cace39b7a7d225b3e218d22330b564b765759c6f63371d3e3ec57",
+  "mid_pass_state_sha256": "7f4e231e050439fcd69815e6972bc54a432894d0ae2ccd2a048eca29d84de336",
+  "recorded_manifest_sha256": "f1c78a931653edfc9890a63760fc2f2abdffb51c74d6f338dd60be352a4f1aec",
+  "single_cell_counts_sha256": "9b05ef1f81526216fa008d677e9e0d03dce9a2f7a95499a4fb81e505e9d88ef1"
+ },
+ "single_cell_matrix": {
+  "cells": 247914,
+  "genes": 8749,
+  "stored_dtype": "float32",
+  "read_dtype": "float32"
+ },
+ "control_mean_array": {
+  "path": "bioinf2027/cache/mu_nt_rpe1.npy",
+  "sha256": "76735c5ee8ae9f863dc9e7d41b2b370d02cf5198fb42405215e9858c95c8374d",
+  "shape": [
+   8749
+  ],
+  "dtype": "float64",
+  "definition": "control sum / control count over the 11,485 control cells, the plain mean of the recorded pass, log1p(counts / cell total * 10,000) per cell"
+ }
+}

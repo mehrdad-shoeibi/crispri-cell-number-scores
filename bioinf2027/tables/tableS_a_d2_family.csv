@@ -1,0 +1,19 @@
+Configuration,Scope,Statistic,Estimate,Interval,p,Holm threshold,State,Read status
+G5,VCC test,dR2_token,+0.001,"[−0.033, +0.028]",0.8763,0.0250,inconclusive,"not read: reading (f), z fails its VCC precondition in this cell"
+G5,VCC test,dR2_rest,−0.217,"[−0.822, +0.069]",0.1586,0.0045,inconclusive,"not read: reading (f), z fails its VCC precondition in this cell"
+G5,VCC test,VCC noise check R2(z~) - R2(z-),+0.007,"[−0.025, +0.039]",0.5767,0.0063,inconclusive,"not read: reading (f), z fails its VCC precondition in this cell"
+G5,RPE1,drho_token,−0.007,"[−0.014, +0.000]",0.0628,0.0036,inconclusive,read: inconclusive; external statement in readings.csv
+G5,RPE1,R(z-),+0.006,"[−0.037, +0.048]",0.7865,0.0125,inconclusive,not read: E1's R5 gate fails on this screen
+G5,RPE1,external noise check rho(z~) - rho(z-),−0.007,"[−0.014, +0.001]",0.0872,0.0038,inconclusive,read: inconclusive; external statement in readings.csv
+G5,K562-essential,drho_token,−0.008,"[−0.016, −0.001]",0.0190,0.0029,inconclusive,read: inconclusive; external statement in readings.csv
+G5,K562-essential,R(z-),+0.014,"[−0.027, +0.056]",0.4914,0.0050,inconclusive,not read: E1's R5 gate fails on this screen
+G5,K562-essential,external noise check rho(z~) - rho(z-),−0.011,"[−0.019, −0.004]",0.0028,0.0028,inconclusive,read: inconclusive; external statement in readings.csv
+G6,VCC test,dR2_token,−0.003,"[−0.018, +0.009]",0.6775,0.0071,inconclusive,"not read: reading (f), z fails its VCC precondition in this cell"
+G6,VCC test,dR2_rest,+0.002,"[−0.096, +0.091]",0.9979,0.0500,inconclusive,"not read: reading (f), z fails its VCC precondition in this cell"
+G6,VCC test,VCC noise check R2(z~) - R2(z-),−0.003,"[−0.018, +0.008]",0.6839,0.0083,inconclusive,"not read: reading (f), z fails its VCC precondition in this cell"
+G6,RPE1,drho_token,−0.007,"[−0.015, +0.000]",0.0622,0.0033,inconclusive,read: inconclusive; external statement in readings.csv
+G6,RPE1,R(z-),+0.008,"[−0.038, +0.054]",0.7041,0.0100,inconclusive,not read: E1's R5 gate fails on this screen
+G6,RPE1,external noise check rho(z~) - rho(z-),−0.008,"[−0.016, −0.000]",0.0426,0.0031,inconclusive,read: inconclusive; external statement in readings.csv
+G6,K562-essential,drho_token,+0.001,"[−0.008, +0.009]",0.8503,0.0167,inconclusive,read: inconclusive; external statement in readings.csv
+G6,K562-essential,R(z-),+0.038,"[−0.006, +0.082]",0.0908,0.0042,inconclusive,not read: E1's R5 gate fails on this screen
+G6,K562-essential,external noise check rho(z~) - rho(z-),−0.003,"[−0.011, +0.006]",0.5395,0.0056,inconclusive,read: inconclusive; external statement in readings.csv

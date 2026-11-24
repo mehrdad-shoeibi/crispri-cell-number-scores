@@ -1,0 +1,159 @@
+{
+ "paths_relative_to": "$IGA_STORAGE_ROOT",
+ "purpose": "inputs of E1, recorded before its design is final; no label or statistic computed",
+ "files": {
+  "VCC train": {
+   "path": "$IGA_STORAGE_ROOT/IGA_MAIN/data/vcc/train/adata_Training.h5ad",
+   "bytes": 15482497461,
+   "sha256": "a09977104fefb622368ca74b50c9d3c1e891733e6c83db07acfca49b0219c02b",
+   "matrix": {
+    "layout": "csr_matrix",
+    "shape": [
+     221273,
+     18080
+    ],
+    "stored_dtype": "float32",
+    "stored_values": 1932554688
+   },
+   "obs_columns": [
+    "_index",
+    "batch",
+    "guide_id",
+    "target_gene"
+   ],
+   "vcc": {
+    "control_cells": 38176,
+    "perturbed_cells": 183097,
+    "batches": 48,
+    "target_genes": 150,
+    "groups": 7110,
+    "guides_per_group": {
+     "min": 1,
+     "median": 1.0,
+     "max": 2,
+     "groups_with_more_than_one_guide": 384
+    }
+   }
+  },
+  "VCC validation": {
+   "path": "$IGA_STORAGE_ROOT/IGA_MAIN/data/vcc/validation/adata_Validation.h5ad",
+   "bytes": 6928967541,
+   "sha256": "376f0bab27d9f22e00dfd888668d3602006d035edc182721c378f4802c77bfe1",
+   "matrix": {
+    "layout": "csr_matrix",
+    "shape": [
+     98927,
+     18080
+    ],
+    "stored_dtype": "float32",
+    "stored_values": 864793017
+   },
+   "obs_columns": [
+    "_index",
+    "batch",
+    "guide_id",
+    "target_gene"
+   ],
+   "vcc": {
+    "control_cells": 38176,
+    "perturbed_cells": 60751,
+    "batches": 48,
+    "target_genes": 50,
+    "groups": 2399,
+    "guides_per_group": {
+     "min": 1,
+     "median": 1.0,
+     "max": 2,
+     "groups_with_more_than_one_guide": 192
+    }
+   }
+  },
+  "VCC test": {
+   "path": "$IGA_STORAGE_ROOT/IGA_MAIN/data/vcc/test/adata_Test.h5ad",
+   "bytes": 11950739168,
+   "sha256": "ba5ce66729e4c8e50b6f147c7d73d3f9f28f76c91fa43ff33e3f6bc2ed831f03",
+   "matrix": {
+    "layout": "csr_matrix",
+    "shape": [
+     170846,
+     18080
+    ],
+    "stored_dtype": "float32",
+    "stored_values": 1491619393
+   },
+   "obs_columns": [
+    "_index",
+    "batch",
+    "guide_id",
+    "target_gene"
+   ],
+   "vcc": {
+    "control_cells": 38176,
+    "perturbed_cells": 132670,
+    "batches": 48,
+    "target_genes": 100,
+    "groups": 4765,
+    "guides_per_group": {
+     "min": 1,
+     "median": 1.0,
+     "max": 2,
+     "groups_with_more_than_one_guide": 234
+    }
+   }
+  },
+  "RPE1": {
+   "path": "$IGA_STORAGE_ROOT/IGA_MAIN/data/replogle/raw_singlecell/rpe1_raw_singlecell_01.h5ad",
+   "bytes": 8700873216,
+   "sha256": "9b05ef1f81526216fa008d677e9e0d03dce9a2f7a95499a4fb81e505e9d88ef1",
+   "matrix": {
+    "layout": "dense",
+    "shape": [
+     247914,
+     8749
+    ],
+    "stored_dtype": "float32"
+   },
+   "obs_columns": [
+    "UMI_count",
+    "cell_barcode",
+    "core_adjusted_UMI_count",
+    "core_scale_factor",
+    "gem_group",
+    "gene",
+    "gene_id",
+    "gene_transcript",
+    "mitopercent",
+    "sgID_AB",
+    "transcript",
+    "z_gemgroup_UMI"
+   ]
+  },
+  "K562-essential": {
+   "path": "$IGA_STORAGE_ROOT/IGA_MAIN/data/replogle/raw_singlecell/K562_essential_raw_singlecell_01.h5ad",
+   "bytes": 10661879995,
+   "sha256": "3e5a63a9e892b21029bb55fca4e12517a49aad7af6c14133ca63d12cf68c6cee",
+   "matrix": {
+    "layout": "dense",
+    "shape": [
+     310385,
+     8563
+    ],
+    "stored_dtype": "float32"
+   },
+   "obs_columns": [
+    "UMI_count",
+    "cell_barcode",
+    "core_adjusted_UMI_count",
+    "core_scale_factor",
+    "gem_group",
+    "gene",
+    "gene_id",
+    "gene_transcript",
+    "mitopercent",
+    "sgID_AB",
+    "transcript",
+    "z_gemgroup_UMI"
+   ]
+  }
+ }
+}

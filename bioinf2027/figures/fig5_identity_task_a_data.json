@@ -1,0 +1,39 @@
+{
+ "figure": "fig5_identity_task_a",
+ "code": {
+  "bioinf2027/scripts/figures/fig5_identity_task.py": "9359834055db643c675d605f1be4da089dd7e9491fdbe720142e6c33073ed36b",
+  "bioinf2027/scripts/figures/figlib.py": "6ce5eb4a41a547d622f887c3002e25524d699a2b8c61fda2ad2737b034dbf617",
+  "bioinf2027/scripts/figures/tablelib.py": "5c546fa57595e02901ba2087d5c2334793762f2cb146db4fd434973bb3fe034f"
+ },
+ "inputs": {
+  "bioinf2027/results/E5/supplement_2/same_rows.csv": {
+   "path": "bioinf2027/results/E5/supplement_2/same_rows.csv",
+   "bytes": 133986,
+   "sha256": "d7ed732dec5a537370313889bf854b8646ebd9b5949b57c7e351fe83833a5010"
+  }
+ },
+ "inputs_verified": {
+  "bioinf2027/results/E5/supplement_2/same_rows.csv": "equal to its record in bioinf2027/results/E5/supplement_2/supplement_2_fits.json"
+ },
+ "environment": {
+  "python": "3.13.12",
+  "numpy": "2.4.4",
+  "pandas": "3.0.2",
+  "requirements": {
+   "path": "bioinf2027/requirements.txt",
+   "bytes": 863,
+   "sha256": "f46a415cbe466ba1225adcede4abae7f0dd0b866f29abdf5a6a360e66b1f5702"
+  }
+ },
+ "version": "a",
+ "status": "post hoc, unadjusted (E5 supplement 2); DepMap 24Q4, not the current release",
+ "intervals": "gene-clustered bootstrap, 10,000 replicates, setting seeds 20271121 to 20271124; panel (b) draws the interval of the term that gives the smaller difference",
+ "bounds": "bioinf2027/factsheets/FS5_S5.md (no ranking or pooling of vectors; nothing beyond gene family and fitness together without the failing setting, the magnitudes and the score's name and release)",
+ "outputs": {
+  "fig5_identity_task_a_data.csv": {
+   "path": "bioinf2027/figures/fig5_identity_task_a_data.csv",
+   "bytes": 30761,
+   "sha256": "2d9d09c030d6ab99d77bb9ddda7a8f1dc805ffa4ba65ff66cb00b1d172e348f2"
+  }
+ }
+}

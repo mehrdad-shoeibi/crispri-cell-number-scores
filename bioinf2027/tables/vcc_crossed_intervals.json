@@ -1,0 +1,9 @@
+{
+ "table": "vcc_crossed_intervals",
+ "rows": 20,
+ "inputs": {
+  "bioinf2027/results/E2/supplement/crossed.csv": "5ba7d01c275c6f62c65d113a8c9418cc2466af7f24f2aca313424f1d31cd29ac"
+ },
+ "rounding": "three decimals, round half to even",
+ "fits": "none"
+}

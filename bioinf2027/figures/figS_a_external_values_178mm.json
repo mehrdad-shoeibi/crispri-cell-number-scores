@@ -1,0 +1,54 @@
+{
+ "figure": "figS_a_external_values",
+ "width_mm": 178,
+ "dpi_png": 600,
+ "minimum_text_pt": 6.0,
+ "panel_data": "bioinf2027/figures/figS_a_external_values_data.csv",
+ "environment": {
+  "python": "3.13.12",
+  "numpy": "2.4.4",
+  "pandas": "3.0.2",
+  "requirements": {
+   "path": "bioinf2027/requirements.txt",
+   "bytes": 863,
+   "sha256": "f46a415cbe466ba1225adcede4abae7f0dd0b866f29abdf5a6a360e66b1f5702"
+  },
+  "matplotlib": "3.10.8"
+ },
+ "code": {
+  "bioinf2027/scripts/figures/figS_a_external_values.py": "1cf786001db02db1103a29b73444bfbeb670c13b81d1d61251caad65afd963e1",
+  "bioinf2027/scripts/figures/figlib.py": "6ce5eb4a41a547d622f887c3002e25524d699a2b8c61fda2ad2737b034dbf617",
+  "bioinf2027/scripts/figures/labels.toml": "b547ce0f4bf5fa7e6d8ee20d3f6237ed91a0f0b49de9cd3e7befb630c4b181d8"
+ },
+ "labels_read": [
+  "[figS_a] row",
+  "[figS_a] x_L",
+  "[figS_a] x_T",
+  "[names] K562-essential",
+  "[names] PCA-50",
+  "[names] RPE1",
+  "[names] Stack",
+  "[names] scGPT",
+  "[names] stack_marker",
+  "[terms] G5",
+  "[terms] G6",
+  "[terms] L",
+  "[terms] T",
+  "[terms] m",
+  "[terms] x",
+  "[terms] x_m",
+  "[terms] z"
+ ],
+ "outputs": {
+  "figS_a_external_values_178mm.pdf": {
+   "path": "bioinf2027/figures/figS_a_external_values_178mm.pdf",
+   "bytes": 24918,
+   "sha256": "95abb962c0e9bfd3a9f373415d4404b971e3d602a64bd91784e4ab30c025971b"
+  },
+  "figS_a_external_values_178mm.png": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/figures/figS_a_external_values_178mm.png",
+   "bytes": 613610,
+   "sha256": "428ec1cb3b121a155e73d43ca3dc71f9002c9528851c1d90bb17805f110f9043"
+  }
+ }
+}

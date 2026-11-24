@@ -1,0 +1,72 @@
+{
+ "figure": "figS_d_endpoint_cell_number",
+ "code": {
+  "bioinf2027/scripts/figures/fig2_endpoint_cell_number.py": "1fb634d24fe4ec60011c2a912327990fa76a163fdfc62ab124d9bdd4db24bcd7",
+  "bioinf2027/scripts/figures/figlib.py": "6ce5eb4a41a547d622f887c3002e25524d699a2b8c61fda2ad2737b034dbf617",
+  "bioinf2027/scripts/figures/tablelib.py": "5c546fa57595e02901ba2087d5c2334793762f2cb146db4fd434973bb3fe034f"
+ },
+ "inputs": {
+  "bioinf2027/endpoints/readouts/R2_between.csv": {
+   "path": "bioinf2027/endpoints/readouts/R2_between.csv",
+   "bytes": 6440,
+   "sha256": "69165339c4ffac1f5977fc8d5ec2430751d64650e00309119cb2419c97952e6e"
+  },
+  "bioinf2027/endpoints/readouts/R1_R3_R6.csv": {
+   "path": "bioinf2027/endpoints/readouts/R1_R3_R6.csv",
+   "bytes": 115749,
+   "sha256": "e01a6144d37f0a7fd494385e40956b96bc09e138f3154d31a3d0d12e66b98e8b"
+  },
+  "bioinf2027/endpoints/readouts/supplement/5_6_R5_detail.csv": {
+   "path": "bioinf2027/endpoints/readouts/supplement/5_6_R5_detail.csv",
+   "bytes": 4246,
+   "sha256": "c5d5139a79d55cf91ffad34f08ea7cf025ed42337e3ae69a0da1ff2956ece879"
+  },
+  "bioinf2027/endpoints/G5/manifest.json": {
+   "path": "bioinf2027/endpoints/G5/manifest.json",
+   "bytes": 1749,
+   "sha256": "845cd1dc6de849a711a9e198acb5a26cab3bd376aadffcba5e8347e737962461"
+  }
+ },
+ "inputs_verified": {
+  "bioinf2027/endpoints/readouts/R2_between.csv": "equal to its record in bioinf2027/endpoints/readouts/readouts.json",
+  "bioinf2027/endpoints/readouts/R1_R3_R6.csv": "equal to its record in bioinf2027/endpoints/readouts/readouts.json",
+  "bioinf2027/endpoints/readouts/supplement/5_6_R5_detail.csv": "equal to its record in bioinf2027/endpoints/readouts/supplement/supplement.json",
+  "bioinf2027/endpoints/G5/manifest.json": "equal to its record in bioinf2027/endpoints/readouts/readouts.json"
+ },
+ "environment": {
+  "python": "3.13.12",
+  "numpy": "2.4.4",
+  "pandas": "3.0.2",
+  "requirements": {
+   "path": "bioinf2027/requirements.txt",
+   "bytes": 863,
+   "sha256": "f46a415cbe466ba1225adcede4abae7f0dd0b866f29abdf5a6a360e66b1f5702"
+  }
+ },
+ "version": "supplement",
+ "data_root_inputs": {
+  "$IGA_STORAGE_ROOT/bioinf2027/endpoints/G5/vcc_labels.csv": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/endpoints/G5/vcc_labels.csv",
+   "bytes": 2924258,
+   "sha256": "029c3bb966d1138ca0c7afade66115f58fbe5b773d64aef10a8b3dc196e1b08c"
+  }
+ },
+ "scatter_points": {
+  "path": "$IGA_STORAGE_ROOT/bioinf2027/figures/figS_d_endpoint_cell_number_rows.csv",
+  "rows": 12154,
+  "bytes": 969198,
+  "sha256": "966f2dcf4dadba8bae7dcea13be61d2975dc9062a7ac651a6c8b094a6ebed8be",
+  "source": "each row's line of $IGA_STORAGE_ROOT/bioinf2027/endpoints/G5/vcc_labels.csv, columns n_pool, existing_label and y"
+ },
+ "intervals": "the scatter has no interval; own shift: R3's target-gene cluster bootstrap (VCC, 10,000 replicates, seed 20270301) and the readouts' bootstrap (external); the share has no interval (one fold seed)",
+ "share_rule": "main version: the row E1a's R5 rule uses per data set and setting (bioinf2027/reports/E1a.md:83-84)",
+ "external_labels": "association panel: 27 against 788 and all eligible cells against 788 pooled controls (G1's external table and S1 (c)), not G5's 27 against 700",
+ "bounds": "bioinf2027/factsheets/FS1_S1.md and FS3_S3.md; validation values are descriptive",
+ "outputs": {
+  "figS_d_endpoint_cell_number_data.csv": {
+   "path": "bioinf2027/figures/figS_d_endpoint_cell_number_data.csv",
+   "bytes": 4491,
+   "sha256": "bd5774a516c0ca83fbad83c121f703cdfc8bbccfef873b59927fa33887c03937"
+  }
+ }
+}

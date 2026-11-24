@@ -1,0 +1,50 @@
+{
+ "table": "tableS_j_closing_3_e5_holm",
+ "code": {
+  "bioinf2027/scripts/figures/tableS_j_closing.py": "087cf94543a6b6aa3adcb26cda02737eac06e5bc8fc882b69586b61654d83cfa",
+  "bioinf2027/scripts/figures/tablelib.py": "5c546fa57595e02901ba2087d5c2334793762f2cb146db4fd434973bb3fe034f"
+ },
+ "inputs": {
+  "bioinf2027/results/missing_analyses_closing/e5_joint_holm.csv": {
+   "path": "bioinf2027/results/missing_analyses_closing/e5_joint_holm.csv",
+   "bytes": 11136,
+   "sha256": "458a0cf71f96cc6940b6a6178ab46b743cc6333efc8ad529d48f03e2d1d9bd6f"
+  },
+  "bioinf2027/results/missing_analyses_closing/closing.json": {
+   "path": "bioinf2027/results/missing_analyses_closing/closing.json",
+   "bytes": 21061,
+   "sha256": "68969eace89e6c4a40da09e2e22998df9ad3cc2a8d6f71e1badc8ec846f1015c"
+  }
+ },
+ "inputs_verified": {
+  "bioinf2027/results/missing_analyses_closing/e5_joint_holm.csv": "equal to its record in bioinf2027/results/missing_analyses_closing/closing.json",
+  "bioinf2027/results/missing_analyses_closing/closing.json": "no record lists it; a tracked file without uncommitted changes"
+ },
+ "environment": {
+  "python": "3.13.12",
+  "numpy": "2.4.4",
+  "pandas": "3.0.2",
+  "requirements": {
+   "path": "bioinf2027/requirements.txt",
+   "bytes": 863,
+   "sha256": "f46a415cbe466ba1225adcede4abae7f0dd0b866f29abdf5a6a360e66b1f5702"
+  }
+ },
+ "tex": "booktabs; Unicode symbols (\u2212, \u03c1, \u2192, \u00bd), so a Unicode TeX engine (XeLaTeX or LuaLaTeX)",
+ "status": "post hoc, unadjusted, not part of any family, no reading",
+ "record": "bioinf2027/results/missing_analyses_closing/closing.json",
+ "depmap_release": "DepMap 24Q4, not the current release",
+ "note": "descriptive; Holm is not a family of the plan",
+ "outputs": {
+  "tableS_j_closing_3_e5_holm.csv": {
+   "path": "bioinf2027/tables/tableS_j_closing_3_e5_holm.csv",
+   "bytes": 3611,
+   "sha256": "f890f68e204d0e5f797b304aab9374ed44020986e0243236d0a8f9241e6e80b4"
+  },
+  "tableS_j_closing_3_e5_holm.tex": {
+   "path": "bioinf2027/tables/tableS_j_closing_3_e5_holm.tex",
+   "bytes": 4249,
+   "sha256": "bd0446608c244ef84d16e5d24fa4b05625cd565dd97d15d35d67352a88738018"
+  }
+ }
+}

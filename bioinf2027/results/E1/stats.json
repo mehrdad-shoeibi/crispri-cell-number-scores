@@ -1,0 +1,369 @@
+{
+ "plan": "bioinf2027/plans/E1_design.md, Sections 10 and 11, as amended by Sections 21 to 28",
+ "settings": {
+  "replicates": 10000,
+  "external_seeds": {
+   "RPE1": 20260901,
+   "K562-essential": 20260902
+  },
+  "vcc_seed": 20270301,
+  "batch_seed": 20270302,
+  "fold_seeds": [
+   20270409,
+   20270410,
+   20270411,
+   20270412,
+   20270413
+  ],
+  "alpha": 0.05,
+  "margins": {
+   "R": 0.1,
+   "increment": 0.03
+  },
+  "positive_control_limit": 0.8,
+  "near_ceiling": 0.1,
+  "descriptive_below_target_genes": 50,
+  "refits": 20
+ },
+ "replicate_index_sha256": {
+  "RPE1": "c243e0e8e7a9bb06f4a04d166ecef121433a4456f19d84f1fcc321b40b84cf0b",
+  "K562-essential": "28817ea3afcd9281f6968e539218881ec2f047fc32d8aa05da6296143062b4c6"
+ },
+ "cluster_identifier": "target_ensg, constructs in construct order",
+ "vcc_targets_without_an_ensembl_identifier": [],
+ "inputs": {
+  "supplement": {
+   "path": "bioinf2027/endpoints/readouts/supplement/supplement.json",
+   "bytes": 11390,
+   "sha256": "44ff27afec8c9f77321153d02e51f35c581180028ce1e17a61a2c3abf1055310"
+  },
+  "r5_gate": {
+   "path": "bioinf2027/endpoints/readouts/readouts.json",
+   "bytes": 7237,
+   "sha256": "2dea18e1aa911337133d3be5974374de3b9cacdea168e637e74f5ee855f43d52"
+  },
+  "vcc_annotation": {
+   "path": "$IGA_STORAGE_ROOT/IGA_MAIN/data/vcc/train/adata_Training.h5ad",
+   "bytes": 15482497461,
+   "sha256": "a09977104fefb622368ca74b50c9d3c1e891733e6c83db07acfca49b0219c02b"
+  },
+  "cell_manifests": {
+   "G1": {
+    "path": "bioinf2027/endpoints/G1/manifest.json",
+    "bytes": 1748,
+    "sha256": "4b85517801ed167a901cefdc0cdba89f5898233be2edbda15cc9852cdd08cc28"
+   },
+   "G2": {
+    "path": "bioinf2027/endpoints/G2/manifest.json",
+    "bytes": 1751,
+    "sha256": "61d7ba70991db5b5f5dec46999ce33555fac161e685d113246e909227420c775"
+   },
+   "G3": {
+    "path": "bioinf2027/endpoints/G3/manifest.json",
+    "bytes": 446,
+    "sha256": "d0f569c5e6b173519bee7cda0b3582608f18657f33284c758e93b88bbb9e64df"
+   },
+   "G4": {
+    "path": "bioinf2027/endpoints/G4/manifest.json",
+    "bytes": 444,
+    "sha256": "9093772806f91ce60163c881434e18edf05798a93b3b9ec411a16d313ac4336f"
+   },
+   "G5": {
+    "path": "bioinf2027/endpoints/G5/manifest.json",
+    "bytes": 1749,
+    "sha256": "845cd1dc6de849a711a9e198acb5a26cab3bd376aadffcba5e8347e737962461"
+   },
+   "G6": {
+    "path": "bioinf2027/endpoints/G6/manifest.json",
+    "bytes": 1752,
+    "sha256": "c5947bd85270f863132a9a58f145c3521604e19ffb8129524c3d94ea2f3878cc"
+   },
+   "G1-SU-RPE1": {
+    "path": "bioinf2027/endpoints/G1-SU-RPE1/manifest.json",
+    "bytes": 675,
+    "sha256": "4e8f341cdd13029996d9fc7ed9011393c98e678c3c560078c09b119aa96d009c"
+   },
+   "G1-DT-RPE1": {
+    "path": "bioinf2027/endpoints/G1-DT-RPE1/manifest.json",
+    "bytes": 463,
+    "sha256": "443074474daef2d214aa4f589e902b5bdb083ac695219125f05a90594a26859c"
+   },
+   "G5-DT-RPE1": {
+    "path": "bioinf2027/endpoints/G5-DT-RPE1/manifest.json",
+    "bytes": 462,
+    "sha256": "6ba9e89e4c2262a54a6214eba066ff6a4fbd27de920e6c17fad3e04e09a5b58a"
+   },
+   "G6-DT-RPE1": {
+    "path": "bioinf2027/endpoints/G6-DT-RPE1/manifest.json",
+    "bytes": 463,
+    "sha256": "9c187ef0ec3d30621f985fee214630ec879bdb9a32ad232640687219e6d29b3f"
+   },
+   "G1-SU-K562-essential": {
+    "path": "bioinf2027/endpoints/G1-SU-K562-essential/manifest.json",
+    "bytes": 725,
+    "sha256": "3bd9dad610fd9fe3e112fb532e7222597fa5c7dd03b29fb633894059fd2eed01"
+   },
+   "G1-DT-K562-essential": {
+    "path": "bioinf2027/endpoints/G1-DT-K562-essential/manifest.json",
+    "bytes": 482,
+    "sha256": "29c7406995e16364a0b7170f6aff0ba4501d8347c60f07d6a29d775e288b8df0"
+   },
+   "G5-DT-K562-essential": {
+    "path": "bioinf2027/endpoints/G5-DT-K562-essential/manifest.json",
+    "bytes": 481,
+    "sha256": "2efdd2aaec94072258923d32d9c636fdd31dc6e0c0b3827c9752a0c0dd7436ca"
+   },
+   "G6-DT-K562-essential": {
+    "path": "bioinf2027/endpoints/G6-DT-K562-essential/manifest.json",
+    "bytes": 482,
+    "sha256": "76b744f5e26add7993e13372ca8d2a5b2576cb5080359b36147e5b15590aca50"
+   }
+  },
+  "predictions_manifest": {
+   "path": "bioinf2027/results/E1/predictions_manifest.json",
+   "bytes": 946848,
+   "sha256": "8a7e4be2b70f7260b701091e1d879c3734703a3ca075f73ac731aeb21019ce41"
+  },
+  "protocol": {
+   "path": "bioinf2027/results/E1/protocol.json",
+   "bytes": 8934,
+   "sha256": "80c8bdb0ffc81847c727e0d92ccf4de1e42e59cd0b27ac72d4e8d2298a10b97f"
+  }
+ },
+ "outputs": {
+  "primary_family.csv": {
+   "path": "bioinf2027/results/E1/primary_family.csv",
+   "bytes": 21648,
+   "sha256": "86e25c131d793d1c6f186b09801d053b2676d28a22a74ec7f45542930f696cdc"
+  },
+  "reduces_to_family.csv": {
+   "path": "bioinf2027/results/E1/reduces_to_family.csv",
+   "bytes": 1432,
+   "sha256": "1b3e362dfc0103c8fc7186535e4c301d2facb87d620b25ce9d9c0d642aa9ffbb"
+  },
+  "primary_family_in_support.csv": {
+   "path": "bioinf2027/results/E1/primary_family_in_support.csv",
+   "bytes": 19526,
+   "sha256": "6ce57473bba2dde0c9ea0f78fb0af20d913ca28e568726289b9fb4f2fb813e1c"
+  },
+  "preconditions.csv": {
+   "path": "bioinf2027/results/E1/preconditions.csv",
+   "bytes": 63079,
+   "sha256": "57e385db23a1cd6e8bd12ada398e853c8f50ce68e5bedbedd15dce755f9c0677"
+  },
+  "positive_controls.csv": {
+   "path": "bioinf2027/results/E1/positive_controls.csv",
+   "bytes": 27983,
+   "sha256": "a20f8a1fa0a5f2055926edc28046b923d164326a3a26a01f11e41dc052edb509"
+  },
+  "readings.csv": {
+   "path": "bioinf2027/results/E1/readings.csv",
+   "bytes": 2282,
+   "sha256": "d0da78ae5290ad15b0570c599b458311dcd5833c2c79c60d0b76e7189d751898"
+  },
+  "transfer.csv": {
+   "path": "bioinf2027/results/E1/transfer.csv",
+   "bytes": 1936800,
+   "sha256": "2bf0b13c9040042c86d3db58069027f5fd0013b6808ae25d31e08b6ab0643f9e"
+  },
+  "vcc_test.csv": {
+   "path": "bioinf2027/results/E1/vcc_test.csv",
+   "bytes": 244420,
+   "sha256": "464b679ca9b4faece1590012c641c0d8b7d1ef418a25919ccfdfe3e4b40b1591"
+  },
+  "secondary_contrasts.csv": {
+   "path": "bioinf2027/results/E1/secondary_contrasts.csv",
+   "bytes": 327440,
+   "sha256": "d90c1931f05b44a1ecf890037f89e99a97c67e0ff3ee781a72a2377b1b7b06b7"
+  },
+  "baselines.csv": {
+   "path": "bioinf2027/results/E1/baselines.csv",
+   "bytes": 66767,
+   "sha256": "ab01d0766907c9c0d22c66d547c0eb1aa2a56be6f5a44ce1fd1ca7919b23107b"
+  },
+  "null_band.csv": {
+   "path": "bioinf2027/results/E1/null_band.csv",
+   "bytes": 2163,
+   "sha256": "12652b80f9ab635c64b2d7ff2a79906477b3f852b74581c4a245a3d8185a7b9a"
+  },
+  "refits.csv": {
+   "path": "bioinf2027/results/E1/refits.csv",
+   "bytes": 1415,
+   "sha256": "09745efd826f43d595db2936c042a0bb416436ee2c44ff7cf1967a5d54ff8d3a"
+  },
+  "composition.csv": {
+   "path": "bioinf2027/results/E1/composition.csv",
+   "bytes": 11307,
+   "sha256": "b6d762c9235d9f64ffcbe532de6eb6e45cc29dccbc58204f12868a4ececa0186"
+  },
+  "secondary_heads.csv": {
+   "path": "bioinf2027/results/E1/secondary_heads.csv",
+   "bytes": 50566,
+   "sha256": "3ef065be2bb1eaf7d2c06e3ee4f2a00e3195caaae4ede9c9cecc0405c54359b7"
+  },
+  "ridge_penalties.csv": {
+   "path": "bioinf2027/results/E1/ridge_penalties.csv",
+   "bytes": 71158,
+   "sha256": "1c98dbb3879479081bb884c8107ee2cfa98cf8ce4cd0a47fcbd0da6f3a1f3885"
+  },
+  "bridge.csv": {
+   "path": "bioinf2027/results/E1/bridge.csv",
+   "bytes": 52001,
+   "sha256": "381b1f03b0e8ee4e39c5bd7df0d7ce1ffafd5983c9426757a3a1bbec1f62279e"
+  },
+  "oracle.csv": {
+   "path": "bioinf2027/results/E1/oracle.csv",
+   "bytes": 4321,
+   "sha256": "f7e678195fcf2b3738779fb103249c7ea26df80742e9ba1a515b05cb1c7c1f12"
+  }
+ },
+ "objects_scored": 9016,
+ "in_support_subset": {
+  "G1 | RPE1": {
+   "constructs": 1932,
+   "inside": 1480,
+   "share_inside": 0.7660455486542443,
+   "vcc_training_b0_min": 3.332204510175204,
+   "vcc_training_b0_max": 4.804021044733257
+  },
+  "G1 | K562-essential": {
+   "constructs": 1903,
+   "inside": 985,
+   "share_inside": 0.5176037834997372,
+   "vcc_training_b0_min": 3.332204510175204,
+   "vcc_training_b0_max": 4.804021044733257
+  },
+  "G2 | RPE1": {
+   "constructs": 1932,
+   "inside": 1480,
+   "share_inside": 0.7660455486542443,
+   "vcc_training_b0_min": 2.3978952727983707,
+   "vcc_training_b0_max": 4.804021044733257
+  },
+  "G2 | K562-essential": {
+   "constructs": 1903,
+   "inside": 985,
+   "share_inside": 0.5176037834997372,
+   "vcc_training_b0_min": 2.3978952727983707,
+   "vcc_training_b0_max": 4.804021044733257
+  },
+  "G3 | RPE1": {
+   "constructs": 1932,
+   "inside": 1652,
+   "share_inside": 0.855072463768116,
+   "vcc_training_b0_min": 3.7376696182833684,
+   "vcc_training_b0_max": 8.46821300919452
+  },
+  "G3 | K562-essential": {
+   "constructs": 1903,
+   "inside": 1805,
+   "share_inside": 0.9485023646873357,
+   "vcc_training_b0_min": 3.7376696182833684,
+   "vcc_training_b0_max": 8.46821300919452
+  },
+  "G4 | RPE1": {
+   "constructs": 1932,
+   "inside": 1932,
+   "share_inside": 1.0,
+   "vcc_training_b0_min": 2.3978952727983707,
+   "vcc_training_b0_max": 8.46821300919452
+  },
+  "G4 | K562-essential": {
+   "constructs": 1903,
+   "inside": 1903,
+   "share_inside": 1.0,
+   "vcc_training_b0_min": 2.3978952727983707,
+   "vcc_training_b0_max": 8.46821300919452
+  },
+  "G5 | RPE1": {
+   "constructs": 1932,
+   "inside": 1480,
+   "share_inside": 0.7660455486542443,
+   "vcc_training_b0_min": 3.332204510175204,
+   "vcc_training_b0_max": 4.804021044733257
+  },
+  "G5 | K562-essential": {
+   "constructs": 1903,
+   "inside": 985,
+   "share_inside": 0.5176037834997372,
+   "vcc_training_b0_min": 3.332204510175204,
+   "vcc_training_b0_max": 4.804021044733257
+  },
+  "G6 | RPE1": {
+   "constructs": 1932,
+   "inside": 1480,
+   "share_inside": 0.7660455486542443,
+   "vcc_training_b0_min": 2.3978952727983707,
+   "vcc_training_b0_max": 4.804021044733257
+  },
+  "G6 | K562-essential": {
+   "constructs": 1903,
+   "inside": 985,
+   "share_inside": 0.5176037834997372,
+   "vcc_training_b0_min": 2.3978952727983707,
+   "vcc_training_b0_max": 4.804021044733257
+  },
+  "G1-SU-RPE1 | RPE1": {
+   "constructs": 1932,
+   "inside": 1480,
+   "share_inside": 0.7660455486542443,
+   "vcc_training_b0_min": 3.332204510175204,
+   "vcc_training_b0_max": 4.804021044733257
+  },
+  "G1-DT-RPE1 | RPE1": {
+   "constructs": 1932,
+   "inside": 1480,
+   "share_inside": 0.7660455486542443,
+   "vcc_training_b0_min": 3.332204510175204,
+   "vcc_training_b0_max": 4.804021044733257
+  },
+  "G5-DT-RPE1 | RPE1": {
+   "constructs": 1932,
+   "inside": 1480,
+   "share_inside": 0.7660455486542443,
+   "vcc_training_b0_min": 3.332204510175204,
+   "vcc_training_b0_max": 4.804021044733257
+  },
+  "G6-DT-RPE1 | RPE1": {
+   "constructs": 1932,
+   "inside": 1480,
+   "share_inside": 0.7660455486542443,
+   "vcc_training_b0_min": 2.3978952727983707,
+   "vcc_training_b0_max": 4.804021044733257
+  },
+  "G1-SU-K562-essential | K562-essential": {
+   "constructs": 1903,
+   "inside": 985,
+   "share_inside": 0.5176037834997372,
+   "vcc_training_b0_min": 3.332204510175204,
+   "vcc_training_b0_max": 4.804021044733257
+  },
+  "G1-DT-K562-essential | K562-essential": {
+   "constructs": 1903,
+   "inside": 985,
+   "share_inside": 0.5176037834997372,
+   "vcc_training_b0_min": 3.332204510175204,
+   "vcc_training_b0_max": 4.804021044733257
+  },
+  "G5-DT-K562-essential | K562-essential": {
+   "constructs": 1903,
+   "inside": 985,
+   "share_inside": 0.5176037834997372,
+   "vcc_training_b0_min": 3.332204510175204,
+   "vcc_training_b0_max": 4.804021044733257
+  },
+  "G6-DT-K562-essential | K562-essential": {
+   "constructs": 1903,
+   "inside": 985,
+   "share_inside": 0.5176037834997372,
+   "vcc_training_b0_min": 2.3978952727983707,
+   "vcc_training_b0_max": 4.804021044733257
+  }
+ },
+ "stored_phase4_predictions": {
+  "path": "earlier_revision/phase4/phase4_ext_predictions.npz",
+  "bytes": 346604,
+  "sha256": "71977763748f670b8447a728b0a42c6f1bbfbe8fd6fb64e252e0277421ac8082"
+ },
+ "seconds": 16018.1
+}

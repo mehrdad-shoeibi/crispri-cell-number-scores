@@ -1,0 +1,183 @@
+direction,contrast,statistic
+RPE1 to K562-essential,z minus the target screen's raw B1,difference of Spearman
+RPE1 to K562-essential,z minus the target screen's raw B2,difference of Spearman
+RPE1 to K562-essential,z minus the B1 model trained on the source,difference of Spearman
+RPE1 to K562-essential,z minus TR,difference of Spearman
+RPE1 to K562-essential,[TR; z] minus TR,difference of Spearman
+RPE1 to K562-essential,"T of z, mean-across-draws label",T
+RPE1 to K562-essential,"T of z, E4 matched features draw 1",T
+RPE1 to K562-essential,"T of z, E4 matched features draw 2",T
+RPE1 to K562-essential,"T of z, E4 matched features draw 3",T
+RPE1 to K562-essential,"z, cell-disjoint (half B features, half A label)",Spearman
+RPE1 to K562-essential,"R of z, cell-disjoint",R
+RPE1 to K562-essential,x minus the target screen's raw B1,difference of Spearman
+RPE1 to K562-essential,x minus the target screen's raw B2,difference of Spearman
+RPE1 to K562-essential,x minus the B1 model trained on the source,difference of Spearman
+RPE1 to K562-essential,x minus TR,difference of Spearman
+RPE1 to K562-essential,[TR; x] minus TR,difference of Spearman
+RPE1 to K562-essential,"x, basis e1b",Spearman
+RPE1 to K562-essential,"x, basis shared genes",Spearman
+RPE1 to K562-essential,"T of x, mean-across-draws label",T
+RPE1 to K562-essential,"T of x, E4 matched features draw 1",T
+RPE1 to K562-essential,"T of x, E4 matched features draw 2",T
+RPE1 to K562-essential,"T of x, E4 matched features draw 3",T
+RPE1 to K562-essential,"x, cell-disjoint (half B features, half A label)",Spearman
+RPE1 to K562-essential,"R of x, cell-disjoint",R
+RPE1 to K562-essential,m minus the target screen's raw B1,difference of Spearman
+RPE1 to K562-essential,m minus the target screen's raw B2,difference of Spearman
+RPE1 to K562-essential,m minus the B1 model trained on the source,difference of Spearman
+RPE1 to K562-essential,m minus TR,difference of Spearman
+RPE1 to K562-essential,[TR; m] minus TR,difference of Spearman
+RPE1 to K562-essential,"m, basis e1b",Spearman
+RPE1 to K562-essential,"m, basis shared genes",Spearman
+RPE1 to K562-essential,"T of m, mean-across-draws label",T
+RPE1 to K562-essential,"T of m, E4 matched features draw 1",T
+RPE1 to K562-essential,"T of m, E4 matched features draw 2",T
+RPE1 to K562-essential,"T of m, E4 matched features draw 3",T
+RPE1 to K562-essential,"m, cell-disjoint (half B features, half A label)",Spearman
+RPE1 to K562-essential,"R of m, cell-disjoint",R
+RPE1 to K562-essential,[x; m] minus the target screen's raw B1,difference of Spearman
+RPE1 to K562-essential,[x; m] minus the target screen's raw B2,difference of Spearman
+RPE1 to K562-essential,[x; m] minus the B1 model trained on the source,difference of Spearman
+RPE1 to K562-essential,[x; m] minus TR,difference of Spearman
+RPE1 to K562-essential,[TR; [x; m]] minus TR,difference of Spearman
+RPE1 to K562-essential,"[x; m], basis e1b",Spearman
+RPE1 to K562-essential,"[x; m], basis shared genes",Spearman
+RPE1 to K562-essential,"T of [x; m], mean-across-draws label",T
+RPE1 to K562-essential,"T of [x; m], E4 matched features draw 1",T
+RPE1 to K562-essential,"T of [x; m], E4 matched features draw 2",T
+RPE1 to K562-essential,"T of [x; m], E4 matched features draw 3",T
+RPE1 to K562-essential,"[x; m], cell-disjoint (half B features, half A label)",Spearman
+RPE1 to K562-essential,"R of [x; m], cell-disjoint",R
+RPE1 to K562-essential,"x minus x-, all",difference of Spearman
+RPE1 to K562-essential,"x minus x-, target is a feature",difference of Spearman
+RPE1 to K562-essential,"x minus x-, target is not a feature",difference of Spearman
+RPE1 to K562-essential,"m minus m-, all",difference of Spearman
+RPE1 to K562-essential,"m minus m-, target is a feature",difference of Spearman
+RPE1 to K562-essential,"m minus m-, target is not a feature",difference of Spearman
+RPE1 to K562-essential,"[x; m] minus [x; m]-, all",difference of Spearman
+RPE1 to K562-essential,"[x; m] minus [x; m]-, target is a feature",difference of Spearman
+RPE1 to K562-essential,"[x; m] minus [x; m]-, target is not a feature",difference of Spearman
+RPE1 to K562-essential,z minus x,difference of Spearman
+RPE1 to K562-essential,z minus C2,difference of Spearman
+RPE1 to K562-essential,z minus [x; m],difference of Spearman
+RPE1 to K562-essential,"R of z, nuisance fold seed 20270410",R
+RPE1 to K562-essential,"R of x, nuisance fold seed 20270410",R
+RPE1 to K562-essential,"R of m, nuisance fold seed 20270410",R
+RPE1 to K562-essential,"R of [x; m], nuisance fold seed 20270410",R
+RPE1 to K562-essential,"R of x-, nuisance fold seed 20270410",R-
+RPE1 to K562-essential,"R of m-, nuisance fold seed 20270410",R-
+RPE1 to K562-essential,"R of [x; m]-, nuisance fold seed 20270410",R-
+RPE1 to K562-essential,"R of z, nuisance fold seed 20270411",R
+RPE1 to K562-essential,"R of x, nuisance fold seed 20270411",R
+RPE1 to K562-essential,"R of m, nuisance fold seed 20270411",R
+RPE1 to K562-essential,"R of [x; m], nuisance fold seed 20270411",R
+RPE1 to K562-essential,"R of x-, nuisance fold seed 20270411",R-
+RPE1 to K562-essential,"R of m-, nuisance fold seed 20270411",R-
+RPE1 to K562-essential,"R of [x; m]-, nuisance fold seed 20270411",R-
+RPE1 to K562-essential,"R of z, nuisance fold seed 20270412",R
+RPE1 to K562-essential,"R of x, nuisance fold seed 20270412",R
+RPE1 to K562-essential,"R of m, nuisance fold seed 20270412",R
+RPE1 to K562-essential,"R of [x; m], nuisance fold seed 20270412",R
+RPE1 to K562-essential,"R of x-, nuisance fold seed 20270412",R-
+RPE1 to K562-essential,"R of m-, nuisance fold seed 20270412",R-
+RPE1 to K562-essential,"R of [x; m]-, nuisance fold seed 20270412",R-
+RPE1 to K562-essential,"R of z, nuisance fold seed 20270413",R
+RPE1 to K562-essential,"R of x, nuisance fold seed 20270413",R
+RPE1 to K562-essential,"R of m, nuisance fold seed 20270413",R
+RPE1 to K562-essential,"R of [x; m], nuisance fold seed 20270413",R
+RPE1 to K562-essential,"R of x-, nuisance fold seed 20270413",R-
+RPE1 to K562-essential,"R of m-, nuisance fold seed 20270413",R-
+RPE1 to K562-essential,"R of [x; m]-, nuisance fold seed 20270413",R-
+RPE1 to K562-essential,C2 of the shared-gene basis,Spearman
+K562-essential to RPE1,z minus the target screen's raw B1,difference of Spearman
+K562-essential to RPE1,z minus the target screen's raw B2,difference of Spearman
+K562-essential to RPE1,z minus the B1 model trained on the source,difference of Spearman
+K562-essential to RPE1,z minus TR,difference of Spearman
+K562-essential to RPE1,[TR; z] minus TR,difference of Spearman
+K562-essential to RPE1,"T of z, mean-across-draws label",T
+K562-essential to RPE1,"T of z, E4 matched features draw 1",T
+K562-essential to RPE1,"T of z, E4 matched features draw 2",T
+K562-essential to RPE1,"T of z, E4 matched features draw 3",T
+K562-essential to RPE1,"z, cell-disjoint (half B features, half A label)",Spearman
+K562-essential to RPE1,"R of z, cell-disjoint",R
+K562-essential to RPE1,x minus the target screen's raw B1,difference of Spearman
+K562-essential to RPE1,x minus the target screen's raw B2,difference of Spearman
+K562-essential to RPE1,x minus the B1 model trained on the source,difference of Spearman
+K562-essential to RPE1,x minus TR,difference of Spearman
+K562-essential to RPE1,[TR; x] minus TR,difference of Spearman
+K562-essential to RPE1,"x, basis e1b",Spearman
+K562-essential to RPE1,"x, basis shared genes",Spearman
+K562-essential to RPE1,"T of x, mean-across-draws label",T
+K562-essential to RPE1,"T of x, E4 matched features draw 1",T
+K562-essential to RPE1,"T of x, E4 matched features draw 2",T
+K562-essential to RPE1,"T of x, E4 matched features draw 3",T
+K562-essential to RPE1,"x, cell-disjoint (half B features, half A label)",Spearman
+K562-essential to RPE1,"R of x, cell-disjoint",R
+K562-essential to RPE1,m minus the target screen's raw B1,difference of Spearman
+K562-essential to RPE1,m minus the target screen's raw B2,difference of Spearman
+K562-essential to RPE1,m minus the B1 model trained on the source,difference of Spearman
+K562-essential to RPE1,m minus TR,difference of Spearman
+K562-essential to RPE1,[TR; m] minus TR,difference of Spearman
+K562-essential to RPE1,"m, basis e1b",Spearman
+K562-essential to RPE1,"m, basis shared genes",Spearman
+K562-essential to RPE1,"T of m, mean-across-draws label",T
+K562-essential to RPE1,"T of m, E4 matched features draw 1",T
+K562-essential to RPE1,"T of m, E4 matched features draw 2",T
+K562-essential to RPE1,"T of m, E4 matched features draw 3",T
+K562-essential to RPE1,"m, cell-disjoint (half B features, half A label)",Spearman
+K562-essential to RPE1,"R of m, cell-disjoint",R
+K562-essential to RPE1,[x; m] minus the target screen's raw B1,difference of Spearman
+K562-essential to RPE1,[x; m] minus the target screen's raw B2,difference of Spearman
+K562-essential to RPE1,[x; m] minus the B1 model trained on the source,difference of Spearman
+K562-essential to RPE1,[x; m] minus TR,difference of Spearman
+K562-essential to RPE1,[TR; [x; m]] minus TR,difference of Spearman
+K562-essential to RPE1,"[x; m], basis e1b",Spearman
+K562-essential to RPE1,"[x; m], basis shared genes",Spearman
+K562-essential to RPE1,"T of [x; m], mean-across-draws label",T
+K562-essential to RPE1,"T of [x; m], E4 matched features draw 1",T
+K562-essential to RPE1,"T of [x; m], E4 matched features draw 2",T
+K562-essential to RPE1,"T of [x; m], E4 matched features draw 3",T
+K562-essential to RPE1,"[x; m], cell-disjoint (half B features, half A label)",Spearman
+K562-essential to RPE1,"R of [x; m], cell-disjoint",R
+K562-essential to RPE1,"x minus x-, all",difference of Spearman
+K562-essential to RPE1,"x minus x-, target is a feature",difference of Spearman
+K562-essential to RPE1,"x minus x-, target is not a feature",difference of Spearman
+K562-essential to RPE1,"m minus m-, all",difference of Spearman
+K562-essential to RPE1,"m minus m-, target is a feature",difference of Spearman
+K562-essential to RPE1,"m minus m-, target is not a feature",difference of Spearman
+K562-essential to RPE1,"[x; m] minus [x; m]-, all",difference of Spearman
+K562-essential to RPE1,"[x; m] minus [x; m]-, target is a feature",difference of Spearman
+K562-essential to RPE1,"[x; m] minus [x; m]-, target is not a feature",difference of Spearman
+K562-essential to RPE1,z minus x,difference of Spearman
+K562-essential to RPE1,z minus C2,difference of Spearman
+K562-essential to RPE1,z minus [x; m],difference of Spearman
+K562-essential to RPE1,"R of z, nuisance fold seed 20270410",R
+K562-essential to RPE1,"R of x, nuisance fold seed 20270410",R
+K562-essential to RPE1,"R of m, nuisance fold seed 20270410",R
+K562-essential to RPE1,"R of [x; m], nuisance fold seed 20270410",R
+K562-essential to RPE1,"R of x-, nuisance fold seed 20270410",R-
+K562-essential to RPE1,"R of m-, nuisance fold seed 20270410",R-
+K562-essential to RPE1,"R of [x; m]-, nuisance fold seed 20270410",R-
+K562-essential to RPE1,"R of z, nuisance fold seed 20270411",R
+K562-essential to RPE1,"R of x, nuisance fold seed 20270411",R
+K562-essential to RPE1,"R of m, nuisance fold seed 20270411",R
+K562-essential to RPE1,"R of [x; m], nuisance fold seed 20270411",R
+K562-essential to RPE1,"R of x-, nuisance fold seed 20270411",R-
+K562-essential to RPE1,"R of m-, nuisance fold seed 20270411",R-
+K562-essential to RPE1,"R of [x; m]-, nuisance fold seed 20270411",R-
+K562-essential to RPE1,"R of z, nuisance fold seed 20270412",R
+K562-essential to RPE1,"R of x, nuisance fold seed 20270412",R
+K562-essential to RPE1,"R of m, nuisance fold seed 20270412",R
+K562-essential to RPE1,"R of [x; m], nuisance fold seed 20270412",R
+K562-essential to RPE1,"R of x-, nuisance fold seed 20270412",R-
+K562-essential to RPE1,"R of m-, nuisance fold seed 20270412",R-
+K562-essential to RPE1,"R of [x; m]-, nuisance fold seed 20270412",R-
+K562-essential to RPE1,"R of z, nuisance fold seed 20270413",R
+K562-essential to RPE1,"R of x, nuisance fold seed 20270413",R
+K562-essential to RPE1,"R of m, nuisance fold seed 20270413",R
+K562-essential to RPE1,"R of [x; m], nuisance fold seed 20270413",R
+K562-essential to RPE1,"R of x-, nuisance fold seed 20270413",R-
+K562-essential to RPE1,"R of m-, nuisance fold seed 20270413",R-
+K562-essential to RPE1,"R of [x; m]-, nuisance fold seed 20270413",R-
+K562-essential to RPE1,C2 of the shared-gene basis,Spearman

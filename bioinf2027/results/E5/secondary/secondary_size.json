@@ -1,0 +1,116 @@
+{
+ "plan": "bioinf2027/plans/E5.md, Sections 3 to 8, 11 and 16 to 20 (secondary, unadjusted, and diagnostics)",
+ "smoke": false,
+ "part": "size",
+ "replicates": 10000,
+ "seeds": {
+  "settings": {
+   "within RPE1": 20271121,
+   "within K562-essential": 20271122,
+   "RPE1 to K562-essential": 20271123,
+   "K562-essential to RPE1": 20271124
+  },
+  "VCC": 20271125,
+  "union folds": 20271204,
+  "within folds": 20271127,
+  "prefix folds": {
+   "within": 20271127,
+   "between": 20271204
+  },
+  "inner folds": 20271128,
+  "shuffle": 20271126,
+  "forest head seeds": [
+   0,
+   1,
+   2
+  ]
+ },
+ "ridge_grid": [
+  0.01,
+  0.03162277660168379,
+  0.1,
+  0.31622776601683794,
+  1.0,
+  3.1622776601683795,
+  10.0,
+  31.622776601683793,
+  100.0,
+  316.22776601683796,
+  1000.0,
+  3162.2776601683795,
+  10000.0,
+  31622.776601683792,
+  100000.0,
+  316227.7660168379,
+  1000000.0
+ ],
+ "forest": {
+  "n_estimators": 200,
+  "max_depth": 20,
+  "min_samples_leaf": 2
+ },
+ "settings": [
+  "within RPE1",
+  "within K562-essential",
+  "RPE1 to K562-essential",
+  "K562-essential to RPE1"
+ ],
+ "inputs": {
+  "endpoint_b": {
+   "path": "bioinf2027/results/E5/endpoint_b/endpoint_b.json",
+   "bytes": 4550,
+   "sha256": "5884cbad1399d72dbff35828d5ac1f971f61a4093cddd23a9dec8bda244adbd2"
+  },
+  "gates_b": {
+   "path": "bioinf2027/results/E5/endpoint_b/gates.json",
+   "bytes": 3179,
+   "sha256": "3fedfcc48d059d778296356cbb3231dc5a32512f5f305cd812831a611a3ca80b"
+  },
+  "G1_manifest": {
+   "path": "bioinf2027/endpoints/G1/manifest.json",
+   "bytes": 1748,
+   "sha256": "4b85517801ed167a901cefdc0cdba89f5898233be2edbda15cc9852cdd08cc28"
+  },
+  "genes_RPE1.csv": {
+   "path": "bioinf2027/results/E5/endpoint_b/genes_RPE1.csv",
+   "bytes": 867766,
+   "sha256": "b7e44e3080d233e4ceb51ab9495e3dcbfc21c125d3395d28449399065d915115"
+  },
+  "genes_K562-essential.csv": {
+   "path": "bioinf2027/results/E5/endpoint_b/genes_K562-essential.csv",
+   "bytes": 987631,
+   "sha256": "405398f1bdb74fafd8c96c109e066cf93de14b216e2e396d5be9fc55cda7f9d9"
+  }
+ },
+ "code": {
+  "bioinf2027/scripts/make_e5_secondary.py": "8967f240e847d1125195a061713484b72a12449efa04cc1a4dd46e320da2957b",
+  "bioinf2027/scripts/make_e5_fits.py": "bfad78082f63fdd3480c0190da7969e55d85eff1498111dfa7b01162055282c0",
+  "bioinf2027/scripts/e5fit.py": "d1dc23d63b23d13a5608ed62371e115d7d9f9da54d37ee3dc659d2deb4c72063",
+  "bioinf2027/scripts/e5lib.py": "764ebe2010d1655e3fe4dfb6b117783bcea739ad2b0958596c317618af8da9c4",
+  "bioinf2027/src/bioinf2027/heads.py": "c03831822a147661bfd3fd1ae36dfa51c003b679941a90208156c8d410abd9f7"
+ },
+ "columns": {
+  "RPE1": {
+   "fixed": "b27",
+   "other_version": "b50"
+  },
+  "K562-essential": {
+   "fixed": "b27",
+   "other_version": "b50"
+  }
+ },
+ "statement": "a size association appears for a statistic that grows with the number of cells and is absent at fixed cells, as for the target-gene endpoint",
+ "rule": "Section 8: the statement where the Spearman with B0 of the n-scaled statistic on all cells is resolved above zero (bootstrap p below 0.05, estimate above zero, unadjusted) and that of the fixed-cell energy distance is not; otherwise no statement",
+ "statements": {
+  "RPE1": "",
+  "K562-essential": ""
+ },
+ "outputs": {
+  "size_association.csv": {
+   "path": "bioinf2027/results/E5/secondary/size_association.csv",
+   "bytes": 2276,
+   "sha256": "7315faeb7e4ffc2f3c94bed9566615405a8d70a003ba7749d5f0630cb14a7388"
+  }
+ },
+ "seconds": 29.5
+}

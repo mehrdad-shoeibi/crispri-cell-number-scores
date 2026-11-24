@@ -1,0 +1,83 @@
+{
+ "plan": "bioinf2027/plans/D2.md, Sections 3, 10, 11 and 13",
+ "inputs": {
+  "units": {
+   "path": "bioinf2027/results/D2/units.json",
+   "bytes": 3384,
+   "sha256": "9fc8377bcfc2fcda12b5b8b4b308b303e254570ea40b5c082fa94912b3028337"
+  }
+ },
+ "arms": {
+  "path": "$IGA_STORAGE_ROOT/bioinf2027/D2/arms/arms.npz",
+  "bytes": 170647546,
+  "sha256": "b0015963b7ead2a1706280652efff3fe2d40029f38c6f8f8dcdb404ec9e99258"
+ },
+ "manipulation": {
+  "path": "bioinf2027/results/D2/manipulation.csv",
+  "bytes": 1926910,
+  "sha256": "6899d6280b41193c0caf58899b565a76f9806685a15e43006b3de54b646f0e42"
+ },
+ "delta_per_flex_run": {
+  "path": "bioinf2027/results/D2/delta_per_flex_run.csv",
+  "bytes": 43334,
+  "sha256": "ef02688ebb5a96430bcba6775db7745c7d0e39ed4caae6799604566159cd0881"
+ },
+ "precision_of_delta": {
+  "VCC": {
+   "median_ratio": 0.011667759585588806,
+   "limit": 0.1,
+   "passed": true,
+   "genes_with_median_ratio_above_the_limit": []
+  },
+  "RPE1": {
+   "median_ratio": 0.00969695308614207,
+   "limit": 0.1,
+   "passed": true
+  },
+  "K562-essential": {
+   "median_ratio": 0.01598540820934255,
+   "limit": 0.1,
+   "passed": true
+  }
+ },
+ "uninformative_cells": {
+  "G5": {
+   "rows": 6077,
+   "share_with_h_c_and_h_p_below_0.05": 0.06894849432285667,
+   "median_relative_change": 0.036019272215487876,
+   "uninformative": false
+  },
+  "G6": {
+   "rows": 11764,
+   "share_with_h_c_and_h_p_below_0.05": 0.0893403604216253,
+   "median_relative_change": 0.030340028514716136,
+   "uninformative": false
+  },
+  "G1": {
+   "rows": 6077,
+   "share_with_h_c_and_h_p_below_0.05": 0.06894849432285667,
+   "median_relative_change": 0.024455477029899655,
+   "uninformative": false
+  },
+  "G2": {
+   "rows": 11764,
+   "share_with_h_c_and_h_p_below_0.05": 0.0893403604216253,
+   "median_relative_change": 0.022024113477932948,
+   "uninformative": false
+  }
+ },
+ "identity_mean_error_norm": 0.0,
+ "median_norm_of_z": 0.07017918646157588,
+ "median_norm_of_z_minus_z_minus": 0.002167827344010995,
+ "truncated_share": {
+  "VCC": 1.0,
+  "RPE1": 0.19744595104013118,
+  "K562-essential": 0.20375670962693895
+ },
+ "settings": {
+  "bootstrap": 1000,
+  "bootstrap_seed": 20271107,
+  "precision_limit": 0.1
+ },
+ "seconds": 977.5
+}

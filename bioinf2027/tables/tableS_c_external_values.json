@@ -1,0 +1,62 @@
+{
+ "table": "tableS_c_external_values",
+ "code": {
+  "bioinf2027/scripts/figures/tableS_c_external_values.py": "0a616ff126dfcf2d81e9d2b9ffc5fa0ca70b347e4bfad00e7baf9d98fc06a168",
+  "bioinf2027/scripts/figures/tablelib.py": "5c546fa57595e02901ba2087d5c2334793762f2cb146db4fd434973bb3fe034f"
+ },
+ "inputs": {
+  "bioinf2027/results/E1/primary_family.csv": {
+   "path": "bioinf2027/results/E1/primary_family.csv",
+   "bytes": 21648,
+   "sha256": "86e25c131d793d1c6f186b09801d053b2676d28a22a74ec7f45542930f696cdc"
+  },
+  "bioinf2027/results/E1/derived/primary_family_read_status.csv": {
+   "path": "bioinf2027/results/E1/derived/primary_family_read_status.csv",
+   "bytes": 13949,
+   "sha256": "a015de69a463b6bd6704068ad3fa0576da2a30288b73eb36edc83b088487e005"
+  },
+  "bioinf2027/results/E2/stats/family.csv": {
+   "path": "bioinf2027/results/E2/stats/family.csv",
+   "bytes": 12594,
+   "sha256": "4485a1b47f670c0260cc112af350e2ccebeffeb6fe40fbbf801317c2748acf9e"
+  }
+ },
+ "inputs_verified": {
+  "bioinf2027/results/E1/primary_family.csv": "equal to its record in bioinf2027/results/E1/derived/primary_family_read_status.json",
+  "bioinf2027/results/E1/derived/primary_family_read_status.csv": "equal to its record in bioinf2027/results/E1/derived/primary_family_read_status.json",
+  "bioinf2027/results/E2/stats/family.csv": "equal to its record in bioinf2027/results/E2/null_external/stats.json"
+ },
+ "environment": {
+  "python": "3.13.12",
+  "numpy": "2.4.4",
+  "pandas": "3.0.2",
+  "requirements": {
+   "path": "bioinf2027/requirements.txt",
+   "bytes": 863,
+   "sha256": "f46a415cbe466ba1225adcede4abae7f0dd0b866f29abdf5a6a360e66b1f5702"
+  }
+ },
+ "tex": "booktabs; Unicode symbols (\u2212, \u03c1, \u2192, \u00bd), so a Unicode TeX engine (XeLaTeX or LuaLaTeX)",
+ "sources": {
+  "E1b values and read status": "bioinf2027/results/E1/derived/primary_family_read_status.csv",
+  "E1b family": "bioinf2027/results/E1/primary_family.csv",
+  "E2 test (ii)": "bioinf2027/results/E2/stats/family.csv"
+ },
+ "read_status_as_saved": [
+  "not read (the arm fails the VCC precondition in a cell of the primary pair; bioinf2027/plans/E1_design.md, Section 11, rule 3, and Section 21.1, item 2)",
+  "not read: fails E1b's two-cell precondition"
+ ],
+ "families": "E1b's first family of 60 (Holm 0.05; T and L shown) and E2's family of 30 (Holm 0.05; the 24 statistics of test (ii) shown)",
+ "outputs": {
+  "tableS_c_external_values.csv": {
+   "path": "bioinf2027/tables/tableS_c_external_values.csv",
+   "bytes": 11369,
+   "sha256": "7806bb96051cff0717fb92d423332fda014cf7695d76cf389d2ee3893106efe5"
+  },
+  "tableS_c_external_values.tex": {
+   "path": "bioinf2027/tables/tableS_c_external_values.tex",
+   "bytes": 12502,
+   "sha256": "06d2e236db9e09a76a404a08937306a6f576faa0aab0913a004576363f88b76b"
+  }
+ }
+}

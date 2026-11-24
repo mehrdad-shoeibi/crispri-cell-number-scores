@@ -1,0 +1,63 @@
+screen,arm,construction,max_abs_difference_from_the_stored_prediction,external_spearman,stored_external_spearman
+K562-essential,C1,"Gaussian, stream K562-essential, scaled with a scaler fitted on the screen",0.1638596301751667,0.020982258311432644,0.03183133980957901
+K562-essential,C1,"Gaussian, stream K562-essential, scaled with the VCC training scaler",0.2363125643985855,0.035890153553040954,0.03183133980957901
+K562-essential,C1,"Gaussian, stream K562-essential, unscaled",0.2878114881940421,0.0349251778612666,0.03183133980957901
+K562-essential,C1,"Gaussian, stream val, scaled with a scaler fitted on the screen",0.3461551816442676,0.025937209284302633,0.03183133980957901
+K562-essential,C1,"Gaussian, stream val, scaled with the VCC training scaler",0.3765007569071064,0.02448629920898455,0.03183133980957901
+K562-essential,C1,"Gaussian, stream val, unscaled",0.3765007569071064,0.03079769717695364,0.03183133980957901
+K562-essential,C1,"Gaussian, stream RPE1, scaled with the VCC training scaler",0.3872535759097522,-0.022596340199865055,0.03183133980957901
+K562-essential,C1,"Gaussian, stream RPE1, unscaled",0.3872535759097522,-0.023872381042991966,0.03183133980957901
+K562-essential,C1,"Gaussian, stream RPE1, scaled with a scaler fitted on the screen",0.3872535759097522,-0.025524052263304134,0.03183133980957901
+K562-essential,C1,"Gaussian, stream test, scaled with the VCC training scaler",0.4153925833200689,-0.02326138309609754,0.03183133980957901
+K562-essential,C1,"Gaussian, stream test, unscaled",0.4153925833200689,-0.026666813053029866,0.03183133980957901
+K562-essential,C1,"Gaussian, stream test, scaled with a scaler fitted on the screen",0.4192665395250317,-0.010631452909923728,0.03183133980957901
+K562-essential,C1,"Gaussian, stream train, scaled with a scaler fitted on the screen",0.6049455904644447,0.04844105585403816,0.03183133980957901
+K562-essential,C1,"Gaussian, stream train, scaled with the VCC training scaler",0.6393354979374903,0.049648885115463844,0.03183133980957901
+K562-essential,C1,"Gaussian, stream train, unscaled",0.6393354979374903,0.0461494474374623,0.03183133980957901
+K562-essential,C3,"z scaled with the VCC training scaler, shuffled with stream K562-essential",0.15541911637955597,0.004163310398804899,-0.00395072471545342
+K562-essential,C3,"z scaled with a scaler fitted on the screen, shuffled with stream K562-essential",0.295856252154751,0.0013372357147172257,-0.00395072471545342
+K562-essential,C3,"z scaled with the VCC training scaler, shuffled with stream test",0.4542844360582241,-6.517382250675028e-05,-0.00395072471545342
+K562-essential,C3,"z unscaled, shuffled with stream train",0.4836797782885207,-0.023009526619688987,-0.00395072471545342
+K562-essential,C3,"z unscaled, shuffled with stream val",0.4836797782885207,0.009823235184933608,-0.00395072471545342
+K562-essential,C3,"z unscaled, shuffled with stream test",0.4836797782885207,-0.006898232397548391,-0.00395072471545342
+K562-essential,C3,"z unscaled, shuffled with stream RPE1",0.4836797782885207,0.0037230442682926784,-0.00395072471545342
+K562-essential,C3,"z scaled with the VCC training scaler, not shuffled",0.4845670526024617,-0.1747375272515061,-0.00395072471545342
+K562-essential,C3,"z unscaled, shuffled with stream K562-essential",0.4849956480416622,0.006226889904456538,-0.00395072471545342
+K562-essential,C3,"z scaled with a scaler fitted on the screen, shuffled with stream val",0.49090480182548957,0.006181860914538985,-0.00395072471545342
+K562-essential,C3,"z scaled with a scaler fitted on the screen, shuffled with stream test",0.4930076462946542,0.021185367646918002,-0.00395072471545342
+K562-essential,C3,"z scaled with a scaler fitted on the screen, shuffled with stream train",0.493008327632801,0.009242218314705852,-0.00395072471545342
+K562-essential,C3,"z scaled with the VCC training scaler, shuffled with stream RPE1",0.49491570570299936,-0.007316894532585204,-0.00395072471545342
+K562-essential,C3,"z scaled with the VCC training scaler, shuffled with stream train",0.498541446065627,0.0026090477264933934,-0.00395072471545342
+K562-essential,C3,"z scaled with a scaler fitted on the screen, shuffled with stream RPE1",0.5024933612227662,0.002438660689921771,-0.00395072471545342
+K562-essential,C3,"z scaled with the VCC training scaler, shuffled with stream val",0.5037681629515389,0.014109756008978432,-0.00395072471545342
+RPE1,C1,"Gaussian, stream RPE1, scaled with the VCC training scaler",0.1403665508307066,-0.008580157165099626,-0.03378083599782453
+RPE1,C1,"Gaussian, stream RPE1, unscaled",0.19798397112259947,-0.007495726945206308,-0.03378083599782453
+RPE1,C1,"Gaussian, stream RPE1, scaled with a scaler fitted on the screen",0.1995089988463823,-0.0012164388332209235,-0.03378083599782453
+RPE1,C1,"Gaussian, stream test, scaled with the VCC training scaler",0.31186160481672776,-0.03933822564044898,-0.03378083599782453
+RPE1,C1,"Gaussian, stream test, unscaled",0.31573744335007614,-0.041405401532491046,-0.03378083599782453
+RPE1,C1,"Gaussian, stream test, scaled with a scaler fitted on the screen",0.31573744335007614,-0.03798330585383103,-0.03378083599782453
+RPE1,C1,"Gaussian, stream K562-essential, scaled with a scaler fitted on the screen",0.32899485138810736,0.004654418744335687,-0.03378083599782453
+RPE1,C1,"Gaussian, stream K562-essential, scaled with the VCC training scaler",0.3537033550116777,0.013011599259494928,-0.03378083599782453
+RPE1,C1,"Gaussian, stream K562-essential, unscaled",0.3611805228595846,0.005724526446944632,-0.03378083599782453
+RPE1,C1,"Gaussian, stream val, unscaled",0.36835835225698066,-0.008743152137710642,-0.03378083599782453
+RPE1,C1,"Gaussian, stream val, scaled with a scaler fitted on the screen",0.36835835225698066,-0.009625701758886144,-0.03378083599782453
+RPE1,C1,"Gaussian, stream val, scaled with the VCC training scaler",0.37218696201472223,-0.006017764471033744,-0.03378083599782453
+RPE1,C1,"Gaussian, stream train, scaled with the VCC training scaler",0.5814797584123386,-0.07188611788026054,-0.03378083599782453
+RPE1,C1,"Gaussian, stream train, unscaled",0.5814797584123386,-0.07058435964350712,-0.03378083599782453
+RPE1,C1,"Gaussian, stream train, scaled with a scaler fitted on the screen",0.5814797584123386,-0.06881882192278915,-0.03378083599782453
+RPE1,C3,"z scaled with the VCC training scaler, shuffled with stream RPE1",0.18371080460684164,0.0375055158628053,0.0441657676252534
+RPE1,C3,"z scaled with a scaler fitted on the screen, shuffled with stream RPE1",0.47189876528955255,0.03075875156973128,0.0441657676252534
+RPE1,C3,"z scaled with the VCC training scaler, shuffled with stream train",0.5417110655177373,-0.040635441008353076,0.0441657676252534
+RPE1,C3,"z scaled with the VCC training scaler, not shuffled",0.6025986679595596,-0.10632868429601001,0.0441657676252534
+RPE1,C3,"z scaled with a scaler fitted on the screen, shuffled with stream val",0.6118326715967144,-0.0262524203655572,0.0441657676252534
+RPE1,C3,"z scaled with the VCC training scaler, shuffled with stream val",0.6194741644229906,-0.014359438494115093,0.0441657676252534
+RPE1,C3,"z scaled with the VCC training scaler, shuffled with stream test",0.6510503429423524,0.008987593426950565,0.0441657676252534
+RPE1,C3,"z unscaled, shuffled with stream RPE1",0.6563482248417101,-0.008044673459696063,0.0441657676252534
+RPE1,C3,"z unscaled, shuffled with stream train",0.6574904806460831,-0.019315726142475363,0.0441657676252534
+RPE1,C3,"z unscaled, shuffled with stream test",0.6574904806460831,0.010379289878052148,0.0441657676252534
+RPE1,C3,"z unscaled, shuffled with stream K562-essential",0.6574904806460831,-0.011696888371979077,0.0441657676252534
+RPE1,C3,"z unscaled, shuffled with stream val",0.658753140764543,0.011793693641349332,0.0441657676252534
+RPE1,C3,"z scaled with a scaler fitted on the screen, shuffled with stream test",0.6726461775038519,0.034250680960527476,0.0441657676252534
+RPE1,C3,"z scaled with a scaler fitted on the screen, shuffled with stream train",0.6745214910319008,-0.028998324160455204,0.0441657676252534
+RPE1,C3,"z scaled with the VCC training scaler, shuffled with stream K562-essential",0.6775496451500267,0.011710871904518838,0.0441657676252534
+RPE1,C3,"z scaled with a scaler fitted on the screen, shuffled with stream K562-essential",0.6808266962973191,0.004944077387144598,0.0441657676252534

@@ -1,0 +1,52 @@
+{
+ "gate": "G4, bioinf2027/GATE.md, top section, decided 2026-11-17 (DepMap release)",
+ "plan": "bioinf2027/plans/E5_supplement.md, Section 2",
+ "release": "DepMap 24Q4 Public",
+ "not_the_current_release": "the current DepMap release is 26Q3 (announced 2026-10-05); 24Q4 is the newest release with an official figshare record, chosen by the author",
+ "portal_used": false,
+ "record": {
+  "title": "DepMap 24Q4 Public",
+  "doi": "10.25452/figshare.plus.27993248.v1",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "version": 1,
+  "published_date": "2024-12-10T16:07:56Z",
+  "url": "https://plus.figshare.com/articles/dataset/DepMap_24Q4_Public/27993248",
+  "api": "https://api.figshare.com/v2/articles/27993248"
+ },
+ "files": {
+  "CRISPRGeneEffect.csv": {
+   "source": "https://ndownloader.figshare.com/files/51064667",
+   "figshare_file_id": 51064667,
+   "date_utc": "2026-11-17T09:21:48Z",
+   "bytes": 428678699,
+   "sha256": "3d8f3ec6dbf2db7ff834b79b508622ec0b226f3518003fe96ecf5a4fcf167e3b",
+   "md5": "6edf7ade09b9b34199210b559d4745d3",
+   "record_md5": "6edf7ade09b9b34199210b559d4745d3",
+   "checks": {
+    "bytes_match": true,
+    "md5_match": true,
+    "under_1_GB": true
+   },
+   "seconds": 43.3,
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/downloads/depmap_24Q4/CRISPRGeneEffect.csv"
+  },
+  "Model.csv": {
+   "source": "https://ndownloader.figshare.com/files/51065297",
+   "figshare_file_id": 51065297,
+   "date_utc": "2026-11-17T09:21:49Z",
+   "bytes": 645696,
+   "sha256": "b7a0c1385e6cef30132b56aff61f1261d11e3f490490b355c430d32ee0dbdcfa",
+   "md5": "675210d17675f3517b0ce39a3c274f16",
+   "record_md5": "675210d17675f3517b0ce39a3c274f16",
+   "checks": {
+    "bytes_match": true,
+    "md5_match": true,
+    "under_1_GB": true
+   },
+   "seconds": 1.6,
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/downloads/depmap_24Q4/Model.csv"
+  }
+ },
+ "complete": true
+}

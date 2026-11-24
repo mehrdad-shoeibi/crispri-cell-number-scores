@@ -1,0 +1,117 @@
+{
+ "plan": "bioinf2027/plans/E6.md, Sections 3, 4 and 6 as amended by Sections 13 to 15",
+ "fits": 9090,
+ "inputs": {
+  "features_mapped_in_both_screens": 1303,
+  "e4_features": {
+   "path": "bioinf2027/results/E4/features.json",
+   "bytes": 12462,
+   "sha256": "b588c4f6d7c170ce8a7aab7f808807d06a6192a45c319bfe72d572365c7c656c"
+  },
+  "shared_genes": 7226,
+  "target_genes_in_the_union": 2111,
+  "endpoint_manifests": {
+   "G1": {
+    "path": "bioinf2027/endpoints/G1/manifest.json",
+    "bytes": 1748,
+    "sha256": "4b85517801ed167a901cefdc0cdba89f5898233be2edbda15cc9852cdd08cc28"
+   },
+   "G2": {
+    "path": "bioinf2027/endpoints/G2/manifest.json",
+    "bytes": 1751,
+    "sha256": "61d7ba70991db5b5f5dec46999ce33555fac161e685d113246e909227420c775"
+   },
+   "G5": {
+    "path": "bioinf2027/endpoints/G5/manifest.json",
+    "bytes": 1749,
+    "sha256": "845cd1dc6de849a711a9e198acb5a26cab3bd376aadffcba5e8347e737962461"
+   },
+   "G6": {
+    "path": "bioinf2027/endpoints/G6/manifest.json",
+    "bytes": 1752,
+    "sha256": "c5947bd85270f863132a9a58f145c3521604e19ffb8129524c3d94ea2f3878cc"
+   }
+  },
+  "checks": {
+   "path": "bioinf2027/results/E6/checks.json",
+   "bytes": 3735,
+   "sha256": "454768630fcc0794467591c92a14fb8d1f021a5bbb0766f6eca2c5b137dde6ec"
+  },
+  "d2_aggregate": {
+   "path": "bioinf2027/results/D2/aggregate.json",
+   "bytes": 2208,
+   "sha256": "e0c773e1d54b3bb8f8bee78a35b507f30edb4f9f153841360a047aca5ec2a120"
+  }
+ },
+ "seeds": {
+  "heads": [
+   0,
+   1,
+   2
+  ],
+  "folds": 20271204,
+  "fold sensitivity": [
+   20271207,
+   20271208
+  ],
+  "size-matched draws": 20271205,
+  "refits": 20271206,
+  "ridge inner folds": 20271201
+ },
+ "refits": 20,
+ "seeds_of_the_700_control_endpoints": [
+  0
+ ],
+ "heads": {
+  "forest": {
+   "n_estimators": 200,
+   "max_depth": 20,
+   "min_samples_leaf": 2
+  },
+  "boosting": {
+   "max_iter": 500,
+   "max_depth": 6,
+   "learning_rate": 0.05,
+   "l2_regularization": 0.0,
+   "early_stopping": true,
+   "validation_fraction": 0.1,
+   "n_iter_no_change": 20
+  },
+  "ridge grid": [
+   0.01,
+   0.1,
+   1.0,
+   10.0,
+   100.0,
+   1000.0,
+   10000.0
+  ],
+  "monotone": {
+   "max_iter": 500,
+   "max_depth": 6,
+   "learning_rate": 0.05,
+   "early_stopping": false
+  }
+ },
+ "predictions": "$IGA_STORAGE_ROOT/bioinf2027/E6/predictions",
+ "tier": 2,
+ "smoke": false,
+ "tiers": "bioinf2027/plans/E6.md, Section 16; bioinf2027/scripts/fit_tiers.py",
+ "fitting_code": {
+  "bioinf2027/src/bioinf2027/e1cells.py": "2d3a7f0b3b199c80a3f7dec052363716b85cec536b1ec8afe54b7e7c93ce6a9c",
+  "bioinf2027/src/bioinf2027/e1inputs.py": "19c703e52835be70bfb9ec8fa77b9a8f11118e8af4670a5bec2485af29f41cc6",
+  "bioinf2027/src/bioinf2027/features.py": "109241aaaa33c7a8bc9ddcdaa3bf307924cf8ffb67264aa7f81948f7150b96fb",
+  "bioinf2027/src/bioinf2027/heads.py": "c03831822a147661bfd3fd1ae36dfa51c003b679941a90208156c8d410abd9f7",
+  "bioinf2027/src/bioinf2027/representations.py": "94eb4a332741f9a5471773486a41123b30b1c38241e974df81ef3f7bb95f2429",
+  "bioinf2027/src/bioinf2027/singlecell.py": "6de60f867c2f53eb07d8f20cc2ca2feb08a9b342153e4694bbfef151ccdbce97",
+  "bioinf2027/src/bioinf2027/transfer.py": "039ba5388e051ccfda40f0a2e1e0378898fe9c3881fc17de199f429cee3ce705"
+ },
+ "per_tier": {
+  "1": 340,
+  "2": 8750
+ },
+ "earlier_tiers_compared": [
+  "protocol_tier1.json",
+  "protocol_tier2.json"
+ ]
+}

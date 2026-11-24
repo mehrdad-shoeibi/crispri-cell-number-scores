@@ -1,0 +1,9 @@
+\begin{tabular}{lllll}
+\toprule
+Analysis & Quantity & Status & Why & Files inspected \\
+\midrule
+E5 supplement 2, analysis 2 & rho([Bc; F\_mean; B0]) - rho([Bc; F\_mean]), paired & limitation: needs a refit (the author's rule) & the saved task files hold summary rows only, no predictions and no replicates & $IGA\_STORAGE\_ROOT/bioinf2027/E5/supplement\_2/tasks/b0\_*.pkl (12 files), $IGA\_STORAGE\_ROOT/bioinf2027/E5/supplement\_2/tasks/same\_*.pkl (24 files) \\
+E5 supplement 2, analysis 6 & prefix-clustered intervals for analysis 1 on its 1,773 and 1,765 rows & limitation: needs a refit (the author's rule) & analysis 1's saved task files hold one summary row each, no predictions and no replicates & $IGA\_STORAGE\_ROOT/bioinf2027/E5/supplement/tasks/fn\_*.pkl (12 files) \\
+S1 supplement, missing 4 (part) & the mechanical term and the excess on exactly the restricted rows & limitation: needs the all-cells label rebuilt on each simulated subset (single-cell data), outside 'from saved files' & the S1 run computed the simulated all-cells labels but saved only their summary (vcc\_mechanical.csv) & bioinf2027/results/S1\_supplement/ and $IGA\_STORAGE\_ROOT/bioinf2027/endpoints/<cell>/pool\_size\_simulation.csv (rebuilt label only) \\
+\bottomrule
+\end{tabular}

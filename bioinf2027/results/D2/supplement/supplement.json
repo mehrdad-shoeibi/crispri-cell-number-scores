@@ -1,0 +1,287 @@
+{
+ "plan": "bioinf2027/plans/D2.md, Sections 6, 10 and 11; bioinf2027/reviews/D2_results_r1.md",
+ "replicates": 10000,
+ "smoke": false,
+ "delta_batch_summary": {
+  "genes": 282,
+  "genes_with_a_reference": 278,
+  "genes_without_a_reference (every delta effect 0)": 4,
+  "ratio_to_reference median": 0.9999999999999999,
+  "ratio_to_reference p10": 0.9673050326514533,
+  "ratio_to_reference p90": 1.0323221563492275,
+  "genes above the reference's 95th percentile": 23,
+  "largest |observed - saved| batch deviation": 1.734723475976807e-18
+ },
+ "seeds": {
+  "external": {
+   "RPE1": 20260901,
+   "K562-essential": 20260902
+  },
+  "vcc genes": 20270301,
+  "vcc batches": 20270302,
+  "permutations": 20271108
+ },
+ "permutations": 20,
+ "replicate_index_sha256": {
+  "RPE1": "c243e0e8e7a9bb06f4a04d166ecef121433a4456f19d84f1fcc321b40b84cf0b",
+  "K562-essential": "28817ea3afcd9281f6968e539218881ec2f047fc32d8aa05da6296143062b4c6"
+ },
+ "n": {
+  "G5 VCC test": {
+   "rows": 2198,
+   "target_genes": 73
+  },
+  "G5 RPE1": {
+   "constructs": 1932,
+   "target_genes": 1811
+  },
+  "G5 K562-essential": {
+   "constructs": 1903,
+   "target_genes": 1811
+  },
+  "G6 VCC test": {
+   "rows": 3972,
+   "target_genes": 93
+  },
+  "G6 RPE1": {
+   "constructs": 1932,
+   "target_genes": 1811
+  },
+  "G6 K562-essential": {
+   "constructs": 1903,
+   "target_genes": 1811
+  },
+  "G1 VCC test": {
+   "rows": 2198,
+   "target_genes": 73
+  },
+  "G1 RPE1": {
+   "constructs": 1932,
+   "target_genes": 1811
+  },
+  "G1 K562-essential": {
+   "constructs": 1903,
+   "target_genes": 1811
+  },
+  "G2 VCC test": {
+   "rows": 3972,
+   "target_genes": 93
+  },
+  "G2 RPE1": {
+   "constructs": 1932,
+   "target_genes": 1811
+  },
+  "G2 K562-essential": {
+   "constructs": 1903,
+   "target_genes": 1811
+  }
+ },
+ "inputs": {
+  "family": {
+   "path": "bioinf2027/results/D2/family.csv",
+   "bytes": 5389,
+   "sha256": "2dc84df00a3962c127dfd8b52ea06ec162ea10d3a0b70b48e3d5e609ffd0ac93"
+  },
+  "e1b_predictions": {
+   "path": "bioinf2027/results/E1/predictions_manifest.json",
+   "bytes": 946848,
+   "sha256": "8a7e4be2b70f7260b701091e1d879c3734703a3ca075f73ac731aeb21019ce41"
+  },
+  "d2_predictions": {
+   "path": "bioinf2027/results/D2/predictions_manifest.json",
+   "bytes": 48729,
+   "sha256": "1043023d06a2be0c1e4b96b9ac789e121991c2a9effc0e4f9d5eb702862e0292"
+  },
+  "aggregate": {
+   "path": "bioinf2027/results/D2/aggregate.json",
+   "bytes": 2208,
+   "sha256": "e0c773e1d54b3bb8f8bee78a35b507f30edb4f9f153841360a047aca5ec2a120"
+  },
+  "manipulation": {
+   "path": "bioinf2027/results/D2/manipulation.csv",
+   "bytes": 1926910,
+   "sha256": "6899d6280b41193c0caf58899b565a76f9806685a15e43006b3de54b646f0e42"
+  },
+  "delta_per_flex_run": {
+   "path": "bioinf2027/results/D2/delta_per_flex_run.csv",
+   "bytes": 43334,
+   "sha256": "ef02688ebb5a96430bcba6775db7745c7d0e39ed4caae6799604566159cd0881"
+  },
+  "units": {
+   "path": "bioinf2027/results/D2/units.json",
+   "bytes": 3384,
+   "sha256": "9fc8377bcfc2fcda12b5b8b4b308b303e254570ea40b5c082fa94912b3028337"
+  },
+  "fit_protocol": {
+   "path": "bioinf2027/results/D2/fit_protocol.json",
+   "bytes": 3266,
+   "sha256": "6a2c36b8cfd3977eb571f5c6ec9150f4e6f43f115b9a00de8c5df861d4025afc"
+  },
+  "preconditions": {
+   "path": "bioinf2027/results/E1/preconditions.csv",
+   "bytes": 63079,
+   "sha256": "57e385db23a1cd6e8bd12ada398e853c8f50ce68e5bedbedd15dce755f9c0677"
+  },
+  "e1b_harness": {
+   "checks": {
+    "path": "bioinf2027/results/E1/checks.json",
+    "bytes": 13487,
+    "sha256": "cf4d448fa2b7acf906bca8186a1ef19d12975a53f84aa2ad321cd0364d3f9ebf"
+   },
+   "checks_acceptance": {
+    "accepted": true,
+    "by": "the author's decision at gate G3",
+    "decision": {
+     "path": "bioinf2027/results/E1/harness_decision.json",
+     "bytes": 870,
+     "sha256": "5434979882df8cab2ed7fcfe21093f79c3a967e20db6a59e0b79490b6369fb6f"
+    }
+   },
+   "refits": 20,
+   "screens": {
+    "RPE1": {
+     "e1b_x": "full-pass mapping",
+     "full_pass_mapping": {
+      "path": "$IGA_STORAGE_ROOT/bioinf2027/E1b/inputs/x_RPE1_full_pass_mapped.npy",
+      "bytes": 15456128,
+      "sha256": "d14cd7e0cdddc04ea81ea6ddf149ee1bb01fc091ebdf6cf3489bc274d5bd33c8"
+     },
+     "release": {
+      "path": "$IGA_STORAGE_ROOT/IGA_MAIN/data/replogle/raw/rpe1_normalized_bulk_01.h5ad",
+      "bytes": 95350546,
+      "sha256": "a3c5bfd0f15d63938bc80c9b8874b9cd761e3a23caf5ffe7966bae4e887ec89d"
+     }
+    },
+    "K562-essential": {
+     "e1b_x": "submitted array (equal to the full-pass mapping)",
+     "full_pass_mapping": {
+      "path": "$IGA_STORAGE_ROOT/bioinf2027/E1b/inputs/x_K562-essential_full_pass_mapped.npy",
+      "bytes": 15224128,
+      "sha256": "326142005d94fadf682a5d71a2dfaea5ba40ba4a5f40e61b2918e6f74f374965"
+     },
+     "release": {
+      "path": "$IGA_STORAGE_ROOT/IGA_MAIN/data/replogle/raw/K562_essential_normalized_bulk_01.h5ad",
+      "bytes": 79766954,
+      "sha256": "c1ca6456c9c9f1aa2b02c496eb64d1dc3e6a852edbd744d682b8d2c95fd36829"
+     }
+    }
+   },
+   "cell_manifests": {
+    "G5": {
+     "path": "bioinf2027/endpoints/G5/manifest.json",
+     "bytes": 1749,
+     "sha256": "845cd1dc6de849a711a9e198acb5a26cab3bd376aadffcba5e8347e737962461"
+    },
+    "G6": {
+     "path": "bioinf2027/endpoints/G6/manifest.json",
+     "bytes": 1752,
+     "sha256": "c5947bd85270f863132a9a58f145c3521604e19ffb8129524c3d94ea2f3878cc"
+    },
+    "G1": {
+     "path": "bioinf2027/endpoints/G1/manifest.json",
+     "bytes": 1748,
+     "sha256": "4b85517801ed167a901cefdc0cdba89f5898233be2edbda15cc9852cdd08cc28"
+    },
+    "G2": {
+     "path": "bioinf2027/endpoints/G2/manifest.json",
+     "bytes": 1751,
+     "sha256": "61d7ba70991db5b5f5dec46999ce33555fac161e685d113246e909227420c775"
+    }
+   },
+   "input_records": {
+    "path": "bioinf2027/results/E1/input_records.json",
+    "bytes": 40895,
+    "sha256": "8e5203ece9d95b5602ef872e314f35cbe044532422bbaf98b44d3f49d3db73cb"
+   }
+  }
+ },
+ "outputs": {
+  "family_read_status.csv": {
+   "path": "bioinf2027/results/D2/supplement/family_read_status.csv",
+   "bytes": 3673,
+   "sha256": "ce71f0006111c4e272b9a176472516cdd8d3274664492b4d090a0bb89bec5a48"
+  },
+  "existing_label.csv": {
+   "path": "bioinf2027/results/D2/supplement/existing_label.csv",
+   "bytes": 19059,
+   "sha256": "a5c703f757c2f0c5d4082267b5a54dbe52ca3cbe1eeb4887043c2d4069a0c5e7"
+  },
+  "heads.csv": {
+   "path": "bioinf2027/results/D2/supplement/heads.csv",
+   "bytes": 11486,
+   "sha256": "187619fe711a33a0be5225ad1e1ab6b681caf7c3a036e056041d1115599399ed"
+  },
+  "refits.csv": {
+   "path": "bioinf2027/results/D2/supplement/refits.csv",
+   "bytes": 1666,
+   "sha256": "f523d5f437924b0b669db03118b3641f0778cfe9e6dc45317d509f06e9f9bc01"
+  },
+  "batch_resampled.csv": {
+   "path": "bioinf2027/results/D2/supplement/batch_resampled.csv",
+   "bytes": 2411,
+   "sha256": "0927c138bc41e243d6d44c50d85efe2f9939e16fe731b45a2c276d74ed616ef2"
+  },
+  "absolute.csv": {
+   "path": "bioinf2027/results/D2/supplement/absolute.csv",
+   "bytes": 26321,
+   "sha256": "09d4df7c0118783044c9c95b4aaff9d8ba470b32d9c41a6863b193dd91f4605e"
+  },
+  "availability.csv": {
+   "path": "bioinf2027/results/D2/supplement/availability.csv",
+   "bytes": 12223,
+   "sha256": "821732215911fd62a7d8b75f880df6ca004418cf732cde64b489c126fa657dcd"
+  },
+  "manipulation_summary.csv": {
+   "path": "bioinf2027/results/D2/supplement/manipulation_summary.csv",
+   "bytes": 2501,
+   "sha256": "b9f76addf7ada74028190ba6b2ddcb8fb08438e27a9a30e90437321cc5b67da6"
+  },
+  "reach.csv": {
+   "path": "bioinf2027/results/D2/supplement/reach.csv",
+   "bytes": 1579,
+   "sha256": "7f3b400236295e8ef149e2dfa35ce95d6f652d3239ba92621237f01160a09450"
+  },
+  "positive_control_absolute.csv": {
+   "path": "bioinf2027/results/D2/supplement/positive_control_absolute.csv",
+   "bytes": 1759,
+   "sha256": "df7cf47ebcd07da758f5f67561286f4388599391e910cf7772b3abd86abadbac"
+  },
+  "agreement.csv": {
+   "path": "bioinf2027/results/D2/supplement/agreement.csv",
+   "bytes": 2337,
+   "sha256": "01457bdfacde43d7be9e35a1d21c31cd09f55e2380ed18e6c37ade5918cc83ff"
+  },
+  "c2_paired.csv": {
+   "path": "bioinf2027/results/D2/supplement/c2_paired.csv",
+   "bytes": 969,
+   "sha256": "e5eabdd4597944e5f81e58a6e7255ae960851ae48bcb6c47ba72d6f39c4eab9a"
+  },
+  "delta_batch.csv": {
+   "path": "bioinf2027/results/D2/supplement/delta_batch.csv",
+   "bytes": 73462,
+   "sha256": "88539848f3ec18b6a3f4af1b674e337b42e7c167c86e6ee3c4615602b1ca8c10"
+  },
+  "identity_population.csv": {
+   "path": "bioinf2027/results/D2/supplement/identity_population.csv",
+   "bytes": 1403,
+   "sha256": "63a2788a01104ea49eec84df2dd667d2030fa41ced411daa8047b2b7cdb0415e"
+  }
+ },
+ "seconds_per_table": {
+  "family_read_status.csv": 0.0,
+  "existing_label.csv": 39.5,
+  "heads.csv": 83.4,
+  "refits.csv": 0.5,
+  "batch_resampled.csv": 0.7,
+  "absolute.csv": 269.6,
+  "availability.csv": 52.3,
+  "manipulation_summary.csv": 0.0,
+  "reach.csv": 0.1,
+  "positive_control_absolute.csv": 0.7,
+  "agreement.csv": 0.7,
+  "c2_paired.csv": 33.9,
+  "delta_batch.csv": 18.3,
+  "identity_population.csv": 43.9
+ },
+ "seconds": 552.3
+}

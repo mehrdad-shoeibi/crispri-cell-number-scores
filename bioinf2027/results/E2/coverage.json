@@ -1,0 +1,155 @@
+{
+ "plan": "bioinf2027/plans/E2.md, Section 9 (check 3) and Sections 16 and 17",
+ "coverage": {
+  "scgpt": {
+   "vocabulary_size": 60697,
+   "VCC": {
+    "genes_in_file": 18080,
+    "genes_matched": 17840,
+    "feature_genes": 2000,
+    "share_of_feature_genes_matched": 0.985,
+    "feature_genes_in_file_and_matched": 1970,
+    "target_genes": 282,
+    "share_of_target_genes_matched": 1.0,
+    "check_3_stop": false,
+    "median_share_of_counts_seen": {
+     "vcc_perturbed_train": 0.9877170920372009,
+     "vcc_perturbed_val": 0.9877579510211945,
+     "vcc_perturbed_test": 0.9877093732357025,
+     "vcc_control": 0.9877581596374512
+    }
+   },
+   "RPE1": {
+    "genes_in_file": 8749,
+    "genes_matched": 8602,
+    "feature_genes": 2000,
+    "share_of_feature_genes_matched": 0.985,
+    "feature_genes_in_file_and_matched": 1529,
+    "target_genes": 1811,
+    "share_of_target_genes_matched": 0.9867476532302595,
+    "check_3_stop": false,
+    "median_share_of_counts_seen": {
+     "RPE1_perturbed": 0.9902075529098511,
+     "RPE1_control": 0.9893746376037598
+    }
+   },
+   "K562-essential": {
+    "genes_in_file": 8563,
+    "genes_matched": 8324,
+    "feature_genes": 2000,
+    "share_of_feature_genes_matched": 0.985,
+    "feature_genes_in_file_and_matched": 1410,
+    "target_genes": 1811,
+    "share_of_target_genes_matched": 0.9828823854224186,
+    "check_3_stop": false,
+    "median_share_of_counts_seen": {
+     "K562-essential_perturbed": 0.9846708178520203,
+     "K562-essential_control": 0.9846296906471252
+    }
+   }
+  },
+  "stack": {
+   "vocabulary_size": 15012,
+   "VCC": {
+    "genes_in_file": 18080,
+    "genes_matched": 12871,
+    "feature_genes": 2000,
+    "share_of_feature_genes_matched": 0.7675,
+    "feature_genes_in_file_and_matched": 1535,
+    "target_genes": 282,
+    "share_of_target_genes_matched": 0.7446808510638298,
+    "check_3_stop": false,
+    "median_share_of_counts_seen": {
+     "vcc_perturbed_train": 0.7616654634475708,
+     "vcc_perturbed_val": 0.7618443369865417,
+     "vcc_perturbed_test": 0.7617706060409546,
+     "vcc_control": 0.7617883682250977
+    }
+   },
+   "RPE1": {
+    "genes_in_file": 8749,
+    "genes_matched": 6207,
+    "feature_genes": 2000,
+    "share_of_feature_genes_matched": 0.7675,
+    "feature_genes_in_file_and_matched": 1168,
+    "target_genes": 1811,
+    "share_of_target_genes_matched": 0.6791827719491993,
+    "check_3_stop": false,
+    "median_share_of_counts_seen": {
+     "RPE1_perturbed": 0.6053329706192017,
+     "RPE1_control": 0.6098878979682922
+    }
+   },
+   "K562-essential": {
+    "genes_in_file": 8563,
+    "genes_matched": 5958,
+    "feature_genes": 2000,
+    "share_of_feature_genes_matched": 0.7675,
+    "feature_genes_in_file_and_matched": 1076,
+    "target_genes": 1811,
+    "share_of_target_genes_matched": 0.6664826062948647,
+    "check_3_stop": false,
+    "median_share_of_counts_seen": {
+     "K562-essential_perturbed": 0.5383193492889404,
+     "K562-essential_control": 0.5386545658111572
+    }
+   }
+  }
+ },
+ "inputs": {
+  "downloads": {
+   "path": "bioinf2027/results/E2/downloads.json",
+   "bytes": 6293,
+   "sha256": "87d6f9aacb180c8bbd5c1dedb2c38bff4df8ac5ede82a8867ad1cddd3921760c"
+  },
+  "scgpt_part_records": {
+   "vcc_perturbed_train": {
+    "path": "$IGA_STORAGE_ROOT/bioinf2027/E2/embeddings/scgpt/vcc_perturbed_train.json",
+    "bytes": 1521,
+    "sha256": "2bb3f4d5ddd2ce6d405440d2419f549c85e93f57b2ec79465fcbb04f461b1974"
+   },
+   "vcc_perturbed_val": {
+    "path": "$IGA_STORAGE_ROOT/bioinf2027/E2/embeddings/scgpt/vcc_perturbed_val.json",
+    "bytes": 1520,
+    "sha256": "f2b7145df42d76228b602294842b2345f8c9577284b145816c2a3ea7a1b96c78"
+   },
+   "vcc_perturbed_test": {
+    "path": "$IGA_STORAGE_ROOT/bioinf2027/E2/embeddings/scgpt/vcc_perturbed_test.json",
+    "bytes": 1513,
+    "sha256": "faee169339246fa424a86436eb8baa5dada986d07b4e844dfd5c3e1c509690ba"
+   },
+   "vcc_control": {
+    "path": "$IGA_STORAGE_ROOT/bioinf2027/E2/embeddings/scgpt/vcc_control.json",
+    "bytes": 1494,
+    "sha256": "aff453812a47fca3dd5fbb0c1dee94fb54337bd57f7d9d23fd443c411190f1c1"
+   },
+   "RPE1_perturbed": {
+    "path": "$IGA_STORAGE_ROOT/bioinf2027/E2/embeddings/scgpt/RPE1_perturbed.json",
+    "bytes": 1540,
+    "sha256": "3b1cd3df8876fe63052bffdc32ba704110b128f3816206dd4a1718ab3f9a7a4b"
+   },
+   "RPE1_control": {
+    "path": "$IGA_STORAGE_ROOT/bioinf2027/E2/embeddings/scgpt/RPE1_control.json",
+    "bytes": 1530,
+    "sha256": "e24e7414e70c69ce2a127bd8fb0d567fd5712577fe0653c056d95fb6d044324a"
+   },
+   "K562-essential_perturbed": {
+    "path": "$IGA_STORAGE_ROOT/bioinf2027/E2/embeddings/scgpt/K562-essential_perturbed.json",
+    "bytes": 1582,
+    "sha256": "3855ba4e6cba13d6ed2a3a48bb728dfaff9ef4319461fce20311fd72fa1797bc"
+   },
+   "K562-essential_control": {
+    "path": "$IGA_STORAGE_ROOT/bioinf2027/E2/embeddings/scgpt/K562-essential_control.json",
+    "bytes": 1569,
+    "sha256": "0cf767affb56371a503a0b52db093f07bf0bceeebc6af2f7a1c951d8982f8c39"
+   }
+  }
+ },
+ "code": {
+  "bioinf2027/scripts/make_e2_coverage.py": "161f3645a7ed274218a47ad92929b20cee09ddc452189b2f9caf696d81ac741c",
+  "bioinf2027/scripts/make_e2_features.py": "ace4eff273c55d5117650c7ac3ad02239fcccf8b5f867d1bf87fa9f9694ed478",
+  "bioinf2027/scripts/e2cells.py": "ee48124ac0c8fcd3322c321e3ed2ca4c5eb09d316d8f2f5404a29a86f842df91",
+  "bioinf2027/scripts/safe_pickle.py": "4bb2331bc241cf396a44c44ac76e6f93a2280f4ed9e46469ff4fdaf4e0d4844a"
+ },
+ "seconds": 567.8
+}

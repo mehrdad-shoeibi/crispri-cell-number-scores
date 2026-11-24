@@ -1,0 +1,201 @@
+{
+ "item": "E2, supplement (c): scGPT's input and the target gene (gate G3, item 5 (c); bioinf2027/GATE.md)",
+ "status": "added after the results review (gate G3, item 5 (c); bioinf2027/GATE.md)",
+ "rule": "per perturbed cell: the target gene in scGPT's vocabulary (exact symbol); expressed (stored count above 0); among the at most 1,199 genes given to the model (make_e2_embed_scgpt.cell_input, the generator per cell)",
+ "check_across_environments": {
+  "probe_cells": 2000,
+  "probe_cells_above_1199_expressed": 2000,
+  "equal": {
+   "kept": true,
+   "binned": true,
+   "bounds": true
+  },
+  "passed": true,
+  "environments": {
+   "pipeline": {
+    "numpy": "2.4.4",
+    "python": "3.13.12"
+   },
+   "scgpt": {
+    "numpy": "2.2.6",
+    "python": "3.10.20"
+   }
+  },
+  "inputs": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/scratch/E2_scgpt_draws/probe_inputs.npz",
+   "bytes": 45679364,
+   "sha256": "e71dce9968a9a65d2c926878216e0c4c276832d45e832dd94e723e782185b828"
+  },
+  "outputs": {
+   "pipeline": {
+    "path": "$IGA_STORAGE_ROOT/bioinf2027/scratch/E2_scgpt_draws/probe_draws_pipeline.npz",
+    "bytes": 28793292,
+    "sha256": "b3710169cf80ccb30400726d3a013e59410ed2e931f54393e1e363f0e93e77f7"
+   },
+   "scgpt": {
+    "path": "$IGA_STORAGE_ROOT/bioinf2027/scratch/E2_scgpt_draws/probe_draws_scgpt.npz",
+    "bytes": 28793292,
+    "sha256": "0c99fd983e2a2a72dc8aeb032bcee73681437874e9833f3fee72e2571800c1de"
+   }
+  }
+ },
+ "parts": {
+  "vcc_perturbed_train": {
+   "perturbed_cells": 175980,
+   "share_target_in_scgpt_vocabulary": 1.0,
+   "share_target_expressed_in_vocabulary": 0.276235935901807,
+   "share_target_among_the_genes_given_to_scgpt": 0.03817479259006705,
+   "share_given_among_cells_with_the_target_expressed": 0.13819633012424914,
+   "cells_target_given": 6718,
+   "cells_target_expressed": 48612,
+   "targets_not_in_the_file": 0,
+   "equal_to_the_part_record": true,
+   "part_record": {
+    "cells": 175980,
+    "genes_matched": 17840,
+    "median_expressed_genes": 8665.0
+   }
+  },
+  "vcc_perturbed_val": {
+   "perturbed_cells": 58796,
+   "share_target_in_scgpt_vocabulary": 1.0,
+   "share_target_expressed_in_vocabulary": 0.3744472413089326,
+   "share_target_among_the_genes_given_to_scgpt": 0.04939111504183958,
+   "share_given_among_cells_with_the_target_expressed": 0.13190406976744187,
+   "cells_target_given": 2904,
+   "cells_target_expressed": 22016,
+   "targets_not_in_the_file": 0,
+   "equal_to_the_part_record": true,
+   "part_record": {
+    "cells": 58796,
+    "genes_matched": 17840,
+    "median_expressed_genes": 8667.0
+   }
+  },
+  "vcc_perturbed_test": {
+   "perturbed_cells": 128874,
+   "share_target_in_scgpt_vocabulary": 1.0,
+   "share_target_expressed_in_vocabulary": 0.3322392414296134,
+   "share_target_among_the_genes_given_to_scgpt": 0.04575011251299719,
+   "share_given_among_cells_with_the_target_expressed": 0.1377023145012495,
+   "cells_target_given": 5896,
+   "cells_target_expressed": 42817,
+   "targets_not_in_the_file": 0,
+   "equal_to_the_part_record": true,
+   "part_record": {
+    "cells": 128874,
+    "genes_matched": 17840,
+    "median_expressed_genes": 8662.0
+   }
+  },
+  "RPE1_perturbed": {
+   "perturbed_cells": 197121,
+   "share_target_in_scgpt_vocabulary": 0.9910714738663055,
+   "share_target_expressed_in_vocabulary": 0.11535047001587857,
+   "share_target_among_the_genes_given_to_scgpt": 0.03976237945221463,
+   "share_given_among_cells_with_the_target_expressed": 0.34470929721171606,
+   "cells_target_given": 7838,
+   "cells_target_expressed": 22738,
+   "targets_not_in_the_file": 0,
+   "cells_whose_target_column_symbol_differs_from_the_construct_name": 0,
+   "equal_to_the_part_record": true,
+   "part_record": {
+    "cells": 197121,
+    "genes_matched": 8602,
+    "median_expressed_genes": 3388.0
+   }
+  },
+  "K562-essential_perturbed": {
+   "perturbed_cells": 273279,
+   "share_target_in_scgpt_vocabulary": 0.9845798616066365,
+   "share_target_expressed_in_vocabulary": 0.2388255226343773,
+   "share_target_among_the_genes_given_to_scgpt": 0.07901448702607958,
+   "share_given_among_cells_with_the_target_expressed": 0.3308460760579781,
+   "cells_target_given": 21593,
+   "cells_target_expressed": 65266,
+   "targets_not_in_the_file": 0,
+   "cells_whose_target_column_symbol_differs_from_the_construct_name": 0,
+   "equal_to_the_part_record": true,
+   "part_record": {
+    "cells": 273279,
+    "genes_matched": 8324,
+    "median_expressed_genes": 3538.0
+   }
+  }
+ },
+ "screens": {
+  "VCC": {
+   "perturbed_cells": 363650,
+   "share_target_in_scgpt_vocabulary": 1.0,
+   "share_target_expressed_in_vocabulary": 0.31196205142307165,
+   "share_target_among_the_genes_given_to_scgpt": 0.042672899766258765,
+   "share_given_among_cells_with_the_target_expressed": 0.13678875225880383,
+   "cells_target_given": 15518,
+   "cells_target_expressed": 113445
+  },
+  "RPE1": {
+   "perturbed_cells": 197121,
+   "share_target_in_scgpt_vocabulary": 0.9910714738663055,
+   "share_target_expressed_in_vocabulary": 0.11535047001587857,
+   "share_target_among_the_genes_given_to_scgpt": 0.03976237945221463,
+   "share_given_among_cells_with_the_target_expressed": 0.34470929721171606,
+   "cells_target_given": 7838,
+   "cells_target_expressed": 22738
+  },
+  "K562-essential": {
+   "perturbed_cells": 273279,
+   "share_target_in_scgpt_vocabulary": 0.9845798616066365,
+   "share_target_expressed_in_vocabulary": 0.2388255226343773,
+   "share_target_among_the_genes_given_to_scgpt": 0.07901448702607958,
+   "share_given_among_cells_with_the_target_expressed": 0.3308460760579781,
+   "cells_target_given": 21593,
+   "cells_target_expressed": 65266
+  }
+ },
+ "inputs": {
+  "part_records": {
+   "vcc_perturbed_train": {
+    "path": "$IGA_STORAGE_ROOT/bioinf2027/E2/embeddings/scgpt/vcc_perturbed_train.json",
+    "bytes": 1521,
+    "sha256": "2bb3f4d5ddd2ce6d405440d2419f549c85e93f57b2ec79465fcbb04f461b1974"
+   },
+   "vcc_perturbed_val": {
+    "path": "$IGA_STORAGE_ROOT/bioinf2027/E2/embeddings/scgpt/vcc_perturbed_val.json",
+    "bytes": 1520,
+    "sha256": "f2b7145df42d76228b602294842b2345f8c9577284b145816c2a3ea7a1b96c78"
+   },
+   "vcc_perturbed_test": {
+    "path": "$IGA_STORAGE_ROOT/bioinf2027/E2/embeddings/scgpt/vcc_perturbed_test.json",
+    "bytes": 1513,
+    "sha256": "faee169339246fa424a86436eb8baa5dada986d07b4e844dfd5c3e1c509690ba"
+   },
+   "RPE1_perturbed": {
+    "path": "$IGA_STORAGE_ROOT/bioinf2027/E2/embeddings/scgpt/RPE1_perturbed.json",
+    "bytes": 1540,
+    "sha256": "3b1cd3df8876fe63052bffdc32ba704110b128f3816206dd4a1718ab3f9a7a4b"
+   },
+   "K562-essential_perturbed": {
+    "path": "$IGA_STORAGE_ROOT/bioinf2027/E2/embeddings/scgpt/K562-essential_perturbed.json",
+    "bytes": 1582,
+    "sha256": "3855ba4e6cba13d6ed2a3a48bb728dfaff9ef4319461fce20311fd72fa1797bc"
+   }
+  },
+  "downloads": {
+   "path": "bioinf2027/results/E2/downloads.json",
+   "bytes": 6293,
+   "sha256": "87d6f9aacb180c8bbd5c1dedb2c38bff4df8ac5ede82a8867ad1cddd3921760c"
+  }
+ },
+ "environment": {
+  "numpy": "2.4.4",
+  "python": "3.13.12"
+ },
+ "code": {
+  "bioinf2027/scripts/make_e2_scgpt_target_input.py": "3c538885ce29d6cce785a3ff9951f0dd19a533458c721890ac5cb2283f174112",
+  "bioinf2027/scripts/e2_scgpt_draws.py": "acc7d592d81a8f7ef07c84752335a502fe9afb7056f209de2761fdc37bc92d1b",
+  "bioinf2027/scripts/make_e2_scgpt_input_share.py": "cbfbaddf3628fa9aac4cdbb1356e891d580881b411fad95feeaa2ef57a00d86d",
+  "bioinf2027/scripts/make_e2_embed_scgpt.py": "6b8c1f151efe402f65631ab7f73a119297ee5beb71866fd9d54a212c9c329ca2",
+  "bioinf2027/scripts/e2cells.py": "ee48124ac0c8fcd3322c321e3ed2ca4c5eb09d316d8f2f5404a29a86f842df91"
+ },
+ "seconds": 667.6
+}

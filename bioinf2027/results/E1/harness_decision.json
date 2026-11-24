@@ -1,0 +1,29 @@
+{
+ "decision": "gate G3, answers to bioinf2027/GATE.md at 439829e, item 1: the harness is tied through z, [z; m], C2, C4, C5 and every VCC test value; the submitted external C1 and C3 are not reconstructible; E1b proceeds",
+ "recorded_in": "bioinf2027/plans/E1_design.md, Section 29",
+ "accepted_failures": [
+  {
+   "arm": "C1",
+   "scope": "RPE1",
+   "difference": 0.025200678832724907
+  },
+  {
+   "arm": "C3",
+   "scope": "RPE1",
+   "difference": -0.006660251762448097
+  },
+  {
+   "arm": "C3",
+   "scope": "K562-essential",
+   "difference": 0.008114035114258318
+  }
+ ],
+ "harness_file": {
+  "path": "bioinf2027/results/E1/harness.csv",
+  "sha256": "8b7a8c256ae15e46db7e575970469100e7f082110b1c74c24a73c5519383721d"
+ },
+ "checks_file": {
+  "path": "bioinf2027/results/E1/checks.json",
+  "sha256": "cf4d448fa2b7acf906bca8186a1ef19d12975a53f84aa2ad321cd0364d3f9ebf"
+ }
+}

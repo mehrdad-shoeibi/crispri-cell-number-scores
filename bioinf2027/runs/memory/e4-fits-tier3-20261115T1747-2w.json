@@ -1,0 +1,14 @@
+{
+ "label": "e4-fits-tier3-20261115T1747-2w",
+ "started": "2026-11-15T17:47:51-0500",
+ "last_sample": "2026-11-15T18:01:18-0500",
+ "samples": 155,
+ "interval_s": 5.0,
+ "workers_seen": 2,
+ "workers_at_once_max": 2,
+ "main_peak_gb": 1.927,
+ "worker_peak_gb": 7.204,
+ "total_rss_peak_gb": 15.17,
+ "total_pss_peak_gb": 12.337,
+ "note": "peaks are VmHWM per process; totals are sums at one sample; RSS counts shared pages once per process"
+}

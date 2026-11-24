@@ -1,0 +1,94 @@
+{
+ "plan": "bioinf2027/plans/E2_null_external.md",
+ "seed": 20271131,
+ "screens": {
+  "RPE1": {
+   "constructs": 1932,
+   "constructs_without_cells": 0,
+   "control_cells": 11485,
+   "constructs_drawn_with_replacement": 0,
+   "median_n": 76.0,
+   "largest_n": 3580
+  },
+  "K562-essential": {
+   "constructs": 1903,
+   "constructs_without_cells": 0,
+   "control_cells": 10691,
+   "constructs_drawn_with_replacement": 0,
+   "median_n": 118.0,
+   "largest_n": 1996
+  }
+ },
+ "encoders": {
+  "geneformer": {
+   "RPE1": {
+    "width": 768,
+    "control_cells": 11485
+   },
+   "K562-essential": {
+    "width": 768,
+    "control_cells": 10691
+   }
+  },
+  "scgpt": {
+   "RPE1": {
+    "width": 512,
+    "control_cells": 11485
+   },
+   "K562-essential": {
+    "width": 512,
+    "control_cells": 10691
+   }
+  },
+  "stack": {
+   "RPE1": {
+    "width": 1600,
+    "control_cells": 11485
+   },
+   "K562-essential": {
+    "width": 1600,
+    "control_cells": 10691
+   }
+  },
+  "pca50": {
+   "RPE1": {
+    "width": 50,
+    "control_cells": 11485
+   },
+   "K562-essential": {
+    "width": 50,
+    "control_cells": 10691
+   }
+  }
+ },
+ "output": {
+  "path": "$IGA_STORAGE_ROOT/bioinf2027/E2/null_external/features.npz",
+  "bytes": 46377174,
+  "sha256": "674114bac8cbc544c045bd6f75f78950753aee1dc720ae5bcd9ec0a343380453"
+ },
+ "code": {
+  "bioinf2027/scripts/e2cells.py": "ee48124ac0c8fcd3322c321e3ed2ca4c5eb09d316d8f2f5404a29a86f842df91",
+  "bioinf2027/scripts/make_d2_embeddings.py": "c765dfd809d39a3263dbfe87fe8febf8ce78da887cb696b43aaed99ad2966e96",
+  "bioinf2027/scripts/make_d2_input_records.py": "93e8a06b0ed75e401051462fbc5847b3fc59f2ffac74eea19079b29ab526f0d0",
+  "bioinf2027/scripts/make_d2_units.py": "fcd875400baed1889fb5d402c60464c42e7ab8c9f49fd8a3577a74ac986a75e9",
+  "bioinf2027/scripts/make_e1a_extract.py": "2403a0fb0ce888a0ddc453c42536d8f24d259e0816b8165ecaa9d77df857a23f",
+  "bioinf2027/scripts/make_e1a_label_extract.py": "50e8d6c5a0b3ef8f6d0dd842d3588689cb3ca06a8006ed9f2359afe6af39e833",
+  "bioinf2027/scripts/make_e1a_labels.py": "44a0ea9dd47a522e9e2c40b5c7df8a342789053534a6b39f49cdb2cf0ddb989e",
+  "bioinf2027/scripts/make_e1b_input_records.py": "f920fc89ca89597b7557ee072cd1f22b0b0428514fee24aeb0a0669f74d8996e",
+  "bioinf2027/scripts/make_e2_features.py": "ace4eff273c55d5117650c7ac3ad02239fcccf8b5f867d1bf87fa9f9694ed478",
+  "bioinf2027/scripts/make_e2_null_external.py": "640adaa969ece4360b10b6fa05abb941a92e0f9762ef74475299256292fe982c",
+  "bioinf2027/src/bioinf2027/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bioinf2027/src/bioinf2027/cellpass.py": "3308e62afd511b7184214935da082dfa74489355ec330ed1b53a2cfc560b6b34",
+  "bioinf2027/src/bioinf2027/config.py": "ae8a841e511f735af8063e132a475b835f6015755fb628d2ee7d04f949b5f760",
+  "bioinf2027/src/bioinf2027/e1cells.py": "2d3a7f0b3b199c80a3f7dec052363716b85cec536b1ec8afe54b7e7c93ce6a9c",
+  "bioinf2027/src/bioinf2027/e1inputs.py": "19c703e52835be70bfb9ec8fa77b9a8f11118e8af4670a5bec2485af29f41cc6",
+  "bioinf2027/src/bioinf2027/endpoint.py": "663eb3a07f9398fc2b8a624456e6cecc0f2ecbe7756ab792a59a2586a8505ce9",
+  "bioinf2027/src/bioinf2027/features.py": "109241aaaa33c7a8bc9ddcdaa3bf307924cf8ffb67264aa7f81948f7150b96fb",
+  "bioinf2027/src/bioinf2027/heads.py": "c03831822a147661bfd3fd1ae36dfa51c003b679941a90208156c8d410abd9f7",
+  "bioinf2027/src/bioinf2027/provenance.py": "dbfcb8c9cd0c0a965852b466584c89d6005ca7c4851e11fe5560d020ede4eb5d",
+  "bioinf2027/src/bioinf2027/representations.py": "94eb4a332741f9a5471773486a41123b30b1c38241e974df81ef3f7bb95f2429",
+  "bioinf2027/src/bioinf2027/singlecell.py": "6de60f867c2f53eb07d8f20cc2ca2feb08a9b342153e4694bbfef151ccdbce97",
+  "bioinf2027/src/bioinf2027/transfer.py": "039ba5388e051ccfda40f0a2e1e0378898fe9c3881fc17de199f429cee3ce705"
+ },
+ "seconds": 50.2
+}

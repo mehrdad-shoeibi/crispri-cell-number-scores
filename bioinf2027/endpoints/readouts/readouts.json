@@ -1,0 +1,260 @@
+{
+ "plan": "bioinf2027/plans/E1_design.md, Sections 9, 12, 21, 23 and 24",
+ "inputs": {
+  "G1": {
+   "manifest": {
+    "path": "bioinf2027/endpoints/G1/manifest.json",
+    "bytes": 1748,
+    "sha256": "4b85517801ed167a901cefdc0cdba89f5898233be2edbda15cc9852cdd08cc28"
+   }
+  },
+  "G2": {
+   "manifest": {
+    "path": "bioinf2027/endpoints/G2/manifest.json",
+    "bytes": 1751,
+    "sha256": "61d7ba70991db5b5f5dec46999ce33555fac161e685d113246e909227420c775"
+   }
+  },
+  "G3": {
+   "manifest": {
+    "path": "bioinf2027/endpoints/G3/manifest.json",
+    "bytes": 446,
+    "sha256": "d0f569c5e6b173519bee7cda0b3582608f18657f33284c758e93b88bbb9e64df"
+   }
+  },
+  "G4": {
+   "manifest": {
+    "path": "bioinf2027/endpoints/G4/manifest.json",
+    "bytes": 444,
+    "sha256": "9093772806f91ce60163c881434e18edf05798a93b3b9ec411a16d313ac4336f"
+   }
+  },
+  "G5": {
+   "manifest": {
+    "path": "bioinf2027/endpoints/G5/manifest.json",
+    "bytes": 1749,
+    "sha256": "845cd1dc6de849a711a9e198acb5a26cab3bd376aadffcba5e8347e737962461"
+   }
+  },
+  "G6": {
+   "manifest": {
+    "path": "bioinf2027/endpoints/G6/manifest.json",
+    "bytes": 1752,
+    "sha256": "c5947bd85270f863132a9a58f145c3521604e19ffb8129524c3d94ea2f3878cc"
+   }
+  },
+  "G1-SU-RPE1": {
+   "manifest": {
+    "path": "bioinf2027/endpoints/G1-SU-RPE1/manifest.json",
+    "bytes": 675,
+    "sha256": "4e8f341cdd13029996d9fc7ed9011393c98e678c3c560078c09b119aa96d009c"
+   }
+  },
+  "G1-DT-RPE1": {
+   "manifest": {
+    "path": "bioinf2027/endpoints/G1-DT-RPE1/manifest.json",
+    "bytes": 463,
+    "sha256": "443074474daef2d214aa4f589e902b5bdb083ac695219125f05a90594a26859c"
+   }
+  },
+  "G5-DT-RPE1": {
+   "manifest": {
+    "path": "bioinf2027/endpoints/G5-DT-RPE1/manifest.json",
+    "bytes": 462,
+    "sha256": "6ba9e89e4c2262a54a6214eba066ff6a4fbd27de920e6c17fad3e04e09a5b58a"
+   }
+  },
+  "G6-DT-RPE1": {
+   "manifest": {
+    "path": "bioinf2027/endpoints/G6-DT-RPE1/manifest.json",
+    "bytes": 463,
+    "sha256": "9c187ef0ec3d30621f985fee214630ec879bdb9a32ad232640687219e6d29b3f"
+   }
+  },
+  "G1-SU-K562-essential": {
+   "manifest": {
+    "path": "bioinf2027/endpoints/G1-SU-K562-essential/manifest.json",
+    "bytes": 725,
+    "sha256": "3bd9dad610fd9fe3e112fb532e7222597fa5c7dd03b29fb633894059fd2eed01"
+   }
+  },
+  "G1-DT-K562-essential": {
+   "manifest": {
+    "path": "bioinf2027/endpoints/G1-DT-K562-essential/manifest.json",
+    "bytes": 482,
+    "sha256": "29c7406995e16364a0b7170f6aff0ba4501d8347c60f07d6a29d775e288b8df0"
+   }
+  },
+  "G5-DT-K562-essential": {
+   "manifest": {
+    "path": "bioinf2027/endpoints/G5-DT-K562-essential/manifest.json",
+    "bytes": 481,
+    "sha256": "2efdd2aaec94072258923d32d9c636fdd31dc6e0c0b3827c9752a0c0dd7436ca"
+   }
+  },
+  "G6-DT-K562-essential": {
+   "manifest": {
+    "path": "bioinf2027/endpoints/G6-DT-K562-essential/manifest.json",
+    "bytes": 482,
+    "sha256": "76b744f5e26add7993e13372ca8d2a5b2576cb5080359b36147e5b15590aca50"
+   }
+  }
+ },
+ "outputs": {
+  "floors.csv": {
+   "path": "bioinf2027/endpoints/readouts/floors.csv",
+   "bytes": 890,
+   "sha256": "af64826c9e28e3fa8fe59c469c161a2429e2db02e1d84839f968db9dec792cbc"
+  },
+  "R1_R3_R6.csv": {
+   "path": "bioinf2027/endpoints/readouts/R1_R3_R6.csv",
+   "bytes": 115749,
+   "sha256": "e01a6144d37f0a7fd494385e40956b96bc09e138f3154d31a3d0d12e66b98e8b"
+  },
+  "R2_between.csv": {
+   "path": "bioinf2027/endpoints/readouts/R2_between.csv",
+   "bytes": 6440,
+   "sha256": "69165339c4ffac1f5977fc8d5ec2430751d64650e00309119cb2419c97952e6e"
+  },
+  "R2_within_and_mechanical.csv": {
+   "path": "bioinf2027/endpoints/readouts/R2_within_and_mechanical.csv",
+   "bytes": 3848,
+   "sha256": "761a9057168557893e5f3b001a5de62897f618e7291f4cda08e5bde47af1de30"
+  },
+  "R5_gate.csv": {
+   "path": "bioinf2027/endpoints/readouts/R5_gate.csv",
+   "bytes": 2074,
+   "sha256": "a66bd860b9f9d16ba9a0d46ef3036f0565d85c919a1ae5fd9fb532dbb638a41a"
+  },
+  "R5_descriptive.csv": {
+   "path": "bioinf2027/endpoints/readouts/R5_descriptive.csv",
+   "bytes": 878,
+   "sha256": "b0e1b12af8b224185c79661e1ac7fa28ffd7be539bd6f20479eb5cd01abf046e"
+  },
+  "R8.csv": {
+   "path": "bioinf2027/endpoints/readouts/R8.csv",
+   "bytes": 1367,
+   "sha256": "8858f6be5891aa51ed7a7dc448e34314054ada481766f43292c0edd7ec830f3a"
+  },
+  "R4.csv": {
+   "path": "bioinf2027/endpoints/readouts/R4.csv",
+   "bytes": 7751,
+   "sha256": "a7aeee763148100a72fc0051f6bd7b0d006dcec1a762de0b8c2f44472eaf3f3b"
+  },
+  "R7.csv": {
+   "path": "bioinf2027/endpoints/readouts/R7.csv",
+   "bytes": 24043,
+   "sha256": "d7c0601f5168cafc943b51ca247ba2292ec418a3923b082f5e1aae2c26e7b312"
+  },
+  "missing_labels.csv": {
+   "path": "bioinf2027/endpoints/readouts/missing_labels.csv",
+   "bytes": 2915,
+   "sha256": "35a39506cfdaae32716ac179001a47a6d72fd81a815c1b433dddc4ff9d518e92"
+  },
+  "R9.csv": {
+   "path": "bioinf2027/endpoints/readouts/R9.csv",
+   "bytes": 1940,
+   "sha256": "76da3367af6fcf518591fbbb2d5c9d6fcad6c67aba45b1f7a2fe0636ee2d524f"
+  },
+  "batch_own_null_baseline.csv": {
+   "path": "bioinf2027/endpoints/readouts/batch_own_null_baseline.csv",
+   "bytes": 2227,
+   "sha256": "16a18fa68f044064dfe14f1e1d51dca32269a190b0a093a1ba8b9aa8a7c2349e"
+  }
+ },
+ "r2_stop_rule": {
+  "G1": {
+   "fires": false,
+   "excess": 0.024106260894193505,
+   "excess_lo": -0.015830249236639674,
+   "excess_hi": 0.06570274796752987
+  },
+  "G2": {
+   "fires": false,
+   "excess": -0.04543949409458394,
+   "excess_lo": -0.06717885453959943,
+   "excess_hi": -0.024268266906041485
+  },
+  "G5": {
+   "fires": false,
+   "excess": 0.021452276093578596,
+   "excess_lo": -0.022796557215775507,
+   "excess_hi": 0.06335738532902482
+  },
+  "G6": {
+   "fires": false,
+   "excess": -0.012255210991151164,
+   "excess_lo": -0.032835027829841996,
+   "excess_hi": 0.007837116866968776
+  }
+ },
+ "r5_gate": {
+  "G1 | VCC": {
+   "versions": 2,
+   "smallest_reliability": 0.23213383019959352,
+   "passed": true
+  },
+  "G1 | RPE1": {
+   "versions": 1,
+   "smallest_reliability": 0.21639279861087668,
+   "passed": true
+  },
+  "G1 | K562-essential": {
+   "versions": 1,
+   "smallest_reliability": 0.11141577450333706,
+   "passed": false
+  },
+  "G2 | VCC": {
+   "versions": 1,
+   "smallest_reliability": 0.4716834255259591,
+   "passed": true
+  },
+  "G2 | RPE1": {
+   "versions": 1,
+   "smallest_reliability": 0.09622780024257374,
+   "passed": false
+  },
+  "G2 | K562-essential": {
+   "versions": 1,
+   "smallest_reliability": 0.13611094216966055,
+   "passed": false
+  },
+  "G5 | VCC": {
+   "versions": 2,
+   "smallest_reliability": 0.2007374724603453,
+   "passed": true
+  },
+  "G5 | RPE1": {
+   "versions": 1,
+   "smallest_reliability": 0.19475494097476487,
+   "passed": false
+  },
+  "G5 | K562-essential": {
+   "versions": 1,
+   "smallest_reliability": 0.15449690894058654,
+   "passed": false
+  },
+  "G6 | VCC": {
+   "versions": 1,
+   "smallest_reliability": 0.3406575440399692,
+   "passed": true
+  },
+  "G6 | RPE1": {
+   "versions": 1,
+   "smallest_reliability": 0.09199786968949558,
+   "passed": false
+  },
+  "G6 | K562-essential": {
+   "versions": 1,
+   "smallest_reliability": 0.1405979754026281,
+   "passed": false
+  }
+ },
+ "underpowered_cells": [],
+ "bootstrap": {
+  "replicates": 10000,
+  "seed": 20270301,
+  "unit": "target gene"
+ },
+ "seconds": 858.694149017334
+}

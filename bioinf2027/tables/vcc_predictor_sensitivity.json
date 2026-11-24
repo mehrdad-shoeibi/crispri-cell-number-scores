@@ -1,0 +1,9 @@
+{
+ "table": "vcc_predictor_sensitivity",
+ "rows": 22,
+ "inputs": {
+  "bioinf2027/results/E2/stats/vcc.csv": "5d164862404091fb59dcd3767ba2e2c2e84bbebea9a92104bf9e0dec7dd3742b"
+ },
+ "rounding": "three decimals, round half to even",
+ "fits": "none"
+}

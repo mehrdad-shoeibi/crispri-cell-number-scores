@@ -1,0 +1,187 @@
+{
+ "plan": "bioinf2027/plans/E4.md, Sections 5 and 10 as amended by Section 11",
+ "pass": "family",
+ "replicates": 10000,
+ "seeds": {
+  "external": {
+   "RPE1": 20260901,
+   "K562-essential": 20260902
+  },
+  "vcc": 20270301,
+  "nuisance folds": 20270409
+ },
+ "e1_flags": {
+  "available": true,
+  "files": {
+   "positive_controls": {
+    "path": "bioinf2027/results/E1/positive_controls.csv",
+    "bytes": 27983,
+    "sha256": "a20f8a1fa0a5f2055926edc28046b923d164326a3a26a01f11e41dc052edb509"
+   },
+   "preconditions": {
+    "path": "bioinf2027/results/E1/preconditions.csv",
+    "bytes": 63079,
+    "sha256": "57e385db23a1cd6e8bd12ada398e853c8f50ce68e5bedbedd15dce755f9c0677"
+   }
+  }
+ },
+ "corner_check": {
+  "compared_vectors": 18,
+  "max_abs_difference": 0.0,
+  "tolerance": 1e-12,
+  "passed": true,
+  "note": "the corner fits present in tiers 1 and 2: the corner z fits of G5 and G6 (E4 plan, Section 16, item 5)"
+ },
+ "inputs": {
+  "e1b_fits": {
+   "checks": {
+    "path": "bioinf2027/results/E1/checks.json",
+    "bytes": 13487,
+    "sha256": "cf4d448fa2b7acf906bca8186a1ef19d12975a53f84aa2ad321cd0364d3f9ebf"
+   },
+   "checks_acceptance": {
+    "accepted": true,
+    "by": "the author's decision at gate G3",
+    "decision": {
+     "path": "bioinf2027/results/E1/harness_decision.json",
+     "bytes": 870,
+     "sha256": "5434979882df8cab2ed7fcfe21093f79c3a967e20db6a59e0b79490b6369fb6f"
+    }
+   },
+   "refits": 20,
+   "screens": {
+    "RPE1": {
+     "e1b_x": "full-pass mapping",
+     "full_pass_mapping": {
+      "path": "$IGA_STORAGE_ROOT/bioinf2027/E1b/inputs/x_RPE1_full_pass_mapped.npy",
+      "bytes": 15456128,
+      "sha256": "d14cd7e0cdddc04ea81ea6ddf149ee1bb01fc091ebdf6cf3489bc274d5bd33c8"
+     },
+     "release": {
+      "path": "$IGA_STORAGE_ROOT/IGA_MAIN/data/replogle/raw/rpe1_normalized_bulk_01.h5ad",
+      "bytes": 95350546,
+      "sha256": "a3c5bfd0f15d63938bc80c9b8874b9cd761e3a23caf5ffe7966bae4e887ec89d"
+     }
+    },
+    "K562-essential": {
+     "e1b_x": "submitted array (equal to the full-pass mapping)",
+     "full_pass_mapping": {
+      "path": "$IGA_STORAGE_ROOT/bioinf2027/E1b/inputs/x_K562-essential_full_pass_mapped.npy",
+      "bytes": 15224128,
+      "sha256": "326142005d94fadf682a5d71a2dfaea5ba40ba4a5f40e61b2918e6f74f374965"
+     },
+     "release": {
+      "path": "$IGA_STORAGE_ROOT/IGA_MAIN/data/replogle/raw/K562_essential_normalized_bulk_01.h5ad",
+      "bytes": 79766954,
+      "sha256": "c1ca6456c9c9f1aa2b02c496eb64d1dc3e6a852edbd744d682b8d2c95fd36829"
+     }
+    }
+   },
+   "cell_manifests": {
+    "G5": {
+     "path": "bioinf2027/endpoints/G5/manifest.json",
+     "bytes": 1749,
+     "sha256": "845cd1dc6de849a711a9e198acb5a26cab3bd376aadffcba5e8347e737962461"
+    },
+    "G6": {
+     "path": "bioinf2027/endpoints/G6/manifest.json",
+     "bytes": 1752,
+     "sha256": "c5947bd85270f863132a9a58f145c3521604e19ffb8129524c3d94ea2f3878cc"
+    },
+    "G1": {
+     "path": "bioinf2027/endpoints/G1/manifest.json",
+     "bytes": 1748,
+     "sha256": "4b85517801ed167a901cefdc0cdba89f5898233be2edbda15cc9852cdd08cc28"
+    },
+    "G2": {
+     "path": "bioinf2027/endpoints/G2/manifest.json",
+     "bytes": 1751,
+     "sha256": "61d7ba70991db5b5f5dec46999ce33555fac161e685d113246e909227420c775"
+    },
+    "G1-SU-RPE1": {
+     "path": "bioinf2027/endpoints/G1-SU-RPE1/manifest.json",
+     "bytes": 675,
+     "sha256": "4e8f341cdd13029996d9fc7ed9011393c98e678c3c560078c09b119aa96d009c"
+    },
+    "G1-SU-K562-essential": {
+     "path": "bioinf2027/endpoints/G1-SU-K562-essential/manifest.json",
+     "bytes": 725,
+     "sha256": "3bd9dad610fd9fe3e112fb532e7222597fa5c7dd03b29fb633894059fd2eed01"
+    },
+    "G5-DT-RPE1": {
+     "path": "bioinf2027/endpoints/G5-DT-RPE1/manifest.json",
+     "bytes": 462,
+     "sha256": "6ba9e89e4c2262a54a6214eba066ff6a4fbd27de920e6c17fad3e04e09a5b58a"
+    },
+    "G5-DT-K562-essential": {
+     "path": "bioinf2027/endpoints/G5-DT-K562-essential/manifest.json",
+     "bytes": 481,
+     "sha256": "2efdd2aaec94072258923d32d9c636fdd31dc6e0c0b3827c9752a0c0dd7436ca"
+    },
+    "G6-DT-RPE1": {
+     "path": "bioinf2027/endpoints/G6-DT-RPE1/manifest.json",
+     "bytes": 463,
+     "sha256": "9c187ef0ec3d30621f985fee214630ec879bdb9a32ad232640687219e6d29b3f"
+    },
+    "G6-DT-K562-essential": {
+     "path": "bioinf2027/endpoints/G6-DT-K562-essential/manifest.json",
+     "bytes": 482,
+     "sha256": "76b744f5e26add7993e13372ca8d2a5b2576cb5080359b36147e5b15590aca50"
+    }
+   },
+   "input_records": {
+    "path": "bioinf2027/results/E1/input_records.json",
+    "bytes": 40895,
+    "sha256": "8e5203ece9d95b5602ef872e314f35cbe044532422bbaf98b44d3f49d3db73cb"
+   }
+  },
+  "e1b_predictions": {
+   "path": "bioinf2027/results/E1/predictions_manifest.json",
+   "bytes": 946848,
+   "sha256": "8a7e4be2b70f7260b701091e1d879c3734703a3ca075f73ac731aeb21019ce41"
+  },
+  "e4_predictions": {
+   "path": "bioinf2027/results/E4/predictions_manifest_tier2.json",
+   "bytes": 82392,
+   "sha256": "cf29a56350aac76cc75944ad22a434df370fc783e7d2d47934a130d832c714f6"
+  },
+  "features": {
+   "path": "bioinf2027/results/E4/features.json",
+   "bytes": 12462,
+   "sha256": "b588c4f6d7c170ce8a7aab7f808807d06a6192a45c319bfe72d572365c7c656c"
+  },
+  "r5_gate": {
+   "path": "bioinf2027/endpoints/readouts/readouts.json",
+   "bytes": 7237,
+   "sha256": "2dea18e1aa911337133d3be5974374de3b9cacdea168e637e74f5ee855f43d52"
+  },
+  "mechanical": {
+   "path": "bioinf2027/endpoints/readouts/R2_within_and_mechanical.csv",
+   "bytes": 3848,
+   "sha256": "761a9057168557893e5f3b001a5de62897f618e7291f4cda08e5bde47af1de30"
+  }
+ },
+ "outputs": {
+  "family.csv": {
+   "path": "bioinf2027/results/E4/family_pass/family.csv",
+   "bytes": 8137,
+   "sha256": "4248401f16a478aeaf922b09356807e9ec257d4dc4ea0d54a3e01c5f11d4ec08"
+  },
+  "readings.csv": {
+   "path": "bioinf2027/results/E4/family_pass/readings.csv",
+   "bytes": 5303,
+   "sha256": "cd8211df8edf8338d18fa63e5895ee6373987bbd5ed09d68b7f2633451a67a98"
+  },
+  "refits.csv": {
+   "path": "bioinf2027/results/E4/family_pass/refits.csv",
+   "bytes": 2334,
+   "sha256": "b9920dbf3793af133421caf23f9b0ee542653eaf42a747638b4a38350b03c542"
+  },
+  "z_minus_c2.csv": {
+   "path": "bioinf2027/results/E4/family_pass/z_minus_c2.csv",
+   "bytes": 1644,
+   "sha256": "265da024b9b573ce5fcd47b575487fe8d391d191395d0fcffdae91f516541289"
+  }
+ },
+ "seconds": 710.8
+}

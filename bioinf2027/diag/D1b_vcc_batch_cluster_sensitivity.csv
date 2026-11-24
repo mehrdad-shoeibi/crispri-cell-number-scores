@@ -1,0 +1,10 @@
+split,part,statistic,subset,resampling_unit,n_rows,n_batches,estimate,lo,hi,n_skipped
+train,a,spearman_label_negated_own_delta,rows_with_target_feature,batch,4131,48,0.3454163259710058,0.32830693218516943,0.3619999081940074,0
+train,a,partial_spearman_given_log1p_n_cells,rows_with_target_feature,batch,4131,48,0.6927761235901877,0.6800350404720478,0.7049687647574059,0
+train,b,spearman_label_control_mean,all,batch,5740,48,0.5132556489254924,0.4990522800041707,0.52749564363144,0
+val,a,spearman_label_negated_own_delta,rows_with_target_feature,batch,993,48,0.2050620161863884,0.17269928279400615,0.23599665414418514,0
+val,a,partial_spearman_given_log1p_n_cells,rows_with_target_feature,batch,993,48,0.5751838103525815,0.5527564702602535,0.5964245408165064,0
+val,b,spearman_label_control_mean,all,batch,2052,48,0.3365039491311623,0.31587040538217115,0.3564388995085835,0
+test,a,spearman_label_negated_own_delta,rows_with_target_feature,batch,1475,48,0.11772109425438479,0.09267902998414601,0.1425992816099303,0
+test,a,partial_spearman_given_log1p_n_cells,rows_with_target_feature,batch,1475,48,0.5213575950016164,0.5039525623979817,0.5379369933324415,0
+test,b,spearman_label_control_mean,all,batch,3972,48,0.48030978140220626,0.46812806387910716,0.4922381584399487,0

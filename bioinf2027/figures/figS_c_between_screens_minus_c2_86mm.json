@@ -1,0 +1,50 @@
+{
+ "figure": "figS_c_between_screens_minus_c2",
+ "width_mm": 86,
+ "dpi_png": 600,
+ "minimum_text_pt": 6.0,
+ "panel_data": "bioinf2027/figures/figS_c_between_screens_minus_c2_data.csv",
+ "environment": {
+  "python": "3.13.12",
+  "numpy": "2.4.4",
+  "pandas": "3.0.2",
+  "requirements": {
+   "path": "bioinf2027/requirements.txt",
+   "bytes": 863,
+   "sha256": "f46a415cbe466ba1225adcede4abae7f0dd0b866f29abdf5a6a360e66b1f5702"
+  },
+  "matplotlib": "3.10.8"
+ },
+ "code": {
+  "bioinf2027/scripts/figures/fig4_between_screens.py": "bae1aab1737fcf40e676ca63c315e1ee536d45fcb336c57c98c86735402352db",
+  "bioinf2027/scripts/figures/figlib.py": "6ce5eb4a41a547d622f887c3002e25524d699a2b8c61fda2ad2737b034dbf617",
+  "bioinf2027/scripts/figures/labels.toml": "b547ce0f4bf5fa7e6d8ee20d3f6237ed91a0f0b49de9cd3e7befb630c4b181d8"
+ },
+ "labels_read": [
+  "[fig4] x_a",
+  "[fig4] x_b",
+  "[fig4] x_c",
+  "[fig4] z",
+  "[names] K562-essential to RPE1",
+  "[names] PCA-50",
+  "[names] RPE1 to K562-essential",
+  "[names] Stack",
+  "[names] scGPT",
+  "[names] stack_marker",
+  "[terms] C2",
+  "[terms] T",
+  "[terms] z"
+ ],
+ "outputs": {
+  "figS_c_between_screens_minus_c2_86mm.pdf": {
+   "path": "bioinf2027/figures/figS_c_between_screens_minus_c2_86mm.pdf",
+   "bytes": 13852,
+   "sha256": "40faf522bdc6e67fc290166c6e070de5062c8e5351e5d308476d60d1ef8a3dfd"
+  },
+  "figS_c_between_screens_minus_c2_86mm.png": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/figures/figS_c_between_screens_minus_c2_86mm.png",
+   "bytes": 158768,
+   "sha256": "66607c35902bef698c5ce6fe6ea2d6d6fff1de3df4067f8232f1360593aa2e85"
+  }
+ }
+}

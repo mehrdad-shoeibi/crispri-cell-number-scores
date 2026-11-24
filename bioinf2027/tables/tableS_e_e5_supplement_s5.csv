@@ -1,0 +1,9 @@
+Screen,Quantity,Genes,Estimate [interval],Line
+RPE1,"rho(b27, depth_log_ratio)",1811,"+0.054 [+0.005, +0.104]",2
+RPE1,"rho(b27_depth, depth_log_ratio)",1811,"+0.084 [+0.036, +0.134]",3
+RPE1,"rho(b27, depth) - rho(b27_depth, depth)",1811,"-0.030 [-0.034, -0.026]",4
+RPE1,"rho(b27, b27_depth)",1811,"+0.997 [+0.996, +0.997]",5
+K562-essential,"rho(b27, depth_log_ratio)",1811,"-0.402 [-0.444, -0.359]",7
+K562-essential,"rho(b27_depth, depth_log_ratio)",1811,"-0.364 [-0.408, -0.320]",8
+K562-essential,"rho(b27, depth) - rho(b27_depth, depth)",1811,"-0.038 [-0.044, -0.031]",9
+K562-essential,"rho(b27, b27_depth)",1811,"+0.991 [+0.989, +0.992]",10

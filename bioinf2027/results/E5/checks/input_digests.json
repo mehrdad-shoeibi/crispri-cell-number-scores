@@ -1,0 +1,385 @@
+{
+ "check": "check 1 of bioinf2027/plans/E5.md, Section 11, applied after the runs to the inputs of note 2 of bioinf2027/reviews/E5_audit_r1.md",
+ "rule": "SHA-256 and size of each file now, against every record of its path; read only",
+ "inputs": {
+  "RPE1_endpoint": {
+   "path": "$IGA_STORAGE_ROOT/IGA_MAIN/results_v4/harmonized_endpoint_v1/rpe1_endpoint_by_construct.csv",
+   "bytes": 440592,
+   "sha256": "353c04d3ac8e3380a3addf3abc1953d30799423f7cd467006adc36800e26a126",
+   "records": [
+    {
+     "source": "bioinf2027/diag/D1_external_provenance.json",
+     "key": "/inputs/RPE1_endpoint",
+     "bytes": 440592,
+     "sha256": "353c04d3ac8e3380a3addf3abc1953d30799423f7cd467006adc36800e26a126",
+     "equal": true
+    }
+   ],
+   "equal_to_every_record": true,
+   "seconds": 0.0
+  },
+  "K562-essential_endpoint": {
+   "path": "$IGA_STORAGE_ROOT/IGA_MAIN/results_v4/harmonized_endpoint_k562_essential_v1/endpoint_by_construct.csv",
+   "bytes": 433586,
+   "sha256": "051269eeeae93c75c84ca1fc050529a096ebd15e1990cb14bb24669c1b9672ff",
+   "records": [
+    {
+     "source": "bioinf2027/diag/D1_external_provenance.json",
+     "key": "/inputs/K562-essential_endpoint",
+     "bytes": 433586,
+     "sha256": "051269eeeae93c75c84ca1fc050529a096ebd15e1990cb14bb24669c1b9672ff",
+     "equal": true
+    }
+   ],
+   "equal_to_every_record": true,
+   "seconds": 0.0
+  },
+  "vcc_var_gene_names": {
+   "path": "$IGA_STORAGE_ROOT/IGA_MAIN/cache/vcc/var_gene_names.npy",
+   "bytes": 152515,
+   "sha256": "9f35391f26907834f50e881c7d3fb32351cc6a3c5449230436731182d7c91c85",
+   "records": [
+    {
+     "source": "bioinf2027/results/E1/input_records.json",
+     "key": "/inputs/vcc_gene_names",
+     "bytes": 152515,
+     "sha256": "9f35391f26907834f50e881c7d3fb32351cc6a3c5449230436731182d7c91c85",
+     "equal": true
+    },
+    {
+     "source": "bioinf2027/diag/D1_external_provenance.json",
+     "key": "/inputs/vcc_gene_names",
+     "bytes": 152515,
+     "sha256": "9f35391f26907834f50e881c7d3fb32351cc6a3c5449230436731182d7c91c85",
+     "equal": true
+    },
+    {
+     "source": "bioinf2027/results/E6/family_pass/supplement/supplement.json",
+     "key": "/inputs/data_root_inputs/vcc_var_gene_names",
+     "bytes": 152515,
+     "sha256": "9f35391f26907834f50e881c7d3fb32351cc6a3c5449230436731182d7c91c85",
+     "equal": true
+    }
+   ],
+   "equal_to_every_record": true,
+   "seconds": 0.0
+  },
+  "vcc_selected_genes": {
+   "path": "$IGA_STORAGE_ROOT/IGA_MAIN/cache/vcc/variants/delta_hvg/selected_genes.npy",
+   "bytes": 8128,
+   "sha256": "805d17402aa2804f843ca9f57459bb85d50c067df02a3d214ee5b5ee4229bb01",
+   "records": [
+    {
+     "source": "bioinf2027/results/E1/input_records.json",
+     "key": "/inputs/vcc_selected_genes",
+     "bytes": 8128,
+     "sha256": "805d17402aa2804f843ca9f57459bb85d50c067df02a3d214ee5b5ee4229bb01",
+     "equal": true
+    },
+    {
+     "source": "bioinf2027/diag/D1_external_provenance.json",
+     "key": "/inputs/vcc_selected_genes",
+     "bytes": 8128,
+     "sha256": "805d17402aa2804f843ca9f57459bb85d50c067df02a3d214ee5b5ee4229bb01",
+     "equal": true
+    },
+    {
+     "source": "bioinf2027/results/E6/family_pass/supplement/supplement.json",
+     "key": "/inputs/data_root_inputs/vcc_selected_genes",
+     "bytes": 8128,
+     "sha256": "805d17402aa2804f843ca9f57459bb85d50c067df02a3d214ee5b5ee4229bb01",
+     "equal": true
+    }
+   ],
+   "equal_to_every_record": true,
+   "seconds": 0.0
+  },
+  "RPE1_native": {
+   "path": "$IGA_STORAGE_ROOT/IGA_GENEFORMER_EXT/x_cell/x_cell_rpe1_native.npz",
+   "bytes": 135997838,
+   "sha256": "ee766e65c18cace39b7a7d225b3e218d22330b564b765759c6f63371d3e3ec57",
+   "records": [
+    {
+     "source": "bioinf2027/results/E1/input_records.json",
+     "key": "/inputs/rpe1_native_delta",
+     "bytes": 135997838,
+     "sha256": "ee766e65c18cace39b7a7d225b3e218d22330b564b765759c6f63371d3e3ec57",
+     "equal": true
+    },
+    {
+     "source": "bioinf2027/diag/D1_external_provenance.json",
+     "key": "/inputs/RPE1_x_native",
+     "bytes": 135997838,
+     "sha256": "ee766e65c18cace39b7a7d225b3e218d22330b564b765759c6f63371d3e3ec57",
+     "equal": true
+    },
+    {
+     "source": "bioinf2027/results/E6/family_pass/supplement/supplement.json",
+     "key": "/inputs/data_root_inputs/RPE1_native",
+     "bytes": 135997838,
+     "sha256": "ee766e65c18cace39b7a7d225b3e218d22330b564b765759c6f63371d3e3ec57",
+     "equal": true
+    }
+   ],
+   "equal_to_every_record": true,
+   "seconds": 0.3
+  },
+  "RPE1_mapped_with_ids": {
+   "path": "$IGA_STORAGE_ROOT/IGA_GENEFORMER_EXT/x_cell/x_cell_rpe1_mapped.npz",
+   "bytes": 16229294,
+   "sha256": "ddc3cab022073333f3307f06f08ceab64a4f45b453f4a95ff721452dee06fe1e",
+   "records": [
+    {
+     "source": "bioinf2027/results/E1/input_records.json",
+     "key": "/inputs/rpe1_mapped_delta",
+     "bytes": 16229294,
+     "sha256": "ddc3cab022073333f3307f06f08ceab64a4f45b453f4a95ff721452dee06fe1e",
+     "equal": true
+    },
+    {
+     "source": "bioinf2027/diag/D1_external_provenance.json",
+     "key": "/inputs/RPE1_x_mapped",
+     "bytes": 16229294,
+     "sha256": "ddc3cab022073333f3307f06f08ceab64a4f45b453f4a95ff721452dee06fe1e",
+     "equal": true
+    },
+    {
+     "source": "bioinf2027/results/E6/family_pass/supplement/supplement.json",
+     "key": "/inputs/data_root_inputs/RPE1_mapped_with_ids",
+     "bytes": 16229294,
+     "sha256": "ddc3cab022073333f3307f06f08ceab64a4f45b453f4a95ff721452dee06fe1e",
+     "equal": true
+    }
+   ],
+   "equal_to_every_record": true,
+   "seconds": 0.0
+  },
+  "RPE1_submitted_x": {
+   "path": "$IGA_STORAGE_ROOT/IGA_GENEFORMER_EXT/x_cell/x_cell_rpe1_1932_mapped.npy",
+   "bytes": 15456128,
+   "sha256": "d14cd7e0cdddc04ea81ea6ddf149ee1bb01fc091ebdf6cf3489bc274d5bd33c8",
+   "records": [
+    {
+     "source": "bioinf2027/results/E1/input_records.json",
+     "key": "/inputs/rpe1_mapped_delta_1932",
+     "bytes": 15456128,
+     "sha256": "d14cd7e0cdddc04ea81ea6ddf149ee1bb01fc091ebdf6cf3489bc274d5bd33c8",
+     "equal": true
+    },
+    {
+     "source": "bioinf2027/results/E6/family_pass/supplement/supplement.json",
+     "key": "/inputs/data_root_inputs/RPE1_submitted_x",
+     "bytes": 15456128,
+     "sha256": "d14cd7e0cdddc04ea81ea6ddf149ee1bb01fc091ebdf6cf3489bc274d5bd33c8",
+     "equal": true
+    }
+   ],
+   "equal_to_every_record": true,
+   "seconds": 0.0
+  },
+  "K562-essential_native": {
+   "path": "$IGA_STORAGE_ROOT/IGA_GENEFORMER_EXT/k562_essential/x_cell/x_cell_k562_native.npz",
+   "bytes": 130987790,
+   "sha256": "f8127fbc14cdefd340235da4815908a3b5a4a14b3c8f0456e8ac7d60c9e765f2",
+   "records": [
+    {
+     "source": "bioinf2027/results/E1/input_records.json",
+     "key": "/inputs/k562_native_delta",
+     "bytes": 130987790,
+     "sha256": "f8127fbc14cdefd340235da4815908a3b5a4a14b3c8f0456e8ac7d60c9e765f2",
+     "equal": true
+    },
+    {
+     "source": "bioinf2027/diag/D1_external_provenance.json",
+     "key": "/inputs/K562-essential_x_native",
+     "bytes": 130987790,
+     "sha256": "f8127fbc14cdefd340235da4815908a3b5a4a14b3c8f0456e8ac7d60c9e765f2",
+     "equal": true
+    },
+    {
+     "source": "bioinf2027/results/E6/family_pass/supplement/supplement.json",
+     "key": "/inputs/data_root_inputs/K562-essential_native",
+     "bytes": 130987790,
+     "sha256": "f8127fbc14cdefd340235da4815908a3b5a4a14b3c8f0456e8ac7d60c9e765f2",
+     "equal": true
+    }
+   ],
+   "equal_to_every_record": true,
+   "seconds": 0.3
+  },
+  "K562-essential_submitted_x": {
+   "path": "$IGA_STORAGE_ROOT/IGA_GENEFORMER_EXT/k562_essential/x_cell/x_cell_k562_1903_mapped.npy",
+   "bytes": 15224128,
+   "sha256": "326142005d94fadf682a5d71a2dfaea5ba40ba4a5f40e61b2918e6f74f374965",
+   "records": [
+    {
+     "source": "bioinf2027/results/E1/input_records.json",
+     "key": "/inputs/k562_mapped_delta_1903",
+     "bytes": 15224128,
+     "sha256": "326142005d94fadf682a5d71a2dfaea5ba40ba4a5f40e61b2918e6f74f374965",
+     "equal": true
+    },
+    {
+     "source": "bioinf2027/diag/D1_external_provenance.json",
+     "key": "/inputs/K562-essential_x_mapped",
+     "bytes": 15224128,
+     "sha256": "326142005d94fadf682a5d71a2dfaea5ba40ba4a5f40e61b2918e6f74f374965",
+     "equal": true
+    },
+    {
+     "source": "bioinf2027/results/E6/family_pass/supplement/supplement.json",
+     "key": "/inputs/data_root_inputs/K562-essential_submitted_x",
+     "bytes": 15224128,
+     "sha256": "326142005d94fadf682a5d71a2dfaea5ba40ba4a5f40e61b2918e6f74f374965",
+     "equal": true
+    }
+   ],
+   "equal_to_every_record": true,
+   "seconds": 0.0
+  },
+  "RPE1_z": {
+   "path": "$IGA_STORAGE_ROOT/IGA_GENEFORMER_EXT/rpe1_topup/z_rpe1_1932.npy",
+   "bytes": 5935232,
+   "sha256": "f115a777bd78f644219189b6589086978c2b57fd51b32d9ece39c5ba42fdd904",
+   "records": [
+    {
+     "source": "bioinf2027/results/E1/input_records.json",
+     "key": "/inputs/rpe1_z",
+     "bytes": 5935232,
+     "sha256": "f115a777bd78f644219189b6589086978c2b57fd51b32d9ece39c5ba42fdd904",
+     "equal": true
+    },
+    {
+     "source": "bioinf2027/results/E6/family_pass/supplement/supplement.json",
+     "key": "/inputs/data_root_inputs/RPE1_z",
+     "bytes": 5935232,
+     "sha256": "f115a777bd78f644219189b6589086978c2b57fd51b32d9ece39c5ba42fdd904",
+     "equal": true
+    }
+   ],
+   "equal_to_every_record": true,
+   "seconds": 0.0
+  },
+  "RPE1_z_index": {
+   "path": "$IGA_STORAGE_ROOT/IGA_GENEFORMER_EXT/rpe1_topup/rpe1_construct_index.parquet",
+   "bytes": 48467,
+   "sha256": "37f05c17c268f039bfcf011ccde1a70b0e9eb020b9c60298b03c0892daed43ec",
+   "records": [
+    {
+     "source": "bioinf2027/results/E1/input_records.json",
+     "key": "/inputs/rpe1_z_index",
+     "bytes": 48467,
+     "sha256": "37f05c17c268f039bfcf011ccde1a70b0e9eb020b9c60298b03c0892daed43ec",
+     "equal": true
+    },
+    {
+     "source": "bioinf2027/results/E6/family_pass/supplement/supplement.json",
+     "key": "/inputs/data_root_inputs/RPE1_z_index",
+     "bytes": 48467,
+     "sha256": "37f05c17c268f039bfcf011ccde1a70b0e9eb020b9c60298b03c0892daed43ec",
+     "equal": true
+    }
+   ],
+   "equal_to_every_record": true,
+   "seconds": 0.0
+  },
+  "K562-essential_z": {
+   "path": "$IGA_STORAGE_ROOT/IGA_GENEFORMER_EXT/k562_essential/z/z_k562_1903.npy",
+   "bytes": 5846144,
+   "sha256": "ce88160c8a525b3ea4608cfc8978ee0f71e24dde3d6fb0c5335f0bcf3f790a26",
+   "records": [
+    {
+     "source": "bioinf2027/results/E1/input_records.json",
+     "key": "/inputs/k562_z",
+     "bytes": 5846144,
+     "sha256": "ce88160c8a525b3ea4608cfc8978ee0f71e24dde3d6fb0c5335f0bcf3f790a26",
+     "equal": true
+    },
+    {
+     "source": "bioinf2027/results/E6/family_pass/supplement/supplement.json",
+     "key": "/inputs/data_root_inputs/K562-essential_z",
+     "bytes": 5846144,
+     "sha256": "ce88160c8a525b3ea4608cfc8978ee0f71e24dde3d6fb0c5335f0bcf3f790a26",
+     "equal": true
+    }
+   ],
+   "equal_to_every_record": true,
+   "seconds": 0.0
+  },
+  "K562-essential_z_index": {
+   "path": "$IGA_STORAGE_ROOT/IGA_GENEFORMER_EXT/k562_essential/z/k562_construct_index.parquet",
+   "bytes": 47129,
+   "sha256": "8d5f3e8aec2471e797dfa74c090496579a8351ba9feed35440df540c5821bbf7",
+   "records": [
+    {
+     "source": "bioinf2027/results/E1/input_records.json",
+     "key": "/inputs/k562_z_index",
+     "bytes": 47129,
+     "sha256": "8d5f3e8aec2471e797dfa74c090496579a8351ba9feed35440df540c5821bbf7",
+     "equal": true
+    },
+    {
+     "source": "bioinf2027/results/E6/family_pass/supplement/supplement.json",
+     "key": "/inputs/data_root_inputs/K562-essential_z_index",
+     "bytes": 47129,
+     "sha256": "8d5f3e8aec2471e797dfa74c090496579a8351ba9feed35440df540c5821bbf7",
+     "equal": true
+    }
+   ],
+   "equal_to_every_record": true,
+   "seconds": 0.0
+  }
+ },
+ "E1a_label_cache": {
+  "vcc_train": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/cache/E1a_labels/vcc_train.npz",
+   "bytes": 103075870,
+   "sha256": "174e8d9d30c1a5c2ecb9aefc019295cf99610c3db92be762f3fde0fe6eee40d4"
+  },
+  "manifest_entry_sha256": "174e8d9d30c1a5c2ecb9aefc019295cf99610c3db92be762f3fde0fe6eee40d4",
+  "vcc_train_equal_to_manifest": true,
+  "manifest": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/cache/E1a_labels/manifest.json",
+   "bytes": 2722,
+   "sha256": "a92c8fe030ed806c1af944d8de24820cce7a6bbc18b305e602c5ac7545979a96"
+  },
+  "manifest_record_in_e4_features": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/cache/E1a_labels/manifest.json",
+   "bytes": 2722,
+   "sha256": "a92c8fe030ed806c1af944d8de24820cce7a6bbc18b305e602c5ac7545979a96"
+  },
+  "manifest_equal_to_record": true,
+  "equal": true
+ },
+ "passed": true,
+ "records": {
+  "E1": {
+   "path": "bioinf2027/results/E1/input_records.json",
+   "bytes": 40895,
+   "sha256": "8e5203ece9d95b5602ef872e314f35cbe044532422bbaf98b44d3f49d3db73cb"
+  },
+  "D1": {
+   "path": "bioinf2027/diag/D1_external_provenance.json",
+   "bytes": 5226,
+   "sha256": "a76c415bfc1458b583d30ba28b55228d78c2f777f565fb450d8004a0e54fc8de"
+  },
+  "E6": {
+   "path": "bioinf2027/results/E6/family_pass/supplement/supplement.json",
+   "bytes": 8148,
+   "sha256": "dd520c1d8a13bbdcd9a690c0ce9a8e84f91280f7ba347e16b8ec9865b3c49786"
+  },
+  "E4_features": {
+   "path": "bioinf2027/results/E4/features.json",
+   "bytes": 12462,
+   "sha256": "b588c4f6d7c170ce8a7aab7f808807d06a6192a45c319bfe72d572365c7c656c"
+  }
+ },
+ "code": {
+  "bioinf2027/scripts/check_e5_input_digests.py": "90488640668107b8133a5ec193bca434101930163c5161ca9df9f0d0a286b7b3",
+  "bioinf2027/src/bioinf2027/e1inputs.py": "19c703e52835be70bfb9ec8fa77b9a8f11118e8af4670a5bec2485af29f41cc6",
+  "bioinf2027/src/bioinf2027/config.py": "ae8a841e511f735af8063e132a475b835f6015755fb628d2ee7d04f949b5f760",
+  "bioinf2027/scripts/make_e1a_label_extract.py": "50e8d6c5a0b3ef8f6d0dd842d3588689cb3ca06a8006ed9f2359afe6af39e833"
+ },
+ "made": "2026-11-17T00:59:28-0500",
+ "seconds": 0.9
+}

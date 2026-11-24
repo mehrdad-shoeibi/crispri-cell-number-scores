@@ -1,0 +1,49 @@
+{
+ "table": "tableS_j_closing_2_s1_floor",
+ "code": {
+  "bioinf2027/scripts/figures/tableS_j_closing.py": "087cf94543a6b6aa3adcb26cda02737eac06e5bc8fc882b69586b61654d83cfa",
+  "bioinf2027/scripts/figures/tablelib.py": "5c546fa57595e02901ba2087d5c2334793762f2cb146db4fd434973bb3fe034f"
+ },
+ "inputs": {
+  "bioinf2027/results/missing_analyses_closing/s1_floor_exclusions.csv": {
+   "path": "bioinf2027/results/missing_analyses_closing/s1_floor_exclusions.csv",
+   "bytes": 996,
+   "sha256": "c14d7a2dccd07ec2e4133a110158a11ccb8951db648105fcce1602c8bb20c1e9"
+  },
+  "bioinf2027/results/missing_analyses_closing/closing.json": {
+   "path": "bioinf2027/results/missing_analyses_closing/closing.json",
+   "bytes": 21061,
+   "sha256": "68969eace89e6c4a40da09e2e22998df9ad3cc2a8d6f71e1badc8ec846f1015c"
+  }
+ },
+ "inputs_verified": {
+  "bioinf2027/results/missing_analyses_closing/s1_floor_exclusions.csv": "equal to its record in bioinf2027/results/missing_analyses_closing/closing.json",
+  "bioinf2027/results/missing_analyses_closing/closing.json": "no record lists it; a tracked file without uncommitted changes"
+ },
+ "environment": {
+  "python": "3.13.12",
+  "numpy": "2.4.4",
+  "pandas": "3.0.2",
+  "requirements": {
+   "path": "bioinf2027/requirements.txt",
+   "bytes": 863,
+   "sha256": "f46a415cbe466ba1225adcede4abae7f0dd0b866f29abdf5a6a360e66b1f5702"
+  }
+ },
+ "tex": "booktabs; Unicode symbols (\u2212, \u03c1, \u2192, \u00bd), so a Unicode TeX engine (XeLaTeX or LuaLaTeX)",
+ "status": "post hoc, unadjusted, not part of any family, no reading",
+ "record": "bioinf2027/results/missing_analyses_closing/closing.json",
+ "computation": "none (D3's counts as saved)",
+ "outputs": {
+  "tableS_j_closing_2_s1_floor.csv": {
+   "path": "bioinf2027/tables/tableS_j_closing_2_s1_floor.csv",
+   "bytes": 384,
+   "sha256": "58dc02ab9c9e918f2dac0eb55fc69be090a54660b083e846136bc202368a3f6c"
+  },
+  "tableS_j_closing_2_s1_floor.tex": {
+   "path": "bioinf2027/tables/tableS_j_closing_2_s1_floor.tex",
+   "bytes": 495,
+   "sha256": "0fba80ba5797561aabf8b3b1010749fdc2bb2bd00b2b7c8c4b8b1ce5a7445df3"
+  }
+ }
+}

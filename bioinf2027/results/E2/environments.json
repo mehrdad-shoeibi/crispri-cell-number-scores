@@ -1,0 +1,41 @@
+{
+ "gate": "G4, bioinf2027/GATE.md, decided section, item 8",
+ "environments": {
+  "scgpt": {
+   "installed": "2026-11-14T13:51:09-0500",
+   "location": "a virtual environment in the user's environments folder on the home disk (not recorded by path)",
+   "base": "D2's pinned environment, system site packages, read only (bioinf2027/requirements_d2.txt)",
+   "requirements": "bioinf2027/requirements_scgpt.txt",
+   "python": "3.10.20",
+   "torch": "2.3.1+cu121",
+   "cuda_runtime": "12.1",
+   "added_packages": 17,
+   "size_mb": 96,
+   "home_disk_free_gb_before": 14.7,
+   "home_disk_free_gb_after": 14.6,
+   "pip_cache": "$IGA_STORAGE_ROOT/bioinf2027/pip_cache",
+   "temporary_files": "$IGA_STORAGE_ROOT/bioinf2027/scratch/tmp",
+   "why_not_the_data_root": "the data root is exFAT: conda's extraction failed there and environments need symbolic links; the failed attempt's package cache (1.1 GB, under bioinf2027/) was removed",
+   "import_check": "import scgpt; from scgpt.tasks import embed_data: passed (scgpt 0.2.4, torchtext 0.18.0)",
+   "shadowed_D2_packages": 0
+  },
+  "stack": {
+   "installed": "2026-11-14T13:53:26-0500",
+   "location": "a virtual environment in the user's environments folder on the home disk (not recorded by path)",
+   "base": "D2's pinned environment, system site packages, read only (bioinf2027/requirements_d2.txt)",
+   "requirements": "bioinf2027/requirements_stack.txt",
+   "python": "3.10.20",
+   "torch": "2.3.1+cu121",
+   "cuda_runtime": "12.1",
+   "added_packages": 38,
+   "size_mb": 526,
+   "shadowed_D2_packages": 0,
+   "home_disk_free_gb_before": 14.6,
+   "home_disk_free_gb_after": 14.1,
+   "pip_cache": "$IGA_STORAGE_ROOT/bioinf2027/pip_cache",
+   "temporary_files": "$IGA_STORAGE_ROOT/bioinf2027/scratch/tmp",
+   "note": "Stack was tested on torch 2.5.1; this layer uses D2's torch 2.3.1 (arc-stack requires torch >= 2.0), checked by the probe and the determinism check",
+   "import_check": "from stack.model_loading import load_model_from_checkpoint; stack.models.core.inference; stack.cli.embedding: passed (scvi-tools 1.3.3)"
+  }
+ }
+}

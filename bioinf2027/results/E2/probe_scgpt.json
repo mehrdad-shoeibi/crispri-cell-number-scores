@@ -1,0 +1,159 @@
+{
+ "plan": "bioinf2027/plans/E2.md, Sections 9 and 16",
+ "cells": 2000,
+ "determinism": {
+  "largest_difference_over_sd": 0.0,
+  "tolerance": 0.0001,
+  "passed": true
+ },
+ "reverse_order": {
+  "largest_difference_over_sd": 0.0,
+  "median": 0.0,
+  "reported_only": true
+ },
+ "cells_per_second_probe": 227.5,
+ "peak_gpu_memory_mb": 1447.4,
+ "projected_gpu_hours_for_894402_cells": 1.09,
+ "per_part": [
+  {
+   "part": "K562-essential_control",
+   "cells": 19,
+   "gpu_seconds": 0.54,
+   "cells_per_second": 35.2,
+   "peak_gpu_memory_mb": 556.4,
+   "genes_matched": 8324,
+   "genes_in_file": 8563,
+   "median_expressed_genes": 3778.0,
+   "share_above_1199_expressed": 1.0,
+   "median_share_of_counts_seen": 0.9850785732269287
+  },
+  {
+   "part": "K562-essential_perturbed",
+   "cells": 642,
+   "gpu_seconds": 2.65,
+   "cells_per_second": 242.6,
+   "peak_gpu_memory_mb": 1447.4,
+   "genes_matched": 8324,
+   "genes_in_file": 8563,
+   "median_expressed_genes": 3503.0,
+   "share_above_1199_expressed": 1.0,
+   "median_share_of_counts_seen": 0.9846348464488983
+  },
+  {
+   "part": "RPE1_control",
+   "cells": 27,
+   "gpu_seconds": 0.15,
+   "cells_per_second": 175.8,
+   "peak_gpu_memory_mb": 687.9,
+   "genes_matched": 8602,
+   "genes_in_file": 8749,
+   "median_expressed_genes": 3614.0,
+   "share_above_1199_expressed": 1.0,
+   "median_share_of_counts_seen": 0.9895037412643433
+  },
+  {
+   "part": "RPE1_perturbed",
+   "cells": 453,
+   "gpu_seconds": 1.86,
+   "cells_per_second": 243.0,
+   "peak_gpu_memory_mb": 1447.4,
+   "genes_matched": 8602,
+   "genes_in_file": 8749,
+   "median_expressed_genes": 3427.0,
+   "share_above_1199_expressed": 1.0,
+   "median_share_of_counts_seen": 0.9902533888816833
+  },
+  {
+   "part": "vcc_control",
+   "cells": 84,
+   "gpu_seconds": 0.38,
+   "cells_per_second": 223.3,
+   "peak_gpu_memory_mb": 1297.0,
+   "genes_matched": 17840,
+   "genes_in_file": 18080,
+   "median_expressed_genes": 8652.5,
+   "share_above_1199_expressed": 1.0,
+   "median_share_of_counts_seen": 0.9873431622982025
+  },
+  {
+   "part": "vcc_perturbed_test",
+   "cells": 275,
+   "gpu_seconds": 1.15,
+   "cells_per_second": 238.7,
+   "peak_gpu_memory_mb": 1447.4,
+   "genes_matched": 17840,
+   "genes_in_file": 18080,
+   "median_expressed_genes": 8648.0,
+   "share_above_1199_expressed": 1.0,
+   "median_share_of_counts_seen": 0.9883387088775635
+  },
+  {
+   "part": "vcc_perturbed_train",
+   "cells": 382,
+   "gpu_seconds": 1.56,
+   "cells_per_second": 245.6,
+   "peak_gpu_memory_mb": 1447.4,
+   "genes_matched": 17840,
+   "genes_in_file": 18080,
+   "median_expressed_genes": 8729.0,
+   "share_above_1199_expressed": 1.0,
+   "median_share_of_counts_seen": 0.9877095222473145
+  },
+  {
+   "part": "vcc_perturbed_val",
+   "cells": 118,
+   "gpu_seconds": 0.5,
+   "cells_per_second": 236.8,
+   "peak_gpu_memory_mb": 1297.0,
+   "genes_matched": 17840,
+   "genes_in_file": 18080,
+   "median_expressed_genes": 8685.0,
+   "share_above_1199_expressed": 1.0,
+   "median_share_of_counts_seen": 0.9878722429275513
+  }
+ ],
+ "model": {
+  "parameters_loaded": 162,
+  "parameters_in_model": 172,
+  "not_loaded": [
+   "cls_decoder._decoder.0.bias",
+   "cls_decoder._decoder.0.weight",
+   "cls_decoder._decoder.2.bias",
+   "cls_decoder._decoder.2.weight",
+   "cls_decoder._decoder.3.bias",
+   "cls_decoder._decoder.3.weight",
+   "cls_decoder._decoder.5.bias",
+   "cls_decoder._decoder.5.weight",
+   "cls_decoder.out_layer.bias",
+   "cls_decoder.out_layer.weight"
+  ],
+  "checkpoint_keys_unused": [
+   "flag_encoder.weight"
+  ],
+  "configs": {
+   "embsize": 512,
+   "nlayers": 12,
+   "nheads": 8,
+   "d_hid": 512,
+   "pad_value": -2,
+   "n_bins": 51
+  }
+ },
+ "gpu_at_start": [
+  {
+   "gpu0_free_mb_at_start": 23957,
+   "needed_mb": 6000,
+   "waited_seconds": 0
+  },
+  {
+   "gpu0_free_mb_at_start": 23957,
+   "needed_mb": 6000,
+   "waited_seconds": 0
+  },
+  {
+   "gpu0_free_mb_at_start": 23957,
+   "needed_mb": 6000,
+   "waited_seconds": 0
+  }
+ ]
+}

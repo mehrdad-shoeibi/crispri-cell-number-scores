@@ -1,0 +1,14 @@
+{
+ "label": "e2-smoke-ref-20261115T1546",
+ "started": "2026-11-15T15:46:05-0500",
+ "last_sample": "2026-11-15T16:01:54-0500",
+ "samples": 186,
+ "interval_s": 5.0,
+ "workers_seen": 3,
+ "workers_at_once_max": 3,
+ "main_peak_gb": 1.666,
+ "worker_peak_gb": 1.689,
+ "total_rss_peak_gb": 6.573,
+ "total_pss_peak_gb": 1.818,
+ "note": "peaks are VmHWM per process; totals are sums at one sample; RSS counts shared pages once per process"
+}

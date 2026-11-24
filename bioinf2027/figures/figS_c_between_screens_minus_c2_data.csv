@@ -1,0 +1,9 @@
+panel,direction,representation,estimate,lo,hi,state,marker,source
+c,RPE1 to K562-essential,z,0.002174107762137778,-0.03724592718630921,0.04183723712160879,contains zero,,bioinf2027/results/E2/supplement/e_minus_c2.csv:2
+c,RPE1 to K562-essential,scGPT,-0.005665063106251256,-0.04657581509136048,0.03534500175741342,contains zero,,bioinf2027/results/E2/supplement/e_minus_c2.csv:4
+c,RPE1 to K562-essential,Stack,0.037072076390537195,-0.006973884190521414,0.08106065145765622,contains zero,possibly in Stack's pre-training data [VERIFY],bioinf2027/results/E2/supplement/e_minus_c2.csv:6
+c,RPE1 to K562-essential,PCA-50,-0.015276804355218332,-0.058240251873144834,0.027300039930178092,contains zero,,bioinf2027/results/E2/supplement/e_minus_c2.csv:8
+c,K562-essential to RPE1,z,0.021761653340684528,-0.009278468161446918,0.052373520335045824,contains zero,,bioinf2027/results/E2/supplement/e_minus_c2.csv:3
+c,K562-essential to RPE1,scGPT,0.020333813852816407,-0.013847566545205877,0.05403292162245753,contains zero,,bioinf2027/results/E2/supplement/e_minus_c2.csv:5
+c,K562-essential to RPE1,Stack,0.03201933222261413,-0.004330293533435753,0.06812133643742581,contains zero,possibly in Stack's pre-training data [VERIFY],bioinf2027/results/E2/supplement/e_minus_c2.csv:7
+c,K562-essential to RPE1,PCA-50,-0.03116214196035058,-0.06061708887518661,-0.0021257930035519647,below zero,,bioinf2027/results/E2/supplement/e_minus_c2.csv:9

@@ -1,0 +1,36 @@
+{
+ "check": "smoke fits of the new code equal those of the code before the change; the scripts are named under reference_script and new_script (bioinf2027/GATE.md, change of 2026-11-15)",
+ "reference": "$IGA_STORAGE_ROOT/bioinf2027/scratch/E2_e6_smoke_ref_c05855c",
+ "new": "$IGA_STORAGE_ROOT/bioinf2027/scratch/E2_e6_smoke_slots_1dae755",
+ "subset": false,
+ "reference_files": false,
+ "files_reference": 130,
+ "files_new": 130,
+ "files_only_in_new_not_compared": [],
+ "files_compared_equal": 130,
+ "differences": {},
+ "manifests": {
+  "reference": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/scratch/E2_e6_smoke_ref_c05855c/predictions_manifest_e6_scgpt_stack_pca50_pca768_smoke.json",
+   "bytes": 41348,
+   "sha256": "a7c6ee5611496121050a913d8e618b4cbb56692112ce35e045a9b5613583dcae"
+  },
+  "new": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/scratch/E2_e6_smoke_slots_1dae755/predictions_manifest_e6_scgpt_stack_pca50_pca768_smoke.json",
+   "bytes": 41382,
+   "sha256": "c22139c248b54f9b468200cd0606c0e753fff716d39df394193914c893d4ef4b"
+  }
+ },
+ "reference_script": {
+  "bioinf2027/scripts/make_e2_fits_e6.py": "97aaccdb4180b14fe4b3e42093f19bf2d99a633ffce17bf2bcdf0a7a539feb56"
+ },
+ "new_script": {
+  "bioinf2027/scripts/make_e2_fits_e6.py": "d50b62ca62465d321281573dc792151f9090a62cd88dae5f1300f2d3c5406f17",
+  "bioinf2027/scripts/fit_slots.py": "4ed982ea8b3c197710a3d025ce0a47e3b1afb7df12b8d67d565508c3f60c5353"
+ },
+ "new_runner": "one process per fit (fit_slots.py)",
+ "new_input_cache": null,
+ "new_check_E0": null,
+ "passed": true,
+ "made": "2026-11-16T02:28:54-0500"
+}

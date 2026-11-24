@@ -1,0 +1,139 @@
+{
+ "check": "E5 secondary main part: a main-part smoke of new code, stopped and resumed, against an earlier smoke; the two folders are named under new and reference (gate G4, item 4)",
+ "new": "$IGA_STORAGE_ROOT/bioinf2027/scratch/E5_secondary_smoke",
+ "reference": "$IGA_STORAGE_ROOT/bioinf2027/scratch/E5_secondary_smoke_ref_7062cdf",
+ "passed_as_first_written": false,
+ "passed": true,
+ "rule": "corrected check (the author's answer of 2026-11-15, bioinf2027/GATE.md); see this script's docstring",
+ "problems": [],
+ "expected_differences": {
+  "columns": {
+   "power.csv": [
+    "family_holm_first_step_detectable"
+   ]
+  },
+  "family_check": true,
+  "inputs": [
+   "family"
+  ]
+ },
+ "inputs_only_in_the_reference": [
+  "G3_manifest",
+  "G4_manifest",
+  "endpoint_b_vcc",
+  "vcc_annotation",
+  "vcc_genes.csv"
+ ],
+ "table_cells_of_the_reference_columns_compared": 7020,
+ "table_cells_differing": 0,
+ "tables": {
+  "secondary.csv": {
+   "rows": 66,
+   "rows_reference": 66,
+   "columns_only_in_new": [],
+   "columns_only_in_reference": [],
+   "cells_compared": 2970,
+   "cells_differing": 0,
+   "columns_differing": {}
+  },
+  "diagnostics.csv": {
+   "rows": 30,
+   "rows_reference": 30,
+   "columns_only_in_new": [],
+   "columns_only_in_reference": [],
+   "cells_compared": 1290,
+   "cells_differing": 0,
+   "columns_differing": {}
+  },
+  "folds.csv": {
+   "rows": 60,
+   "rows_reference": 60,
+   "columns_only_in_new": [],
+   "columns_only_in_reference": [],
+   "cells_compared": 2040,
+   "cells_differing": 0,
+   "columns_differing": {}
+  },
+  "between_embeddings.csv": {
+   "rows": 12,
+   "rows_reference": 12,
+   "columns_only_in_new": [],
+   "columns_only_in_reference": [],
+   "cells_compared": 204,
+   "cells_differing": 0,
+   "columns_differing": {}
+  },
+  "family_baseline.csv": {
+   "rows": 12,
+   "rows_reference": 12,
+   "columns_only_in_new": [],
+   "columns_only_in_reference": [],
+   "cells_compared": 264,
+   "cells_differing": 0,
+   "columns_differing": {}
+  },
+  "power.csv": {
+   "rows": 12,
+   "rows_reference": 12,
+   "columns_only_in_new": [
+    "family_holm_first_step_detectable"
+   ],
+   "columns_only_in_reference": [],
+   "cells_compared": 156,
+   "cells_differing": 0,
+   "columns_differing": {}
+  },
+  "agreement.csv": {
+   "rows": 8,
+   "rows_reference": 8,
+   "columns_only_in_new": [],
+   "columns_only_in_reference": [],
+   "cells_compared": 96,
+   "cells_differing": 0,
+   "columns_differing": {}
+  }
+ },
+ "prediction_arrays": {
+  "new": 655,
+  "reference": 655,
+  "differing": []
+ },
+ "record_differences": [
+  ".checks.family recomputed.compared: true; reference false",
+  ".checks.family recomputed.largest_difference: only in the new: 0.0",
+  ".checks.family recomputed.quantities: only in the new: [\"iu_estimate\", \"minus_bar_estimate\", \"minus_gaussian_estimate\", \"minus_shuffled_estimate\", \"spearman_C\", \"spearman_S\", \"spearman_bar\", \"spearman_e\"]",
+  ".checks.family recomputed.reason: only in the reference: \"no family table (smoke run)\"",
+  ".checks.family recomputed.statistics: only in the new: 12",
+  ".checks.family recomputed.tolerance: only in the new: 1e-09",
+  ".code.bioinf2027/scripts/fit_slots.py: only in the new: \"4ed982ea8b3c197710a3d025ce0a47e3b1afb7df12b8d67d565508c3f60c5353\"",
+  ".code.bioinf2027/scripts/make_e5_secondary.py: \"685255dc6a40c7391e4c274061f5bd29a19c4fe8c58648eff877837088446877\"; reference \"8967f240e847d1125195a061713484b72a12449efa04cc1a4dd46e320da2957b\"",
+  ".inputs.G3_manifest: only in the reference: {\"path\": \"bioinf2027/endpoints/G3/manifest.json\", \"bytes\": 446, \"sha256\": \"d0f569c5e6b173519bee7cda0b3582608f18657f33284c758e93b88bbb9e64df\"}",
+  ".inputs.G4_manifest: only in the reference: {\"path\": \"bioinf2027/endpoints/G4/manifest.json\", \"bytes\": 444, \"sha256\": \"9093772806f91ce60163c881434e18edf05798a93b3b9ec411a16d313ac4336f\"}",
+  ".inputs.endpoint_b_vcc: only in the reference: {\"path\": \"bioinf2027/results/E5/endpoint_b/endpoint_b_vcc.json\", \"bytes\": 4362, \"sha256\": \"40c6938f1bc779788889317ecd859b5e9c8ea558171b3fbc4ee6c8591a80449e\"}",
+  ".inputs.family: only in the new: {\"path\": \"bioinf2027/results/E5/family/family.json\", \"bytes\": 3380, \"sha256\": \"74c7c9f56ea2a23fdf8b1f09dbb6a8d5fd41c9600b51eeeeab8820ca2fbff845\"}",
+  ".inputs.vcc_annotation: only in the reference: {\"path\": \"$IGA_STORAGE_ROOT/IGA_MAIN/data/vcc/train/adata_Training.h5ad\", \"bytes\": 15482497461, \"sha256\": \"a09977104fefb622368ca74b50c9d3c1e891733e6c83db07acfca49b0219c02b\"}",
+  ".inputs.vcc_genes.csv: only in the reference: {\"path\": \"bioinf2027/results/E5/endpoint_b/vcc_genes.csv\", \"bytes\": 231085, \"sha256\": \"2724afffa0c2e989e4b73bb2608dbebc5251770d9fa4b01f7220e16ca2fa0111\"}",
+  ".outputs.diagnostics.csv.sha256: \"57b6ce61b1eb887a79c69df9ae8dd8bee4d10d514df8377615fff96b39c80e89\"; reference \"cec85caf235f2dd87fbe8ac12f0254f5c0f53376fbd6bc73fe52b7a88d54597f\"",
+  ".outputs.power.csv.bytes: 3483; reference 3201",
+  ".outputs.power.csv.sha256: \"169a18239125aef90f43748032579b02590f4ddafe09663b4e2d3b3d1fdcf9ef\"; reference \"20bd43339f9fe7951f4654217314633cc032b99893adcc186d21646412b09b54\"",
+  ".outputs.secondary.csv.bytes: 48596; reference 48594",
+  ".outputs.secondary.csv.sha256: \"9b0810c903159771cd2d71478c9e276e7012082b2853b37020a10fc477896bb0\"; reference \"3758fc735bf9a00439e4067e2c0f9cfbb2556c7dbc39501052b8478ccaf48d5b\"",
+  ".runner: only in the new: \"one process per task (fit_slots.py)\"",
+  ".saved_tasks: only in the new: {\"folder\": \"$IGA_STORAGE_ROOT/bioinf2027/scratch/E5_secondary_smoke/data/main_tasks\", \"tasks\": {\"stage one\": 96, \"stage two\": 4}, \"reused\": {\"stage one\": 21, \"stage two\": 0}, \"rule\": \"each task saved as it ends and reused when its specification is unchanged (gate G4, item 4)\"}",
+  ".seconds: 3371.2; reference 10141.9",
+  ".tasks_shed_and_queued_again: only in the new: {\"stage one\": 2, \"stage two\": 0}"
+ ],
+ "saved_tasks_new": {
+  "folder": "$IGA_STORAGE_ROOT/bioinf2027/scratch/E5_secondary_smoke/data/main_tasks",
+  "tasks": {
+   "stage one": 96,
+   "stage two": 4
+  },
+  "reused": {
+   "stage one": 21,
+   "stage two": 0
+  },
+  "rule": "each task saved as it ends and reused when its specification is unchanged (gate G4, item 4)"
+ },
+ "made": "2026-11-16T00:13:17-0500"
+}

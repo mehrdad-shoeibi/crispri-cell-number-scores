@@ -1,0 +1,16 @@
+{
+ "protocol": {
+  "path": "bioinf2027/endpoints/G1-DT-K562-essential/protocol.json",
+  "bytes": 2509,
+  "sha256": "0d087778f06ade2bac2e3e1f8aa71dad4f31ba8178c33f867327b5fe48835dad"
+ },
+ "tables": {
+  "vcc_labels.csv": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/endpoints/G1-DT-K562-essential/vcc_labels.csv",
+   "bytes": 2930074,
+   "sha256": "591af1cdaa13aab6cbcb6a372b0390f3217b4a94ec4da42222f7b63763b1b481"
+  }
+ },
+ "external_reused_from": "G1",
+ "seconds": 11.65906310081482
+}

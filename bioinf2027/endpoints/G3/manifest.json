@@ -1,0 +1,16 @@
+{
+ "protocol": {
+  "path": "bioinf2027/endpoints/G3/protocol.json",
+  "bytes": 2268,
+  "sha256": "603fbf65c3fb5a180bf66d5e7b47f5f41b31a73531ab6ebb04afe0c821625507"
+ },
+ "tables": {
+  "vcc_labels.csv": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/endpoints/G3/vcc_labels.csv",
+   "bytes": 125937,
+   "sha256": "cfdcba53f149efe6716b86ee7fcdc7bb7b02cb42a287175485a689758319ad4a"
+  }
+ },
+ "external_reused_from": "G1",
+ "seconds": 2.1143643856048584
+}

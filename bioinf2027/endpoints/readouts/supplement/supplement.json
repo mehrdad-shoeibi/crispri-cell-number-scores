@@ -1,0 +1,307 @@
+{
+ "plan": "bioinf2027/plans/E1_design.md, Sections 7, 9 and 24; bioinf2027/reviews/E1a_results_r1.md, non-blocking 11 and 12 and missing analyses 1 to 6",
+ "inputs": {
+  "G1": {
+   "manifest": {
+    "path": "bioinf2027/endpoints/G1/manifest.json",
+    "bytes": 1748,
+    "sha256": "4b85517801ed167a901cefdc0cdba89f5898233be2edbda15cc9852cdd08cc28"
+   }
+  },
+  "G2": {
+   "manifest": {
+    "path": "bioinf2027/endpoints/G2/manifest.json",
+    "bytes": 1751,
+    "sha256": "61d7ba70991db5b5f5dec46999ce33555fac161e685d113246e909227420c775"
+   }
+  },
+  "G3": {
+   "manifest": {
+    "path": "bioinf2027/endpoints/G3/manifest.json",
+    "bytes": 446,
+    "sha256": "d0f569c5e6b173519bee7cda0b3582608f18657f33284c758e93b88bbb9e64df"
+   }
+  },
+  "G4": {
+   "manifest": {
+    "path": "bioinf2027/endpoints/G4/manifest.json",
+    "bytes": 444,
+    "sha256": "9093772806f91ce60163c881434e18edf05798a93b3b9ec411a16d313ac4336f"
+   }
+  },
+  "G5": {
+   "manifest": {
+    "path": "bioinf2027/endpoints/G5/manifest.json",
+    "bytes": 1749,
+    "sha256": "845cd1dc6de849a711a9e198acb5a26cab3bd376aadffcba5e8347e737962461"
+   }
+  },
+  "G6": {
+   "manifest": {
+    "path": "bioinf2027/endpoints/G6/manifest.json",
+    "bytes": 1752,
+    "sha256": "c5947bd85270f863132a9a58f145c3521604e19ffb8129524c3d94ea2f3878cc"
+   }
+  },
+  "G1-SU-RPE1": {
+   "manifest": {
+    "path": "bioinf2027/endpoints/G1-SU-RPE1/manifest.json",
+    "bytes": 675,
+    "sha256": "4e8f341cdd13029996d9fc7ed9011393c98e678c3c560078c09b119aa96d009c"
+   }
+  },
+  "G1-DT-RPE1": {
+   "manifest": {
+    "path": "bioinf2027/endpoints/G1-DT-RPE1/manifest.json",
+    "bytes": 463,
+    "sha256": "443074474daef2d214aa4f589e902b5bdb083ac695219125f05a90594a26859c"
+   }
+  },
+  "G5-DT-RPE1": {
+   "manifest": {
+    "path": "bioinf2027/endpoints/G5-DT-RPE1/manifest.json",
+    "bytes": 462,
+    "sha256": "6ba9e89e4c2262a54a6214eba066ff6a4fbd27de920e6c17fad3e04e09a5b58a"
+   }
+  },
+  "G6-DT-RPE1": {
+   "manifest": {
+    "path": "bioinf2027/endpoints/G6-DT-RPE1/manifest.json",
+    "bytes": 463,
+    "sha256": "9c187ef0ec3d30621f985fee214630ec879bdb9a32ad232640687219e6d29b3f"
+   }
+  },
+  "G1-SU-K562-essential": {
+   "manifest": {
+    "path": "bioinf2027/endpoints/G1-SU-K562-essential/manifest.json",
+    "bytes": 725,
+    "sha256": "3bd9dad610fd9fe3e112fb532e7222597fa5c7dd03b29fb633894059fd2eed01"
+   }
+  },
+  "G1-DT-K562-essential": {
+   "manifest": {
+    "path": "bioinf2027/endpoints/G1-DT-K562-essential/manifest.json",
+    "bytes": 482,
+    "sha256": "29c7406995e16364a0b7170f6aff0ba4501d8347c60f07d6a29d775e288b8df0"
+   }
+  },
+  "G5-DT-K562-essential": {
+   "manifest": {
+    "path": "bioinf2027/endpoints/G5-DT-K562-essential/manifest.json",
+    "bytes": 481,
+    "sha256": "2efdd2aaec94072258923d32d9c636fdd31dc6e0c0b3827c9752a0c0dd7436ca"
+   }
+  },
+  "G6-DT-K562-essential": {
+   "manifest": {
+    "path": "bioinf2027/endpoints/G6-DT-K562-essential/manifest.json",
+    "bytes": 482,
+    "sha256": "76b744f5e26add7993e13372ca8d2a5b2576cb5080359b36147e5b15590aca50"
+   }
+  },
+  "count_cache_manifest": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/cache/E1a_labels/manifest.json",
+   "bytes": 2722,
+   "sha256": "a92c8fe030ed806c1af944d8de24820cce7a6bbc18b305e602c5ac7545979a96"
+  },
+  "external_baseline_check": {
+   "staging_record": {
+    "path": "bioinf2027/endpoints/external_control_means.json",
+    "bytes": 1970,
+    "sha256": "b04b3d349a7a625aeb56ebdb569d482cc52236662d38f3ef6be24b82719dac96"
+   },
+   "RPE1": {
+    "stored_control_means": {
+     "path": "$IGA_STORAGE_ROOT/bioinf2027/cache/external_control_means/mu_nt_rpe1.npy",
+     "bytes": 70120,
+     "sha256": "76735c5ee8ae9f863dc9e7d41b2b370d02cf5198fb42405215e9858c95c8374d"
+    },
+    "endpoint": {
+     "path": "$IGA_STORAGE_ROOT/IGA_MAIN/results_v4/harmonized_endpoint_v1/rpe1_endpoint_by_construct.csv",
+     "bytes": 440592,
+     "sha256": "353c04d3ac8e3380a3addf3abc1953d30799423f7cd467006adc36800e26a126"
+    },
+    "native_delta": {
+     "path": "$IGA_STORAGE_ROOT/IGA_GENEFORMER_EXT/x_cell/x_cell_rpe1_native.npz",
+     "bytes": 135997838,
+     "sha256": "ee766e65c18cace39b7a7d225b3e218d22330b564b765759c6f63371d3e3ec57"
+    },
+    "mapped_delta_read_for_the_row_alignment_check": {
+     "path": "$IGA_STORAGE_ROOT/IGA_GENEFORMER_EXT/x_cell/x_cell_rpe1_mapped.npz",
+     "bytes": 16229294,
+     "sha256": "ddc3cab022073333f3307f06f08ceab64a4f45b453f4a95ff721452dee06fe1e"
+    }
+   },
+   "K562-essential": {
+    "stored_control_means": {
+     "path": "$IGA_STORAGE_ROOT/bioinf2027/cache/external_control_means/mu_nt_k562_essential.npy",
+     "bytes": 68632,
+     "sha256": "9b461a2a1b27506696951e0a2d9ad4ee197a57f06c7040caa845e53ec25eac7b"
+    },
+    "endpoint": {
+     "path": "$IGA_STORAGE_ROOT/IGA_MAIN/results_v4/harmonized_endpoint_k562_essential_v1/endpoint_by_construct.csv",
+     "bytes": 433586,
+     "sha256": "051269eeeae93c75c84ca1fc050529a096ebd15e1990cb14bb24669c1b9672ff"
+    },
+    "native_delta": {
+     "path": "$IGA_STORAGE_ROOT/IGA_GENEFORMER_EXT/k562_essential/x_cell/x_cell_k562_native.npz",
+     "bytes": 130987790,
+     "sha256": "f8127fbc14cdefd340235da4815908a3b5a4a14b3c8f0456e8ac7d60c9e765f2"
+    },
+    "mapped_delta_read_for_the_row_alignment_check": {
+     "path": "$IGA_STORAGE_ROOT/IGA_GENEFORMER_EXT/k562_essential/x_cell/x_cell_k562_1903_mapped.npy",
+     "bytes": 15224128,
+     "sha256": "326142005d94fadf682a5d71a2dfaea5ba40ba4a5f40e61b2918e6f74f374965"
+    }
+   }
+  },
+  "r5_gate_file": {
+   "path": "bioinf2027/endpoints/readouts/R5_gate.csv",
+   "bytes": 2074,
+   "sha256": "a66bd860b9f9d16ba9a0d46ef3036f0565d85c919a1ae5fd9fb532dbb638a41a"
+  }
+ },
+ "outputs": {
+  "a_b_R2_between.csv": {
+   "path": "bioinf2027/endpoints/readouts/supplement/a_b_R2_between.csv",
+   "bytes": 28727,
+   "sha256": "d5f1a98fd1baa3fc936bea633cd0e29bcab62e696dc2d3d31d156030a5e11bfc"
+  },
+  "b_R2_within_mean_label.csv": {
+   "path": "bioinf2027/endpoints/readouts/supplement/b_R2_within_mean_label.csv",
+   "bytes": 4994,
+   "sha256": "3dc2c100aebf1f5b523ce5a1c6375225e936bf51bcdb0591c8c4bc2488a5a4b0"
+  },
+  "c_R2_within_simulated_rows.csv": {
+   "path": "bioinf2027/endpoints/readouts/supplement/c_R2_within_simulated_rows.csv",
+   "bytes": 3690,
+   "sha256": "4e843e80211037a2c121114bdb0c8b7152d2bd04c0ccc9d9c5ed66a93543ab2f"
+  },
+  "d_external_baseline_check.csv": {
+   "path": "bioinf2027/endpoints/readouts/supplement/d_external_baseline_check.csv",
+   "bytes": 594,
+   "sha256": "7e3cbd27123541e002aad544e95ac5905465662f741c94712fa15d3998bf5a0c"
+  },
+  "e_external_split_half_corrected.csv": {
+   "path": "bioinf2027/endpoints/readouts/supplement/e_external_split_half_corrected.csv",
+   "bytes": 478,
+   "sha256": "165a89d94983946ef605c06601ac365ec1671a810b520593e4d5a9688483ed7f"
+  },
+  "f_external_R3_by_availability.csv": {
+   "path": "bioinf2027/endpoints/readouts/supplement/f_external_R3_by_availability.csv",
+   "bytes": 3919,
+   "sha256": "afa6eea09ce6c5f757e1d204d56187f78c8d87813944341cf8258fef519111f9"
+  },
+  "3_common_support.csv": {
+   "path": "bioinf2027/endpoints/readouts/supplement/3_common_support.csv",
+   "bytes": 2401,
+   "sha256": "25fad2ebcc7e6f299e2c7038570bb7f7aa7b01b3176409c46951981551a03cff"
+  },
+  "12_guide_mixing.csv": {
+   "path": "bioinf2027/endpoints/readouts/supplement/12_guide_mixing.csv",
+   "bytes": 106,
+   "sha256": "01cf2655a8fa0933c2908c5eaf90d432e733d5d70e4c0e067c4503e5821217f0"
+  },
+  "4_base_against_derived.csv": {
+   "path": "bioinf2027/endpoints/readouts/supplement/4_base_against_derived.csv",
+   "bytes": 6674,
+   "sha256": "0a86649e7170e642e9a88969c606f6a507bac15f30b8abab2f2ed033e1859993"
+  },
+  "1_label_against_B1_and_partials.csv": {
+   "path": "bioinf2027/endpoints/readouts/supplement/1_label_against_B1_and_partials.csv",
+   "bytes": 19202,
+   "sha256": "d800ba2b9e065702074949cea14672cc237dfc93be033cd2f289eb70c31974eb"
+  },
+  "5_6_R5_detail.csv": {
+   "path": "bioinf2027/endpoints/readouts/supplement/5_6_R5_detail.csv",
+   "bytes": 4246,
+   "sha256": "c5d5139a79d55cf91ffad34f08ea7cf025ed42337e3ae69a0da1ff2956ece879"
+  },
+  "2_ceiling.csv": {
+   "path": "bioinf2027/endpoints/readouts/supplement/2_ceiling.csv",
+   "bytes": 9965,
+   "sha256": "06e2cd5577e6afe4ae2f98aee9d96b873e45d2efa582d8540c911de94f32d01d"
+  }
+ },
+ "per_row_ceilings": {
+  "ceiling_G1_VCC.csv": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/endpoints/supplement/ceiling_G1_VCC.csv",
+   "bytes": 348881,
+   "sha256": "0eb2fe60cbc6c93eb4b25ebb7bc8e6486a25f0537c4d833bb46a4e189d41c395"
+  },
+  "ceiling_G1_RPE1.csv": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/endpoints/supplement/ceiling_G1_RPE1.csv",
+   "bytes": 163207,
+   "sha256": "47d2e30007b714120c71a8e363f0836d25897a76a92658b9397c5a1a5791ba3b"
+  },
+  "ceiling_G1_K562-essential.csv": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/endpoints/supplement/ceiling_G1_K562-essential.csv",
+   "bytes": 160191,
+   "sha256": "ef2e415a324b7f12ae8b487aa5e5fc86b24abd7df81ab0e299fdbe75c9506ca2"
+  },
+  "ceiling_G2_VCC.csv": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/endpoints/supplement/ceiling_G2_VCC.csv",
+   "bytes": 685051,
+   "sha256": "68832d02d8ea50291dca70c3d20f36029e2c3cdc6e4435ff34917fa481bb9029"
+  },
+  "ceiling_G2_RPE1.csv": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/endpoints/supplement/ceiling_G2_RPE1.csv",
+   "bytes": 163084,
+   "sha256": "4674033d9cb461160ea2009b748305d75fdb10004db463d5619f112454c09f23"
+  },
+  "ceiling_G2_K562-essential.csv": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/endpoints/supplement/ceiling_G2_K562-essential.csv",
+   "bytes": 160021,
+   "sha256": "988142e6619de2ccb0228f354a203feb5325283827cc1d940e790549d5806141"
+  },
+  "ceiling_G5_VCC.csv": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/endpoints/supplement/ceiling_G5_VCC.csv",
+   "bytes": 349241,
+   "sha256": "62414f5c3570e74f0deda56b53bc5d9497be98e5889b5f7d6a53f6f0d060c343"
+  },
+  "ceiling_G5_RPE1.csv": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/endpoints/supplement/ceiling_G5_RPE1.csv",
+   "bytes": 163264,
+   "sha256": "c9136944f7498b2d69db50a625bc772d32cc6bd122cd48b39115e337d7279bca"
+  },
+  "ceiling_G5_K562-essential.csv": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/endpoints/supplement/ceiling_G5_K562-essential.csv",
+   "bytes": 160185,
+   "sha256": "4754a085ae862da7c8d298b92fc22f833b44608c8f6244746d9f7be2b65e8a8f"
+  },
+  "ceiling_G6_VCC.csv": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/endpoints/supplement/ceiling_G6_VCC.csv",
+   "bytes": 686067,
+   "sha256": "f70ec7112c6143cc2cd316067a833514348c9869fbc719e3ee320fa0db4050b0"
+  },
+  "ceiling_G6_RPE1.csv": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/endpoints/supplement/ceiling_G6_RPE1.csv",
+   "bytes": 163037,
+   "sha256": "e36cf869dffd9570297cf802ef183d3c9f9b1f021ea091eac1a0ff63ec1cb735"
+  },
+  "ceiling_G6_K562-essential.csv": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/endpoints/supplement/ceiling_G6_K562-essential.csv",
+   "bytes": 160061,
+   "sha256": "601079e945dd22623f225853cf4c5c1f2b612e7e829cc1f337a8d8abcfc1560f"
+  }
+ },
+ "settings": {
+  "bootstrap": {
+   "replicates": 10000,
+   "seed": 20270301,
+   "unit": "target gene"
+  },
+  "r5_residualisation": {
+   "fold_seed": 20270409,
+   "fold_seed_sensitivity": [
+    20270410,
+    20270411,
+    20270412,
+    20270413
+   ],
+   "model": "HistGradientBoostingRegressor(max_iter=200, max_depth=3, learning_rate=0.05, min_samples_leaf=20, early_stopping=False, random_state=0)"
+  },
+  "near_ceiling": 0.1
+ },
+ "seconds": 977.8966178894043
+}

@@ -1,0 +1,80 @@
+{
+ "figure": "fig1_study_design",
+ "code": {
+  "bioinf2027/scripts/figures/fig1_study_design.py": "af9a703a549e98b1708f257e8f736c643d88b21966296f7d134507e601fb5b05",
+  "bioinf2027/scripts/figures/figlib.py": "6ce5eb4a41a547d622f887c3002e25524d699a2b8c61fda2ad2737b034dbf617",
+  "bioinf2027/scripts/figures/tablelib.py": "5c546fa57595e02901ba2087d5c2334793762f2cb146db4fd434973bb3fe034f"
+ },
+ "inputs": {
+  "bioinf2027/diag/D3_vcc_retention.csv": {
+   "path": "bioinf2027/diag/D3_vcc_retention.csv",
+   "bytes": 950,
+   "sha256": "ba239814346e3c9f9a13a20ffc010963684fb1618867af2462f27aa5ea9b58e3"
+  },
+  "bioinf2027/diag/D3_cell_counts.csv": {
+   "path": "bioinf2027/diag/D3_cell_counts.csv",
+   "bytes": 2220,
+   "sha256": "b7d13fd6ca6a37dadac0ba4431da09da6c2177ac8776f9cdcad814989ced405e"
+  },
+  "bioinf2027/plans/E1_design.md": {
+   "path": "bioinf2027/plans/E1_design.md",
+   "bytes": 127983,
+   "sha256": "e1b8c63c194ec15fb718d6b10aaef5dae42edff5812ef00cb13a42d793727051"
+  },
+  "bioinf2027/factsheets/FS1_S1.md": {
+   "path": "bioinf2027/factsheets/FS1_S1.md",
+   "bytes": 35996,
+   "sha256": "68d9b4bc63f18793ba7c0e5e310d9cd9a2bcd05df88b6617418166ea71407eef"
+  },
+  "bioinf2027/factsheets/FS2_S2.md": {
+   "path": "bioinf2027/factsheets/FS2_S2.md",
+   "bytes": 44852,
+   "sha256": "d6bcc9f3fbffbada1fe1c1677e27a99e058319d872e14e48ac6e482f5bb6c0df"
+  },
+  "bioinf2027/factsheets/FS3_S3.md": {
+   "path": "bioinf2027/factsheets/FS3_S3.md",
+   "bytes": 35280,
+   "sha256": "7882b8d6340e693a14bff245d011173d1712867f1e72141d0f8d4fecdf514bee"
+  },
+  "bioinf2027/factsheets/FS4_S4.md": {
+   "path": "bioinf2027/factsheets/FS4_S4.md",
+   "bytes": 36513,
+   "sha256": "66b64bfc2b1a0688585119899db49de44c54e3e196a437c338c7d4acfc9182a1"
+  },
+  "bioinf2027/factsheets/FS5_S5.md": {
+   "path": "bioinf2027/factsheets/FS5_S5.md",
+   "bytes": 41153,
+   "sha256": "d997d0550a22703a76447f1f5c7d2c059271e7b5184f6963d262fe2f35d78ecc"
+  }
+ },
+ "inputs_verified": {
+  "bioinf2027/diag/D3_vcc_retention.csv": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/diag/D3_cell_counts.csv": "equal to its record in bioinf2027/results/missing_analyses_closing/closing.json",
+  "bioinf2027/plans/E1_design.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/factsheets/FS1_S1.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/factsheets/FS2_S2.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/factsheets/FS3_S3.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/factsheets/FS4_S4.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/factsheets/FS5_S5.md": "no record lists it; a tracked file without uncommitted changes"
+ },
+ "environment": {
+  "python": "3.13.12",
+  "numpy": "2.4.4",
+  "pandas": "3.0.2",
+  "requirements": {
+   "path": "bioinf2027/requirements.txt",
+   "bytes": 863,
+   "sha256": "f46a415cbe466ba1225adcede4abae7f0dd0b866f29abdf5a6a360e66b1f5702"
+  }
+ },
+ "content": "design only, no result; the dots are a drawing, their counts are not data",
+ "svg": "plain SVG, millimetre user units, one text element per line, font Arial, Liberation Sans, Helvetica, sans-serif",
+ "marks": "filled: the analysis uses the data set for its claim; open: descriptive only",
+ "outputs": {
+  "fig1_study_design_data.csv": {
+   "path": "bioinf2027/figures/fig1_study_design_data.csv",
+   "bytes": 1950,
+   "sha256": "94b86e05ff947b9e54fd2df6bb896935fe727622311fefb7c40beed75b1b92a5"
+  }
+ }
+}

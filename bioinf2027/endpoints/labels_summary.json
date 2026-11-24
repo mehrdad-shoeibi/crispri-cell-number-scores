@@ -1,0 +1,438 @@
+{
+ "plan": "bioinf2027/plans/E1_design.md, Sections 7 to 9, 21, 23 and 24",
+ "paths_relative_to": "$IGA_STORAGE_ROOT for data-root files; the repository root otherwise",
+ "facts": {
+  "depth_targets": {
+   "RPE1": 8194.0,
+   "K562-essential": 9245.0
+  },
+  "thinning_median_p_controls": {
+   "RPE1": 0.17469725396554664,
+   "K562-essential": 0.2031265448958166
+  },
+  "thinned_control_total_medians": {
+   "RPE1": 9546.0,
+   "K562-essential": 11106.0
+  },
+  "rows": {
+   "G1": 6077,
+   "G2": 11764,
+   "G3": 271,
+   "G4": 282,
+   "G5": 6077,
+   "G6": 11764,
+   "G1-SU-RPE1": 6077,
+   "G1-DT-RPE1": 6077,
+   "G5-DT-RPE1": 6077,
+   "G6-DT-RPE1": 11764,
+   "G1-SU-K562-essential": 6077,
+   "G1-DT-K562-essential": 6077,
+   "G5-DT-K562-essential": 6077,
+   "G6-DT-K562-essential": 11764
+  }
+ },
+ "first_pass_check": {
+  "first_pass_manifest": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/cache/E1a/manifest.json",
+   "bytes": 52966,
+   "sha256": "128f5c9f17c52fb556fe0d4c59cc0a8702fafe6bfb975ea012a0b540b1ba4118"
+  },
+  "vcc_train": {
+   "pert_own_ext": true,
+   "pert_own_src": true,
+   "pert_rows": true,
+   "pert_totals": true,
+   "nt_values_ext": true,
+   "nt_values_src": true,
+   "nt_shared_total_RPE1": true,
+   "nt_shared_total_K562-essential": true
+  },
+  "vcc_val": {
+   "pert_own_ext": true,
+   "pert_own_src": true,
+   "pert_rows": true,
+   "pert_totals": true
+  },
+  "vcc_test": {
+   "pert_own_ext": true,
+   "pert_own_src": true,
+   "pert_rows": true,
+   "pert_totals": true
+  },
+  "screen_RPE1": {
+   "nt_values": true,
+   "pert_own": true,
+   "nt_shared_total": true,
+   "constructs": true
+  },
+  "screen_K562-essential": {
+   "nt_values": true,
+   "pert_own": true,
+   "nt_shared_total": true,
+   "constructs": true
+  },
+  "passed": true
+ },
+ "g1_external_against_stored_endpoint_max_abs_difference": {
+  "RPE1": 0.0,
+  "K562-essential": 0.0
+ },
+ "cells": {
+  "G1": {
+   "protocol": {
+    "path": "bioinf2027/endpoints/G1/protocol.json",
+    "bytes": 2415,
+    "sha256": "e72c32ee021707c59fee6e847a23ff1cc426ab3b1a9a9ef0d19eb45df463c04e"
+   },
+   "tables": {
+    "vcc_labels.csv": {
+     "path": "$IGA_STORAGE_ROOT/bioinf2027/endpoints/G1/vcc_labels.csv",
+     "bytes": 2923485,
+     "sha256": "01cb1d78476ff5c6b1e733b040aacc0ad6372d3ea6f358f3fa1d185c7a5eee88"
+    },
+    "vcc_halves.csv": {
+     "path": "$IGA_STORAGE_ROOT/bioinf2027/endpoints/G1/vcc_halves.csv",
+     "bytes": 5164100,
+     "sha256": "78f70432d1e963a00b48595e99cfdf57100fed6e849f8cb6b0ce5977ac5de40c"
+    },
+    "pool_size_simulation.csv": {
+     "path": "$IGA_STORAGE_ROOT/bioinf2027/endpoints/G1/pool_size_simulation.csv",
+     "bytes": 367272,
+     "sha256": "11b680cf3638e2741349c1bb05c4937865d08edfcd46801dfe487aea48952709"
+    },
+    "external_RPE1.csv": {
+     "path": "$IGA_STORAGE_ROOT/bioinf2027/endpoints/G1/external_RPE1.csv",
+     "bytes": 670732,
+     "sha256": "9320bb6b389640b03ef813f3e7269b8937927597e70351dd287c15b2fbce95d3"
+    },
+    "external_RPE1_halves.csv": {
+     "path": "$IGA_STORAGE_ROOT/bioinf2027/endpoints/G1/external_RPE1_halves.csv",
+     "bytes": 858447,
+     "sha256": "45ff4a136219b464d334d5cd45557992fd48ecc7bf5cbfb239fc1c90a19b4c10"
+    },
+    "external_K562-essential.csv": {
+     "path": "$IGA_STORAGE_ROOT/bioinf2027/endpoints/G1/external_K562-essential.csv",
+     "bytes": 658146,
+     "sha256": "b5817e7bb3221a93b7e666712d4ad6cd22d569c4d415d99ef8a832011432beb3"
+    },
+    "external_K562-essential_halves.csv": {
+     "path": "$IGA_STORAGE_ROOT/bioinf2027/endpoints/G1/external_K562-essential_halves.csv",
+     "bytes": 1059334,
+     "sha256": "9cb02a26bd99009a9ea8874fc0bd52541b0c1e4db6c4798a5df47243c06b21c7"
+    }
+   },
+   "external_reused_from": null,
+   "seconds": 41.41901755332947
+  },
+  "G2": {
+   "protocol": {
+    "path": "bioinf2027/endpoints/G2/protocol.json",
+    "bytes": 2402,
+    "sha256": "bb33f7922a8ef81846a1efc6368e06d91291aa2fd297d16830e383d7771d2cf0"
+   },
+   "tables": {
+    "vcc_labels.csv": {
+     "path": "$IGA_STORAGE_ROOT/bioinf2027/endpoints/G2/vcc_labels.csv",
+     "bytes": 5683097,
+     "sha256": "ac6c08a4d2861984df0fb907ffe75e1ae49da9e4ff28c146cfe34429c108aa60"
+    },
+    "vcc_halves.csv": {
+     "path": "$IGA_STORAGE_ROOT/bioinf2027/endpoints/G2/vcc_halves.csv",
+     "bytes": 6096554,
+     "sha256": "f1fc2304f99f63defd543e2fa967f05f9fab8858396e2af266741db94096226e"
+    },
+    "pool_size_simulation.csv": {
+     "path": "$IGA_STORAGE_ROOT/bioinf2027/endpoints/G2/pool_size_simulation.csv",
+     "bytes": 2929607,
+     "sha256": "6d8251408e7dcc3fd6d6df042c0687e9b963607af2d9b582128be834e9e7b16c"
+    },
+    "external_RPE1.csv": {
+     "path": "$IGA_STORAGE_ROOT/bioinf2027/endpoints/G2/external_RPE1.csv",
+     "bytes": 665139,
+     "sha256": "9da827cf9f4f95991b26c89a016e5e5befdc26dd458c9f7e89a1ce184a9cff72"
+    },
+    "external_RPE1_halves.csv": {
+     "path": "$IGA_STORAGE_ROOT/bioinf2027/endpoints/G2/external_RPE1_halves.csv",
+     "bytes": 1192718,
+     "sha256": "5db33caeef41c71f2cd23c4c7057fb904094582cd13e46f99bf4563b974aff25"
+    },
+    "external_K562-essential.csv": {
+     "path": "$IGA_STORAGE_ROOT/bioinf2027/endpoints/G2/external_K562-essential.csv",
+     "bytes": 652439,
+     "sha256": "30e58d5d60743abdde39f45c6571b005a2e34ca18b0f17a5b5676775227aff62"
+    },
+    "external_K562-essential_halves.csv": {
+     "path": "$IGA_STORAGE_ROOT/bioinf2027/endpoints/G2/external_K562-essential_halves.csv",
+     "bytes": 1172005,
+     "sha256": "0a811753b1fbe5c772c70fc5806793f7487525565f14917520336144e9f4ed44"
+    }
+   },
+   "external_reused_from": null,
+   "seconds": 106.00092339515686
+  },
+  "G3": {
+   "protocol": {
+    "path": "bioinf2027/endpoints/G3/protocol.json",
+    "bytes": 2268,
+    "sha256": "603fbf65c3fb5a180bf66d5e7b47f5f41b31a73531ab6ebb04afe0c821625507"
+   },
+   "tables": {
+    "vcc_labels.csv": {
+     "path": "$IGA_STORAGE_ROOT/bioinf2027/endpoints/G3/vcc_labels.csv",
+     "bytes": 125937,
+     "sha256": "cfdcba53f149efe6716b86ee7fcdc7bb7b02cb42a287175485a689758319ad4a"
+    }
+   },
+   "external_reused_from": "G1",
+   "seconds": 2.1143643856048584
+  },
+  "G4": {
+   "protocol": {
+    "path": "bioinf2027/endpoints/G4/protocol.json",
+    "bytes": 2268,
+    "sha256": "fd8a17344d5634f734a0ee65ec27214dc13e2a46d5f943cbcca5ad44a35054d1"
+   },
+   "tables": {
+    "vcc_labels.csv": {
+     "path": "$IGA_STORAGE_ROOT/bioinf2027/endpoints/G4/vcc_labels.csv",
+     "bytes": 132054,
+     "sha256": "9648e3cc739262794b4a48344620164f01c03e8110a54f0f8dc7aa5cf93a06d6"
+    }
+   },
+   "external_reused_from": "G2",
+   "seconds": 2.09444260597229
+  },
+  "G5": {
+   "protocol": {
+    "path": "bioinf2027/endpoints/G5/protocol.json",
+    "bytes": 2414,
+    "sha256": "389dc860e579e7380a63abb276e51e8b8097b7f65533554f3b373efcaa11a3a5"
+   },
+   "tables": {
+    "vcc_labels.csv": {
+     "path": "$IGA_STORAGE_ROOT/bioinf2027/endpoints/G5/vcc_labels.csv",
+     "bytes": 2924258,
+     "sha256": "029c3bb966d1138ca0c7afade66115f58fbe5b773d64aef10a8b3dc196e1b08c"
+    },
+    "vcc_halves.csv": {
+     "path": "$IGA_STORAGE_ROOT/bioinf2027/endpoints/G5/vcc_halves.csv",
+     "bytes": 10950985,
+     "sha256": "08d629dbb4aceae29a09cbb2eb43d947666b32a745f663943115807ae5771324"
+    },
+    "pool_size_simulation.csv": {
+     "path": "$IGA_STORAGE_ROOT/bioinf2027/endpoints/G5/pool_size_simulation.csv",
+     "bytes": 367161,
+     "sha256": "4536b1ce2a5424ed90fd831f01bf5a2372a749ba3b594131a012cf8c56f86dda"
+    },
+    "external_RPE1.csv": {
+     "path": "$IGA_STORAGE_ROOT/bioinf2027/endpoints/G5/external_RPE1.csv",
+     "bytes": 670867,
+     "sha256": "217e6aa7699706037a6390ec8aad22d2b637b8e97bee3b205fb5d7f40de40d3e"
+    },
+    "external_RPE1_halves.csv": {
+     "path": "$IGA_STORAGE_ROOT/bioinf2027/endpoints/G5/external_RPE1_halves.csv",
+     "bytes": 858503,
+     "sha256": "500e9acd7bb139395399aff04bec0a994b08b315c3ab4c6b461b0f0a62ddbd1c"
+    },
+    "external_K562-essential.csv": {
+     "path": "$IGA_STORAGE_ROOT/bioinf2027/endpoints/G5/external_K562-essential.csv",
+     "bytes": 658042,
+     "sha256": "929711a46e478e44fc10491de0158e30dd153d3ff5fde9da8dfc7872f43e020e"
+    },
+    "external_K562-essential_halves.csv": {
+     "path": "$IGA_STORAGE_ROOT/bioinf2027/endpoints/G5/external_K562-essential_halves.csv",
+     "bytes": 1059372,
+     "sha256": "2c75ff2afb41a5c40f8bafa5e1b1ccb4f254f539c18a97c780b865ec5e3e2942"
+    }
+   },
+   "external_reused_from": null,
+   "seconds": 51.98198080062866
+  },
+  "G6": {
+   "protocol": {
+    "path": "bioinf2027/endpoints/G6/protocol.json",
+    "bytes": 2401,
+    "sha256": "af1aaee78be2f2ee921659f65e0670efc63cecfbcfaa8de81b8906732a32faaf"
+   },
+   "tables": {
+    "vcc_labels.csv": {
+     "path": "$IGA_STORAGE_ROOT/bioinf2027/endpoints/G6/vcc_labels.csv",
+     "bytes": 5678098,
+     "sha256": "67af61dada7c980aa011a061f173eb6c82e3dd45e0f90532373834d9ebe93cd8"
+    },
+    "vcc_halves.csv": {
+     "path": "$IGA_STORAGE_ROOT/bioinf2027/endpoints/G6/vcc_halves.csv",
+     "bytes": 12911315,
+     "sha256": "a08efe1ecee2ee63b5340dec5c7aeec334738be2ada30f9b84f4bad41398adff"
+    },
+    "pool_size_simulation.csv": {
+     "path": "$IGA_STORAGE_ROOT/bioinf2027/endpoints/G6/pool_size_simulation.csv",
+     "bytes": 2928978,
+     "sha256": "8a75a59a33c704895f17ab01e4049c8e972d39df964923b73a15bd51b2f498fa"
+    },
+    "external_RPE1.csv": {
+     "path": "$IGA_STORAGE_ROOT/bioinf2027/endpoints/G6/external_RPE1.csv",
+     "bytes": 664889,
+     "sha256": "b40ca13f800042f6096cb26e80b68fa329d13367268c1f9326cb70a3767fabae"
+    },
+    "external_RPE1_halves.csv": {
+     "path": "$IGA_STORAGE_ROOT/bioinf2027/endpoints/G6/external_RPE1_halves.csv",
+     "bytes": 1192508,
+     "sha256": "ef688b134bcbb8d597499e11cf480080b65d9fc195b6725e388acf2a1e3ce624"
+    },
+    "external_K562-essential.csv": {
+     "path": "$IGA_STORAGE_ROOT/bioinf2027/endpoints/G6/external_K562-essential.csv",
+     "bytes": 652420,
+     "sha256": "1225d8e85a82609f4132ec871a3271df628972774f660b7882ec232a360fef68"
+    },
+    "external_K562-essential_halves.csv": {
+     "path": "$IGA_STORAGE_ROOT/bioinf2027/endpoints/G6/external_K562-essential_halves.csv",
+     "bytes": 1171659,
+     "sha256": "dae987a4056b930ffd4e1cdd843845731dcac44cdd81567d94291093d89a8d6c"
+    }
+   },
+   "external_reused_from": null,
+   "seconds": 126.30399632453918
+  },
+  "G1-SU-RPE1": {
+   "protocol": {
+    "path": "bioinf2027/endpoints/G1-SU-RPE1/protocol.json",
+    "bytes": 2238,
+    "sha256": "7e9a6eeba7ddd2ff29b0a3eb9567c40a53002a1126766b26eaacf578b9d75ba0"
+   },
+   "tables": {
+    "vcc_labels.csv": {
+     "path": "$IGA_STORAGE_ROOT/bioinf2027/endpoints/G1-SU-RPE1/vcc_labels.csv",
+     "bytes": 2922008,
+     "sha256": "c10fda225122b58b6a6fa85ebc5129d651de8ac02b83a950db7786c7aee23da8"
+    },
+    "external_RPE1.csv": {
+     "path": "$IGA_STORAGE_ROOT/bioinf2027/endpoints/G1-SU-RPE1/external_RPE1.csv",
+     "bytes": 670409,
+     "sha256": "4cfdca3ec6ee605d5332ec035845b83337b6b471b79d4f6333a0d9a08e97a920"
+    }
+   },
+   "external_reused_from": null,
+   "seconds": 14.289236068725586
+  },
+  "G1-DT-RPE1": {
+   "protocol": {
+    "path": "bioinf2027/endpoints/G1-DT-RPE1/protocol.json",
+    "bytes": 2479,
+    "sha256": "da8b405671ea4ea2cae5aed2bcaf029a0daa672f06cece042c9a387399a65a9a"
+   },
+   "tables": {
+    "vcc_labels.csv": {
+     "path": "$IGA_STORAGE_ROOT/bioinf2027/endpoints/G1-DT-RPE1/vcc_labels.csv",
+     "bytes": 2925482,
+     "sha256": "1dc5abe24e8b3cb6480d1854bd4ed0e0bcbdcb1bfaa77a03a1e8092cd68c2e14"
+    }
+   },
+   "external_reused_from": "G1",
+   "seconds": 11.631009578704834
+  },
+  "G5-DT-RPE1": {
+   "protocol": {
+    "path": "bioinf2027/endpoints/G5-DT-RPE1/protocol.json",
+    "bytes": 2478,
+    "sha256": "d7aeb6891df1a2331f8a4ec5c78e4de7f4475250af09d3614f6f4f203814c127"
+   },
+   "tables": {
+    "vcc_labels.csv": {
+     "path": "$IGA_STORAGE_ROOT/bioinf2027/endpoints/G5-DT-RPE1/vcc_labels.csv",
+     "bytes": 2927309,
+     "sha256": "d9a48634d71cc5c1ba6adea1069cfa2c319019e17c5b51330b0605d7163e236f"
+    }
+   },
+   "external_reused_from": "G5",
+   "seconds": 9.650879859924316
+  },
+  "G6-DT-RPE1": {
+   "protocol": {
+    "path": "bioinf2027/endpoints/G6-DT-RPE1/protocol.json",
+    "bytes": 2479,
+    "sha256": "ac80e4d734ec66d8dc51211330aed899fe9700d6d8673e83fd90af172e7a132f"
+   },
+   "tables": {
+    "vcc_labels.csv": {
+     "path": "$IGA_STORAGE_ROOT/bioinf2027/endpoints/G6-DT-RPE1/vcc_labels.csv",
+     "bytes": 5594431,
+     "sha256": "53005fea6c76d931b9514ba358e402736aea3603b84f965801bcf30a89b9c55c"
+    }
+   },
+   "external_reused_from": "G6",
+   "seconds": 19.308743715286255
+  },
+  "G1-SU-K562-essential": {
+   "protocol": {
+    "path": "bioinf2027/endpoints/G1-SU-K562-essential/protocol.json",
+    "bytes": 2268,
+    "sha256": "ca000e8b8ce576336def68cedfb25b1f1ac981e3e088e02ce56c76fc8f0530e8"
+   },
+   "tables": {
+    "vcc_labels.csv": {
+     "path": "$IGA_STORAGE_ROOT/bioinf2027/endpoints/G1-SU-K562-essential/vcc_labels.csv",
+     "bytes": 2922248,
+     "sha256": "6d08166820e9294a16d97ab2c689de3e1c675e89efa3a2c94aa8190db0f1a3a0"
+    },
+    "external_K562-essential.csv": {
+     "path": "$IGA_STORAGE_ROOT/bioinf2027/endpoints/G1-SU-K562-essential/external_K562-essential.csv",
+     "bytes": 658010,
+     "sha256": "5604ee1161ec815623692db09f0f41098a3245cf7a171948f924689057b78d01"
+    }
+   },
+   "external_reused_from": null,
+   "seconds": 14.853961706161499
+  },
+  "G1-DT-K562-essential": {
+   "protocol": {
+    "path": "bioinf2027/endpoints/G1-DT-K562-essential/protocol.json",
+    "bytes": 2509,
+    "sha256": "0d087778f06ade2bac2e3e1f8aa71dad4f31ba8178c33f867327b5fe48835dad"
+   },
+   "tables": {
+    "vcc_labels.csv": {
+     "path": "$IGA_STORAGE_ROOT/bioinf2027/endpoints/G1-DT-K562-essential/vcc_labels.csv",
+     "bytes": 2930074,
+     "sha256": "591af1cdaa13aab6cbcb6a372b0390f3217b4a94ec4da42222f7b63763b1b481"
+    }
+   },
+   "external_reused_from": "G1",
+   "seconds": 11.65906310081482
+  },
+  "G5-DT-K562-essential": {
+   "protocol": {
+    "path": "bioinf2027/endpoints/G5-DT-K562-essential/protocol.json",
+    "bytes": 2508,
+    "sha256": "61eb24531bb2782db261a858bd17e5aa0a3b425f007bfffdce953c1f8af63333"
+   },
+   "tables": {
+    "vcc_labels.csv": {
+     "path": "$IGA_STORAGE_ROOT/bioinf2027/endpoints/G5-DT-K562-essential/vcc_labels.csv",
+     "bytes": 2931654,
+     "sha256": "650e72c42bfd15378e11fd0dc4ba1f60ed5ea7b66b77b8da6038e0e6b147435d"
+    }
+   },
+   "external_reused_from": "G5",
+   "seconds": 9.74146819114685
+  },
+  "G6-DT-K562-essential": {
+   "protocol": {
+    "path": "bioinf2027/endpoints/G6-DT-K562-essential/protocol.json",
+    "bytes": 2509,
+    "sha256": "98e428116be0acdc2040258d5659f993e6599e4e73cb9f65fc15beacf13cd780"
+   },
+   "tables": {
+    "vcc_labels.csv": {
+     "path": "$IGA_STORAGE_ROOT/bioinf2027/endpoints/G6-DT-K562-essential/vcc_labels.csv",
+     "bytes": 5605758,
+     "sha256": "9b2bfc878bcf853171f9fd07a04fe026f2eac2067ed977ea3789ade5701cd68f"
+    }
+   },
+   "external_reused_from": "G6",
+   "seconds": 19.71800994873047
+  }
+ },
+ "seconds": 450.6522960662842,
+ "peak_memory_gb": 1.7279815673828125
+}

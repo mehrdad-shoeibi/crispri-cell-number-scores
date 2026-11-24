@@ -1,0 +1,93 @@
+{
+ "plan": "bioinf2027/plans/E5.md, Sections 4, 5, 16.1 and 17",
+ "smoke": false,
+ "gates": {
+  "RPE1": {
+   "27": {
+    "genes": 1811,
+    "genes_with_halves": 1297,
+    "composition_null_median": -0.02253764750735776,
+    "between_gene_iqr": 2.7336565335626544,
+    "composition_rule_exceeded": false,
+    "primary_version": "pooled controls",
+    "reliability_spearman": 0.9364355574792307,
+    "spearman_brown_upper_bound": 0.9671745118110128,
+    "reliability_gate_passed": true,
+    "beyond_bc_spearman": 0.9529177777188178,
+    "beyond_bc_gate_passed": true,
+    "spearman_with_depth": 0.054221082541515725
+   },
+   "50": {
+    "genes": 1371,
+    "genes_with_halves": 634,
+    "composition_null_median": -0.012936613948754783,
+    "between_gene_iqr": 2.049056755761318,
+    "composition_rule_exceeded": false,
+    "primary_version": "pooled controls",
+    "reliability_spearman": 0.8902283072555439,
+    "spearman_brown_upper_bound": 0.9419267543909362,
+    "reliability_gate_passed": true,
+    "beyond_bc_spearman": 0.9416607325388018,
+    "beyond_bc_gate_passed": true,
+    "spearman_with_depth": 0.03679777993304529
+   }
+  },
+  "K562-essential": {
+   "27": {
+    "genes": 1811,
+    "genes_with_halves": 1629,
+    "composition_null_median": -0.008532477984331877,
+    "between_gene_iqr": 0.4950998731454552,
+    "composition_rule_exceeded": false,
+    "primary_version": "pooled controls",
+    "reliability_spearman": 0.9265679446305144,
+    "spearman_brown_upper_bound": 0.9618845234220023,
+    "reliability_gate_passed": true,
+    "beyond_bc_spearman": 0.9393957604444673,
+    "beyond_bc_gate_passed": true,
+    "spearman_with_depth": -0.40193556384512413
+   },
+   "50": {
+    "genes": 1661,
+    "genes_with_halves": 1152,
+    "composition_null_median": -0.004441819506523004,
+    "between_gene_iqr": 0.49805799667377215,
+    "composition_rule_exceeded": false,
+    "primary_version": "pooled controls",
+    "reliability_spearman": 0.9474304336839968,
+    "spearman_brown_upper_bound": 0.9730056769131639,
+    "reliability_gate_passed": true,
+    "beyond_bc_spearman": 0.9592015543757091,
+    "beyond_bc_gate_passed": true,
+    "spearman_with_depth": -0.4001880509943777
+   }
+  }
+ },
+ "versions_used_by_the_family": {
+  "within RPE1": {
+   "target_screen": "RPE1",
+   "version_used_by_the_family": "27 cells",
+   "reason": "the target screen's 27-cell reliability gate passed"
+  },
+  "within K562-essential": {
+   "target_screen": "K562-essential",
+   "version_used_by_the_family": "27 cells",
+   "reason": "the target screen's 27-cell reliability gate passed"
+  },
+  "K562-essential to RPE1": {
+   "target_screen": "RPE1",
+   "version_used_by_the_family": "27 cells",
+   "reason": "the target screen's 27-cell reliability gate passed"
+  },
+  "RPE1 to K562-essential": {
+   "target_screen": "K562-essential",
+   "version_used_by_the_family": "27 cells",
+   "reason": "the target screen's 27-cell reliability gate passed"
+  }
+ },
+ "rules": {
+  "composition": "median composition null above 0.25 of the between-gene IQR",
+  "reliability": "uncorrected split-half Spearman at least 0.5",
+  "beyond Bc": "split-half Spearman of out-of-fold Bc residuals at least 0.2"
+ }
+}

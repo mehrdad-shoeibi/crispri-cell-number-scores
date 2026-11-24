@@ -1,0 +1,58 @@
+{
+ "table": "table1_datasets",
+ "code": {
+  "bioinf2027/scripts/figures/table1_datasets.py": "9fa1a5eb941d6c55053dad63da7c4432d001bd66eeed971559f10308e5804e29",
+  "bioinf2027/scripts/figures/tablelib.py": "5c546fa57595e02901ba2087d5c2334793762f2cb146db4fd434973bb3fe034f"
+ },
+ "inputs": {
+  "bioinf2027/plans/E1_input_records.json": {
+   "path": "bioinf2027/plans/E1_input_records.json",
+   "bytes": 3519,
+   "sha256": "6d21129e9ef1c88f065c9b80c8f0b2a4a207dad34ae05f02a0b78dc1774c8add"
+  },
+  "bioinf2027/diag/D3_vcc_retention.csv": {
+   "path": "bioinf2027/diag/D3_vcc_retention.csv",
+   "bytes": 950,
+   "sha256": "ba239814346e3c9f9a13a20ffc010963684fb1618867af2462f27aa5ea9b58e3"
+  },
+  "bioinf2027/diag/D3_cell_counts.csv": {
+   "path": "bioinf2027/diag/D3_cell_counts.csv",
+   "bytes": 2220,
+   "sha256": "b7d13fd6ca6a37dadac0ba4431da09da6c2177ac8776f9cdcad814989ced405e"
+  }
+ },
+ "inputs_verified": {
+  "bioinf2027/plans/E1_input_records.json": "equal to its record in bioinf2027/results/E2/checks/input_digests.json",
+  "bioinf2027/diag/D3_vcc_retention.csv": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/diag/D3_cell_counts.csv": "equal to its record in bioinf2027/results/missing_analyses_closing/closing.json"
+ },
+ "environment": {
+  "python": "3.13.12",
+  "numpy": "2.4.4",
+  "pandas": "3.0.2",
+  "requirements": {
+   "path": "bioinf2027/requirements.txt",
+   "bytes": 863,
+   "sha256": "f46a415cbe466ba1225adcede4abae7f0dd0b866f29abdf5a6a360e66b1f5702"
+  }
+ },
+ "tex": "booktabs; Unicode symbols (\u2212, \u03c1, \u2192, \u00bd), so a Unicode TeX engine (XeLaTeX or LuaLaTeX)",
+ "notes": {
+  "Control cells per batch": "median (minimum, maximum) for VCC; the Replogle labels use pooled controls",
+  "Cells per unit, at least 27": "median [first quartile, third quartile] of perturbed cells per retained unit",
+  "Units": "VCC: (target gene, batch) groups with any perturbed cells; Replogle: constructs after the join to the gene matrix",
+  "Target genes": "VCC: target_gene values recorded per file; Replogle: distinct target genes of the eligible constructs"
+ },
+ "outputs": {
+  "table1_datasets.csv": {
+   "path": "bioinf2027/tables/table1_datasets.csv",
+   "bytes": 931,
+   "sha256": "92a56d1861d18fc263aa9ec4cca502b34af7bcfbe9e96abe9390a99949b91b87"
+  },
+  "table1_datasets.tex": {
+   "path": "bioinf2027/tables/table1_datasets.tex",
+   "bytes": 1071,
+   "sha256": "e8c8e589744d2325203ed247154f3476b560e71187b32a0e362bd1fc4f320cd8"
+  }
+ }
+}

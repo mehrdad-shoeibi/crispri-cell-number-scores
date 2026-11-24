@@ -1,0 +1,264 @@
+{
+ "plan": "bioinf2027/plans/E1b_attribution.md",
+ "fits": 84,
+ "representations": {
+  "[B0; z]": "z",
+  "[B0; C1]": "C1",
+  "[B0; C3]": "C3"
+ },
+ "labels": [
+  "existing",
+  "rebuilt"
+ ],
+ "cells": [
+  "G5",
+  "G6"
+ ],
+ "heads": {
+  "forest": {
+   "n_estimators": 200,
+   "max_depth": 20,
+   "min_samples_leaf": 2
+  },
+  "boosting": {
+   "max_iter": 500,
+   "max_depth": 6,
+   "learning_rate": 0.05,
+   "l2_regularization": 0.0,
+   "early_stopping": true,
+   "validation_fraction": 0.1,
+   "n_iter_no_change": 20
+  },
+  "ridge grid": [
+   0.01,
+   0.1,
+   1.0,
+   10.0,
+   100.0,
+   1000.0,
+   10000.0
+  ],
+  "threads": "one: forest n_jobs=1, OpenMP and BLAS limited to one thread"
+ },
+ "check_1_heads": {
+  "forest": {
+   "n_estimators": 200,
+   "max_depth": 20,
+   "min_samples_leaf": 2
+  },
+  "boosting": {
+   "max_iter": 500,
+   "max_depth": 6,
+   "learning_rate": 0.05,
+   "l2_regularization": 0.0,
+   "early_stopping": true,
+   "validation_fraction": 0.1,
+   "n_iter_no_change": 20
+  }
+ },
+ "seeds": {
+  "heads": {
+   "forest": [
+    0,
+    1,
+    2
+   ],
+   "boosting": [
+    0,
+    1,
+    2
+   ],
+   "ridge": [
+    0
+   ]
+  },
+  "C1 and C3 realisation": 0,
+  "refit seed (unused, all training rows)": 20270414
+ },
+ "inputs": {
+  "checks": {
+   "path": "bioinf2027/results/E1/checks.json",
+   "bytes": 13487,
+   "sha256": "cf4d448fa2b7acf906bca8186a1ef19d12975a53f84aa2ad321cd0364d3f9ebf"
+  },
+  "checks_acceptance": {
+   "accepted": true,
+   "by": "the author's decision at gate G3",
+   "decision": {
+    "path": "bioinf2027/results/E1/harness_decision.json",
+    "bytes": 870,
+    "sha256": "5434979882df8cab2ed7fcfe21093f79c3a967e20db6a59e0b79490b6369fb6f"
+   }
+  },
+  "refits": 20,
+  "screens": {
+   "RPE1": {
+    "e1b_x": "full-pass mapping",
+    "full_pass_mapping": {
+     "path": "$IGA_STORAGE_ROOT/bioinf2027/E1b/inputs/x_RPE1_full_pass_mapped.npy",
+     "bytes": 15456128,
+     "sha256": "d14cd7e0cdddc04ea81ea6ddf149ee1bb01fc091ebdf6cf3489bc274d5bd33c8"
+    },
+    "release": {
+     "path": "$IGA_STORAGE_ROOT/IGA_MAIN/data/replogle/raw/rpe1_normalized_bulk_01.h5ad",
+     "bytes": 95350546,
+     "sha256": "a3c5bfd0f15d63938bc80c9b8874b9cd761e3a23caf5ffe7966bae4e887ec89d"
+    }
+   },
+   "K562-essential": {
+    "e1b_x": "submitted array (equal to the full-pass mapping)",
+    "full_pass_mapping": {
+     "path": "$IGA_STORAGE_ROOT/bioinf2027/E1b/inputs/x_K562-essential_full_pass_mapped.npy",
+     "bytes": 15224128,
+     "sha256": "326142005d94fadf682a5d71a2dfaea5ba40ba4a5f40e61b2918e6f74f374965"
+    },
+    "release": {
+     "path": "$IGA_STORAGE_ROOT/IGA_MAIN/data/replogle/raw/K562_essential_normalized_bulk_01.h5ad",
+     "bytes": 79766954,
+     "sha256": "c1ca6456c9c9f1aa2b02c496eb64d1dc3e6a852edbd744d682b8d2c95fd36829"
+    }
+   }
+  },
+  "cell_manifests": {
+   "G5": {
+    "path": "bioinf2027/endpoints/G5/manifest.json",
+    "bytes": 1749,
+    "sha256": "845cd1dc6de849a711a9e198acb5a26cab3bd376aadffcba5e8347e737962461"
+   },
+   "G6": {
+    "path": "bioinf2027/endpoints/G6/manifest.json",
+    "bytes": 1752,
+    "sha256": "c5947bd85270f863132a9a58f145c3521604e19ffb8129524c3d94ea2f3878cc"
+   }
+  },
+  "input_records": {
+   "path": "bioinf2027/results/E1/input_records.json",
+   "bytes": 40895,
+   "sha256": "8e5203ece9d95b5602ef872e314f35cbe044532422bbaf98b44d3f49d3db73cb"
+  },
+  "e1b_predictions": {
+   "path": "bioinf2027/results/E1/predictions_manifest.json",
+   "bytes": 946848,
+   "sha256": "8a7e4be2b70f7260b701091e1d879c3734703a3ca075f73ac731aeb21019ce41"
+  },
+  "e1b_protocol": {
+   "path": "bioinf2027/results/E1/protocol.json",
+   "bytes": 8934,
+   "sha256": "80c8bdb0ffc81847c727e0d92ccf4de1e42e59cd0b27ac72d4e8d2298a10b97f"
+  }
+ },
+ "fitting_code": {
+  "bioinf2027/src/bioinf2027/transfer.py": "039ba5388e051ccfda40f0a2e1e0378898fe9c3881fc17de199f429cee3ce705",
+  "bioinf2027/src/bioinf2027/heads.py": "c03831822a147661bfd3fd1ae36dfa51c003b679941a90208156c8d410abd9f7",
+  "bioinf2027/src/bioinf2027/representations.py": "94eb4a332741f9a5471773486a41123b30b1c38241e974df81ef3f7bb95f2429"
+ },
+ "script": {
+  "bioinf2027/scripts/make_e1b_attribution.py": "fc394342591c45f5e4b0a7d7604ee157085fda712453174764b1ce9aaaaeb926"
+ },
+ "predictions": "$IGA_STORAGE_ROOT/bioinf2027/E1b/attribution/predictions",
+ "smoke": false,
+ "checks": {
+  "blocks": {
+   "compared": 30,
+   "passed": true
+  },
+  "pipeline_equality": [
+   {
+    "fit": "G6|existing|C1|boosting|0|all training rows|0",
+    "seconds": 3.2,
+    "sides": {
+     "val": {
+      "equal": true,
+      "largest_difference": 0.0
+     },
+     "test": {
+      "equal": true,
+      "largest_difference": 0.0
+     },
+     "RPE1": {
+      "equal": true,
+      "largest_difference": 0.0
+     },
+     "K562-essential": {
+      "equal": true,
+      "largest_difference": 0.0
+     }
+    },
+    "sides_missing_here": [],
+    "passed": true
+   },
+   {
+    "fit": "G6|existing|z|ridge|0|all training rows|0",
+    "seconds": 1.4,
+    "sides": {
+     "val": {
+      "equal": true,
+      "largest_difference": 0.0
+     },
+     "test": {
+      "equal": true,
+      "largest_difference": 0.0
+     },
+     "RPE1": {
+      "equal": true,
+      "largest_difference": 0.0
+     },
+     "K562-essential": {
+      "equal": true,
+      "largest_difference": 0.0
+     }
+    },
+    "sides_missing_here": [],
+    "passed": true
+   },
+   {
+    "fit": "G5|existing|z|forest|0|all training rows|0",
+    "seconds": 563.6,
+    "sides": {
+     "val": {
+      "equal": true,
+      "largest_difference": 0.0
+     },
+     "test": {
+      "equal": true,
+      "largest_difference": 0.0
+     },
+     "RPE1": {
+      "equal": true,
+      "largest_difference": 0.0
+     },
+     "K562-essential": {
+      "equal": true,
+      "largest_difference": 0.0
+     }
+    },
+    "sides_missing_here": [],
+    "passed": true
+   },
+   {
+    "fit": "G6|existing|B0|forest|0|all training rows|0",
+    "seconds": 0.7,
+    "sides": {
+     "val": {
+      "equal": true,
+      "largest_difference": 0.0
+     },
+     "test": {
+      "equal": true,
+      "largest_difference": 0.0
+     },
+     "RPE1": {
+      "equal": true,
+      "largest_difference": 0.0
+     },
+     "K562-essential": {
+      "equal": true,
+      "largest_difference": 0.0
+     }
+    },
+    "sides_missing_here": [],
+    "passed": true
+   }
+  ]
+ }
+}

@@ -1,0 +1,79 @@
+{
+ "figure": "fig1_study_design",
+ "width_mm": 178,
+ "dpi_png": 600,
+ "minimum_text_pt": 6.0,
+ "panel_data": "bioinf2027/figures/fig1_study_design_data.csv",
+ "environment": {
+  "python": "3.13.12",
+  "numpy": "2.4.4",
+  "pandas": "3.0.2",
+  "requirements": {
+   "path": "bioinf2027/requirements.txt",
+   "bytes": 863,
+   "sha256": "f46a415cbe466ba1225adcede4abae7f0dd0b866f29abdf5a6a360e66b1f5702"
+  },
+  "matplotlib": "3.10.8"
+ },
+ "code": {
+  "bioinf2027/scripts/figures/fig1_study_design.py": "af9a703a549e98b1708f257e8f736c643d88b21966296f7d134507e601fb5b05",
+  "bioinf2027/scripts/figures/figlib.py": "6ce5eb4a41a547d622f887c3002e25524d699a2b8c61fda2ad2737b034dbf617",
+  "bioinf2027/scripts/figures/labels.toml": "b547ce0f4bf5fa7e6d8ee20d3f6237ed91a0f0b49de9cd3e7befb630c4b181d8"
+ },
+ "labels_read": [
+  "[fig1] all_cells_head",
+  "[fig1] all_cells_text_1",
+  "[fig1] all_cells_text_2",
+  "[fig1] analysis_1",
+  "[fig1] analysis_2",
+  "[fig1] analysis_3",
+  "[fig1] analysis_4",
+  "[fig1] analysis_5",
+  "[fig1] controls",
+  "[fig1] count_screen",
+  "[fig1] count_vcc",
+  "[fig1] dataset_k562",
+  "[fig1] dataset_rpe1",
+  "[fig1] dataset_vcc",
+  "[fig1] legend_control",
+  "[fig1] legend_perturbed",
+  "[fig1] legend_used",
+  "[fig1] mark_descriptive",
+  "[fig1] mark_used",
+  "[fig1] one_draw",
+  "[fig1] row_few",
+  "[fig1] row_many",
+  "[fig1] size_fixed_head",
+  "[fig1] size_fixed_text_1",
+  "[fig1] size_fixed_text_2",
+  "[fig1] size_fixed_text_3",
+  "[names] panel"
+ ],
+ "svg": {
+  "fig1_study_design_178mm.svg": {
+   "path": "bioinf2027/figures/fig1_study_design_178mm.svg",
+   "bytes": 31120,
+   "sha256": "2b3acf63c0658ea7ba589fb5f2fb499fb1e60b851fc045d61a955bb9ad23ca5b"
+  }
+ },
+ "svg_elements": {
+  "rect": 1,
+  "line": 4,
+  "polygon": 0,
+  "circle": 257,
+  "text": 34
+ },
+ "drawn_from": "the PDF and PNG are drawn from the SVG file by this script's renderer",
+ "outputs": {
+  "fig1_study_design_178mm.pdf": {
+   "path": "bioinf2027/figures/fig1_study_design_178mm.pdf",
+   "bytes": 47345,
+   "sha256": "9e67877e0b32706965a1e83c2f44bfff626916159fccc21e0e0d052afdec5749"
+  },
+  "fig1_study_design_178mm.png": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/figures/fig1_study_design_178mm.png",
+   "bytes": 614089,
+   "sha256": "027d4c83e6e20eb1cec32a74eed68e5ae238306616ff1fb13bb384c3f9a8455d"
+  }
+ }
+}

@@ -1,0 +1,110 @@
+{
+ "check": "E5 secondary main part: a main-part smoke of new code, stopped and resumed, against an earlier smoke; the two folders are named under new and reference (gate G4, item 4)",
+ "new": "$IGA_STORAGE_ROOT/bioinf2027/scratch/E5_secondary_smoke",
+ "reference": "$IGA_STORAGE_ROOT/bioinf2027/scratch/E5_secondary_smoke_saving_20f5f53",
+ "passed_as_first_written": true,
+ "passed": true,
+ "rule": "corrected check (the author's answer of 2026-11-15, bioinf2027/GATE.md); see this script's docstring",
+ "problems": [],
+ "expected_differences": {
+  "columns": {},
+  "family_check": false,
+  "inputs": []
+ },
+ "inputs_only_in_the_reference": [],
+ "table_cells_of_the_reference_columns_compared": 7032,
+ "table_cells_differing": 0,
+ "tables": {
+  "secondary.csv": {
+   "rows": 66,
+   "rows_reference": 66,
+   "columns_only_in_new": [],
+   "columns_only_in_reference": [],
+   "cells_compared": 2970,
+   "cells_differing": 0,
+   "columns_differing": {}
+  },
+  "diagnostics.csv": {
+   "rows": 30,
+   "rows_reference": 30,
+   "columns_only_in_new": [],
+   "columns_only_in_reference": [],
+   "cells_compared": 1290,
+   "cells_differing": 0,
+   "columns_differing": {}
+  },
+  "folds.csv": {
+   "rows": 60,
+   "rows_reference": 60,
+   "columns_only_in_new": [],
+   "columns_only_in_reference": [],
+   "cells_compared": 2040,
+   "cells_differing": 0,
+   "columns_differing": {}
+  },
+  "between_embeddings.csv": {
+   "rows": 12,
+   "rows_reference": 12,
+   "columns_only_in_new": [],
+   "columns_only_in_reference": [],
+   "cells_compared": 204,
+   "cells_differing": 0,
+   "columns_differing": {}
+  },
+  "family_baseline.csv": {
+   "rows": 12,
+   "rows_reference": 12,
+   "columns_only_in_new": [],
+   "columns_only_in_reference": [],
+   "cells_compared": 264,
+   "cells_differing": 0,
+   "columns_differing": {}
+  },
+  "power.csv": {
+   "rows": 12,
+   "rows_reference": 12,
+   "columns_only_in_new": [],
+   "columns_only_in_reference": [],
+   "cells_compared": 168,
+   "cells_differing": 0,
+   "columns_differing": {}
+  },
+  "agreement.csv": {
+   "rows": 8,
+   "rows_reference": 8,
+   "columns_only_in_new": [],
+   "columns_only_in_reference": [],
+   "cells_compared": 96,
+   "cells_differing": 0,
+   "columns_differing": {}
+  }
+ },
+ "prediction_arrays": {
+  "new": 655,
+  "reference": 655,
+  "differing": []
+ },
+ "record_differences": [
+  ".code.bioinf2027/scripts/fit_slots.py: only in the new: \"4ed982ea8b3c197710a3d025ce0a47e3b1afb7df12b8d67d565508c3f60c5353\"",
+  ".code.bioinf2027/scripts/make_e5_secondary.py: \"685255dc6a40c7391e4c274061f5bd29a19c4fe8c58648eff877837088446877\"; reference \"3337a54535fcc76c9050686182bc6152f22b083775b3581ab66aa501e08afe1a\"",
+  ".outputs.diagnostics.csv.sha256: \"57b6ce61b1eb887a79c69df9ae8dd8bee4d10d514df8377615fff96b39c80e89\"; reference \"b5d9b0a2168626cbf75c3414fb46927144476a6dce73b6805b557801420e7702\"",
+  ".outputs.secondary.csv.sha256: \"9b0810c903159771cd2d71478c9e276e7012082b2853b37020a10fc477896bb0\"; reference \"f35d63aba42adba56952b3285f543f634710029ab524fffeaf5c650c88f676ab\"",
+  ".runner: only in the new: \"one process per task (fit_slots.py)\"",
+  ".saved_tasks.reused.stage one: 21; reference 39",
+  ".seconds: 3371.2; reference 1712.7",
+  ".tasks_shed_and_queued_again: only in the new: {\"stage one\": 2, \"stage two\": 0}"
+ ],
+ "saved_tasks_new": {
+  "folder": "$IGA_STORAGE_ROOT/bioinf2027/scratch/E5_secondary_smoke/data/main_tasks",
+  "tasks": {
+   "stage one": 96,
+   "stage two": 4
+  },
+  "reused": {
+   "stage one": 21,
+   "stage two": 0
+  },
+  "rule": "each task saved as it ends and reused when its specification is unchanged (gate G4, item 4)"
+ },
+ "made": "2026-11-16T00:13:14-0500"
+}

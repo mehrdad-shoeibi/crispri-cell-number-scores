@@ -1,0 +1,28 @@
+panel,dataset,split,setting,estimate,lo,hi,n,source,level,version
+own shift,VCC,train,G5,0.9420337542293503,0.9030453531136973,0.9632165187025867,"2843 rows, 98 target genes",bioinf2027/endpoints/readouts/R1_R3_R6.csv:147,,
+own shift,VCC,val,G5,0.7858245556155977,0.6224419247673811,0.8803190192728575,"1036 rows, 38 target genes; descriptive",bioinf2027/endpoints/readouts/R1_R3_R6.csv:159,,
+own shift,VCC,test,G5,0.8931234225198053,0.8145411239287943,0.9364767887216293,"2198 rows, 73 target genes",bioinf2027/endpoints/readouts/R1_R3_R6.csv:171,,
+own shift,VCC,train,G6,0.9529652751097896,0.9323738320691864,0.9648927688215418,"5740 rows, 140 target genes",bioinf2027/endpoints/readouts/R1_R3_R6.csv:183,,
+own shift,VCC,val,G6,0.9027700537242245,0.8433436699022167,0.9289773066598469,"2052 rows, 49 target genes; descriptive",bioinf2027/endpoints/readouts/R1_R3_R6.csv:195,,
+own shift,VCC,test,G6,0.9270873088019458,0.8795988690402317,0.9543108560101701,"3972 rows, 93 target genes",bioinf2027/endpoints/readouts/R1_R3_R6.csv:207,,
+own shift,RPE1,,G5,0.9781706272948216,0.9742080541780493,0.9814567991264457,"1932 constructs, 1811 target genes",bioinf2027/endpoints/readouts/R1_R3_R6.csv:530,,
+own shift,K562-essential,,G5,0.9756685297240618,0.9725826457596616,0.9783444305053336,"1903 constructs, 1811 target genes",bioinf2027/endpoints/readouts/R1_R3_R6.csv:533,,
+own shift,RPE1,,G6,0.973194355660033,0.9689183581044724,0.976909782735135,"1932 constructs, 1811 target genes",bioinf2027/endpoints/readouts/R1_R3_R6.csv:536,,
+own shift,K562-essential,,G6,0.9681073667480325,0.9637679722797716,0.9718549653232511,"1903 constructs, 1811 target genes",bioinf2027/endpoints/readouts/R1_R3_R6.csv:539,,
+share,VCC,,G1,0.9830468320996066,,,"2843 rows, 98 target genes",bioinf2027/endpoints/readouts/supplement/5_6_R5_detail.csv:2,10.0,pooled control halves
+share,VCC,,G1,0.9927230288176553,,,"532 rows, 34 target genes",bioinf2027/endpoints/readouts/supplement/5_6_R5_detail.csv:3,27.0,pooled control halves
+share,RPE1,,G1,0.998308422423677,,,"1377 rows, 1297 target genes",bioinf2027/endpoints/readouts/supplement/5_6_R5_detail.csv:4,27.0,pooled control halves
+share,K562-essential,,G1,0.9991244497001494,,,"1704 rows, 1629 target genes",bioinf2027/endpoints/readouts/supplement/5_6_R5_detail.csv:5,27.0,pooled control halves
+share,VCC,,G2,0.9869017558886214,,,"3974 rows, 116 target genes",bioinf2027/endpoints/readouts/supplement/5_6_R5_detail.csv:6,10.0,pooled control halves
+share,RPE1,,G2,0.9980779364155493,,,"1932 rows, 1811 target genes",bioinf2027/endpoints/readouts/supplement/5_6_R5_detail.csv:7,10.0,pooled control halves
+share,K562-essential,,G2,0.9972795579109595,,,"1903 rows, 1811 target genes",bioinf2027/endpoints/readouts/supplement/5_6_R5_detail.csv:8,10.0,pooled control halves
+share,VCC,,G5,0.9779647681397821,,,"2843 rows, 98 target genes",bioinf2027/endpoints/readouts/supplement/5_6_R5_detail.csv:9,10.0,deciding: 350 controls from each batch half
+share,VCC,,G5,0.9720226428475951,,,"2843 rows, 98 target genes",bioinf2027/endpoints/readouts/supplement/5_6_R5_detail.csv:10,10.0,upper bound: 700 controls of the whole batch
+share,VCC,,G5,0.9851270935998476,,,"532 rows, 34 target genes",bioinf2027/endpoints/readouts/supplement/5_6_R5_detail.csv:11,27.0,deciding: 350 controls from each batch half
+share,VCC,,G5,0.9781626344191144,,,"532 rows, 34 target genes",bioinf2027/endpoints/readouts/supplement/5_6_R5_detail.csv:12,27.0,upper bound: 700 controls of the whole batch
+share,RPE1,,G5,0.9985429967006831,,,"1377 rows, 1297 target genes",bioinf2027/endpoints/readouts/supplement/5_6_R5_detail.csv:13,27.0,pooled control halves
+share,K562-essential,,G5,0.998821491219257,,,"1704 rows, 1629 target genes",bioinf2027/endpoints/readouts/supplement/5_6_R5_detail.csv:14,27.0,pooled control halves
+share,VCC,,G6,0.9813698446767458,,,"3974 rows, 116 target genes",bioinf2027/endpoints/readouts/supplement/5_6_R5_detail.csv:15,10.0,deciding: 350 controls from each batch half
+share,VCC,,G6,0.9728461424387345,,,"3974 rows, 116 target genes",bioinf2027/endpoints/readouts/supplement/5_6_R5_detail.csv:16,10.0,upper bound: 700 controls of the whole batch
+share,RPE1,,G6,0.9982070413787134,,,"1932 rows, 1811 target genes",bioinf2027/endpoints/readouts/supplement/5_6_R5_detail.csv:17,10.0,pooled control halves
+share,K562-essential,,G6,0.9972724252260967,,,"1903 rows, 1811 target genes",bioinf2027/endpoints/readouts/supplement/5_6_R5_detail.csv:18,10.0,pooled control halves

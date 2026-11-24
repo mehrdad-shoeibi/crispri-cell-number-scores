@@ -1,0 +1,189 @@
+{
+ "plan": "bioinf2027/GATE.md (bb53562), Section 2; bioinf2027/plans/E4.md, Section 14",
+ "inputs": {
+  "label_cache": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/cache/E1a_labels/manifest.json",
+   "bytes": 2722,
+   "sha256": "a92c8fe030ed806c1af944d8de24820cce7a6bbc18b305e602c5ac7545979a96"
+  },
+  "e4_extraction": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/cache/E4/manifest.json",
+   "bytes": 2903,
+   "sha256": "6b9060186a809f4e02a0afd36257f632c31ac03f78f465d269a1d069a12cd23b"
+  },
+  "d2_cell_lists": {
+   "path": "bioinf2027/results/D2/units.json",
+   "bytes": 3384,
+   "sha256": "9fc8377bcfc2fcda12b5b8b4b308b303e254570ea40b5c082fa94912b3028337"
+  },
+  "failed_check": {
+   "path": "bioinf2027/results/E4/features.json",
+   "bytes": 1976,
+   "sha256": "c007740ab3a1935b256cf44c02779834f38757f96874bdf75b6d9310d9ef5888"
+  }
+ },
+ "control_mean_note": "the stored control mean is not among the recorded inputs; its share is estimated as the shift shared by the constructs of one embedding run (median of the difference over them, per coordinate)",
+ "screens": {
+  "RPE1": {
+   "constructs": 1932,
+   "control_cells": 11485,
+   "consistency_with_the_failed_check": {
+    "x_max_abs_difference": 1.3437700374652195e-07,
+    "z_max_abs_difference": 0.0002435025035403271,
+    "recorded_z_max_abs_difference": 0.0002435025035403271,
+    "recorded_x_max_abs_difference": 1.3437700374652195e-07
+   },
+   "between_construct_sd_of_the_stored_z": {
+    "q0": 0.00020546515216199877,
+    "q0.5": 0.003930252048843768,
+    "q0.9": 0.005981154973951252,
+    "q0.99": 0.008637032899625998,
+    "q1": 0.010348577165324396
+   },
+   "stored_z_norm": {
+    "q0": 0.010790102741516608,
+    "q0.5": 0.11091888301636003,
+    "q0.9": 0.22010611975157687,
+    "q0.99": 0.3135655639970677,
+    "q1": 0.4131704062613556
+   },
+   "by_embedding_run": {
+    "new_embed_43": {
+     "constructs": 43,
+     "largest_absolute_difference": {
+      "q0": 0.00023597303588474006,
+      "q0.5": 0.00023736339265134632,
+      "q0.9": 0.00023815031797571606,
+      "q0.99": 0.00023855498449249169,
+      "q1": 0.0002387325013524233
+     },
+     "relative_difference_norm": {
+      "q0": 0.0012393213340114071,
+      "q0.5": 0.0027205563131675213,
+      "q0.9": 0.006469767322455628,
+      "q0.99": 0.010202114199606621,
+      "q1": 0.011410319535215497
+     },
+     "largest_absolute_difference_after_the_shared_shift": {
+      "q0": 1.4986310681308623e-07,
+      "q0.5": 4.266710418310282e-07,
+      "q0.9": 8.997631049112445e-07,
+      "q0.99": 2.9969276732577606e-06,
+      "q1": 4.16030660566058e-06
+     },
+     "shared_shift": {
+      "norm": 0.00023750756294511148,
+      "largest_absolute_coordinate": 0.00023736339265134632,
+      "norm_over_the_builder_control_mean_norm": 3.595916028496306e-05,
+      "largest_ratio_to_the_between_construct_sd": 1.1552489079228259,
+      "share_of_the_squared_difference": 0.9996548722496096
+     }
+    },
+    "reagg_cached": {
+     "constructs": 1889,
+     "largest_absolute_difference": {
+      "q0": 0.0002351068845696247,
+      "q0.5": 0.00023736339265134632,
+      "q0.9": 0.000238088350988086,
+      "q0.99": 0.00023908647297577802,
+      "q1": 0.0002435025035403271
+     },
+     "relative_difference_norm": {
+      "q0": 0.000575483218193741,
+      "q0.5": 0.0021080229049448233,
+      "q0.9": 0.0066641731869071475,
+      "q0.99": 0.010777341991778005,
+      "q1": 0.021862928439786482
+     },
+     "largest_absolute_difference_after_the_shared_shift": {
+      "q0": 8.830317743679927e-08,
+      "q0.5": 4.334883252354871e-07,
+      "q0.9": 9.900746324120747e-07,
+      "q0.99": 2.019277990363831e-06,
+      "q1": 6.139110888980781e-06
+     },
+     "shared_shift": {
+      "norm": 0.00023750859251137196,
+      "largest_absolute_coordinate": 0.00023736339265134632,
+      "norm_over_the_builder_control_mean_norm": 3.595931616352846e-05,
+      "largest_ratio_to_the_between_construct_sd": 1.1552489079228259,
+      "share_of_the_squared_difference": 0.9999871739487838
+     }
+    }
+   },
+   "relation_with_the_number_of_perturbed_cells": {
+    "spearman_of_largest_difference_with_cells": 0.012586346021280467,
+    "spearman_after_the_run_shift": 0.4545687226396999
+   }
+  },
+  "K562-essential": {
+   "constructs": 1903,
+   "control_cells": 10691,
+   "consistency_with_the_failed_check": {
+    "x_max_abs_difference": 1.1905754249141864e-07,
+    "z_max_abs_difference": 0.00016573628528071538,
+    "recorded_z_max_abs_difference": 0.00016573628528071538,
+    "recorded_x_max_abs_difference": 1.1905754249141864e-07
+   },
+   "between_construct_sd_of_the_stored_z": {
+    "q0": 0.00013037504591375767,
+    "q0.5": 0.0028771615700115805,
+    "q0.9": 0.0047349763197964585,
+    "q0.99": 0.007306871470273884,
+    "q1": 0.010570077823165196
+   },
+   "stored_z_norm": {
+    "q0": 0.012215417835989935,
+    "q0.5": 0.06264606151924457,
+    "q0.9": 0.15373722159555994,
+    "q0.99": 0.30500470481455294,
+    "q1": 0.5337686676908593
+   },
+   "by_embedding_run": {
+    "one run": {
+     "constructs": 1903,
+     "largest_absolute_difference": {
+      "q0": 0.00015878096738752845,
+      "q0.5": 0.00016237545373254392,
+      "q0.9": 0.00016331333602241925,
+      "q0.99": 0.00016414848037111797,
+      "q1": 0.00016573628528071538
+     },
+     "relative_difference_norm": {
+      "q0": 0.0003038691019009906,
+      "q0.5": 0.0026000799492068294,
+      "q0.9": 0.00586947217124996,
+      "q0.99": 0.008113238957464446,
+      "q1": 0.013229499923935843
+     },
+     "largest_absolute_difference_after_the_shared_shift": {
+      "q0": 7.808831503641755e-08,
+      "q0.5": 5.479144231657074e-07,
+      "q0.9": 1.2469563268169282e-06,
+      "q0.99": 2.089328301941862e-06,
+      "q1": 3.5944863450154685e-06
+     },
+     "shared_shift": {
+      "norm": 0.00016256263431866936,
+      "largest_absolute_coordinate": 0.00016237545373254392,
+      "norm_over_the_builder_control_mean_norm": 2.465362636467269e-05,
+      "largest_ratio_to_the_between_construct_sd": 1.245448870943864,
+      "share_of_the_squared_difference": 1.0000808932932923
+     }
+    }
+   },
+   "relation_with_the_number_of_perturbed_cells": {
+    "spearman_of_largest_difference_with_cells": 0.005091633164259985,
+    "spearman_after_the_run_shift": 0.4593651711369634
+   }
+  }
+ },
+ "outputs": {
+  "per_construct": {
+   "path": "bioinf2027/diag/E4_external_z.csv",
+   "bytes": 541347,
+   "sha256": "3ec4efd140db2f24f4c0ee89c4411dec4e575710540b73c19d8e037e1e51c5de"
+  }
+ },
+ "seconds": 2030.5
+}

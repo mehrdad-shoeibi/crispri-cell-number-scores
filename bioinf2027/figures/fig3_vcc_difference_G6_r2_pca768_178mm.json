@@ -1,0 +1,68 @@
+{
+ "figure": "fig3_vcc_difference_G6_r2_pca768",
+ "width_mm": 178,
+ "dpi_png": 600,
+ "minimum_text_pt": 6.0,
+ "panel_data": "bioinf2027/figures/fig3_vcc_difference_G6_r2_pca768_data.csv",
+ "environment": {
+  "python": "3.13.12",
+  "numpy": "2.4.4",
+  "pandas": "3.0.2",
+  "requirements": {
+   "path": "bioinf2027/requirements.txt",
+   "bytes": 863,
+   "sha256": "f46a415cbe466ba1225adcede4abae7f0dd0b866f29abdf5a6a360e66b1f5702"
+  },
+  "matplotlib": "3.10.8"
+ },
+ "code": {
+  "bioinf2027/scripts/figures/fig3_vcc_difference.py": "8a227f4c12b4ce5f06027a44b4f9216d0480a9a13ffb2390cc18cc121c4c8c68",
+  "bioinf2027/scripts/figures/figlib.py": "6ce5eb4a41a547d622f887c3002e25524d699a2b8c61fda2ad2737b034dbf617",
+  "bioinf2027/scripts/figures/labels.toml": "b547ce0f4bf5fa7e6d8ee20d3f6237ed91a0f0b49de9cd3e7befb630c4b181d8"
+ },
+ "labels_read": [
+  "[fig3] B0 head alone (absolute), all-cells label",
+  "[fig3] D\u00bd, all-cells label",
+  "[fig3] N0 \u2212 C1, all-cells label",
+  "[fig3] d_all",
+  "[fig3] d_fixed",
+  "[fig3] d_row",
+  "[fig3] e \u2212 B0, all-cells label",
+  "[fig3] e \u2212 C1, all-cells label",
+  "[fig3] e \u2212 C1, size-fixed label",
+  "[fig3] e \u2212 N0, all-cells label",
+  "[fig3] legend_B0",
+  "[fig3] paired drop P-d",
+  "[fig3] x_d",
+  "[fig3] x_r2",
+  "[fig3] \u0394, all-cells label",
+  "[names] Geneformer",
+  "[names] K562-essential",
+  "[names] PCA-50",
+  "[names] PCA-768",
+  "[names] RPE1",
+  "[names] Stack",
+  "[names] panel",
+  "[names] scGPT",
+  "[names] stack_marker",
+  "[terms] B0",
+  "[terms] C1",
+  "[terms] D_half",
+  "[terms] Delta",
+  "[terms] N0",
+  "[terms] P_d",
+  "[terms] e"
+ ],
+ "outputs": {
+  "fig3_vcc_difference_G6_r2_pca768_178mm.pdf": {
+   "path": "bioinf2027/figures/fig3_vcc_difference_G6_r2_pca768_178mm.pdf",
+   "bytes": 32888,
+   "sha256": "721357c1f78144a8fa3ec5f8faab2d31471164a7d74023aab5b305a3e45600b0"
+  },
+  "fig3_vcc_difference_G6_r2_pca768_178mm.png": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/figures/fig3_vcc_difference_G6_r2_pca768_178mm.png",
+   "bytes": 572860,
+   "sha256": "728edc613a4d00062bcc7a78b74f40ac61aa4a9bae31775063b0e4d2505db2cd"
+  }
+ }
+}

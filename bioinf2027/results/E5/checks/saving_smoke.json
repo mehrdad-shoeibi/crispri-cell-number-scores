@@ -1,0 +1,136 @@
+{
+ "check": "E5 secondary main part: the smoke with per-task saving, stopped and resumed, against the smoke made in one go by make_e5_secondary.py at 7062cdf (gate G4, item 4)",
+ "new": "$IGA_STORAGE_ROOT/bioinf2027/scratch/E5_secondary_smoke_saving_20f5f53",
+ "reference": "$IGA_STORAGE_ROOT/bioinf2027/scratch/E5_secondary_smoke_ref_7062cdf",
+ "passed_as_first_written": false,
+ "passed": true,
+ "rule": "corrected check (the author's answer of 2026-11-15, bioinf2027/GATE.md); see this script's docstring",
+ "problems": [],
+ "expected_differences": {
+  "columns": {
+   "power.csv": [
+    "family_holm_first_step_detectable"
+   ]
+  },
+  "family_check": true,
+  "inputs": [
+   "family"
+  ]
+ },
+ "inputs_only_in_the_reference": [
+  "G3_manifest",
+  "G4_manifest",
+  "endpoint_b_vcc",
+  "vcc_annotation",
+  "vcc_genes.csv"
+ ],
+ "table_cells_of_the_reference_columns_compared": 7020,
+ "table_cells_differing": 0,
+ "tables": {
+  "secondary.csv": {
+   "rows": 66,
+   "rows_reference": 66,
+   "columns_only_in_new": [],
+   "columns_only_in_reference": [],
+   "cells_compared": 2970,
+   "cells_differing": 0,
+   "columns_differing": {}
+  },
+  "diagnostics.csv": {
+   "rows": 30,
+   "rows_reference": 30,
+   "columns_only_in_new": [],
+   "columns_only_in_reference": [],
+   "cells_compared": 1290,
+   "cells_differing": 0,
+   "columns_differing": {}
+  },
+  "folds.csv": {
+   "rows": 60,
+   "rows_reference": 60,
+   "columns_only_in_new": [],
+   "columns_only_in_reference": [],
+   "cells_compared": 2040,
+   "cells_differing": 0,
+   "columns_differing": {}
+  },
+  "between_embeddings.csv": {
+   "rows": 12,
+   "rows_reference": 12,
+   "columns_only_in_new": [],
+   "columns_only_in_reference": [],
+   "cells_compared": 204,
+   "cells_differing": 0,
+   "columns_differing": {}
+  },
+  "family_baseline.csv": {
+   "rows": 12,
+   "rows_reference": 12,
+   "columns_only_in_new": [],
+   "columns_only_in_reference": [],
+   "cells_compared": 264,
+   "cells_differing": 0,
+   "columns_differing": {}
+  },
+  "power.csv": {
+   "rows": 12,
+   "rows_reference": 12,
+   "columns_only_in_new": [
+    "family_holm_first_step_detectable"
+   ],
+   "columns_only_in_reference": [],
+   "cells_compared": 156,
+   "cells_differing": 0,
+   "columns_differing": {}
+  },
+  "agreement.csv": {
+   "rows": 8,
+   "rows_reference": 8,
+   "columns_only_in_new": [],
+   "columns_only_in_reference": [],
+   "cells_compared": 96,
+   "cells_differing": 0,
+   "columns_differing": {}
+  }
+ },
+ "prediction_arrays": {
+  "new": 655,
+  "reference": 655,
+  "differing": []
+ },
+ "record_differences": [
+  ".checks.family recomputed.compared: true; reference false",
+  ".checks.family recomputed.largest_difference: only in the new: 0.0",
+  ".checks.family recomputed.quantities: only in the new: [\"iu_estimate\", \"minus_bar_estimate\", \"minus_gaussian_estimate\", \"minus_shuffled_estimate\", \"spearman_C\", \"spearman_S\", \"spearman_bar\", \"spearman_e\"]",
+  ".checks.family recomputed.reason: only in the reference: \"no family table (smoke run)\"",
+  ".checks.family recomputed.statistics: only in the new: 12",
+  ".checks.family recomputed.tolerance: only in the new: 1e-09",
+  ".code.bioinf2027/scripts/make_e5_secondary.py: \"3337a54535fcc76c9050686182bc6152f22b083775b3581ab66aa501e08afe1a\"; reference \"8967f240e847d1125195a061713484b72a12449efa04cc1a4dd46e320da2957b\"",
+  ".inputs.G3_manifest: only in the reference: {\"path\": \"bioinf2027/endpoints/G3/manifest.json\", \"bytes\": 446, \"sha256\": \"d0f569c5e6b173519bee7cda0b3582608f18657f33284c758e93b88bbb9e64df\"}",
+  ".inputs.G4_manifest: only in the reference: {\"path\": \"bioinf2027/endpoints/G4/manifest.json\", \"bytes\": 444, \"sha256\": \"9093772806f91ce60163c881434e18edf05798a93b3b9ec411a16d313ac4336f\"}",
+  ".inputs.endpoint_b_vcc: only in the reference: {\"path\": \"bioinf2027/results/E5/endpoint_b/endpoint_b_vcc.json\", \"bytes\": 4362, \"sha256\": \"40c6938f1bc779788889317ecd859b5e9c8ea558171b3fbc4ee6c8591a80449e\"}",
+  ".inputs.family: only in the new: {\"path\": \"bioinf2027/results/E5/family/family.json\", \"bytes\": 3380, \"sha256\": \"74c7c9f56ea2a23fdf8b1f09dbb6a8d5fd41c9600b51eeeeab8820ca2fbff845\"}",
+  ".inputs.vcc_annotation: only in the reference: {\"path\": \"$IGA_STORAGE_ROOT/IGA_MAIN/data/vcc/train/adata_Training.h5ad\", \"bytes\": 15482497461, \"sha256\": \"a09977104fefb622368ca74b50c9d3c1e891733e6c83db07acfca49b0219c02b\"}",
+  ".inputs.vcc_genes.csv: only in the reference: {\"path\": \"bioinf2027/results/E5/endpoint_b/vcc_genes.csv\", \"bytes\": 231085, \"sha256\": \"2724afffa0c2e989e4b73bb2608dbebc5251770d9fa4b01f7220e16ca2fa0111\"}",
+  ".outputs.diagnostics.csv.sha256: \"b5d9b0a2168626cbf75c3414fb46927144476a6dce73b6805b557801420e7702\"; reference \"cec85caf235f2dd87fbe8ac12f0254f5c0f53376fbd6bc73fe52b7a88d54597f\"",
+  ".outputs.power.csv.bytes: 3483; reference 3201",
+  ".outputs.power.csv.sha256: \"169a18239125aef90f43748032579b02590f4ddafe09663b4e2d3b3d1fdcf9ef\"; reference \"20bd43339f9fe7951f4654217314633cc032b99893adcc186d21646412b09b54\"",
+  ".outputs.secondary.csv.bytes: 48596; reference 48594",
+  ".outputs.secondary.csv.sha256: \"f35d63aba42adba56952b3285f543f634710029ab524fffeaf5c650c88f676ab\"; reference \"3758fc735bf9a00439e4067e2c0f9cfbb2556c7dbc39501052b8478ccaf48d5b\"",
+  ".saved_tasks: only in the new: {\"folder\": \"$IGA_STORAGE_ROOT/bioinf2027/scratch/E5_secondary_smoke/data/main_tasks\", \"tasks\": {\"stage one\": 96, \"stage two\": 4}, \"reused\": {\"stage one\": 39, \"stage two\": 0}, \"rule\": \"each task saved as it ends and reused when its specification is unchanged (gate G4, item 4)\"}",
+  ".seconds: 1712.7; reference 10141.9"
+ ],
+ "saved_tasks_new": {
+  "folder": "$IGA_STORAGE_ROOT/bioinf2027/scratch/E5_secondary_smoke/data/main_tasks",
+  "tasks": {
+   "stage one": 96,
+   "stage two": 4
+  },
+  "reused": {
+   "stage one": 39,
+   "stage two": 0
+  },
+  "rule": "each task saved as it ends and reused when its specification is unchanged (gate G4, item 4)"
+ },
+ "made": "2026-11-15T18:38:43-0500"
+}

@@ -1,0 +1,18 @@
+\begin{tabular}{lllllllllllll}
+\toprule
+Encoder & Input & Screen & Genes in the file & Matched to the encoder & Feature genes matched (of 2,000) & Target genes matched & Median share of counts in matched genes & Median expressed vocabulary genes per cell & Share of cells above 1,199 & Median share of counts after the cut [quartiles] & Variance explained (50; 768) & Source \\
+\midrule
+Geneformer V2-104M & up to 4,096 ranked genes per cell & VCC &  &  &  &  &  &  &  &  &  & bioinf2027/plans/E1\_design.md:565 \\
+Geneformer V2-104M & up to 4,096 ranked genes per cell & RPE1 &  &  &  &  &  &  &  &  &  & bioinf2027/plans/E1\_design.md:565 \\
+Geneformer V2-104M & up to 4,096 ranked genes per cell & K562-essential &  &  &  &  &  &  &  &  &  & bioinf2027/plans/E1\_design.md:565 \\
+scGPT whole-human & max\_length 1,200; a random 1,199 of the expressed vocabulary genes per cell & VCC & 18,080 & 17,840 of 60,697 & 1,970 & 1.000 & 0.988 to 0.988 & 8,666 & 1.0000 & 0.136 [0.128, 0.146] &  & bioinf2027/plans/E2.md:102; bioinf2027/results/E2/coverage.json; bioinf2027/results/E2/coverage\_scgpt\_input.json \\
+scGPT whole-human & max\_length 1,200; a random 1,199 of the expressed vocabulary genes per cell & RPE1 & 8,749 & 8,602 of 60,697 & 1,529 & 0.987 & 0.989 to 0.990 & 3,389 & 0.9986 & 0.351 [0.299, 0.413] &  & bioinf2027/plans/E2.md:102; bioinf2027/results/E2/coverage.json; bioinf2027/results/E2/coverage\_scgpt\_input.json \\
+scGPT whole-human & max\_length 1,200; a random 1,199 of the expressed vocabulary genes per cell & K562-essential & 8,563 & 8,324 of 60,697 & 1,410 & 0.983 & 0.985 to 0.985 & 3,540.5 & 0.9991 & 0.334 [0.291, 0.386] &  & bioinf2027/plans/E2.md:102; bioinf2027/results/E2/coverage.json; bioinf2027/results/E2/coverage\_scgpt\_input.json \\
+Stack-Large & its released gene list; sets of 256 cells & VCC & 18,080 & 12,871 of 15,012 & 1,535 & 0.745 & 0.762 to 0.762 &  &  &  &  & bioinf2027/results/E2/probe\_stack.json; bioinf2027/results/E2/coverage.json \\
+Stack-Large & its released gene list; sets of 256 cells & RPE1 & 8,749 & 6,207 of 15,012 & 1,168 & 0.679 & 0.605 to 0.610 &  &  &  &  & bioinf2027/results/E2/probe\_stack.json; bioinf2027/results/E2/coverage.json \\
+Stack-Large & its released gene list; sets of 256 cells & K562-essential & 8,563 & 5,958 of 15,012 & 1,076 & 0.666 & 0.538 to 0.539 &  &  &  &  & bioinf2027/results/E2/probe\_stack.json; bioinf2027/results/E2/coverage.json \\
+PCA-50, PCA-768 & VCC control cells' axes on the 2,000 feature genes & VCC &  &  & 2,000 &  &  &  &  &  & 0.270; 0.638 & bioinf2027/plans/E2.md:126; bioinf2027/results/E2/features.json; bioinf2027/results/E1/checks.json \\
+PCA-50, PCA-768 & VCC control cells' axes on the 2,000 feature genes & RPE1 &  &  & 1,550 &  &  &  &  &  & 0.270; 0.638 & bioinf2027/plans/E2.md:126; bioinf2027/results/E2/features.json; bioinf2027/results/E1/checks.json \\
+PCA-50, PCA-768 & VCC control cells' axes on the 2,000 feature genes & K562-essential &  &  & 1,430 &  &  &  &  &  & 0.270; 0.638 & bioinf2027/plans/E2.md:126; bioinf2027/results/E2/features.json; bioinf2027/results/E1/checks.json \\
+\bottomrule
+\end{tabular}

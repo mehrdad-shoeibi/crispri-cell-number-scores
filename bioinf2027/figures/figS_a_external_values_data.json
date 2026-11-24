@@ -1,0 +1,48 @@
+{
+ "figure": "figS_a_external_values",
+ "code": {
+  "bioinf2027/scripts/figures/figS_a_external_values.py": "1cf786001db02db1103a29b73444bfbeb670c13b81d1d61251caad65afd963e1",
+  "bioinf2027/scripts/figures/figlib.py": "6ce5eb4a41a547d622f887c3002e25524d699a2b8c61fda2ad2737b034dbf617",
+  "bioinf2027/scripts/figures/tablelib.py": "5c546fa57595e02901ba2087d5c2334793762f2cb146db4fd434973bb3fe034f"
+ },
+ "inputs": {
+  "bioinf2027/results/E1/derived/primary_family_read_status.csv": {
+   "path": "bioinf2027/results/E1/derived/primary_family_read_status.csv",
+   "bytes": 13949,
+   "sha256": "a015de69a463b6bd6704068ad3fa0576da2a30288b73eb36edc83b088487e005"
+  },
+  "bioinf2027/results/E2/stats/family.csv": {
+   "path": "bioinf2027/results/E2/stats/family.csv",
+   "bytes": 12594,
+   "sha256": "4485a1b47f670c0260cc112af350e2ccebeffeb6fe40fbbf801317c2748acf9e"
+  }
+ },
+ "inputs_verified": {
+  "bioinf2027/results/E1/derived/primary_family_read_status.csv": "equal to its record in bioinf2027/results/E1/derived/primary_family_read_status.json",
+  "bioinf2027/results/E2/stats/family.csv": "equal to its record in bioinf2027/results/E2/null_external/stats.json"
+ },
+ "environment": {
+  "python": "3.13.12",
+  "numpy": "2.4.4",
+  "pandas": "3.0.2",
+  "requirements": {
+   "path": "bioinf2027/requirements.txt",
+   "bytes": 863,
+   "sha256": "f46a415cbe466ba1225adcede4abae7f0dd0b866f29abdf5a6a360e66b1f5702"
+  }
+ },
+ "status_of_every_value": "not read",
+ "read_status_as_saved": [
+  "not read (the arm fails the VCC precondition in a cell of the primary pair; bioinf2027/plans/E1_design.md, Section 11, rule 3, and Section 21.1, item 2)",
+  "not read: fails E1b's two-cell precondition"
+ ],
+ "marker": "* Stack: possibly in Stack's pre-training data [VERIFY] (bioinf2027/results/E2/pretraining_check.json)",
+ "bounds": "bioinf2027/factsheets/FS6_no_reading.md (values without an interpretation)",
+ "outputs": {
+  "figS_a_external_values_data.csv": {
+   "path": "bioinf2027/figures/figS_a_external_values_data.csv",
+   "bytes": 14882,
+   "sha256": "fcd271e97ae19b702a80c1a3b5a7df0b2df0be59c17076d9bf44118a37810675"
+  }
+ }
+}

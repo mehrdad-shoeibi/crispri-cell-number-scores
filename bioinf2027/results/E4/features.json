@@ -1,0 +1,300 @@
+{
+ "plan": "bioinf2027/plans/E4.md, Section 4 as amended by Sections 10 to 13",
+ "inputs": {
+  "label_cache": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/cache/E1a_labels/manifest.json",
+   "bytes": 2722,
+   "sha256": "a92c8fe030ed806c1af944d8de24820cce7a6bbc18b305e602c5ac7545979a96"
+  },
+  "e4_extraction": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/cache/E4/manifest.json",
+   "bytes": 2903,
+   "sha256": "6b9060186a809f4e02a0afd36257f632c31ac03f78f465d269a1d069a12cd23b"
+  },
+  "d2_cell_lists": {
+   "path": "bioinf2027/results/D2/units.json",
+   "bytes": 3384,
+   "sha256": "9fc8377bcfc2fcda12b5b8b4b308b303e254570ea40b5c082fa94912b3028337"
+  }
+ },
+ "label_regeneration": {
+  "G5": {
+   "vcc_rows": 6077,
+   "vcc_max_abs_difference": 0.0,
+   "RPE1_max_abs_difference": 0.0,
+   "K562-essential_max_abs_difference": 0.0,
+   "passed": true
+  },
+  "G6": {
+   "vcc_rows": 11764,
+   "vcc_max_abs_difference": 0.0,
+   "RPE1_max_abs_difference": 0.0,
+   "K562-essential_max_abs_difference": 0.0,
+   "passed": true
+  },
+  "G1": {
+   "vcc_rows": 6077,
+   "vcc_max_abs_difference": 0.0,
+   "RPE1_max_abs_difference": 0.0,
+   "K562-essential_max_abs_difference": 0.0,
+   "passed": true
+  },
+  "G2": {
+   "vcc_rows": 11764,
+   "vcc_max_abs_difference": 0.0,
+   "RPE1_max_abs_difference": 0.0,
+   "K562-essential_max_abs_difference": 0.0,
+   "passed": true
+  }
+ },
+ "builder_checks": {
+  "VCC": {
+   "x_max_abs_difference": 6.124673202823061e-06,
+   "z_max_abs_difference": 5.419269320405817e-06,
+   "passed": true
+  },
+  "RPE1": {
+   "x_max_abs_difference": 1.3437700374652195e-07,
+   "z_max_abs_difference": 0.0002435025035403271,
+   "z_shared_shift": {
+    "norm": 0.000237508571443331,
+    "largest_coordinate": -0.00023736339265134632,
+    "coordinate_index": 258
+   },
+   "z_max_abs_difference_after_the_shared_shift": 6.139110888980781e-06,
+   "z_rule": "within the tolerance after the shift shared by the screen's constructs (E4 plan, Section 15, item 1)",
+   "passed": true
+  },
+  "K562-essential": {
+   "x_max_abs_difference": 1.1905754249141864e-07,
+   "z_max_abs_difference": 0.00016573628528071538,
+   "z_shared_shift": {
+    "norm": 0.00016256263431866936,
+    "largest_coordinate": -0.00016237545373254392,
+    "coordinate_index": 258
+   },
+   "z_max_abs_difference_after_the_shared_shift": 3.5944863450154685e-06,
+   "z_rule": "within the tolerance after the shift shared by the screen's constructs (E4 plan, Section 15, item 1)",
+   "passed": true
+  }
+ },
+ "first_run": "bioinf2027/results/E4/features.json at 7e60a33: check (ii) of the external z failed before its amendment (E4 plan, Sections 14 and 15; bioinf2027/diag/E4_external_z.json)",
+ "second_run": "bioinf2027/results/E4/features.json at 167863f: every check passed, but the construct names were written as object arrays, which the fits cannot load without pickle (run record bioinf2027/runs/E4.json, label e4-fits-smoke); the same computation is rerun with the names as text",
+ "coverage": "every perturbed cell of a modelled VCC row and of an eligible construct and every control cell has a cached embedding (checked on load)",
+ "checks_passed": true,
+ "features": {
+  "G5 | draw 1": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E4/features/G5_draw_1.npz",
+   "bytes": 112136264,
+   "sha256": "183f6e7737dbfe7154d49b42487228bdbb59a0df15f690521156ed722956931d"
+  },
+  "G5 | draw 2": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E4/features/G5_draw_2.npz",
+   "bytes": 112136264,
+   "sha256": "43179b5397ef159f3e5f9e41c0c74dac767645cce35313a557aff17e42682169"
+  },
+  "G5 | draw 3": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E4/features/G5_draw_3.npz",
+   "bytes": 112136264,
+   "sha256": "5a1fc3e2daa0d051712f43bea6f31e764864fed9b9d3623bcc913f442b4d3091"
+  },
+  "G5 | cell-disjoint": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E4/features/G5_cell-disjoint.npz",
+   "bytes": 112136264,
+   "sha256": "a6834f6d1cf3d84593c7d62e2b79b9ab6e34d14022a50e5bff09f38314da9369"
+  },
+  "G5 | shared RPE1 1": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E4/features/G5_shared_RPE1_1.npz",
+   "bytes": 90987163,
+   "sha256": "a01399fbe2bf3817773945b94359ca434f37e202c1e112bf9d93ccb51fdd0949"
+  },
+  "G5 | shared RPE1 2": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E4/features/G5_shared_RPE1_2.npz",
+   "bytes": 90987163,
+   "sha256": "01b353165b3d4d131b489ca37e4c6a9bee65cea6a9cf1f51d98b64b31671b0e0"
+  },
+  "G5 | shared RPE1 3": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E4/features/G5_shared_RPE1_3.npz",
+   "bytes": 90987163,
+   "sha256": "e09da87b8d6d0216ef64fc98422f9a44eb03198d88552df8b1bd78e978fd5463"
+  },
+  "G5 | shared K562-essential 1": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E4/features/G5_shared_K562-essential_1.npz",
+   "bytes": 90664966,
+   "sha256": "2c4a64f7c1d591ec1bf5233299647b22542ecd6fbf26907358e2aa1c3ca355c0"
+  },
+  "G5 | shared K562-essential 2": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E4/features/G5_shared_K562-essential_2.npz",
+   "bytes": 90664966,
+   "sha256": "303315ae9955cfe372f2740354879e21b352f442afab1f932a2b24e935679cb4"
+  },
+  "G5 | shared K562-essential 3": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E4/features/G5_shared_K562-essential_3.npz",
+   "bytes": 90664966,
+   "sha256": "411525c79cb5563fd888acccda19997a263209254c900b0d278dd45dc90d1f40"
+  },
+  "G6 | draw 1": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E4/features/G6_draw_1.npz",
+   "bytes": 175881847,
+   "sha256": "051c62bdcfb17307026c176b8ba01b11c7beb42c00567587505508d2550809a8"
+  },
+  "G6 | draw 2": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E4/features/G6_draw_2.npz",
+   "bytes": 175881847,
+   "sha256": "186ab9d9d76727ea7c312a77c057071f8b9c3945db45ee0d5c9ec309ee38e1b1"
+  },
+  "G6 | draw 3": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E4/features/G6_draw_3.npz",
+   "bytes": 175881847,
+   "sha256": "322a7ff1e8e16c6b7ff3eae78b2b91bd4f73a700f308946718853d3dc11c6eaf"
+  },
+  "G6 | cell-disjoint": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E4/features/G6_cell-disjoint.npz",
+   "bytes": 175881847,
+   "sha256": "c7fcd741218fef262ec1c51e6f1b4ebeff788c6f5a836195ab5a66ff00e70e5e"
+  },
+  "G6 | shared RPE1 1": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E4/features/G6_shared_RPE1_1.npz",
+   "bytes": 154732746,
+   "sha256": "b6cc3ffb43471e832753d208ed3626c1f6b11ab8d409725546d7a6d54f431208"
+  },
+  "G6 | shared RPE1 2": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E4/features/G6_shared_RPE1_2.npz",
+   "bytes": 154732746,
+   "sha256": "8b0c7565bc6e0469636579b572863eaab2cc62ade44068d7a2cd1ce9d1bbf0fd"
+  },
+  "G6 | shared RPE1 3": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E4/features/G6_shared_RPE1_3.npz",
+   "bytes": 154732746,
+   "sha256": "c1d9bc594dc13adc3686d5710e7cb1e447c349ebab17f492b3c8d2e36be94a3f"
+  },
+  "G6 | shared K562-essential 1": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E4/features/G6_shared_K562-essential_1.npz",
+   "bytes": 154410549,
+   "sha256": "6d809de242efc84f1ce2529d51ab54d1d61bffe0fb0cfbcf8efbdd3544f3108e"
+  },
+  "G6 | shared K562-essential 2": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E4/features/G6_shared_K562-essential_2.npz",
+   "bytes": 154410549,
+   "sha256": "8a04c5047eb6ef784e52c5253f1874661680fc99c2bb111b9581fb2b70f416da"
+  },
+  "G6 | shared K562-essential 3": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E4/features/G6_shared_K562-essential_3.npz",
+   "bytes": 154410549,
+   "sha256": "8bfb82f09238e0d0e0098fc13a7a1aed69f9a5f6baedb6989efefd053e089b68"
+  },
+  "G1 | draw 1": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E4/features/G1_draw_1.npz",
+   "bytes": 112136264,
+   "sha256": "45704ffc91871cda466020d2841cab6fb050eb3a7ead6035fd5612075f079441"
+  },
+  "G1 | draw 2": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E4/features/G1_draw_2.npz",
+   "bytes": 112136264,
+   "sha256": "938515a844e433f4f9c39cf1a3b7af8d597fe1a0785323009f685228c8e44971"
+  },
+  "G1 | draw 3": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E4/features/G1_draw_3.npz",
+   "bytes": 112136264,
+   "sha256": "29d460fd5051d91033a09fa24d42e0f6edc7c37984f678b7b58e9d24ce1bbba7"
+  },
+  "G1 | cell-disjoint": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E4/features/G1_cell-disjoint.npz",
+   "bytes": 112136264,
+   "sha256": "5e6d78cdc609d18baaa8044755956c70617b391615fd07892fe21461a3fd82a1"
+  },
+  "G1 | shared RPE1 1": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E4/features/G1_shared_RPE1_1.npz",
+   "bytes": 90987163,
+   "sha256": "36115a451ea64ee581981fe2e0a90f342a9deb401c316ff476577abdb240f4f3"
+  },
+  "G1 | shared RPE1 2": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E4/features/G1_shared_RPE1_2.npz",
+   "bytes": 90987163,
+   "sha256": "064707e530febf53248085599232780b6b4a3f2dbb8bc618bd07e85b7c8f2148"
+  },
+  "G1 | shared RPE1 3": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E4/features/G1_shared_RPE1_3.npz",
+   "bytes": 90987163,
+   "sha256": "f7d8bfa70fb1080fb92a1a25000d37abd05c127040cc58f2eecdccd8d5c99abb"
+  },
+  "G1 | shared K562-essential 1": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E4/features/G1_shared_K562-essential_1.npz",
+   "bytes": 90664966,
+   "sha256": "264e1fa7b47fda7ecdec7b4d13b711c71fb500576da1bd3cbc74030d3ff3cfca"
+  },
+  "G1 | shared K562-essential 2": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E4/features/G1_shared_K562-essential_2.npz",
+   "bytes": 90664966,
+   "sha256": "3618cd6aa95e3bc51e318fa1a5ec59aa3053caa04938550123d86d36874e248d"
+  },
+  "G1 | shared K562-essential 3": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E4/features/G1_shared_K562-essential_3.npz",
+   "bytes": 90664966,
+   "sha256": "0860c8580effdad6b92af65606c56fce3db7b3c08c1b0d406750b45a4bdf7c23"
+  },
+  "G2 | draw 1": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E4/features/G2_draw_1.npz",
+   "bytes": 175881847,
+   "sha256": "2ff8bee4eb50ae6cb6715ed42ca6c411b4669149771256d0cb3590a30028b497"
+  },
+  "G2 | draw 2": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E4/features/G2_draw_2.npz",
+   "bytes": 175881847,
+   "sha256": "964d414e63b0ab467c3d4a62131ddcd659d9cb5005ccaf065c35de03f7df3896"
+  },
+  "G2 | draw 3": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E4/features/G2_draw_3.npz",
+   "bytes": 175881847,
+   "sha256": "10e878e18b3b97f073e3e250aedf3efe32c21c4209ac1a74495dcc2bfe96a866"
+  },
+  "G2 | cell-disjoint": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E4/features/G2_cell-disjoint.npz",
+   "bytes": 175881847,
+   "sha256": "1f944e1244b91f026e015c0bd821ec5e74fb66556cda63711578393a73054852"
+  },
+  "G2 | shared RPE1 1": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E4/features/G2_shared_RPE1_1.npz",
+   "bytes": 154732746,
+   "sha256": "8e30505843019ff67cd1d148407f89338af82327dbe6e6849f2fb823c0c96c35"
+  },
+  "G2 | shared RPE1 2": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E4/features/G2_shared_RPE1_2.npz",
+   "bytes": 154732746,
+   "sha256": "52351bc4b93afe0c2b41c5eceaabb6258cf5f0816143a4e695ed83fa4070517f"
+  },
+  "G2 | shared RPE1 3": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E4/features/G2_shared_RPE1_3.npz",
+   "bytes": 154732746,
+   "sha256": "694519abfa066ed57496d8d94de40be273a7be8a2f1a9c666d0a70d314e89268"
+  },
+  "G2 | shared K562-essential 1": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E4/features/G2_shared_K562-essential_1.npz",
+   "bytes": 154410549,
+   "sha256": "4ebbad8cde5e88dfea0b9d787ed7522d497b3410a4a0bfa03758e44a5c3981c4"
+  },
+  "G2 | shared K562-essential 2": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E4/features/G2_shared_K562-essential_2.npz",
+   "bytes": 154410549,
+   "sha256": "2c3df87dd0daefd9da0bd90669d19abf1e2074166e1a097f6c12ce09ea0682bb"
+  },
+  "G2 | shared K562-essential 3": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E4/features/G2_shared_K562-essential_3.npz",
+   "bytes": 154410549,
+   "sha256": "1c9e8e5a441f6d38440b1961a0f32204bee90cd4890227af407b686b2614322a"
+  },
+  "external | all-cell": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E4/features/external_all-cell.npz",
+   "bytes": 43859686,
+   "sha256": "e4e322d973b5f0903e349414dcbf9d4ea8f2928c5cdc467515419ffaca13987e"
+  }
+ },
+ "draw_level_trivial_predictors": "B0 to B4 of each draw's cells (endpoint.own_summaries; B0 is log(1 + n_pert)), stored as <side>_b",
+ "variants": {
+  "draw k": "the cells of label draw k, seeds [20260801, 20260802, 20260803]",
+  "cell-disjoint": "draw 1 (seed 20260801) taken from half B of the R5 halves; VCC at 10 cells, externally at the cell's n_pert; rows below twice that are not kept",
+  "shared S k": "draw k with every cell normalised by its total over the genes VCC shares with screen S",
+  "external | all-cell": "every cell of each construct and every control cell, from the per-cell cache (Section 15, item 2)"
+ },
+ "seconds": 9174.4
+}

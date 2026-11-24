@@ -1,0 +1,264 @@
+{
+ "computed_at": "2026-11-10 23:43 EST",
+ "script": "bioinf2027/scripts/estimate_e4_e6_runtime.py",
+ "review": "bioinf2027/reviews/G2_runtime_proposal_r1.md",
+ "pricing": {
+  "basis": "E1b's finished fits under $IGA_STORAGE_ROOT/bioinf2027/E1b/predictions, seconds per row and column per head",
+  "e1b_fits_finished": 317,
+  "seconds_per_row_and_column": {
+   "forest": 0.0002891912091398363
+  },
+  "timing_probe_per_head": {
+   "boosting": 5.331010452961673e-06,
+   "forest": 0.0002539797429199242
+  },
+  "workers": 12,
+  "band": [
+   0.7,
+   1.3
+  ],
+  "e6_rows": "four fifths of the source screen's constructs per fold, all for the whole screen, the drawn genes times 1.07 for the size-matched arm",
+  "e4_and_d2_rows": "the cell's VCC training rows"
+ },
+ "releases": {
+  "E1b_end": "2026-11-12 16:42",
+  "E6_check_hours": 1.8,
+  "D2_embeddings_end": "2026-11-13 10:35",
+  "D2_restart_allowance_hours": 0.5
+ },
+ "d2_gpu": {
+  "remaining_gpu_hours": 58.4,
+  "units_done": 94,
+  "units": 668
+ },
+ "cpu_hours": {
+  "E6": 572.1,
+  "E4": 755.9,
+  "D2 fits": 45.7
+ },
+ "fits": {
+  "E6": 13508,
+  "E4": 2560,
+  "D2 fits": 196
+ },
+ "e6_rule_as_its_plan_states": {
+  "refits": 20,
+  "seeds_of_the_700_control_endpoints": [
+   0
+  ],
+  "refit_hours_at_50": 341.6
+ },
+ "e1b_head_seeds": {
+  "prediction_agreement": {
+   "pairs": 300,
+   "pairs_with_a_constant_prediction": 12,
+   "median": 0.9960989996464621,
+   "minimum": 0.7021975843520907
+  },
+  "t_over_head_seeds": {
+   "statistics": 88,
+   "sd_median": 0.011338114478285519,
+   "sd_max": 0.0412425237431945,
+   "range_median": 0.020961562708000883,
+   "range_max": 0.07961062086984681,
+   "range_max_at": {
+    "context": "G5",
+    "representation": "x",
+    "screen": "K562-essential"
+   },
+   "note": "T per head seed from one seed of the arm and the same seed of C1; the family averages three"
+  }
+ },
+ "e4_rule": {
+  "threshold_cpu_hours": 200.0,
+  "cpu_hours_after": {
+   "none": 755.9,
+   "0": 548.6,
+   "a": 281.9,
+   "b": 206.5
+  },
+  "fits_after": {
+   "none": 2560,
+   "0": 1552,
+   "a": 792,
+   "b": 548
+  },
+  "last_step_applied": "b"
+ },
+ "options": {
+  "planned": {
+   "gate_G2_fits_end": "2026-11-17 11:10",
+   "last_fit_end": "2026-11-17 11:10",
+   "tier_ends": {
+    "D2 fits": "2026-11-13 15:12",
+    "E6 and E4": "2026-11-17 11:10"
+   }
+  },
+  "order, families only": {
+   "gate_G2_fits_end": "2026-11-13 14:47",
+   "last_fit_end": "2026-11-17 11:10",
+   "tier_ends": {
+    "families": "2026-11-13 14:47",
+    "after G2": "2026-11-17 11:10"
+   }
+  },
+  "order": {
+   "gate_G2_fits_end": "2026-11-13 23:17",
+   "last_fit_end": "2026-11-17 11:10",
+   "tier_ends": {
+    "families": "2026-11-13 14:48",
+    "before G2, other": "2026-11-13 23:17",
+    "after G2": "2026-11-17 11:10"
+   }
+  },
+  "order, with E6 Section 6, item 6 complete": {
+   "gate_G2_fits_end": "2026-11-14 09:53",
+   "last_fit_end": "2026-11-17 11:10",
+   "tier_ends": {
+    "families": "2026-11-13 14:49",
+    "before G2, other": "2026-11-14 09:53",
+    "after G2": "2026-11-17 11:10"
+   }
+  },
+  "order, with Section 6, item 6 and z - C2": {
+   "gate_G2_fits_end": "2026-11-14 10:17",
+   "last_fit_end": "2026-11-17 11:10",
+   "tier_ends": {
+    "families": "2026-11-13 14:46",
+    "before G2, other": "2026-11-14 10:17",
+    "after G2": "2026-11-17 11:10"
+   }
+  },
+  "correction only, planned": {
+   "gate_G2_fits_end": "2026-11-16 17:54",
+   "last_fit_end": "2026-11-16 17:54",
+   "tier_ends": {
+    "D2 fits": "2026-11-13 15:11",
+    "E6 and E4": "2026-11-16 17:54"
+   }
+  },
+  "correction and order": {
+   "gate_G2_fits_end": "2026-11-13 23:17",
+   "last_fit_end": "2026-11-16 17:54",
+   "tier_ends": {
+    "families": "2026-11-13 14:48",
+    "before G2, other": "2026-11-13 23:17",
+    "after G2": "2026-11-16 17:54"
+   }
+  },
+  "E4 rule with the correction, planned": {
+   "gate_G2_fits_end": "2026-11-15 13:24",
+   "last_fit_end": "2026-11-15 13:24",
+   "tier_ends": {
+    "D2 fits": "2026-11-13 14:45",
+    "E6 and E4": "2026-11-15 13:24"
+   }
+  },
+  "E4 rule with the correction, and order": {
+   "gate_G2_fits_end": "2026-11-13 23:17",
+   "last_fit_end": "2026-11-15 13:24",
+   "tier_ends": {
+    "families": "2026-11-13 14:48",
+    "before G2, other": "2026-11-13 23:17",
+    "after G2": "2026-11-15 13:24"
+   }
+  },
+  "correction, order, Section 6, item 6 and z - C2": {
+   "gate_G2_fits_end": "2026-11-14 10:17",
+   "last_fit_end": "2026-11-16 17:54",
+   "tier_ends": {
+    "families": "2026-11-13 14:46",
+    "before G2, other": "2026-11-14 10:17",
+    "after G2": "2026-11-16 17:54"
+   }
+  }
+ },
+ "band": {
+  "planned": {
+   "x0.7": {
+    "gate_G2_fits_end": "2026-11-16 00:50",
+    "last_fit_end": "2026-11-16 00:50",
+    "tier_ends": {
+     "D2 fits": "2026-11-13 13:37",
+     "E6 and E4": "2026-11-16 00:50"
+    }
+   },
+   "x1.3": {
+    "gate_G2_fits_end": "2026-11-18 21:31",
+    "last_fit_end": "2026-11-18 21:31",
+    "tier_ends": {
+     "D2 fits": "2026-11-13 15:57",
+     "E6 and E4": "2026-11-18 21:31"
+    }
+   }
+  },
+  "order": {
+   "x0.7": {
+    "gate_G2_fits_end": "2026-11-13 14:06",
+    "last_fit_end": "2026-11-16 00:50",
+    "tier_ends": {
+     "families": "2026-11-13 13:28",
+     "before G2, other": "2026-11-13 14:06",
+     "after G2": "2026-11-16 00:50"
+    }
+   },
+   "x1.3": {
+    "gate_G2_fits_end": "2026-11-14 08:28",
+    "last_fit_end": "2026-11-18 21:31",
+    "tier_ends": {
+     "families": "2026-11-13 16:01",
+     "before G2, other": "2026-11-14 08:28",
+     "after G2": "2026-11-18 21:31"
+    }
+   }
+  },
+  "correction and order": {
+   "x0.7": {
+    "gate_G2_fits_end": "2026-11-13 14:06",
+    "last_fit_end": "2026-11-15 12:44",
+    "tier_ends": {
+     "families": "2026-11-13 13:28",
+     "before G2, other": "2026-11-13 14:06",
+     "after G2": "2026-11-15 12:44"
+    }
+   },
+   "x1.3": {
+    "gate_G2_fits_end": "2026-11-14 08:28",
+    "last_fit_end": "2026-11-17 23:04",
+    "tier_ends": {
+     "families": "2026-11-13 16:01",
+     "before G2, other": "2026-11-14 08:28",
+     "after G2": "2026-11-17 23:04"
+    }
+   }
+  },
+  "correction, order, Section 6, item 6 and z - C2": {
+   "x0.7": {
+    "gate_G2_fits_end": "2026-11-13 21:49",
+    "last_fit_end": "2026-11-15 12:44",
+    "tier_ends": {
+     "families": "2026-11-13 13:32",
+     "before G2, other": "2026-11-13 21:49",
+     "after G2": "2026-11-15 12:44"
+    }
+   },
+   "x1.3": {
+    "gate_G2_fits_end": "2026-11-14 22:45",
+    "last_fit_end": "2026-11-17 23:04",
+    "tier_ends": {
+     "families": "2026-11-13 16:04",
+     "before G2, other": "2026-11-14 22:45",
+     "after G2": "2026-11-17 23:04"
+    }
+   }
+  }
+ },
+ "not_included": "E1b's, E6's, E4's and D2's statistics, the audits and reviews, D2's aggregation; the fits running at the start count as not started",
+ "outputs": {
+  "categories": {
+   "path": "bioinf2027/diag/E4_E6_runtime_categories.csv",
+   "bytes": 1500,
+   "sha256": "c53c590c4974540ae68f4a395bd7aaebb4d1529c3889d573793851262bd6b7f8"
+  }
+ }
+}

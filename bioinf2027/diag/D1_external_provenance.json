@@ -1,0 +1,121 @@
+{
+ "paths_relative_to": "$IGA_STORAGE_ROOT",
+ "bootstrap": {
+  "b": 10000,
+  "seed": 20270301,
+  "unit": "target gene",
+  "descriptive_below_target_genes": 50
+ },
+ "shared_cells": "each label draw is a subset of the perturbed and control cells behind the own delta",
+ "feature_space_mapped": "2,000 selected genes, unavailable coordinates zero filled, delta clipped to +/- 10",
+ "inputs": {
+  "RPE1_endpoint": {
+   "path": "$IGA_STORAGE_ROOT/IGA_MAIN/results_v4/harmonized_endpoint_v1/rpe1_endpoint_by_construct.csv",
+   "bytes": 440592,
+   "sha256": "353c04d3ac8e3380a3addf3abc1953d30799423f7cd467006adc36800e26a126"
+  },
+  "RPE1_x_native": {
+   "path": "$IGA_STORAGE_ROOT/IGA_GENEFORMER_EXT/x_cell/x_cell_rpe1_native.npz",
+   "bytes": 135997838,
+   "sha256": "ee766e65c18cace39b7a7d225b3e218d22330b564b765759c6f63371d3e3ec57"
+  },
+  "RPE1_x_mapped": {
+   "path": "$IGA_STORAGE_ROOT/IGA_GENEFORMER_EXT/x_cell/x_cell_rpe1_mapped.npz",
+   "bytes": 16229294,
+   "sha256": "ddc3cab022073333f3307f06f08ceab64a4f45b453f4a95ff721452dee06fe1e"
+  },
+  "K562-essential_endpoint": {
+   "path": "$IGA_STORAGE_ROOT/IGA_MAIN/results_v4/harmonized_endpoint_k562_essential_v1/endpoint_by_construct.csv",
+   "bytes": 433586,
+   "sha256": "051269eeeae93c75c84ca1fc050529a096ebd15e1990cb14bb24669c1b9672ff"
+  },
+  "K562-essential_x_native": {
+   "path": "$IGA_STORAGE_ROOT/IGA_GENEFORMER_EXT/k562_essential/x_cell/x_cell_k562_native.npz",
+   "bytes": 130987790,
+   "sha256": "f8127fbc14cdefd340235da4815908a3b5a4a14b3c8f0456e8ac7d60c9e765f2"
+  },
+  "K562-essential_x_mapped": {
+   "path": "$IGA_STORAGE_ROOT/IGA_GENEFORMER_EXT/k562_essential/x_cell/x_cell_k562_1903_mapped.npy",
+   "bytes": 15224128,
+   "sha256": "326142005d94fadf682a5d71a2dfaea5ba40ba4a5f40e61b2918e6f74f374965"
+  },
+  "vcc_gene_names": {
+   "path": "$IGA_STORAGE_ROOT/IGA_MAIN/cache/vcc/var_gene_names.npy",
+   "bytes": 152515,
+   "sha256": "9f35391f26907834f50e881c7d3fb32351cc6a3c5449230436731182d7c91c85"
+  },
+  "vcc_selected_genes": {
+   "path": "$IGA_STORAGE_ROOT/IGA_MAIN/cache/vcc/variants/delta_hvg/selected_genes.npy",
+   "bytes": 8128,
+   "sha256": "805d17402aa2804f843ca9f57459bb85d50c067df02a3d214ee5b5ee4229bb01"
+  }
+ },
+ "summaries": [
+  {
+   "screen": "RPE1",
+   "n_constructs": 1932,
+   "n_unique_targets": 1811,
+   "n_genes_native": 8749,
+   "n_features_mapped": 2000,
+   "target_is_selected_feature_constructs": 353,
+   "target_is_selected_feature_fraction": 0.18271221532091098,
+   "target_is_selected_feature_unique_targets": 330,
+   "native_n_rows_scored": 1932,
+   "native_argmax_fraction": 0.17339544513457558,
+   "native_top2_fraction": 0.20755693581780538,
+   "native_top5_fraction": 0.2644927536231884,
+   "native_top10_fraction": 0.3219461697722567,
+   "native_median_rank": 87.5,
+   "mapped_n_rows_scored": 353,
+   "mapped_argmax_fraction_of_constructs_with_target_feature": 0.23796033994334279,
+   "mapped_argmax_constructs": 84,
+   "mapped_argmax_fraction_of_all_constructs": 0.043478260869565216,
+   "mapped_top2_fraction_of_constructs_with_target_feature": 0.3002832861189802,
+   "mapped_top2_constructs": 106,
+   "mapped_top2_fraction_of_all_constructs": 0.054865424430641824,
+   "mapped_top5_fraction_of_constructs_with_target_feature": 0.39943342776203966,
+   "mapped_top5_constructs": 141,
+   "mapped_top5_fraction_of_all_constructs": 0.07298136645962733,
+   "mapped_top10_fraction_of_constructs_with_target_feature": 0.4447592067988669,
+   "mapped_top10_constructs": 157,
+   "mapped_top10_fraction_of_all_constructs": 0.08126293995859213,
+   "mapped_median_rank": 17.0,
+   "own_delta_native_median": -0.271903831484527,
+   "own_delta_native_fraction_negative": 0.9912008281573499,
+   "label_at_zero_constructs": 63
+  },
+  {
+   "screen": "K562-essential",
+   "n_constructs": 1903,
+   "n_unique_targets": 1811,
+   "n_genes_native": 8563,
+   "n_features_mapped": 2000,
+   "target_is_selected_feature_constructs": 337,
+   "target_is_selected_feature_fraction": 0.17708880714661063,
+   "target_is_selected_feature_unique_targets": 315,
+   "native_n_rows_scored": 1903,
+   "native_argmax_fraction": 0.34997372569626906,
+   "native_top2_fraction": 0.4261692065160273,
+   "native_top5_fraction": 0.5181292695743562,
+   "native_top10_fraction": 0.5838150289017341,
+   "native_median_rank": 5.0,
+   "mapped_n_rows_scored": 337,
+   "mapped_argmax_fraction_of_constructs_with_target_feature": 0.5400593471810089,
+   "mapped_argmax_constructs": 182,
+   "mapped_argmax_fraction_of_all_constructs": 0.09563846558066211,
+   "mapped_top2_fraction_of_constructs_with_target_feature": 0.6261127596439169,
+   "mapped_top2_constructs": 211,
+   "mapped_top2_fraction_of_all_constructs": 0.11087756174461377,
+   "mapped_top5_fraction_of_constructs_with_target_feature": 0.6943620178041543,
+   "mapped_top5_constructs": 234,
+   "mapped_top5_fraction_of_all_constructs": 0.12296374146085129,
+   "mapped_top10_fraction_of_constructs_with_target_feature": 0.7685459940652819,
+   "mapped_top10_constructs": 259,
+   "mapped_top10_fraction_of_all_constructs": 0.13610089332632685,
+   "mapped_median_rank": 1.0,
+   "own_delta_native_median": -0.31563044965344833,
+   "own_delta_native_fraction_negative": 0.9852863899106674,
+   "label_at_zero_constructs": 82
+  }
+ ]
+}

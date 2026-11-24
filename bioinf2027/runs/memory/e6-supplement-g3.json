@@ -1,0 +1,14 @@
+{
+ "label": "e6-supplement-g3",
+ "started": "2026-11-14T20:41:51-0500",
+ "last_sample": "2026-11-14T21:55:33-0500",
+ "samples": 881,
+ "interval_s": 5.0,
+ "workers_seen": 0,
+ "workers_at_once_max": 0,
+ "main_peak_gb": 1.407,
+ "worker_peak_gb": 0.0,
+ "total_rss_peak_gb": 1.407,
+ "total_pss_peak_gb": 1.332,
+ "note": "peaks are VmHWM per process; totals are sums at one sample; RSS counts shared pages once per process"
+}

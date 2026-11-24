@@ -1,0 +1,53 @@
+{
+ "plan": "bioinf2027/plans/E2.md, Sections 9 and 16",
+ "cells": 2048,
+ "width": 1600,
+ "determinism": {
+  "largest_difference_over_sd": 0.0,
+  "tolerance": 0.0001,
+  "passed": true
+ },
+ "seconds_per_set": 0.363,
+ "peak_gpu_memory_mb": 1047.1,
+ "sets_in_the_full_job": 3619,
+ "projected_gpu_hours": 0.36,
+ "model": {
+  "model_config": {
+   "n_genes": 15012,
+   "n_hidden": 100,
+   "token_dim": 16,
+   "n_cells": 256,
+   "n_layers": 9,
+   "n_heads": 8,
+   "dropout": 0.0,
+   "mask_rate_min": 0.1,
+   "mask_rate_max": 0.8,
+   "sw_weight": 0.01,
+   "n_proj": 64
+  },
+  "parameters": 151,
+  "set_size": 256,
+  "gene_list_globals": [
+   [
+    "numpy",
+    "dtype"
+   ],
+   [
+    "numpy._core.multiarray",
+    "scalar"
+   ]
+  ]
+ },
+ "gpu_at_start": [
+  {
+   "gpu0_free_mb_at_start": 23957,
+   "needed_mb": 10000,
+   "waited_seconds": 0
+  },
+  {
+   "gpu0_free_mb_at_start": 23957,
+   "needed_mb": 10000,
+   "waited_seconds": 0
+  }
+ ]
+}

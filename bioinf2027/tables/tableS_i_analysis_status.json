@@ -1,0 +1,625 @@
+{
+ "table": "tableS_i_analysis_status",
+ "code": {
+  "bioinf2027/scripts/figures/tableS_i_analysis_status.py": "de2cf2e7b5df89c521a431375845948c0b6e856272784c6d58afb9de486bb1c9",
+  "bioinf2027/scripts/figures/tablelib.py": "5c546fa57595e02901ba2087d5c2334793762f2cb146db4fd434973bb3fe034f"
+ },
+ "inputs": {
+  "bioinf2027/factsheets/FS0_data_methods.md": {
+   "path": "bioinf2027/factsheets/FS0_data_methods.md",
+   "bytes": 95425,
+   "sha256": "678f88552944b1ff44a4e1053dea2d6b7e0bcabc687781f2e9ccc0932c9cf932"
+  },
+  "bioinf2027/plans/D2.md": {
+   "path": "bioinf2027/plans/D2.md",
+   "bytes": 31765,
+   "sha256": "bb8a87a87b4af7ccc46cc7d11b36aa239fc945dd40e01b4caca91ef8763dcef3"
+  },
+  "bioinf2027/plans/E1_design.md": {
+   "path": "bioinf2027/plans/E1_design.md",
+   "bytes": 127983,
+   "sha256": "e1b8c63c194ec15fb718d6b10aaef5dae42edff5812ef00cb13a42d793727051"
+  },
+  "bioinf2027/plans/E1b_attribution.md": {
+   "path": "bioinf2027/plans/E1b_attribution.md",
+   "bytes": 39824,
+   "sha256": "6e2ecd7b56cc775fdc2d50579b0a6e2072c4a3032d855093c3cab2472a9bce34"
+  },
+  "bioinf2027/plans/E1b_posthoc.md": {
+   "path": "bioinf2027/plans/E1b_posthoc.md",
+   "bytes": 22570,
+   "sha256": "800e7ba344039534c76df55033ffe3d1ccd76a495272e969c6342cd6e41350f2"
+  },
+  "bioinf2027/plans/E2.md": {
+   "path": "bioinf2027/plans/E2.md",
+   "bytes": 38734,
+   "sha256": "0b114a590e6c9f823ffb0b94fecfee2e89476117bd777683fd794409903ae2e3"
+  },
+  "bioinf2027/plans/E2_null_external.md": {
+   "path": "bioinf2027/plans/E2_null_external.md",
+   "bytes": 7542,
+   "sha256": "ed8fdcb3fb0892d8468ec0e1f9acc032da65dee6c4629acc72b4b74fb332228c"
+  },
+  "bioinf2027/plans/E2_null_external_followup.md": {
+   "path": "bioinf2027/plans/E2_null_external_followup.md",
+   "bytes": 10911,
+   "sha256": "3b6c659c6fdc15fb89a1bb68136fbadeaa3adf3371a53d84e3010bbf9e3060b5"
+  },
+  "bioinf2027/plans/E4.md": {
+   "path": "bioinf2027/plans/E4.md",
+   "bytes": 37376,
+   "sha256": "643e3fc7b89229283c1eb75950d5f4dde8190a61d1461b090108a226578879aa"
+  },
+  "bioinf2027/plans/E5.md": {
+   "path": "bioinf2027/plans/E5.md",
+   "bytes": 52475,
+   "sha256": "4e60e53832c3b2cf9ff7652c4eddf275a01e4bc9957fbd8dddd59fecefa49f19"
+  },
+  "bioinf2027/plans/E5_supplement.md": {
+   "path": "bioinf2027/plans/E5_supplement.md",
+   "bytes": 11968,
+   "sha256": "070d0bbbaaf35c33497cd2ecb722d79d799e6c7060ea41166e0bce9d0d2bb095"
+  },
+  "bioinf2027/plans/E5_supplement_2.md": {
+   "path": "bioinf2027/plans/E5_supplement_2.md",
+   "bytes": 7938,
+   "sha256": "735e55bb324c74a40f90bc165b9c52a8098afef434047c9a79d9d356caaf925b"
+  },
+  "bioinf2027/plans/E6.md": {
+   "path": "bioinf2027/plans/E6.md",
+   "bytes": 55521,
+   "sha256": "6b14060a9e12395cde00d3d0722ffc0ffbb8d985aa774efd4edf925584c13877"
+  },
+  "bioinf2027/plans/S1_supplement.md": {
+   "path": "bioinf2027/plans/S1_supplement.md",
+   "bytes": 11023,
+   "sha256": "79e9306fe4135f02b64ac7b146ad62595df66ff4ba553267c84214ca3ce99dfa"
+  },
+  "bioinf2027/plans/missing_analyses_closing.md": {
+   "path": "bioinf2027/plans/missing_analyses_closing.md",
+   "bytes": 6232,
+   "sha256": "7c46569d1b8da4cfacc7be4bf9189a04ba01b43274436a3a8eb0aafdb0e7b40a"
+  },
+  "bioinf2027/reports/D1.md": {
+   "path": "bioinf2027/reports/D1.md",
+   "bytes": 19017,
+   "sha256": "74a7f03e01cee6efb43398fbf28ad548a9b8b33c495905262cde0b76309f8236"
+  },
+  "bioinf2027/reports/D1b.md": {
+   "path": "bioinf2027/reports/D1b.md",
+   "bytes": 16350,
+   "sha256": "82af85dafecacff39b46cb0f334a6ca8c1b3e061f4e42087bd7be016943cbcda"
+  },
+  "bioinf2027/reports/D2.md": {
+   "path": "bioinf2027/reports/D2.md",
+   "bytes": 48583,
+   "sha256": "e106b2d3da1eee59bc33582338dc28e7c6806abe11753586fbe76e04a43e0152"
+  },
+  "bioinf2027/reports/E1a.md": {
+   "path": "bioinf2027/reports/E1a.md",
+   "bytes": 33951,
+   "sha256": "824c93bc11bbf188a005ffdd9bc734ede529072d4420fbbb74d6de7b7aa37163"
+  },
+  "bioinf2027/reports/E1a_R0.md": {
+   "path": "bioinf2027/reports/E1a_R0.md",
+   "bytes": 13774,
+   "sha256": "80d5470ec8d6305c84ee7ef3c56244048028cec82c731c5e6a63c9bad1a5d365"
+  },
+  "bioinf2027/reports/E1b.md": {
+   "path": "bioinf2027/reports/E1b.md",
+   "bytes": 71234,
+   "sha256": "3b2e54568e442a975b9c6ea90b633cc9f408a4423996b039728427f0c6004188"
+  },
+  "bioinf2027/reports/E2.md": {
+   "path": "bioinf2027/reports/E2.md",
+   "bytes": 65416,
+   "sha256": "f6e8f59badcd0cddc8ba779344dd625f3730c47431996760eb65e7f675eae198"
+  },
+  "bioinf2027/reports/E4.md": {
+   "path": "bioinf2027/reports/E4.md",
+   "bytes": 75904,
+   "sha256": "d69b7608a08dc7f5588d3f965c803362e317f4d347ade4e9bdd448df68bc09a3"
+  },
+  "bioinf2027/reports/E5.md": {
+   "path": "bioinf2027/reports/E5.md",
+   "bytes": 106724,
+   "sha256": "0ea34702bb1765260ebcaed39767751219a3e647e361dbce9ad25158360516bf"
+  },
+  "bioinf2027/reports/E6.md": {
+   "path": "bioinf2027/reports/E6.md",
+   "bytes": 52215,
+   "sha256": "3513676831aa7b9ec6633fea7f31daab3e80751e26579aeb1d73bc3827eb4c56"
+  },
+  "bioinf2027/reports/S1_supplement.md": {
+   "path": "bioinf2027/reports/S1_supplement.md",
+   "bytes": 27029,
+   "sha256": "eef52b822f9fe5a4c53977368e92acb5d7403d5607942c22e05096b738e71aec"
+  },
+  "bioinf2027/reports/missing_analyses_closing.md": {
+   "path": "bioinf2027/reports/missing_analyses_closing.md",
+   "bytes": 7707,
+   "sha256": "8645a8454b07174dc8b4e9821e07d32ab551d42b13bf8c9a7080a3693013adf1"
+  },
+  "bioinf2027/results/D2/supplement/family_read_status.csv": {
+   "path": "bioinf2027/results/D2/supplement/family_read_status.csv",
+   "bytes": 3673,
+   "sha256": "ce71f0006111c4e272b9a176472516cdd8d3274664492b4d090a0bb89bec5a48"
+  },
+  "bioinf2027/results/E1/derived/primary_family_read_status.csv": {
+   "path": "bioinf2027/results/E1/derived/primary_family_read_status.csv",
+   "bytes": 13949,
+   "sha256": "a015de69a463b6bd6704068ad3fa0576da2a30288b73eb36edc83b088487e005"
+  },
+  "bioinf2027/results/E1/reduces_to_family.csv": {
+   "path": "bioinf2027/results/E1/reduces_to_family.csv",
+   "bytes": 1432,
+   "sha256": "1b3e362dfc0103c8fc7186535e4c301d2facb87d620b25ce9d9c0d642aa9ffbb"
+  },
+  "bioinf2027/results/E2/stats/family.csv": {
+   "path": "bioinf2027/results/E2/stats/family.csv",
+   "bytes": 12594,
+   "sha256": "4485a1b47f670c0260cc112af350e2ccebeffeb6fe40fbbf801317c2748acf9e"
+  },
+  "bioinf2027/results/E4/family_pass/readings.csv": {
+   "path": "bioinf2027/results/E4/family_pass/readings.csv",
+   "bytes": 5303,
+   "sha256": "cd8211df8edf8338d18fa63e5895ee6373987bbd5ed09d68b7f2633451a67a98"
+  },
+  "bioinf2027/results/E4/readings.csv": {
+   "path": "bioinf2027/results/E4/readings.csv",
+   "bytes": 5303,
+   "sha256": "cd8211df8edf8338d18fa63e5895ee6373987bbd5ed09d68b7f2633451a67a98"
+  },
+  "bioinf2027/results/E4/stats.json": {
+   "path": "bioinf2027/results/E4/stats.json",
+   "bytes": 9100,
+   "sha256": "16cbb91529b52d447c477b68a0a97b8d5341f036a6a9ba58f2bfee2619daa986"
+  },
+  "bioinf2027/results/E5/family/family.csv": {
+   "path": "bioinf2027/results/E5/family/family.csv",
+   "bytes": 19104,
+   "sha256": "4520d5f437f8d914d7183087e6fcc142edd6f771434f5c858f7735d7364addbd"
+  },
+  "bioinf2027/results/E6/family.csv": {
+   "path": "bioinf2027/results/E6/family.csv",
+   "bytes": 10639,
+   "sha256": "8afd41db341bbc341a56f58a040ece5eff8da09aaa60581ec21ebafc82f75ff1"
+  },
+  "bioinf2027/reviews/D1_audit_r1.md": {
+   "path": "bioinf2027/reviews/D1_audit_r1.md",
+   "bytes": 5927,
+   "sha256": "8a239a558bebb1ded9555577a481e784ff313ec55466b0fbbb47743bcd68e498"
+  },
+  "bioinf2027/reviews/D1_audit_r2.md": {
+   "path": "bioinf2027/reviews/D1_audit_r2.md",
+   "bytes": 7550,
+   "sha256": "f56f9be9b12f1e8e43ad6063201da0f16d93c4addccb30d151782b2af2628c2a"
+  },
+  "bioinf2027/reviews/D1_audit_r3.md": {
+   "path": "bioinf2027/reviews/D1_audit_r3.md",
+   "bytes": 9465,
+   "sha256": "42de3b111c35822430728ebb53206b242f7432615f5883dfd8afe5db7a6c94cb"
+  },
+  "bioinf2027/reviews/D1_audit_r4.md": {
+   "path": "bioinf2027/reviews/D1_audit_r4.md",
+   "bytes": 8327,
+   "sha256": "1c7eb53c3ab634591bf61de00c6ad60f3e4a840fe379823aebbd6e1608629cd2"
+  },
+  "bioinf2027/reviews/D1_audit_r5.md": {
+   "path": "bioinf2027/reviews/D1_audit_r5.md",
+   "bytes": 7332,
+   "sha256": "74a5ebe086cf73544bb5850370c8e15a0ecc50a1f72b2beaacfc474282db0c02"
+  },
+  "bioinf2027/reviews/D1_results_r1.md": {
+   "path": "bioinf2027/reviews/D1_results_r1.md",
+   "bytes": 15129,
+   "sha256": "7656173d00105fed031c5ed5192b1b5daaad5341d3412e6b0791a4b8585712a0"
+  },
+  "bioinf2027/reviews/D1_results_r2.md": {
+   "path": "bioinf2027/reviews/D1_results_r2.md",
+   "bytes": 18062,
+   "sha256": "28535cfe845f7ddd2c50ec3e9fdfd1753a936a7205fe823834b6704df081c432"
+  },
+  "bioinf2027/reviews/D1_results_r3.md": {
+   "path": "bioinf2027/reviews/D1_results_r3.md",
+   "bytes": 11741,
+   "sha256": "1833f8a3424b6c1c6a524580b6a09fedae8341de4058a5a9f1b67d07f943ba0a"
+  },
+  "bioinf2027/reviews/D1b_audit_r1.md": {
+   "path": "bioinf2027/reviews/D1b_audit_r1.md",
+   "bytes": 9900,
+   "sha256": "e06c2ae4515a3c2e5bbbf1e63ed18fe8c0b3daca6c6195229e40e9db07a894b0"
+  },
+  "bioinf2027/reviews/D1b_audit_r2.md": {
+   "path": "bioinf2027/reviews/D1b_audit_r2.md",
+   "bytes": 13328,
+   "sha256": "49a3bd66562886af77d1667189661093e1200ae0770bcf06334e110b13f41696"
+  },
+  "bioinf2027/reviews/D1b_results_r1.md": {
+   "path": "bioinf2027/reviews/D1b_results_r1.md",
+   "bytes": 18925,
+   "sha256": "4f5db71299ceec087d017b667cdc6cd96ad05f61e6add0d3f2f384bde850c858"
+  },
+  "bioinf2027/reviews/D1b_results_r2.md": {
+   "path": "bioinf2027/reviews/D1b_results_r2.md",
+   "bytes": 17998,
+   "sha256": "60a439214f5b751d23063bea447b233f79efd1bdf0ad8da19acd76e573457e30"
+  },
+  "bioinf2027/reviews/D2_audit_r1.md": {
+   "path": "bioinf2027/reviews/D2_audit_r1.md",
+   "bytes": 11323,
+   "sha256": "4565eca794370bcac51272e544692ccd20a515aef86cfb873e6095bb747f8cb7"
+  },
+  "bioinf2027/reviews/D2_audit_r2.md": {
+   "path": "bioinf2027/reviews/D2_audit_r2.md",
+   "bytes": 9707,
+   "sha256": "34147fa0ab7b6d6d70e96027d9073053c298b6a75bfbb48e4b2112b2a6cdf1d5"
+  },
+  "bioinf2027/reviews/D2_results_r1.md": {
+   "path": "bioinf2027/reviews/D2_results_r1.md",
+   "bytes": 14676,
+   "sha256": "2abca5aa1f1962f090b04f4ecc0ec7c371a0233fbc17fd92552fd540f4577286"
+  },
+  "bioinf2027/reviews/D2_results_r2.md": {
+   "path": "bioinf2027/reviews/D2_results_r2.md",
+   "bytes": 13156,
+   "sha256": "ba1c9aedc79dffb441b0674e1d1d0b4430e776d350c43cd329ab85e251bcc67f"
+  },
+  "bioinf2027/reviews/E1a_R0_audit_r1.md": {
+   "path": "bioinf2027/reviews/E1a_R0_audit_r1.md",
+   "bytes": 8695,
+   "sha256": "b5d4c451f7edc790d1bbf86c305bf0eff83e8f71425fc283a27160a795b667dc"
+  },
+  "bioinf2027/reviews/E1a_R0_results_r1.md": {
+   "path": "bioinf2027/reviews/E1a_R0_results_r1.md",
+   "bytes": 14700,
+   "sha256": "e004572743e4f898a68b3049e70ed74072a0b236290303fd88d8d84fee46f01b"
+  },
+  "bioinf2027/reviews/E1a_audit_r1.md": {
+   "path": "bioinf2027/reviews/E1a_audit_r1.md",
+   "bytes": 10706,
+   "sha256": "24444a680f37b139dafb47f4f3ff0e5bc2c0f53dd595825fcadea42b1af5b507"
+  },
+  "bioinf2027/reviews/E1a_audit_r2.md": {
+   "path": "bioinf2027/reviews/E1a_audit_r2.md",
+   "bytes": 12362,
+   "sha256": "8c7e94823ecee76f21cf6baba03d67aa1d3f264892a3dbfc2edc64e987956a6e"
+  },
+  "bioinf2027/reviews/E1a_results_r1.md": {
+   "path": "bioinf2027/reviews/E1a_results_r1.md",
+   "bytes": 17522,
+   "sha256": "5bc12ec32aac6fb387fb8de12db0b702bc9b47969e5686bab6357f53b837e98b"
+  },
+  "bioinf2027/reviews/E1a_results_r2.md": {
+   "path": "bioinf2027/reviews/E1a_results_r2.md",
+   "bytes": 17127,
+   "sha256": "eb12394c56e69704dbceb80325fce513a7caa11a4833dba502b2afe7688cc187"
+  },
+  "bioinf2027/reviews/E1b_attribution_amendment_audit_r1.md": {
+   "path": "bioinf2027/reviews/E1b_attribution_amendment_audit_r1.md",
+   "bytes": 8161,
+   "sha256": "97145f0fa675b9a637b958dd56f2e7052e25e444950a5b87bb02c909b163796d"
+  },
+  "bioinf2027/reviews/E1b_attribution_audit_r1.md": {
+   "path": "bioinf2027/reviews/E1b_attribution_audit_r1.md",
+   "bytes": 9343,
+   "sha256": "d62372ebe7386cb2c19189b110f7ca30014f16dc136beccf8b5bba5e2e43a219"
+  },
+  "bioinf2027/reviews/E1b_attribution_results_r1.md": {
+   "path": "bioinf2027/reviews/E1b_attribution_results_r1.md",
+   "bytes": 13125,
+   "sha256": "3f161f4c8ea848d1d74c348acf7bf33485c2819a859f1b76f1db241800a73da0"
+  },
+  "bioinf2027/reviews/E1b_audit_r1.md": {
+   "path": "bioinf2027/reviews/E1b_audit_r1.md",
+   "bytes": 10633,
+   "sha256": "09ea5a5edd04ff8049446c6b3dd1177f01cb3ed6611f981838e816e3e4cecf78"
+  },
+  "bioinf2027/reviews/E1b_audit_r2.md": {
+   "path": "bioinf2027/reviews/E1b_audit_r2.md",
+   "bytes": 8857,
+   "sha256": "420035aa6329c49fd16a163e44be4bb78f2c1be85a30a2d591698abfa35faca1"
+  },
+  "bioinf2027/reviews/E1b_posthoc_audit_r1.md": {
+   "path": "bioinf2027/reviews/E1b_posthoc_audit_r1.md",
+   "bytes": 8419,
+   "sha256": "66587871eb959035241819da2abc3eac882d5142016867bafea65cd4ef066ef5"
+  },
+  "bioinf2027/reviews/E1b_posthoc_audit_r2.md": {
+   "path": "bioinf2027/reviews/E1b_posthoc_audit_r2.md",
+   "bytes": 6583,
+   "sha256": "3164fa212234c9e4d5a3451cc1eca52981e89612f523d3affc09651db541aa2f"
+  },
+  "bioinf2027/reviews/E1b_results_r1.md": {
+   "path": "bioinf2027/reviews/E1b_results_r1.md",
+   "bytes": 16333,
+   "sha256": "d92360a60f463e0a033a636d2e9b3a701a3c708e070aa63dd615807512cc1bac"
+  },
+  "bioinf2027/reviews/E1b_results_r2.md": {
+   "path": "bioinf2027/reviews/E1b_results_r2.md",
+   "bytes": 11807,
+   "sha256": "0f64fdecce186ee37097bc1e2aac795ab260fdd3f6df174fe3c0aa1fed4bff2e"
+  },
+  "bioinf2027/reviews/E2_audit_r1.md": {
+   "path": "bioinf2027/reviews/E2_audit_r1.md",
+   "bytes": 7087,
+   "sha256": "9ff24bdd28173103f7692390338c4259f57dce6ecc7a2ae7877615e8c5693458"
+  },
+  "bioinf2027/reviews/E2_null_external_audit_r1.md": {
+   "path": "bioinf2027/reviews/E2_null_external_audit_r1.md",
+   "bytes": 7392,
+   "sha256": "ea78d85295d1124beaaf4b9b582591e44c72bc4f99737e711b33104fd7c32aa4"
+  },
+  "bioinf2027/reviews/E2_null_external_followup_audit_r1.md": {
+   "path": "bioinf2027/reviews/E2_null_external_followup_audit_r1.md",
+   "bytes": 8014,
+   "sha256": "99114cd34e75e7fa1c0e92d001aff2c5f6705646bedf66e2c36cb88dc3b9c49d"
+  },
+  "bioinf2027/reviews/E2_null_external_followup_results_r1.md": {
+   "path": "bioinf2027/reviews/E2_null_external_followup_results_r1.md",
+   "bytes": 14724,
+   "sha256": "cdcc2fa93d8505571d30fc85d790ff7cc5a3a98c82845b79801dc070dd9b1028"
+  },
+  "bioinf2027/reviews/E2_null_external_followup_s5_audit_r1.md": {
+   "path": "bioinf2027/reviews/E2_null_external_followup_s5_audit_r1.md",
+   "bytes": 7026,
+   "sha256": "8512e7802ec686227f4de59c09866593b2613f831253a72c1960305da15a6370"
+  },
+  "bioinf2027/reviews/E2_null_external_results_r1.md": {
+   "path": "bioinf2027/reviews/E2_null_external_results_r1.md",
+   "bytes": 11198,
+   "sha256": "b364dd900439729eab71393030f35c60fc3cb00ecbfb692aa45b3c2f3f74e378"
+  },
+  "bioinf2027/reviews/E2_results_r1.md": {
+   "path": "bioinf2027/reviews/E2_results_r1.md",
+   "bytes": 15072,
+   "sha256": "3c398a0a887016e1399fb3f9f04d8c8c152bce64e23b3ed461ae6c1b69ce8b86"
+  },
+  "bioinf2027/reviews/E2_results_r2.md": {
+   "path": "bioinf2027/reviews/E2_results_r2.md",
+   "bytes": 11228,
+   "sha256": "d42a5bbd25a76530bb8237af50d492d2f569dfe99c566b223cd3ff986689aea7"
+  },
+  "bioinf2027/reviews/E2_supplement_audit_r1.md": {
+   "path": "bioinf2027/reviews/E2_supplement_audit_r1.md",
+   "bytes": 8399,
+   "sha256": "d1a2ed609eede04bfcd07f8d037209c2dffd153e5985cf028e778793db664e7c"
+  },
+  "bioinf2027/reviews/E4_audit_r1.md": {
+   "path": "bioinf2027/reviews/E4_audit_r1.md",
+   "bytes": 7902,
+   "sha256": "b66d38ce8792136a001304e53bec7ede047a3b3468ac1960dc4cce309f6c128b"
+  },
+  "bioinf2027/reviews/E4_audit_r2.md": {
+   "path": "bioinf2027/reviews/E4_audit_r2.md",
+   "bytes": 10490,
+   "sha256": "5e5bfc133f9d34c072b8fa761c2bea41afd99c8764144d1f976d00652f8c3264"
+  },
+  "bioinf2027/reviews/E4_audit_r3.md": {
+   "path": "bioinf2027/reviews/E4_audit_r3.md",
+   "bytes": 8318,
+   "sha256": "dd9cfb652f892feaf8dcb9fa16ed1869c21f6d27649d80a14ccef1f1a6a749df"
+  },
+  "bioinf2027/reviews/E4_results_r1.md": {
+   "path": "bioinf2027/reviews/E4_results_r1.md",
+   "bytes": 14467,
+   "sha256": "c72fa2edf08abd29182ec21b243516639a2358802a02eb71299e6a962c5e2025"
+  },
+  "bioinf2027/reviews/E4_results_r2.md": {
+   "path": "bioinf2027/reviews/E4_results_r2.md",
+   "bytes": 14655,
+   "sha256": "e2c1fc3e5ab7ac57c31a05901e533699b862a6dfdc19117a059929dc3673140b"
+  },
+  "bioinf2027/reviews/E5_audit_r1.md": {
+   "path": "bioinf2027/reviews/E5_audit_r1.md",
+   "bytes": 8846,
+   "sha256": "13ff07b94df3f80192d13f65790641c4686b5046856a163e5e056083cd7a68ea"
+  },
+  "bioinf2027/reviews/E5_results_r1.md": {
+   "path": "bioinf2027/reviews/E5_results_r1.md",
+   "bytes": 15398,
+   "sha256": "2d988aec93f736f695b2488549eb904d75b14f00166cd6b394542ddd4405414a"
+  },
+  "bioinf2027/reviews/E5_supplement_2_audit_r1.md": {
+   "path": "bioinf2027/reviews/E5_supplement_2_audit_r1.md",
+   "bytes": 8551,
+   "sha256": "89d66d4782ef6261217be94135f5f0bf4876fb6540fd73f030ddf360740eec86"
+  },
+  "bioinf2027/reviews/E5_supplement_2_results_r1.md": {
+   "path": "bioinf2027/reviews/E5_supplement_2_results_r1.md",
+   "bytes": 17863,
+   "sha256": "001368379abce85cefed8bb9b0d0e747a5b77a6cf7b4bfd0efd042d29466faa0"
+  },
+  "bioinf2027/reviews/E5_supplement_audit_r1.md": {
+   "path": "bioinf2027/reviews/E5_supplement_audit_r1.md",
+   "bytes": 7603,
+   "sha256": "683e418294e2920f7f0fde60dd4ed162c60c01777e1fec678fc084046b086a6c"
+  },
+  "bioinf2027/reviews/E5_supplement_results_r1.md": {
+   "path": "bioinf2027/reviews/E5_supplement_results_r1.md",
+   "bytes": 15602,
+   "sha256": "ca4a6650b9310a2250cf8a0cac7601e14f1c87cd307b669735c2767f1a42e801"
+  },
+  "bioinf2027/reviews/E6_audit_r1.md": {
+   "path": "bioinf2027/reviews/E6_audit_r1.md",
+   "bytes": 6721,
+   "sha256": "ba2e84129d95de58b72dac3fc420de6778a7a5a51d373ca85a9377633dba3f44"
+  },
+  "bioinf2027/reviews/E6_audit_r2.md": {
+   "path": "bioinf2027/reviews/E6_audit_r2.md",
+   "bytes": 5468,
+   "sha256": "7f827d02ba0ee9de389ea8715c6ec42eeae4b6bc72187ddf632efd17822549a1"
+  },
+  "bioinf2027/reviews/E6_audit_r3.md": {
+   "path": "bioinf2027/reviews/E6_audit_r3.md",
+   "bytes": 8381,
+   "sha256": "6fc179de7379823a73cce1253097bb5a9d6d5a816429c4314d8dbbb1ca8afec1"
+  },
+  "bioinf2027/reviews/E6_audit_r4.md": {
+   "path": "bioinf2027/reviews/E6_audit_r4.md",
+   "bytes": 10526,
+   "sha256": "f5f0161d34ac9569fb6d299ea99a1fe6a431fe2d3d0a4365c79b6781128f02fd"
+  },
+  "bioinf2027/reviews/E6_audit_r5.md": {
+   "path": "bioinf2027/reviews/E6_audit_r5.md",
+   "bytes": 8277,
+   "sha256": "0ca8cf0f72ba2e03e05be9a4f115d1a21bb62b2c6a6370deed5296fca65e6176"
+  },
+  "bioinf2027/reviews/E6_results_r1.md": {
+   "path": "bioinf2027/reviews/E6_results_r1.md",
+   "bytes": 13909,
+   "sha256": "7a894f03d6b60b56c04fa385f820332de9a5a4e56dc092ad733186d900a5a0d9"
+  },
+  "bioinf2027/reviews/E6_results_r2.md": {
+   "path": "bioinf2027/reviews/E6_results_r2.md",
+   "bytes": 17612,
+   "sha256": "82e5187b124e3976f59ab5418aec9ebaff6e27eed8d1f130e67953255f78152c"
+  },
+  "bioinf2027/reviews/S1_supplement_audit_r1.md": {
+   "path": "bioinf2027/reviews/S1_supplement_audit_r1.md",
+   "bytes": 7755,
+   "sha256": "50e3087297e8a4733006e6837c9a1196ea38a1d6cf0aa3a0ccd9c7fed41308ad"
+  },
+  "bioinf2027/reviews/S1_supplement_results_r1.md": {
+   "path": "bioinf2027/reviews/S1_supplement_results_r1.md",
+   "bytes": 14665,
+   "sha256": "289ddda45e34a1427afeb46ccb8943f3a43b76ce7659dd90c711d970bd3d60d2"
+  },
+  "bioinf2027/reviews/closing_audit_r1.md": {
+   "path": "bioinf2027/reviews/closing_audit_r1.md",
+   "bytes": 8276,
+   "sha256": "15d0829fac85ab21bf3ad6459237a55706cebf4c40c0b691bba7ca7542e28ea1"
+  },
+  "bioinf2027/reviews/closing_audit_r2.md": {
+   "path": "bioinf2027/reviews/closing_audit_r2.md",
+   "bytes": 7504,
+   "sha256": "4c6836c22d70304276580e37319ac3fffe0c3bee14e1a786c7d09249f6ef7bce"
+  }
+ },
+ "inputs_verified": {
+  "bioinf2027/factsheets/FS0_data_methods.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/plans/D2.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/plans/E1_design.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/plans/E1b_attribution.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/plans/E1b_posthoc.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/plans/E2.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/plans/E2_null_external.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/plans/E2_null_external_followup.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/plans/E4.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/plans/E5.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/plans/E5_supplement.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/plans/E5_supplement_2.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/plans/E6.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/plans/S1_supplement.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/plans/missing_analyses_closing.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/reports/D1.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/reports/D1b.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/reports/D2.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/reports/E1a.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/reports/E1a_R0.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/reports/E1b.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/reports/E2.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/reports/E4.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/reports/E5.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/reports/E6.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/reports/S1_supplement.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/reports/missing_analyses_closing.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/results/D2/supplement/family_read_status.csv": "equal to its record in bioinf2027/results/D2/supplement/supplement.json",
+  "bioinf2027/results/E1/derived/primary_family_read_status.csv": "equal to its record in bioinf2027/results/E1/derived/primary_family_read_status.json",
+  "bioinf2027/results/E1/reduces_to_family.csv": "equal to its record in bioinf2027/results/E1/stats.json",
+  "bioinf2027/results/E2/stats/family.csv": "equal to its record in bioinf2027/results/E2/null_external/stats.json",
+  "bioinf2027/results/E4/family_pass/readings.csv": "equal to its record in bioinf2027/results/E4/family_pass/stats.json",
+  "bioinf2027/results/E4/readings.csv": "equal to its record in bioinf2027/results/E4/stats.json",
+  "bioinf2027/results/E4/stats.json": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/results/E5/family/family.csv": "equal to its record in bioinf2027/results/E5/family/family.json",
+  "bioinf2027/results/E6/family.csv": "equal to its record in bioinf2027/results/E2/stats/stats.json",
+  "bioinf2027/reviews/D1_audit_r1.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/reviews/D1_audit_r2.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/reviews/D1_audit_r3.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/reviews/D1_audit_r4.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/reviews/D1_audit_r5.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/reviews/D1_results_r1.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/reviews/D1_results_r2.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/reviews/D1_results_r3.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/reviews/D1b_audit_r1.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/reviews/D1b_audit_r2.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/reviews/D1b_results_r1.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/reviews/D1b_results_r2.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/reviews/D2_audit_r1.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/reviews/D2_audit_r2.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/reviews/D2_results_r1.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/reviews/D2_results_r2.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/reviews/E1a_R0_audit_r1.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/reviews/E1a_R0_results_r1.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/reviews/E1a_audit_r1.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/reviews/E1a_audit_r2.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/reviews/E1a_results_r1.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/reviews/E1a_results_r2.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/reviews/E1b_attribution_amendment_audit_r1.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/reviews/E1b_attribution_audit_r1.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/reviews/E1b_attribution_results_r1.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/reviews/E1b_audit_r1.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/reviews/E1b_audit_r2.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/reviews/E1b_posthoc_audit_r1.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/reviews/E1b_posthoc_audit_r2.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/reviews/E1b_results_r1.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/reviews/E1b_results_r2.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/reviews/E2_audit_r1.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/reviews/E2_null_external_audit_r1.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/reviews/E2_null_external_followup_audit_r1.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/reviews/E2_null_external_followup_results_r1.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/reviews/E2_null_external_followup_s5_audit_r1.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/reviews/E2_null_external_results_r1.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/reviews/E2_results_r1.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/reviews/E2_results_r2.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/reviews/E2_supplement_audit_r1.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/reviews/E4_audit_r1.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/reviews/E4_audit_r2.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/reviews/E4_audit_r3.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/reviews/E4_results_r1.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/reviews/E4_results_r2.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/reviews/E5_audit_r1.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/reviews/E5_results_r1.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/reviews/E5_supplement_2_audit_r1.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/reviews/E5_supplement_2_results_r1.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/reviews/E5_supplement_audit_r1.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/reviews/E5_supplement_results_r1.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/reviews/E6_audit_r1.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/reviews/E6_audit_r2.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/reviews/E6_audit_r3.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/reviews/E6_audit_r4.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/reviews/E6_audit_r5.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/reviews/E6_results_r1.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/reviews/E6_results_r2.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/reviews/S1_supplement_audit_r1.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/reviews/S1_supplement_results_r1.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/reviews/closing_audit_r1.md": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/reviews/closing_audit_r2.md": "no record lists it; a tracked file without uncommitted changes"
+ },
+ "environment": {
+  "python": "3.13.12",
+  "numpy": "2.4.4",
+  "pandas": "3.0.2",
+  "requirements": {
+   "path": "bioinf2027/requirements.txt",
+   "bytes": 863,
+   "sha256": "f46a415cbe466ba1225adcede4abae7f0dd0b866f29abdf5a6a360e66b1f5702"
+  }
+ },
+ "tex": "booktabs; Unicode symbols (\u2212, \u03c1, \u2192, \u00bd), so a Unicode TeX engine (XeLaTeX or LuaLaTeX)",
+ "e4_status_of_every_row": "computed and reported, not read",
+ "not_listed": "D0 (number provenance of the submitted text), C1 (content of the earlier version), D3 (cell counts): not analyses",
+ "verdicts": "every saved round, as the first line of each review file gives it; a FAIL or REVISE round is followed by the item's report and the author's decisions in bioinf2027/GATE.md",
+ "outputs": {
+  "tableS_i_analysis_status.csv": {
+   "path": "bioinf2027/tables/tableS_i_analysis_status.csv",
+   "bytes": 8835,
+   "sha256": "b1c0bc6c36c1a25123641fdba3f1dfecf7532093d7996aa5c7f0b5a223cb8a72"
+  },
+  "tableS_i_analysis_status.tex": {
+   "path": "bioinf2027/tables/tableS_i_analysis_status.tex",
+   "bytes": 9449,
+   "sha256": "056fa8bb418790cb6c2bfbdcd09bd50c4ab4bfca022cb69b78a47f326d29e875"
+  }
+ }
+}

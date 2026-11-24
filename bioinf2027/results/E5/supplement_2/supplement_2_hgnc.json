@@ -1,0 +1,63 @@
+{
+ "plan": "bioinf2027/plans/E5_supplement_2.md",
+ "status": "post hoc, unadjusted, not part of E5's family (the stop of 2026-11-17 06:50, item 7; bioinf2027/plans/E5_supplement_2.md)",
+ "smoke": false,
+ "part": "hgnc",
+ "replicates": 10000,
+ "seeds": {
+  "settings": {
+   "within RPE1": 20271121,
+   "within K562-essential": 20271122,
+   "RPE1 to K562-essential": 20271123,
+   "K562-essential to RPE1": 20271124
+  },
+  "within folds": 20271127,
+  "union folds": 20271204,
+  "inner folds": 20271128,
+  "shuffle": 20271126,
+  "B0 with F_mean": {
+   "RPE1": 20271121,
+   "K562-essential": 20271122
+  }
+ },
+ "settings": [
+  "within RPE1",
+  "within K562-essential",
+  "RPE1 to K562-essential",
+  "K562-essential to RPE1"
+ ],
+ "inputs": {},
+ "code": {
+  "bioinf2027/scripts/make_e5_supplement.py": "20b6887317eb35a8a418cb672556cc14934033e888a3f0486d9bd985ecb76950",
+  "bioinf2027/scripts/make_e5_supplement_2.py": "ee94ac574e53e553b0831a3259103e0dc39058e93c64d5c0684202711e1b39c0"
+ },
+ "hgnc": {
+  "download_record": {
+   "path": "bioinf2027/results/E5/supplement_2/hgnc_download.json",
+   "bytes": 996,
+   "sha256": "5a60d16a5dee69889844839a49905348c9ffedd5d1271588c84b62ffec733c3a"
+  },
+  "rows": 45395,
+  "approved_symbols": 45395,
+  "matching": "case-insensitive, on the columns symbol, prev_symbol and alias_symbol"
+ },
+ "scgpt_vocabulary": {
+  "path": "$IGA_STORAGE_ROOT/bioinf2027/downloads/scgpt_whole_human/vocab.json",
+  "bytes": 1317639,
+  "sha256": "acca93d114ca62c3f0f50debbd23e8c87f0714f4737764454f6b2b13f2e8580f",
+  "tokens": 60697
+ },
+ "outputs": {
+  "hgnc_misses.csv": {
+   "path": "bioinf2027/results/E5/supplement_2/hgnc_misses.csv",
+   "bytes": 10892,
+   "sha256": "cd1015ceaf305c1c3d7b16f01d9ee235df9a377f8c6568b1119eb4db0f83bc5e"
+  },
+  "hgnc_counts.csv": {
+   "path": "bioinf2027/results/E5/supplement_2/hgnc_counts.csv",
+   "bytes": 2194,
+   "sha256": "2289f46a8a4a1dc1a8d0cbd6cbd5766a0a392950a1dd238bcbc0e6a94505b1fa"
+  }
+ },
+ "seconds": 4.8
+}

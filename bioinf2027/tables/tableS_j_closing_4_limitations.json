@@ -1,0 +1,48 @@
+{
+ "table": "tableS_j_closing_4_limitations",
+ "code": {
+  "bioinf2027/scripts/figures/tableS_j_closing.py": "087cf94543a6b6aa3adcb26cda02737eac06e5bc8fc882b69586b61654d83cfa",
+  "bioinf2027/scripts/figures/tablelib.py": "5c546fa57595e02901ba2087d5c2334793762f2cb146db4fd434973bb3fe034f"
+ },
+ "inputs": {
+  "bioinf2027/results/missing_analyses_closing/limitations.csv": {
+   "path": "bioinf2027/results/missing_analyses_closing/limitations.csv",
+   "bytes": 2204,
+   "sha256": "89838ea10b43dcf6ad8d6f4e30307d5a3be2d0eeccb2b8e5c63691b131598142"
+  },
+  "bioinf2027/results/missing_analyses_closing/closing.json": {
+   "path": "bioinf2027/results/missing_analyses_closing/closing.json",
+   "bytes": 21061,
+   "sha256": "68969eace89e6c4a40da09e2e22998df9ad3cc2a8d6f71e1badc8ec846f1015c"
+  }
+ },
+ "inputs_verified": {
+  "bioinf2027/results/missing_analyses_closing/limitations.csv": "equal to its record in bioinf2027/results/missing_analyses_closing/closing.json",
+  "bioinf2027/results/missing_analyses_closing/closing.json": "no record lists it; a tracked file without uncommitted changes"
+ },
+ "environment": {
+  "python": "3.13.12",
+  "numpy": "2.4.4",
+  "pandas": "3.0.2",
+  "requirements": {
+   "path": "bioinf2027/requirements.txt",
+   "bytes": 863,
+   "sha256": "f46a415cbe466ba1225adcede4abae7f0dd0b866f29abdf5a6a360e66b1f5702"
+  }
+ },
+ "tex": "booktabs; Unicode symbols (\u2212, \u03c1, \u2192, \u00bd), so a Unicode TeX engine (XeLaTeX or LuaLaTeX)",
+ "status": "post hoc, unadjusted, not part of any family, no reading",
+ "record": "bioinf2027/results/missing_analyses_closing/closing.json",
+ "outputs": {
+  "tableS_j_closing_4_limitations.csv": {
+   "path": "bioinf2027/tables/tableS_j_closing_4_limitations.csv",
+   "bytes": 1160,
+   "sha256": "32f026dcf5c9ff1af2880dd046d2a91ba18eda2850ad9d207d5b348a746e9fdb"
+  },
+  "tableS_j_closing_4_limitations.tex": {
+   "path": "bioinf2027/tables/tableS_j_closing_4_limitations.tex",
+   "bytes": 1272,
+   "sha256": "392a3a9a649bf7513292b9c43b9e1109f20e14cafae67ad74579fbbc775532bc"
+  }
+ }
+}

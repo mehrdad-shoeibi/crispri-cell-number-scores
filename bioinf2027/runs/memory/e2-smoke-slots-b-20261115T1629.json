@@ -1,0 +1,14 @@
+{
+ "label": "e2-smoke-slots-b-20261115T1629",
+ "started": "2026-11-15T16:29:43-0500",
+ "last_sample": "2026-11-15T16:31:59-0500",
+ "samples": 28,
+ "interval_s": 5.0,
+ "workers_seen": 0,
+ "workers_at_once_max": 0,
+ "main_peak_gb": 1.316,
+ "worker_peak_gb": 0.0,
+ "total_rss_peak_gb": 1.237,
+ "total_pss_peak_gb": 1.18,
+ "note": "peaks are VmHWM per process; totals are sums at one sample; RSS counts shared pages once per process"
+}

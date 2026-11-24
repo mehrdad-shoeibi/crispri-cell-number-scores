@@ -1,0 +1,128 @@
+source,screen,target_ensg,symbol,hgnc,approved_symbol,approved_symbol_in_scgpt_vocabulary
+scGPT,RPE1,ENSG00000036549,AC118549.1,not in HGNC,,
+GenePT,RPE1,ENSG00000036549,AC118549.1,not in HGNC,,
+GenePT,RPE1,ENSG00000047315,POLR2B,an approved symbol,POLR2B,
+scGPT,RPE1,ENSG00000065427,KARS,a previous or alias symbol of one approved gene,KARS1,True
+scGPT,RPE1,ENSG00000090861,AARS,a previous or alias symbol of one approved gene,AARS1,True
+GenePT,RPE1,ENSG00000104957,CCDC130,a previous or alias symbol of one approved gene,YJU2B,
+scGPT,RPE1,ENSG00000106105,GARS,a previous or alias symbol of one approved gene,GARS1,True
+GenePT,RPE1,ENSG00000108506,INTS2,an approved symbol,INTS2,
+scGPT,RPE1,ENSG00000110619,CARS,a previous or alias symbol of one approved gene,CARS1,True
+scGPT,RPE1,ENSG00000113407,TARS,a previous or alias symbol of one approved gene,TARS1,True
+scGPT,RPE1,ENSG00000113643,RARS,a previous or alias symbol of one approved gene,RARS1,True
+scGPT,RPE1,ENSG00000115866,DARS,a previous or alias symbol of one approved gene,DARS1,True
+GenePT,RPE1,ENSG00000116922,C1orf109,a previous or alias symbol of one approved gene,AIRIM,
+scGPT,RPE1,ENSG00000117877,CD3EAP,a previous or alias symbol of one approved gene,POLR1G,True
+scGPT,RPE1,ENSG00000133706,LARS,a previous or alias symbol of one approved gene,LARS1,True
+scGPT,RPE1,ENSG00000134440,NARS,a previous or alias symbol of one approved gene,NARS1,True
+scGPT,RPE1,ENSG00000134684,YARS,a previous or alias symbol of one approved gene,YARS1,True
+scGPT,RPE1,ENSG00000136628,EPRS,a previous or alias symbol of one approved gene,EPRS1,True
+scGPT,RPE1,ENSG00000140105,WARS,a previous or alias symbol of one approved gene,WARS1,True
+GenePT,RPE1,ENSG00000140395,WDR61,a previous or alias symbol of one approved gene,SKIC8,
+GenePT,RPE1,ENSG00000140943,MBTPS1,an approved symbol,MBTPS1,
+GenePT,RPE1,ENSG00000145375,SPATA5,a previous or alias symbol of one approved gene,AFG2A,
+GenePT,RPE1,ENSG00000146576,C7orf26,a previous or alias symbol of one approved gene,INTS15,
+GenePT,RPE1,ENSG00000160256,FAM207A,a previous or alias symbol of one approved gene,SLX9,
+scGPT,RPE1,ENSG00000163041,H3F3A,a previous or alias symbol of one approved gene,H3-3A,True
+scGPT,RPE1,ENSG00000164032,H2AFZ,a previous or alias symbol of one approved gene,H2AZ1,True
+scGPT,RPE1,ENSG00000166986,MARS,a previous or alias symbol of one approved gene,MARS1,True
+GenePT,RPE1,ENSG00000167085,PHB,a previous or alias symbol of one approved gene,PHB1,
+scGPT,RPE1,ENSG00000170445,HARS,a previous or alias symbol of one approved gene,HARS1,True
+GenePT,RPE1,ENSG00000171159,C9orf16,a previous or alias symbol of one approved gene,BBLN,
+GenePT,RPE1,ENSG00000171763,SPATA5L1,a previous or alias symbol of one approved gene,AFG2B,
+scGPT,RPE1,ENSG00000172053,QARS,a previous or alias symbol of several approved genes,EPRS1|QARS1,
+scGPT,RPE1,ENSG00000181751,C5orf30,a previous or alias symbol of one approved gene,MACIR,True
+scGPT,RPE1,ENSG00000186166,CCDC84,a previous or alias symbol of one approved gene,CENATAC,True
+scGPT,RPE1,ENSG00000188486,H2AFX,a previous or alias symbol of one approved gene,H2AX,True
+scGPT,RPE1,ENSG00000196305,IARS,a previous or alias symbol of one approved gene,IARS1,True
+GenePT,RPE1,ENSG00000197302,ZNF720,a previous or alias symbol of one approved gene,KRABD5,
+scGPT,RPE1,ENSG00000204394,VARS,a previous or alias symbol of one approved gene,VARS1,True
+scGPT,K562-essential,ENSG00000031698,SARS,a previous or alias symbol of several approved genes,SARS1|SARS2,
+GenePT,K562-essential,ENSG00000047315,POLR2B,an approved symbol,POLR2B,
+scGPT,K562-essential,ENSG00000065427,KARS,a previous or alias symbol of one approved gene,KARS1,True
+scGPT,K562-essential,ENSG00000066379,ZNRD1,a previous or alias symbol of one approved gene,POLR1H,True
+scGPT,K562-essential,ENSG00000090861,AARS,a previous or alias symbol of one approved gene,AARS1,True
+GenePT,K562-essential,ENSG00000104957,CCDC130,a previous or alias symbol of one approved gene,YJU2B,
+scGPT,K562-essential,ENSG00000105849,TWISTNB,a previous or alias symbol of one approved gene,POLR1F,True
+scGPT,K562-essential,ENSG00000106105,GARS,a previous or alias symbol of one approved gene,GARS1,True
+GenePT,K562-essential,ENSG00000108506,INTS2,an approved symbol,INTS2,
+scGPT,K562-essential,ENSG00000113407,TARS,a previous or alias symbol of one approved gene,TARS1,True
+scGPT,K562-essential,ENSG00000113643,RARS,a previous or alias symbol of one approved gene,RARS1,True
+scGPT,K562-essential,ENSG00000115866,DARS,a previous or alias symbol of one approved gene,DARS1,True
+GenePT,K562-essential,ENSG00000116922,C1orf109,a previous or alias symbol of one approved gene,AIRIM,
+scGPT,K562-essential,ENSG00000117877,CD3EAP,a previous or alias symbol of one approved gene,POLR1G,True
+scGPT,K562-essential,ENSG00000124635,HIST1H2BJ,a previous or alias symbol of one approved gene,H2BC11,True
+scGPT,K562-essential,ENSG00000133706,LARS,a previous or alias symbol of one approved gene,LARS1,True
+scGPT,K562-essential,ENSG00000134440,NARS,a previous or alias symbol of one approved gene,NARS1,True
+scGPT,K562-essential,ENSG00000134684,YARS,a previous or alias symbol of one approved gene,YARS1,True
+scGPT,K562-essential,ENSG00000136628,EPRS,a previous or alias symbol of one approved gene,EPRS1,True
+scGPT,K562-essential,ENSG00000140105,WARS,a previous or alias symbol of one approved gene,WARS1,True
+GenePT,K562-essential,ENSG00000140395,WDR61,a previous or alias symbol of one approved gene,SKIC8,
+GenePT,K562-essential,ENSG00000140943,MBTPS1,an approved symbol,MBTPS1,
+GenePT,K562-essential,ENSG00000145375,SPATA5,a previous or alias symbol of one approved gene,AFG2A,
+GenePT,K562-essential,ENSG00000146576,C7orf26,a previous or alias symbol of one approved gene,INTS15,
+GenePT,K562-essential,ENSG00000151131,C12orf45,a previous or alias symbol of one approved gene,NOPCHAP1,
+GenePT,K562-essential,ENSG00000160256,FAM207A,a previous or alias symbol of one approved gene,SLX9,
+scGPT,K562-essential,ENSG00000163041,H3F3A,a previous or alias symbol of one approved gene,H3-3A,True
+scGPT,K562-essential,ENSG00000164032,H2AFZ,a previous or alias symbol of one approved gene,H2AZ1,True
+scGPT,K562-essential,ENSG00000166986,MARS,a previous or alias symbol of one approved gene,MARS1,True
+GenePT,K562-essential,ENSG00000167085,PHB,a previous or alias symbol of one approved gene,PHB1,
+scGPT,K562-essential,ENSG00000170445,HARS,a previous or alias symbol of one approved gene,HARS1,True
+GenePT,K562-essential,ENSG00000171159,C9orf16,a previous or alias symbol of one approved gene,BBLN,
+GenePT,K562-essential,ENSG00000171763,SPATA5L1,a previous or alias symbol of one approved gene,AFG2B,
+scGPT,K562-essential,ENSG00000172053,QARS,a previous or alias symbol of several approved genes,EPRS1|QARS1,
+scGPT,K562-essential,ENSG00000180596,HIST1H2BC,a previous or alias symbol of one approved gene,H2BC4,True
+scGPT,K562-essential,ENSG00000184260,HIST2H2AC,a previous or alias symbol of one approved gene,H2AC20,True
+scGPT,K562-essential,ENSG00000186166,CCDC84,a previous or alias symbol of one approved gene,CENATAC,True
+scGPT,K562-essential,ENSG00000188486,H2AFX,a previous or alias symbol of one approved gene,H2AX,True
+scGPT,K562-essential,ENSG00000196305,IARS,a previous or alias symbol of one approved gene,IARS1,True
+GenePT,K562-essential,ENSG00000197302,ZNF720,a previous or alias symbol of one approved gene,KRABD5,
+scGPT,K562-essential,ENSG00000204394,VARS,a previous or alias symbol of one approved gene,VARS1,True
+scGPT,K562-essential,ENSG00000213066,FGFR1OP,a previous or alias symbol of one approved gene,CEP43,True
+scGPT,K562-essential,ENSG00000233822,HIST1H2BN,a previous or alias symbol of one approved gene,H2BC15,True
+GenePT,K562-essential,ENSG00000243667,WDR92,a previous or alias symbol of one approved gene,DNAAF10,
+scGPT,K562-essential,ENSG00000277075,HIST1H2AE,a previous or alias symbol of one approved gene,H2AC8,True
+scGPT,K562-essential,ENSG00000285053,TBCE,an approved symbol,TBCE,False
+DepMap,RPE1,ENSG00000008128,CDK11A,an approved symbol,CDK11A,
+DepMap,RPE1,ENSG00000090006,LTBP4,an approved symbol,LTBP4,
+DepMap,RPE1,ENSG00000102125,TAZ,a previous or alias symbol of several approved genes,TAFAZZIN|WWTR1,
+DepMap,RPE1,ENSG00000109475,RPL34,an approved symbol,RPL34,
+DepMap,RPE1,ENSG00000112739,PRPF4B,a previous or alias symbol of one approved gene,PRP4K,
+DepMap,RPE1,ENSG00000118412,CASP8AP2,an approved symbol,CASP8AP2,
+DepMap,RPE1,ENSG00000145736,GTF2H2,an approved symbol,GTF2H2,
+DepMap,RPE1,ENSG00000146143,PRIM2,an approved symbol,PRIM2,
+DepMap,RPE1,ENSG00000147601,TERF1,an approved symbol,TERF1,
+DepMap,RPE1,ENSG00000150316,CWC15,an approved symbol,CWC15,
+DepMap,RPE1,ENSG00000162244,RPL29,an approved symbol,RPL29,
+DepMap,RPE1,ENSG00000169612,RAMAC,an approved symbol,RAMAC,
+DepMap,RPE1,ENSG00000169756,LIMS1,an approved symbol,LIMS1,
+DepMap,RPE1,ENSG00000171314,PGAM1,an approved symbol,PGAM1,
+DepMap,RPE1,ENSG00000173660,UQCRH,an approved symbol,UQCRH,
+DepMap,RPE1,ENSG00000174748,RPL15,an approved symbol,RPL15,
+DepMap,RPE1,ENSG00000177954,RPS27,an approved symbol,RPS27,
+DepMap,RPE1,ENSG00000188612,SUMO2,an approved symbol,SUMO2,
+DepMap,RPE1,ENSG00000197728,RPS26,an approved symbol,RPS26,
+DepMap,RPE1,ENSG00000204152,TIMM23B,an approved symbol,TIMM23B,
+DepMap,RPE1,ENSG00000250312,ZNF718,an approved symbol,ZNF718,
+DepMap,RPE1,ENSG00000262919,CCNQ,an approved symbol,CCNQ,
+DepMap,RPE1,ENSG00000276043,UHRF1,an approved symbol,UHRF1,
+DepMap,K562-essential,ENSG00000008128,CDK11A,an approved symbol,CDK11A,
+DepMap,K562-essential,ENSG00000109475,RPL34,an approved symbol,RPL34,
+DepMap,K562-essential,ENSG00000112739,PRPF4B,a previous or alias symbol of one approved gene,PRP4K,
+DepMap,K562-essential,ENSG00000118412,CASP8AP2,an approved symbol,CASP8AP2,
+DepMap,K562-essential,ENSG00000145736,GTF2H2,an approved symbol,GTF2H2,
+DepMap,K562-essential,ENSG00000146143,PRIM2,an approved symbol,PRIM2,
+DepMap,K562-essential,ENSG00000147601,TERF1,an approved symbol,TERF1,
+DepMap,K562-essential,ENSG00000150316,CWC15,an approved symbol,CWC15,
+DepMap,K562-essential,ENSG00000162244,RPL29,an approved symbol,RPL29,
+DepMap,K562-essential,ENSG00000168028,RPSA,an approved symbol,RPSA,
+DepMap,K562-essential,ENSG00000169756,LIMS1,an approved symbol,LIMS1,
+DepMap,K562-essential,ENSG00000171314,PGAM1,an approved symbol,PGAM1,
+DepMap,K562-essential,ENSG00000173660,UQCRH,an approved symbol,UQCRH,
+DepMap,K562-essential,ENSG00000174748,RPL15,an approved symbol,RPL15,
+DepMap,K562-essential,ENSG00000177954,RPS27,an approved symbol,RPS27,
+DepMap,K562-essential,ENSG00000181222,POLR2A,an approved symbol,POLR2A,
+DepMap,K562-essential,ENSG00000183474,GTF2H2C,an approved symbol,GTF2H2C,
+DepMap,K562-essential,ENSG00000188612,SUMO2,an approved symbol,SUMO2,
+DepMap,K562-essential,ENSG00000197728,RPS26,an approved symbol,RPS26,
+DepMap,K562-essential,ENSG00000204152,TIMM23B,an approved symbol,TIMM23B,

@@ -1,0 +1,16 @@
+{
+ "protocol": {
+  "path": "bioinf2027/endpoints/G5-DT-RPE1/protocol.json",
+  "bytes": 2478,
+  "sha256": "d7aeb6891df1a2331f8a4ec5c78e4de7f4475250af09d3614f6f4f203814c127"
+ },
+ "tables": {
+  "vcc_labels.csv": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/endpoints/G5-DT-RPE1/vcc_labels.csv",
+   "bytes": 2927309,
+   "sha256": "d9a48634d71cc5c1ba6adea1069cfa2c319019e17c5b51330b0605d7163e236f"
+  }
+ },
+ "external_reused_from": "G5",
+ "seconds": 9.650879859924316
+}

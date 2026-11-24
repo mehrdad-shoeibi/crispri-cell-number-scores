@@ -1,0 +1,28 @@
+# local data root marker (machine specific)
+storage_root.txt
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+
+# editors and operating systems
+.DS_Store
+*.swp
+.vscode/
+.idea/
+
+# data, model weights and arrays never belong in the repository
+*.h5ad
+*.h5
+*.npz
+*.npy
+*.pkl
+*.pickle
+*.parquet
+*.pt
+*.ckpt
+*.safetensors

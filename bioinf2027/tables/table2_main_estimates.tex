@@ -1,0 +1,22 @@
+\begin{tabular}{lllll}
+\toprule
+Quantity & Estimate & Interval & N & Scope \\
+\midrule
+VCC all-cells label against perturbed cells per row & +0.549; +0.707 & [+0.403, +0.681]; [+0.623, +0.782] & 6,077 rows, 209 genes; 11,764 rows, 282 genes & Spearman; 27-cell rows (G5); 10-cell rows (G6); all splits \\
+VCC size-fixed label against perturbed cells per row, same rows & −0.032; −0.006 & [−0.162, +0.096]; [−0.109, +0.096] & 6,077 rows, 209 genes; 11,764 rows, 282 genes & Spearman; 27 cells (G5); 10 cells (G6); 700 controls of the row's batch \\
+Their paired difference & +0.581; +0.713 & [+0.490, +0.681]; [+0.627, +0.800] & 6,077 rows; 11,764 rows & all-cells minus size-fixed, same rows; G5; G6; post hoc \\
+Replogle all-cells label against perturbed cells per construct & +0.431; +0.476 & [+0.391, +0.468]; [+0.439, +0.511] & 1,932; 1,903 constructs & Spearman; RPE1; K562-essential; all eligible cells against 788 pooled controls; post hoc \\
+Embedding over the Gaussian control, all-cells label & +0.179 & [+0.023, +0.350] & 3,972 rows, 93 genes & VCC test R², G6; Geneformer z minus C1, both forest; post hoc \\
+Embedding over the Gaussian control, size-fixed label & −0.001 & [−0.096, +0.086] & 3,972 rows, 93 genes & VCC test R², G6, 10 cells; z minus C1, both forest \\
+Paired drop from the all-cells to the size-fixed label & +0.180 & [+0.064, +0.336] & 3,972 rows, 93 genes & VCC test R², G6; same rows; post hoc \\
+Cell count alone, all-cells label & +0.242 & [+0.126, +0.356] & 3,972 rows, 93 genes & VCC test R², G6, forest \\
+Size-matched null over the Gaussian control, all-cells label & +0.253 to +0.291 & lower ends +0.150 to +0.184 & 3,972 rows, 93 genes & VCC test R², G6, forest; Geneformer, scGPT, Stack, PCA-50 \\
+Size-matched null over the Gaussian control, Replogle all-cells label & +0.332 to +0.431 & lower ends +0.277 to +0.377 & 1,932; 1,903 constructs & Spearman; heads trained on VCC's all-cells label; 4 encoders × G5, G6 × 2 screens; Stack marked; post hoc \\
+Replogle size-fixed label against the target's own shift & +0.978; +0.976 & [+0.974, +0.982]; [+0.973, +0.978] & 1,932; 1,903 constructs & Spearman; RPE1; K562-essential; 27 against 788 \\
+Embedding over the Gaussian control between the screens & +0.143; +0.144 & [+0.088, +0.197]; [+0.088, +0.199] & 1,903; 1,932 target-screen constructs & external Spearman; RPE1 → K562-essential; K562-essential → RPE1; Geneformer z; gene-disjoint folds; Holm over 24 \\
+Representations minus the target screen's untrained control mean (B1) or own shift (B2) & −0.881 to −0.574 & upper ends −0.834 to −0.518 & 1,903; 1,932 target-screen constructs & external Spearman; z, x, m, [x; m], scGPT, Stack, PCA-50 × 2 directions × B1, B2; Stack marked; unadjusted \\
+Identity vectors over random and shuffled vectors (smaller difference) & +0.116 to +0.341 & each p 0.0002 & 1,765 to 1,773 genes & Spearman, endpoint (b); 3 vectors × 4 settings; Holm over 24 \\
+DepMap's score over each vector, same rows & +0.069 to +0.341 & lower ends +0.018 to +0.295 & 1,724 to 1,750 genes & Spearman; 24 combinations (mean, and mean with the K562 value, × 3 vectors × 4 settings); DepMap 24Q4, not the current release; post hoc, unadjusted \\
+Identity vectors beside the family mean and DepMap's score together (smaller difference) & +0.011 to +0.033 in 9 of 12 & lower ends +0.002 to +0.021 & 1,745 to 1,750 genes & Spearman, endpoint (b), mean gene effect; not shown from K562-essential to RPE1 (no vector); the 9 hold with prefix clusters; DepMap 24Q4, not the current release; post hoc, unadjusted \\
+\bottomrule
+\end{tabular}

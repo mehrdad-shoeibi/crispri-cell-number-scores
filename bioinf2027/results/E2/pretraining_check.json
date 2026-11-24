@@ -1,0 +1,417 @@
+{
+ "plan": "bioinf2027/plans/E2.md, Sections 3 and 15 (gate G4, item 4)",
+ "bioproject": {
+  "query": "PRJNA831566[BioProject] in db sra",
+  "date_utc": "2026-11-14T18:57:07Z",
+  "sra_records": 7883
+ },
+ "bioproject_srx_count": 7883,
+ "releases": {
+  "2025-02-25": {
+   "samples": 16077,
+   "cells": 118671014,
+   "PRJNA831566_srx_present": 0,
+   "PRJNA831566_cells_present": 0,
+   "PRJNA831566_examples": [],
+   "text_matches": {
+    "K562": {
+     "samples": 37,
+     "cells": 493510,
+     "examples": [
+      [
+       "SRX9556623",
+       "K562 cells",
+       "immune response assessment in COVID-19 patients"
+      ],
+      [
+       "SRX18229807",
+       "Mix of K562, HEK293T, HepG2",
+       "unsure"
+      ],
+      [
+       "SRX23732165",
+       "K562",
+       "CRISPR activation and inactivation of transcription factors (GFI1B, NFE2, MYB)"
+      ],
+      [
+       "SRX23732163",
+       "K562",
+       "unsure"
+      ],
+      [
+       "SRX23732164",
+       "K562",
+       "unsure"
+      ]
+     ]
+    },
+    "RPE1": {
+     "samples": 13,
+     "cells": 61012,
+     "examples": [
+      [
+       "SRX18971642",
+       "hTERT RPE-1",
+       "20w pWGD T3, in vivo"
+      ],
+      [
+       "SRX18971640",
+       "hTERT RPE-1",
+       "20 weeks post whole genome doubling (20w pWGD)"
+      ],
+      [
+       "SRX18971643",
+       "hTERT RPE-1",
+       "20w pWGD T3, in vivo"
+      ],
+      [
+       "SRX22882599",
+       "RPE-1",
+       "unsure"
+      ],
+      [
+       "ERX4618364",
+       "RPE1-MYCN-ER",
+       "Ethanol (EtOH) at 0 hours; Tamoxifen (400 nM; 4-OHT) for 22h, 23h, and 24h to activate MYCN"
+      ]
+     ]
+    },
+    "H1": {
+     "samples": 75,
+     "cells": 560481,
+     "examples": [
+      [
+       "SRX22877526",
+       "H1 human embryonic stem cell line",
+       "collagenase type 4 and Accutase treatment"
+      ],
+      [
+       "SRX15157289",
+       "H1",
+       "CD7+ cells 12 days differentiation with growth factors followed by 14 days co-culturing with OP9 ..."
+      ],
+      [
+       "SRX15263317",
+       "H1",
+       "mock"
+      ],
+      [
+       "SRX16015687",
+       "H1",
+       "grown in FINE medium under hypoxia conditions (5% O2, 5% CO2)"
+      ],
+      [
+       "SRX16730890",
+       "H1 (human pluripotent stem cell-derived liver organoid)",
+       "Heat-inactivated SARS-CoV-2"
+      ]
+     ]
+    },
+    "CRISPRi": {
+     "samples": 167,
+     "cells": 3121053,
+     "examples": [
+      [
+       "SRX17381349",
+       "CRISPRi Eahy926, Endothelial cell type",
+       "transduced with '50gene' guide library"
+      ],
+      [
+       "SRX17381353",
+       "CRISPRi TeloHAEC",
+       "transduced with 50gene guide library"
+      ],
+      [
+       "SRX26414991",
+       "barcoded hiPSCs (WTC WT background/RRID: CVCL_Y803)",
+       "small molecule signaling modulation, CRISPRi-mediated TMEM88 knockdown, Wnt inhibitor XAV-939"
+      ],
+      [
+       "SRX10606628",
+       "DS1",
+       "CRISPR/Cas9, CRISPRi, or small-molecule inhibitor treatment"
+      ],
+      [
+       "SRX10606653",
+       "ihtc-03",
+       "CRISPR/Cas9, CRISPRi, small-molecule inhibitor"
+      ]
+     ]
+    },
+    "Perturb-seq": {
+     "samples": 19,
+     "cells": 665708,
+     "examples": [
+      [
+       "SRX22713268",
+       "CRISPRi TeloHAEC",
+       "transduced with 36880-guide Perturb-seq library"
+      ],
+      [
+       "SRX22713269",
+       "CRISPRi TeloHAEC",
+       "transduced with 36,880-guide Perturb-seq library"
+      ],
+      [
+       "SRX22713272",
+       "CRISPRi TeloHAEC",
+       "transduced with 36880-guide Perturb-seq library"
+      ],
+      [
+       "SRX22713267",
+       "CRISPRi TeloHAEC",
+       "transduced with 36880-guide Perturb-seq library"
+      ],
+      [
+       "ERX10956699",
+       "SUM159PT",
+       "Paclitaxel (PTX), Barcoded lentiviral library (Perturb-seq Library)"
+      ]
+     ]
+    },
+    "Replogle": {
+     "samples": 0,
+     "cells": 0,
+     "examples": []
+    },
+    "Virtual Cell Challenge": {
+     "samples": 0,
+     "cells": 0,
+     "examples": []
+    }
+   },
+   "K562_with_CRISPRi_or_Perturb_seq": 5
+  },
+  "2026-01-12": {
+   "samples": 35263,
+   "cells": 302278851,
+   "PRJNA831566_srx_present": 6237,
+   "PRJNA831566_cells_present": 83962025,
+   "PRJNA831566_examples": [
+    [
+     "SRX15390091",
+     "K562",
+     "day 6 Perturb-seq"
+    ],
+    [
+     "SRX15390092",
+     "K562",
+     "Perturb-seq, K562 day 6"
+    ],
+    [
+     "SRX15390084",
+     "K562",
+     "Perturb-seq CRISPRi"
+    ],
+    [
+     "SRX15390102",
+     "K562",
+     "CRISPR screening using Perturb-seq, day 6"
+    ],
+    [
+     "SRX15390095",
+     "K562",
+     "CRISPR screening with Perturb-seq"
+    ],
+    [
+     "SRX15390104",
+     "K562",
+     "CRISPR screening (Perturb-seq)"
+    ],
+    [
+     "SRX15390105",
+     "K562",
+     "unsure"
+    ],
+    [
+     "SRX15390103",
+     "K562",
+     "CRISPR interference"
+    ],
+    [
+     "SRX15390116",
+     "K562",
+     "CRISPR-based Perturb-seq"
+    ],
+    [
+     "SRX15390119",
+     "K562",
+     "Perturb-seq design"
+    ]
+   ],
+   "text_matches": {
+    "K562": {
+     "samples": 4539,
+     "cells": 64952972,
+     "examples": [
+      [
+       "SRX19734412",
+       "K562",
+       "unsure"
+      ],
+      [
+       "SRX19734411",
+       "K562",
+       "pooled CRISPR screens, base editing"
+      ],
+      [
+       "SRX19734413",
+       "K562",
+       "CRISPR screening applied"
+      ],
+      [
+       "SRX19734414",
+       "K562",
+       "CRISPR screening & precise variant insertion"
+      ],
+      [
+       "SRX19734425",
+       "K562",
+       "CRISPR screens, base editing"
+      ]
+     ]
+    },
+    "RPE1": {
+     "samples": 1672,
+     "cells": 18204996,
+     "examples": [
+      [
+       "SRX18971643",
+       "hTERT RPE-1",
+       "20w pWGD T3, in vivo"
+      ],
+      [
+       "SRX18971638",
+       "hTERT RPE-1, TP53-/-",
+       "control condition"
+      ],
+      [
+       "SRX18971639",
+       "hTERT RPE-1",
+       "6 weeks post whole genome doubling"
+      ],
+      [
+       "SRX18971642",
+       "hTERT RPE-1",
+       "20w pWGD T3, in vivo"
+      ],
+      [
+       "SRX18971640",
+       "hTERT RPE-1",
+       "20 weeks post whole genome doubling (20w pWGD)"
+      ]
+     ]
+    },
+    "H1": {
+     "samples": 145,
+     "cells": 1321404,
+     "examples": [
+      [
+       "SRX10372368",
+       "H1",
+       "full driver library (genetic perturbation)"
+      ],
+      [
+       "SRX25676134",
+       "H1 pluripotent stem cells",
+       "directed differentiation (PSC to endoderm)"
+      ],
+      [
+       "SRX26685739",
+       "H1",
+       "PKM1 overexpression from S7D14"
+      ],
+      [
+       "SRX24911529",
+       "H1",
+       "FGF2 + FGF7"
+      ],
+      [
+       "SRX21142313",
+       "H1 human embryonic stem cell line",
+       "DMSO"
+      ]
+     ]
+    },
+    "CRISPRi": {
+     "samples": 2781,
+     "cells": 38939268,
+     "examples": [
+      [
+       "SRX19294513",
+       "none",
+       "CRISPRi targeting LINC01876"
+      ],
+      [
+       "SRX19294519",
+       "iPSC-derived fbNPCs",
+       "CRISPRi inhibition of LINC01876"
+      ],
+      [
+       "SRX27201824",
+       "Modified HAP1 clones, Wild-type HAP1 cells",
+       "CRISPR interference and activation perturbations, sgRNA enrichment"
+      ],
+      [
+       "SRX27201817",
+       "HAP1",
+       "CRISPRi, sgRNA enrichment"
+      ],
+      [
+       "SRX27201814",
+       "Modified HAP1 clones, Wild-type HAP1 cells",
+       "CRISPR interference (CRISPRi), Multiplexed single-cell CRISPR perturbations"
+      ]
+     ]
+    },
+    "Perturb-seq": {
+     "samples": 3359,
+     "cells": 44762490,
+     "examples": [
+      [
+       "SRX24302113",
+       "HepG2",
+       "Perturb-seq with CRISPR screening; specifically, treatment details indicate \u201cday 7 post transduction\u201d and use of genetic perturbations"
+      ],
+      [
+       "SRX24302167",
+       "HepG2",
+       "day 7 post transduction, Perturbseq"
+      ],
+      [
+       "SRX24302165",
+       "HepG2",
+       "CRISPR-based perturbation (Perturb-seq)"
+      ],
+      [
+       "SRX24302124",
+       "HepG2",
+       "Perturb-seq Day 7 post transduction"
+      ],
+      [
+       "SRX24302133",
+       "HepG2",
+       "CRISPR-based perturbations (Perturb-seq)"
+      ]
+     ]
+    },
+    "Replogle": {
+     "samples": 0,
+     "cells": 0,
+     "examples": []
+    },
+    "Virtual Cell Challenge": {
+     "samples": 0,
+     "cells": 0,
+     "examples": []
+    }
+   },
+   "K562_with_CRISPRi_or_Perturb_seq": 3280
+  }
+ },
+ "reading": {
+  "replogle": "PRJNA831566 is absent from the 2025-02-25 release (0 of 7,883 SRX) and present in the 2026-01-12 release (6,237 of 7,883). Stack-Large's paper reports 19,978 SRX samples and 149 million cells, between the two releases (16,077 and 35,263 samples; 118.7 and 302.3 million cells), so its training release is not identified. Under the author's rule (gate G4, item 4), every Stack value on the Replogle screens is marked 'the screens are possibly in Stack's pre-training data', and no comparison between encoders is made on them.",
+  "vcc": "No sample of either release mentions the Virtual Cell Challenge, and the VCC data's SRA accession is not known here; 145 H1 samples in the 2026-01-12 release are not identified as VCC data. Not shown present; inconclusive.",
+  "first_run": "the first run's text matches were undercounted (pandas 3 propagated missing fields); fixed at 400fcf0 and rerun; the accession intersection was the same in both runs"
+ }
+}

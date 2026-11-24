@@ -1,0 +1,7 @@
+split,perturbed_cell_floor,groups_with_any_cells,rows_modelled,rows_retained,rows_retained_share_of_modelled,rows_retained_share_of_all_groups,target_genes_modelled,target_genes_retained,rows_retained_target_in_features,target_genes_retained_in_features,cells_per_retained_row_min,cells_per_retained_row_q25,cells_per_retained_row_median,cells_per_retained_row_q75,cells_per_retained_row_max
+train,10,7110,5740,5740,1.0,0.8073136427566807,140,140,4131,100,10.0,18.0,26.0,40.0,121.0
+train,27,7110,5740,2843,0.4952961672473868,0.39985935302391,140,98,1957,70,27.0,32.0,40.0,50.0,121.0
+val,10,2399,2052,2052,1.0,0.8553563984993747,49,49,993,21,10.0,18.0,27.0,37.0,80.0
+val,27,2399,2052,1036,0.5048732943469786,0.43184660275114634,49,38,592,19,27.0,31.0,37.0,45.0,80.0
+test,10,4765,3972,3972,1.0,0.8335781741867786,93,93,1475,33,10.0,20.0,28.0,41.0,106.0
+test,27,4765,3972,2198,0.55337361530715,0.46128016789087095,93,73,788,26,27.0,32.0,39.0,50.0,106.0

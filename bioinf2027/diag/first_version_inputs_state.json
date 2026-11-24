@@ -1,0 +1,1343 @@
+{
+ "what": "State of the first version's files of docs/INPUT_FILES.md section 2 (public export of commit 0684bc9), checked 2026-11-21 02:50-02:51 EST, read only",
+ "listing_digest": "sha256 over lines 'relative path, bytes, sha256', one file per line, sorted, joined by newlines (bioinf2027/src/bioinf2027/provenance.py:38-58), over every file now in the folder",
+ "records_compared_for_folders": [
+  "bioinf2027/results/D2/input_records.json",
+  "bioinf2027/results/E1/input_records.json",
+  "bioinf2027/diag/D1_vcc_provenance.json"
+ ],
+ "files": [
+  {
+   "path": "IGA_GENEFORMER_EXT/checkpoints/rpe1_xcell/xcell_state.pkl",
+   "bytes": 406185049,
+   "sha256": "7f4e231e050439fcd69815e6972bc54a432894d0ae2ccd2a048eca29d84de336",
+   "exists": true,
+   "bytes_now": 406185049,
+   "sha256_now": "7f4e231e050439fcd69815e6972bc54a432894d0ae2ccd2a048eca29d84de336",
+   "sha256_equal": true,
+   "structure": {
+    "note": "pickle, not opened"
+   }
+  },
+  {
+   "path": "IGA_GENEFORMER_EXT/k562_essential/checkpoints/xcell_state.pkl",
+   "bytes": 391592139,
+   "sha256": "74bad0712da3fd6037a27014a9b1316010cfad913f1d6772aeef999904c32175",
+   "exists": true,
+   "bytes_now": 391592139,
+   "sha256_now": "74bad0712da3fd6037a27014a9b1316010cfad913f1d6772aeef999904c32175",
+   "sha256_equal": true,
+   "structure": {
+    "note": "pickle, not opened"
+   }
+  },
+  {
+   "path": "IGA_GENEFORMER_EXT/k562_essential/x_cell/x_cell_k562_1903_mapped.npy",
+   "bytes": 15224128,
+   "sha256": "326142005d94fadf682a5d71a2dfaea5ba40ba4a5f40e61b2918e6f74f374965",
+   "exists": true,
+   "bytes_now": 15224128,
+   "sha256_now": "326142005d94fadf682a5d71a2dfaea5ba40ba4a5f40e61b2918e6f74f374965",
+   "sha256_equal": true,
+   "structure": {
+    "shape": [
+     1903,
+     2000
+    ],
+    "dtype": "float32"
+   }
+  },
+  {
+   "path": "IGA_GENEFORMER_EXT/k562_essential/x_cell/x_cell_k562_native.npz",
+   "bytes": 130987790,
+   "sha256": "f8127fbc14cdefd340235da4815908a3b5a4a14b3c8f0456e8ac7d60c9e765f2",
+   "exists": true,
+   "bytes_now": 130987790,
+   "sha256_now": "f8127fbc14cdefd340235da4815908a3b5a4a14b3c8f0456e8ac7d60c9e765f2",
+   "sha256_equal": true,
+   "structure": {
+    "members": {
+     "ids": {
+      "shape": [
+       1903
+      ],
+      "dtype": "<U82"
+     },
+     "x": {
+      "shape": [
+       1903,
+       8563
+      ],
+      "dtype": "float64"
+     }
+    }
+   }
+  },
+  {
+   "path": "IGA_GENEFORMER_EXT/k562_essential/z/k562_construct_index.parquet",
+   "bytes": 47129,
+   "sha256": "8d5f3e8aec2471e797dfa74c090496579a8351ba9feed35440df540c5821bbf7",
+   "exists": true,
+   "bytes_now": 47129,
+   "sha256_now": "8d5f3e8aec2471e797dfa74c090496579a8351ba9feed35440df540c5821bbf7",
+   "sha256_equal": true,
+   "structure": {
+    "rows": 1903,
+    "columns": [
+     "construct",
+     "row"
+    ]
+   }
+  },
+  {
+   "path": "IGA_GENEFORMER_EXT/k562_essential/z/z_k562_1903.npy",
+   "bytes": 5846144,
+   "sha256": "ce88160c8a525b3ea4608cfc8978ee0f71e24dde3d6fb0c5335f0bcf3f790a26",
+   "exists": true,
+   "bytes_now": 5846144,
+   "sha256_now": "ce88160c8a525b3ea4608cfc8978ee0f71e24dde3d6fb0c5335f0bcf3f790a26",
+   "sha256_equal": true,
+   "structure": {
+    "shape": [
+     1903,
+     768
+    ],
+    "dtype": "float32"
+   }
+  },
+  {
+   "path": "IGA_GENEFORMER_EXT/manifests/phase2_rpe1_manifest.json",
+   "bytes": 5329,
+   "sha256": "f1c78a931653edfc9890a63760fc2f2abdffb51c74d6f338dd60be352a4f1aec",
+   "exists": true,
+   "bytes_now": 5329,
+   "sha256_now": "f1c78a931653edfc9890a63760fc2f2abdffb51c74d6f338dd60be352a4f1aec",
+   "sha256_equal": true,
+   "structure": {
+    "keys": [
+     "session",
+     "recorded_local",
+     "ordering_deviation_note_s33",
+     "checkpoint_sha256",
+     "token_dict_sha256",
+     "gene_median_dict_sha256",
+     "ensembl_mapping_dict_sha256",
+     "gene_name_id_dict_sha256",
+     "geneformer_repo_commit",
+     "config",
+     "env",
+     "input_arm_list_sha256",
+     "input_selected_genes_sha256",
+     "n_missing_43",
+     "n_cached_1889",
+     "missing_43_ids",
+     "cached_1889_count",
+     "nt_cell_count",
+     "nt_cellid_hash",
+     "achieved_cells_per_sec",
+     "flush_count",
+     "flush_sizes",
+     "embed_secs",
+     "pass_secs",
+     "oracles",
+     "float32_accumulation_finding",
+     "compensated_summation_max_delta",
+     "hvg_mapping",
+     "gate",
+     "outputs",
+     "checkpoint_written_ssd",
+     "checkpoint_reloaded_ok",
+     "checkpoint_cadence_note",
+     "MADA_WRITES",
+     "LABELS_TOUCHED",
+     "MODEL_FIT_EXECUTED",
+     "K562_EXTRACTION_STARTED"
+    ],
+    "n_keys": 37
+   }
+  },
+  {
+   "path": "IGA_GENEFORMER_EXT/rpe1_topup/rpe1_construct_index.parquet",
+   "bytes": 48467,
+   "sha256": "37f05c17c268f039bfcf011ccde1a70b0e9eb020b9c60298b03c0892daed43ec",
+   "exists": true,
+   "bytes_now": 48467,
+   "sha256_now": "37f05c17c268f039bfcf011ccde1a70b0e9eb020b9c60298b03c0892daed43ec",
+   "sha256_equal": true,
+   "structure": {
+    "rows": 1932,
+    "columns": [
+     "construct",
+     "row",
+     "source"
+    ]
+   }
+  },
+  {
+   "path": "IGA_GENEFORMER_EXT/rpe1_topup/z_rpe1_1932.npy",
+   "bytes": 5935232,
+   "sha256": "f115a777bd78f644219189b6589086978c2b57fd51b32d9ece39c5ba42fdd904",
+   "exists": true,
+   "bytes_now": 5935232,
+   "sha256_now": "f115a777bd78f644219189b6589086978c2b57fd51b32d9ece39c5ba42fdd904",
+   "sha256_equal": true,
+   "structure": {
+    "shape": [
+     1932,
+     768
+    ],
+    "dtype": "float32"
+   }
+  },
+  {
+   "path": "IGA_GENEFORMER_EXT/scratch/nt_oidx.npy",
+   "bytes": 92008,
+   "sha256": "7daa49d62f35be91b8c8645b19310aff8fa3d7458185732625063b224d3ea696",
+   "exists": true,
+   "bytes_now": 92008,
+   "sha256_now": "7daa49d62f35be91b8c8645b19310aff8fa3d7458185732625063b224d3ea696",
+   "sha256_equal": true,
+   "structure": {
+    "shape": [
+     11485
+    ],
+    "dtype": "int64"
+   }
+  },
+  {
+   "path": "IGA_GENEFORMER_EXT/x_cell/x_cell_rpe1_1932_mapped.npy",
+   "bytes": 15456128,
+   "sha256": "d14cd7e0cdddc04ea81ea6ddf149ee1bb01fc091ebdf6cf3489bc274d5bd33c8",
+   "exists": true,
+   "bytes_now": 15456128,
+   "sha256_now": "d14cd7e0cdddc04ea81ea6ddf149ee1bb01fc091ebdf6cf3489bc274d5bd33c8",
+   "sha256_equal": true,
+   "structure": {
+    "shape": [
+     1932,
+     2000
+    ],
+    "dtype": "float32"
+   }
+  },
+  {
+   "path": "IGA_GENEFORMER_EXT/x_cell/x_cell_rpe1_mapped.npz",
+   "bytes": 16229294,
+   "sha256": "ddc3cab022073333f3307f06f08ceab64a4f45b453f4a95ff721452dee06fe1e",
+   "exists": true,
+   "bytes_now": 16229294,
+   "sha256_now": "ddc3cab022073333f3307f06f08ceab64a4f45b453f4a95ff721452dee06fe1e",
+   "sha256_equal": true,
+   "structure": {
+    "members": {
+     "ids": {
+      "shape": [
+       1932
+      ],
+      "dtype": "<U100"
+     },
+     "x": {
+      "shape": [
+       1932,
+       2000
+      ],
+      "dtype": "float32"
+     }
+    }
+   }
+  },
+  {
+   "path": "IGA_GENEFORMER_EXT/x_cell/x_cell_rpe1_native.npz",
+   "bytes": 135997838,
+   "sha256": "ee766e65c18cace39b7a7d225b3e218d22330b564b765759c6f63371d3e3ec57",
+   "exists": true,
+   "bytes_now": 135997838,
+   "sha256_now": "ee766e65c18cace39b7a7d225b3e218d22330b564b765759c6f63371d3e3ec57",
+   "sha256_equal": true,
+   "structure": {
+    "members": {
+     "ids": {
+      "shape": [
+       1932
+      ],
+      "dtype": "<U100"
+     },
+     "x": {
+      "shape": [
+       1932,
+       8749
+      ],
+      "dtype": "float64"
+     }
+    }
+   }
+  },
+  {
+   "path": "IGA_MAIN/cache/vcc/nt_baseline/batch_order.npy",
+   "bytes": 853,
+   "sha256": "d085c11090e1796677b94141607b2ed755c278fb86519b0fa7a9cf249ddc7090",
+   "exists": true,
+   "bytes_now": 853,
+   "sha256_now": "d085c11090e1796677b94141607b2ed755c278fb86519b0fa7a9cf249ddc7090",
+   "sha256_equal": true,
+   "structure": {
+    "shape": [
+     48
+    ],
+    "dtype": "object"
+   }
+  },
+  {
+   "path": "IGA_MAIN/cache/vcc/nt_baseline/mean_log1p.npy",
+   "bytes": 3471488,
+   "sha256": "fd811b8598fd43acffad76651b072707a039b48bd1d6f5b966016858e6dfa21b",
+   "exists": true,
+   "bytes_now": 3471488,
+   "sha256_now": "fd811b8598fd43acffad76651b072707a039b48bd1d6f5b966016858e6dfa21b",
+   "sha256_equal": true,
+   "structure": {
+    "shape": [
+     48,
+     18080
+    ],
+    "dtype": "float32"
+   }
+  },
+  {
+   "path": "IGA_MAIN/cache/vcc/var_gene_names.npy",
+   "bytes": 152515,
+   "sha256": "9f35391f26907834f50e881c7d3fb32351cc6a3c5449230436731182d7c91c85",
+   "exists": true,
+   "bytes_now": 152515,
+   "sha256_now": "9f35391f26907834f50e881c7d3fb32351cc6a3c5449230436731182d7c91c85",
+   "sha256_equal": true,
+   "structure": {
+    "shape": [
+     18080
+    ],
+    "dtype": "object"
+   }
+  },
+  {
+   "path": "IGA_MAIN/cache/vcc/variants/delta_hvg/selected_genes.npy",
+   "bytes": 8128,
+   "sha256": "805d17402aa2804f843ca9f57459bb85d50c067df02a3d214ee5b5ee4229bb01",
+   "exists": true,
+   "bytes_now": 8128,
+   "sha256_now": "805d17402aa2804f843ca9f57459bb85d50c067df02a3d214ee5b5ee4229bb01",
+   "sha256_equal": true,
+   "structure": {
+    "shape": [
+     2000
+    ],
+    "dtype": "int32"
+   }
+  },
+  {
+   "path": "IGA_MAIN/results/phase10/transfer_run/replogle_predictions.csv",
+   "bytes": 185551,
+   "sha256": "c496b9618389bc395d075f1bfe98b0eebe33bd10036bf38c6636637a764e71b6",
+   "exists": true,
+   "bytes_now": 185551,
+   "sha256_now": "c496b9618389bc395d075f1bfe98b0eebe33bd10036bf38c6636637a764e71b6",
+   "sha256_equal": true,
+   "structure": {
+    "rows": 2176,
+    "columns": [
+     "obs_index",
+     "target_gene",
+     "y_log1p_AD",
+     "yhat_constant",
+     "yhat_SPSM_baseline",
+     "yhat_MAG_SPSM",
+     "yhat_magnitude_only_LR"
+    ]
+   }
+  },
+  {
+   "path": "IGA_MAIN/results/phase10/transfer_run_RPE1/replogle_predictions.csv",
+   "bytes": 218408,
+   "sha256": "0b3f14b12e757cdeecb9c6bf070b15c24ef4f6bbe7e5025c751d9d4fdf1a98cf",
+   "exists": true,
+   "bytes_now": 218408,
+   "sha256_now": "0b3f14b12e757cdeecb9c6bf070b15c24ef4f6bbe7e5025c751d9d4fdf1a98cf",
+   "sha256_equal": true,
+   "structure": {
+    "rows": 2549,
+    "columns": [
+     "obs_index",
+     "target_gene",
+     "y_log1p_AD",
+     "yhat_constant",
+     "yhat_SPSM_baseline",
+     "yhat_MAG_SPSM",
+     "yhat_magnitude_only_LR"
+    ]
+   }
+  },
+  {
+   "path": "IGA_MAIN/results/phase11b_classical_transfer/replogle_predictions.csv",
+   "bytes": 884968,
+   "sha256": "2e7c64d702fef5513735ea6a3e98b911d2c3e65bde9268a4aeff9d864f5f4cb3",
+   "exists": true,
+   "bytes_now": 884968,
+   "sha256_now": "2e7c64d702fef5513735ea6a3e98b911d2c3e65bde9268a4aeff9d864f5f4cb3",
+   "sha256_equal": true,
+   "structure": {
+    "rows": 2176,
+    "columns": [
+     "obs_index",
+     "target_gene",
+     "y_log1p_AD",
+     "Ridge__x_only__seed0",
+     "HistGradientBoosting__x_only__seed0",
+     "HistGradientBoosting__x_only__seed1",
+     "HistGradientBoosting__x_only__seed2",
+     "RandomForest__x_only__seed0",
+     "RandomForest__x_only__seed1",
+     "RandomForest__x_only__seed2",
+     "Ridge__mag_only__seed0",
+     "HistGradientBoosting__mag_only__seed0",
+     "HistGradientBoosting__mag_only__seed1",
+     "HistGradientBoosting__mag_only__seed2",
+     "RandomForest__mag_only__seed0",
+     "RandomForest__mag_only__seed1",
+     "RandomForest__mag_only__seed2",
+     "Ridge__x_plus_mag__seed0",
+     "HistGradientBoosting__x_plus_mag__seed0",
+     "HistGradientBoosting__x_plus_mag__seed1",
+     "HistGradientBoosting__x_plus_mag__seed2",
+     "RandomForest__x_plus_mag__seed0",
+     "RandomForest__x_plus_mag__seed1",
+     "RandomForest__x_plus_mag__seed2"
+    ]
+   }
+  },
+  {
+   "path": "IGA_MAIN/results/phase11b_classical_transfer/replogle_predictions_RPE1.csv",
+   "bytes": 1044675,
+   "sha256": "6a22af0b8621090db37990b506fe2b7abcdf1fd8542a927fbbce112e6e10a0ed",
+   "exists": true,
+   "bytes_now": 1044675,
+   "sha256_now": "6a22af0b8621090db37990b506fe2b7abcdf1fd8542a927fbbce112e6e10a0ed",
+   "sha256_equal": true,
+   "structure": {
+    "rows": 2549,
+    "columns": [
+     "obs_index",
+     "target_gene",
+     "y_log1p_AD",
+     "Ridge__x_only__seed0",
+     "HistGradientBoosting__x_only__seed0",
+     "HistGradientBoosting__x_only__seed1",
+     "HistGradientBoosting__x_only__seed2",
+     "RandomForest__x_only__seed0",
+     "RandomForest__x_only__seed1",
+     "RandomForest__x_only__seed2",
+     "Ridge__mag_only__seed0",
+     "HistGradientBoosting__mag_only__seed0",
+     "HistGradientBoosting__mag_only__seed1",
+     "HistGradientBoosting__mag_only__seed2",
+     "RandomForest__mag_only__seed0",
+     "RandomForest__mag_only__seed1",
+     "RandomForest__mag_only__seed2",
+     "Ridge__x_plus_mag__seed0",
+     "HistGradientBoosting__x_plus_mag__seed0",
+     "HistGradientBoosting__x_plus_mag__seed1",
+     "HistGradientBoosting__x_plus_mag__seed2",
+     "RandomForest__x_plus_mag__seed0",
+     "RandomForest__x_plus_mag__seed1",
+     "RandomForest__x_plus_mag__seed2"
+    ]
+   }
+  },
+  {
+   "path": "IGA_MAIN/results_v4/harmonized_endpoint_k562_essential_v1/coverage_summary.json",
+   "bytes": 902,
+   "sha256": "93634aafe2405b5b56085628218b488c6d61c67f2fff49fd46cb23d1da89e05c",
+   "exists": true,
+   "bytes_now": 902,
+   "sha256_now": "93634aafe2405b5b56085628218b488c6d61c67f2fff49fd46cb23d1da89e05c",
+   "sha256_equal": true,
+   "structure": {
+    "keys": [
+     "k562_essential"
+    ],
+    "n_keys": 1
+   }
+  },
+  {
+   "path": "IGA_MAIN/results_v4/harmonized_endpoint_k562_essential_v1/eligibility.csv",
+   "bytes": 190992,
+   "sha256": "b10de8bfbf95c825efeaa6f562bb0ed9981f55897242ce91c5c22f7b773f9158",
+   "exists": true,
+   "bytes_now": 190992,
+   "sha256_now": "b10de8bfbf95c825efeaa6f562bb0ed9981f55897242ce91c5c22f7b773f9158",
+   "sha256_equal": true,
+   "structure": {
+    "rows": 2176,
+    "columns": [
+     "construct",
+     "target_symbol",
+     "target_ensg",
+     "target_col",
+     "n_perturbed_cells",
+     "n_nt_available",
+     "join_status",
+     "unique_map_status",
+     "eligible",
+     "exclusion_reason"
+    ]
+   }
+  },
+  {
+   "path": "IGA_MAIN/results_v4/harmonized_endpoint_k562_essential_v1/endpoint_by_construct.csv",
+   "bytes": 433586,
+   "sha256": "051269eeeae93c75c84ca1fc050529a096ebd15e1990cb14bb24669c1b9672ff",
+   "exists": true,
+   "bytes_now": 433586,
+   "sha256_now": "051269eeeae93c75c84ca1fc050529a096ebd15e1990cb14bb24669c1b9672ff",
+   "sha256_equal": true,
+   "structure": {
+    "rows": 1903,
+    "columns": [
+     "construct",
+     "target_symbol",
+     "target_ensg",
+     "target_col",
+     "n_perturbed_pool",
+     "n_nt_pool",
+     "y_primary",
+     "y_mean",
+     "y_std",
+     "y_p5",
+     "y_p95",
+     "y_iqr",
+     "n_valid_draws",
+     "y_pooled",
+     "y_gemgroup",
+     "n_eligible_gemgroups",
+     "stored_ad",
+     "stored_ad_log1p"
+    ]
+   }
+  },
+  {
+   "path": "IGA_MAIN/results_v4/harmonized_endpoint_v1/coverage_summary.json",
+   "bytes": 1721,
+   "sha256": "dfd586a2b0fd0d425c023d72e8614b5e58e22fedd625dce1fda5d1aa4e50f8a8",
+   "exists": true,
+   "bytes_now": 1721,
+   "sha256_now": "dfd586a2b0fd0d425c023d72e8614b5e58e22fedd625dce1fda5d1aa4e50f8a8",
+   "sha256_equal": true,
+   "structure": {
+    "keys": [
+     "rpe1",
+     "gwps"
+    ],
+    "n_keys": 2
+   }
+  },
+  {
+   "path": "IGA_MAIN/results_v4/harmonized_endpoint_v1/rpe1_eligibility.csv",
+   "bytes": 228919,
+   "sha256": "71da80a16e6cd982fd280b616675106f770ad01f8aeeb5a0aa309fdf996ba071",
+   "exists": true,
+   "bytes_now": 228919,
+   "sha256_now": "71da80a16e6cd982fd280b616675106f770ad01f8aeeb5a0aa309fdf996ba071",
+   "sha256_equal": true,
+   "structure": {
+    "rows": 2549,
+    "columns": [
+     "construct",
+     "target_symbol",
+     "target_ensg",
+     "target_col",
+     "n_perturbed_cells",
+     "n_nt_available",
+     "join_status",
+     "unique_map_status",
+     "eligible",
+     "exclusion_reason"
+    ]
+   }
+  },
+  {
+   "path": "IGA_MAIN/results_v4/harmonized_endpoint_v1/rpe1_endpoint_by_construct.csv",
+   "bytes": 440592,
+   "sha256": "353c04d3ac8e3380a3addf3abc1953d30799423f7cd467006adc36800e26a126",
+   "exists": true,
+   "bytes_now": 440592,
+   "sha256_now": "353c04d3ac8e3380a3addf3abc1953d30799423f7cd467006adc36800e26a126",
+   "sha256_equal": true,
+   "structure": {
+    "rows": 1932,
+    "columns": [
+     "construct",
+     "target_symbol",
+     "target_ensg",
+     "target_col",
+     "n_perturbed_pool",
+     "n_nt_pool",
+     "y_primary",
+     "y_mean",
+     "y_std",
+     "y_p5",
+     "y_p95",
+     "y_iqr",
+     "n_valid_draws",
+     "y_pooled",
+     "y_gemgroup",
+     "n_eligible_gemgroups",
+     "stored_ad",
+     "stored_ad_log1p"
+    ]
+   }
+  },
+  {
+   "path": "IGA_MAIN/results_v4/harmonized_endpoint_v1/subsample_sizes.json",
+   "bytes": 3846,
+   "sha256": "d6068e3b7106fb89d1c4f6b7d3d5bf0fa8e26ee2f0207e4660a08966ae7562dd",
+   "exists": true,
+   "bytes_now": 3846,
+   "sha256_now": "d6068e3b7106fb89d1c4f6b7d3d5bf0fa8e26ee2f0207e4660a08966ae7562dd",
+   "sha256_equal": true,
+   "structure": {
+    "keys": [
+     "prereg_commit",
+     "derivation",
+     "quantile_method",
+     "numpy_version",
+     "provenance",
+     "n_vcc_rows",
+     "n_vcc_batches",
+     "perturbed_cells_per_row",
+     "nt_cells_per_batch",
+     "per_split_perturbed",
+     "nt_per_batch",
+     "n_pert",
+     "n_nt",
+     "qc"
+    ],
+    "n_keys": 14
+   }
+  },
+  {
+   "path": "IGA_MAIN/results_v4/k562_essential_coverage_gate_v1/gemgroup_nt.csv",
+   "bytes": 598,
+   "sha256": "c6ef19cc6f64c4914d03b370f265e9359396cdb1c0f28b3c988d7df4faf8b00f",
+   "exists": true,
+   "bytes_now": 598,
+   "sha256_now": "c6ef19cc6f64c4914d03b370f265e9359396cdb1c0f28b3c988d7df4faf8b00f",
+   "sha256_equal": true,
+   "structure": {
+    "rows": 48,
+    "columns": [
+     "gem_group",
+     "nt_cells",
+     "total_cells"
+    ]
+   }
+  },
+  {
+   "path": "IGA_MAIN/results_v4/transfer_pretest_lock_v1/arm1_rpe1_construct_list.csv",
+   "bytes": 92747,
+   "sha256": "e4d7534822a32564eaae0ed16f4e3dfa88616a00ecd2d7284140155b2985e3b2",
+   "exists": true,
+   "bytes_now": 92747,
+   "sha256_now": "e4d7534822a32564eaae0ed16f4e3dfa88616a00ecd2d7284140155b2985e3b2",
+   "sha256_equal": true,
+   "structure": {
+    "rows": 1932,
+    "columns": [
+     "construct",
+     "target_ensg"
+    ]
+   }
+  },
+  {
+   "path": "MADA/cache/foundation_models/geneformer/full_feature_extraction_v2/cell_embedding_index.parquet",
+   "bytes": 4331040,
+   "sha256": "1b077612bf27b6489fb35399010237ed869ed1e9f2b8f11f57073662f8d83b85",
+   "exists": true,
+   "bytes_now": 4331040,
+   "sha256_now": "1b077612bf27b6489fb35399010237ed869ed1e9f2b8f11f57073662f8d83b85",
+   "sha256_equal": true,
+   "structure": {
+    "rows": 414694,
+    "columns": [
+     "cell_id",
+     "role",
+     "source_split",
+     "source_batch",
+     "chunk_id",
+     "embedding_row_index"
+    ]
+   }
+  },
+  {
+   "path": "MADA/cache/foundation_models/geneformer/full_feature_extraction_v2/geneformer_row_features_full.parquet",
+   "bytes": 132134861,
+   "sha256": "c531f392924076f2ca0ff360199ecbe3a323478933ce5bdc63de19bba9c81303",
+   "exists": true,
+   "bytes_now": 132134861,
+   "sha256_now": "c531f392924076f2ca0ff360199ecbe3a323478933ce5bdc63de19bba9c81303",
+   "sha256_equal": true,
+   "structure": {
+    "rows": 11764,
+    "n_columns": 2326,
+    "first_columns": [
+     "split",
+     "target_gene",
+     "batch",
+     "aggregation_unit",
+     "reference_policy",
+     "reference_type",
+     "reference_batch",
+     "fallback_used",
+     "status",
+     "y_ad_distance_log1p",
+     "y_ad_distance",
+     "final_labels_n_perturbed_cells"
+    ]
+   }
+  },
+  {
+   "path": "MADA/data/metadata/vcc/final_labels.parquet",
+   "bytes": 989164,
+   "sha256": "37c9aafef6e721815436a6534eacda4a1db6e73e937e886c44588284a37a0fa0",
+   "exists": true,
+   "bytes_now": 989164,
+   "sha256_now": "37c9aafef6e721815436a6534eacda4a1db6e73e937e886c44588284a37a0fa0",
+   "sha256_equal": true,
+   "structure": {
+    "rows": 14274,
+    "columns": [
+     "split",
+     "target_gene",
+     "batch",
+     "aggregation_unit",
+     "n_perturbed_cells",
+     "n_reference_nt_cells",
+     "reference_policy",
+     "reference_type",
+     "reference_batch",
+     "fallback_used",
+     "fallback_reason",
+     "n_genes_considered",
+     "n_genes_valid_ad",
+     "n_genes_degenerate",
+     "n_genes_all_zero_perturbed",
+     "n_genes_all_zero_reference",
+     "finite_fraction",
+     "ad_stat_mean",
+     "ad_stat_median",
+     "ad_stat_min",
+     "ad_stat_max",
+     "y_ad_distance",
+     "y_ad_distance_log1p",
+     "source_manifest_sha256",
+     "design_memo_version",
+     "runtime_seconds",
+     "warnings_count",
+     "warning_categories",
+     "failure_reason",
+     "status",
+     "shard_id"
+    ]
+   }
+  },
+  {
+   "path": "MADA_data/processed/phasec/rpe1_features/full/master_cell_index_v1.parquet",
+   "bytes": 6155772,
+   "sha256": "e7c1d22cc8f8edc53fcaac1570152c8e1dd119f3dcde1fcaab5024f4bb54a459",
+   "exists": true,
+   "bytes_now": 6155772,
+   "sha256_now": "e7c1d22cc8f8edc53fcaac1570152c8e1dd119f3dcde1fcaab5024f4bb54a459",
+   "sha256_equal": true,
+   "structure": {
+    "rows": 236335,
+    "columns": [
+     "orig_obs_idx",
+     "cell_id",
+     "raw_obs_name",
+     "role",
+     "gene_transcript",
+     "target_gene",
+     "target_gene_id",
+     "is_nt",
+     "is_eligible_perturbed",
+     "chunk_id",
+     "chunk_row_pos",
+     "split"
+    ]
+   }
+  }
+ ],
+ "folders": [
+  {
+   "path": "IGA_GENEFORMER_EXT/k562_essential/emb_units",
+   "files": 474,
+   "total_bytes": 879987142,
+   "sha256_of_listing": "91443d5f7a01669fbb642f6dbb369e79a7088fd76b2a9ff7978f3a31499dba55",
+   "exists": true,
+   "files_now": 474,
+   "total_bytes_now": 879987142,
+   "sha256_of_listing_now": "91443d5f7a01669fbb642f6dbb369e79a7088fd76b2a9ff7978f3a31499dba55",
+   "listing_equal": true,
+   "by_suffix_now": {
+    "npy": 237,
+    "parquet": 237
+   },
+   "first_file_per_suffix": {
+    ".npy": {
+     "file": "unit_00000.npy",
+     "shape": [
+      1200,
+      768
+     ],
+     "dtype": "float32"
+    },
+    ".parquet": {
+     "file": "unit_00000.parquet",
+     "rows": 1200,
+     "columns": [
+      "cell_id",
+      "orig_obs_idx",
+      "construct"
+     ]
+    }
+   },
+   "records_with_entries": [
+    "bioinf2027/results/D2/input_records.json"
+   ],
+   "missing_now": [],
+   "extra_now": [],
+   "differing_now": []
+  },
+  {
+   "path": "IGA_GENEFORMER_EXT/rpe1_topup",
+   "files": 4,
+   "total_bytes": 32042514,
+   "sha256_of_listing": "ce6d4ff205a24a686a81fba979ac1182250c1362defc1af1061a5ec3a5f46016",
+   "exists": true,
+   "files_now": 4,
+   "total_bytes_now": 32042514,
+   "sha256_of_listing_now": "ce6d4ff205a24a686a81fba979ac1182250c1362defc1af1061a5ec3a5f46016",
+   "listing_equal": true,
+   "by_suffix_now": {
+    "npy": 2,
+    "parquet": 2
+   },
+   "first_file_per_suffix": {
+    ".npy": {
+     "file": "rpe1_43_percell_emb.npy",
+     "shape": [
+      8445,
+      768
+     ],
+     "dtype": "float32"
+    },
+    ".parquet": {
+     "file": "rpe1_43_percell_index.parquet",
+     "rows": 8445,
+     "columns": [
+      "cell_id",
+      "orig_obs_idx",
+      "gene_transcript"
+     ]
+    }
+   },
+   "records_with_entries": [
+    "bioinf2027/results/D2/input_records.json"
+   ],
+   "missing_now": [],
+   "extra_now": [],
+   "differing_now": []
+  },
+  {
+   "path": "IGA_MAIN/cache/vcc/variants/delta_hvg/shards",
+   "files": 144,
+   "total_bytes": 94609758,
+   "sha256_of_listing": "74e6232f38df9dba498581435b97269c88c32f450f47dfbfd4d96e58ff48e3b8",
+   "exists": true,
+   "files_now": 144,
+   "total_bytes_now": 94609758,
+   "sha256_of_listing_now": "74e6232f38df9dba498581435b97269c88c32f450f47dfbfd4d96e58ff48e3b8",
+   "listing_equal": true,
+   "by_suffix_now": {
+    "npz": 144
+   },
+   "first_file_per_suffix": {
+    ".npz": {
+     "file": "test/Flex_1_01.npz",
+     "members": {
+      "x": {
+       "shape": [
+        81,
+        2000
+       ],
+       "dtype": "float32"
+      },
+      "y": {
+       "shape": [
+        81
+       ],
+       "dtype": "float32"
+      },
+      "sample_id_int": {
+       "shape": [
+        81
+       ],
+       "dtype": "int64"
+      },
+      "sample_ids": {
+       "shape": [
+        81
+       ],
+       "dtype": "object"
+      },
+      "context_id": {
+       "shape": [
+        1
+       ],
+       "dtype": "int64"
+      },
+      "batch_name": {
+       "shape": [
+        1
+       ],
+       "dtype": "object"
+      }
+     }
+    }
+   },
+   "records_with_entries": [
+    "bioinf2027/diag/D1_vcc_provenance.json"
+   ],
+   "missing_now": [],
+   "extra_now": [],
+   "differing_now": []
+  },
+  {
+   "path": "IGA_MAIN/cache/vcc/variants/delta_hvg/shards/test",
+   "files": 48,
+   "total_bytes": 31942613,
+   "sha256_of_listing": "a009ca286a47948f359b05aee7a83442ed07305ea3140ce9e4d029f7e35cb9ce",
+   "exists": true,
+   "files_now": 48,
+   "total_bytes_now": 31942613,
+   "sha256_of_listing_now": "a009ca286a47948f359b05aee7a83442ed07305ea3140ce9e4d029f7e35cb9ce",
+   "listing_equal": true,
+   "by_suffix_now": {
+    "npz": 48
+   },
+   "first_file_per_suffix": {
+    ".npz": {
+     "file": "Flex_1_01.npz",
+     "members": {
+      "x": {
+       "shape": [
+        81,
+        2000
+       ],
+       "dtype": "float32"
+      },
+      "y": {
+       "shape": [
+        81
+       ],
+       "dtype": "float32"
+      },
+      "sample_id_int": {
+       "shape": [
+        81
+       ],
+       "dtype": "int64"
+      },
+      "sample_ids": {
+       "shape": [
+        81
+       ],
+       "dtype": "object"
+      },
+      "context_id": {
+       "shape": [
+        1
+       ],
+       "dtype": "int64"
+      },
+      "batch_name": {
+       "shape": [
+        1
+       ],
+       "dtype": "object"
+      }
+     }
+    }
+   },
+   "records_with_entries": [
+    "bioinf2027/results/E1/input_records.json"
+   ],
+   "missing_now": [],
+   "extra_now": [],
+   "differing_now": []
+  },
+  {
+   "path": "IGA_MAIN/cache/vcc/variants/delta_hvg/shards/train",
+   "files": 48,
+   "total_bytes": 46122271,
+   "sha256_of_listing": "b4d5980372787ea9bbb1c6aa7d55b97ccb5be7d2c45627531d0cd7284c05b3b1",
+   "exists": true,
+   "files_now": 48,
+   "total_bytes_now": 46122271,
+   "sha256_of_listing_now": "b4d5980372787ea9bbb1c6aa7d55b97ccb5be7d2c45627531d0cd7284c05b3b1",
+   "listing_equal": true,
+   "by_suffix_now": {
+    "npz": 48
+   },
+   "first_file_per_suffix": {
+    ".npz": {
+     "file": "Flex_1_01.npz",
+     "members": {
+      "x": {
+       "shape": [
+        116,
+        2000
+       ],
+       "dtype": "float32"
+      },
+      "y": {
+       "shape": [
+        116
+       ],
+       "dtype": "float32"
+      },
+      "sample_id_int": {
+       "shape": [
+        116
+       ],
+       "dtype": "int64"
+      },
+      "sample_ids": {
+       "shape": [
+        116
+       ],
+       "dtype": "object"
+      },
+      "context_id": {
+       "shape": [
+        1
+       ],
+       "dtype": "int64"
+      },
+      "batch_name": {
+       "shape": [
+        1
+       ],
+       "dtype": "object"
+      }
+     }
+    }
+   },
+   "records_with_entries": [
+    "bioinf2027/results/E1/input_records.json"
+   ],
+   "missing_now": [],
+   "extra_now": [],
+   "differing_now": []
+  },
+  {
+   "path": "IGA_MAIN/cache/vcc/variants/delta_hvg/shards/val",
+   "files": 48,
+   "total_bytes": 16544874,
+   "sha256_of_listing": "962814a1e7808556f58dcdc2776b1f771352bb23f27ceb67bc373c2de42f15d3",
+   "exists": true,
+   "files_now": 48,
+   "total_bytes_now": 16544874,
+   "sha256_of_listing_now": "962814a1e7808556f58dcdc2776b1f771352bb23f27ceb67bc373c2de42f15d3",
+   "listing_equal": true,
+   "by_suffix_now": {
+    "npz": 48
+   },
+   "first_file_per_suffix": {
+    ".npz": {
+     "file": "Flex_1_01.npz",
+     "members": {
+      "x": {
+       "shape": [
+        42,
+        2000
+       ],
+       "dtype": "float32"
+      },
+      "y": {
+       "shape": [
+        42
+       ],
+       "dtype": "float32"
+      },
+      "sample_id_int": {
+       "shape": [
+        42
+       ],
+       "dtype": "int64"
+      },
+      "sample_ids": {
+       "shape": [
+        42
+       ],
+       "dtype": "object"
+      },
+      "context_id": {
+       "shape": [
+        1
+       ],
+       "dtype": "int64"
+      },
+      "batch_name": {
+       "shape": [
+        1
+       ],
+       "dtype": "object"
+      }
+     }
+    }
+   },
+   "records_with_entries": [
+    "bioinf2027/results/E1/input_records.json"
+   ],
+   "missing_now": [],
+   "extra_now": [],
+   "differing_now": []
+  },
+  {
+   "path": "MADA/cache/foundation_models/geneformer/full_feature_extraction_v2/nt_embeddings",
+   "files": 144,
+   "total_bytes": 119652944,
+   "sha256_of_listing": "a2cbf672c1aef76db2a4d7c19ec828f4375ccb562ee565552dfc8efbcebf165a",
+   "exists": true,
+   "files_now": 144,
+   "total_bytes_now": 119652944,
+   "sha256_of_listing_now": "a2cbf672c1aef76db2a4d7c19ec828f4375ccb562ee565552dfc8efbcebf165a",
+   "listing_equal": true,
+   "by_suffix_now": {
+    "json": 48,
+    "npy": 48,
+    "csv": 48
+   },
+   "first_file_per_suffix": {
+    ".json": {
+     "file": "nt__batch_Flex_1_01.done.json",
+     "keys": [
+      "chunk_id",
+      "role",
+      "split_source",
+      "batch",
+      "n_cells",
+      "d_emb",
+      "precision",
+      "forward_batch_size",
+      "finite_check_passed",
+      "nan_count",
+      "inf_count",
+      "emb_npy_path",
+      "emb_npy_sha256",
+      "emb_index_path",
+      "gpu_device",
+      "runtime_h5ad_seconds",
+      "runtime_tokenize_seconds",
+      "runtime_embed_seconds",
+      "runtime_total_seconds",
+      "completed_at"
+     ],
+     "n_keys": 20
+    },
+    ".npy": {
+     "file": "nt__batch_Flex_1_01.npy",
+     "shape": [
+      749,
+      768
+     ],
+     "dtype": "float32"
+    },
+    ".csv": {
+     "file": "nt__batch_Flex_1_01_index.csv",
+     "rows": 749,
+     "columns": [
+      "cell_id",
+      "source_split",
+      "source_batch",
+      "role",
+      "chunk_row_pos"
+     ]
+    }
+   },
+   "records_with_entries": [
+    "bioinf2027/results/D2/input_records.json"
+   ],
+   "missing_now": [],
+   "extra_now": [],
+   "differing_now": []
+  },
+  {
+   "path": "MADA/cache/foundation_models/geneformer/full_feature_extraction_v2/perturbed_embeddings",
+   "files": 432,
+   "total_bytes": 1182242976,
+   "sha256_of_listing": "261604fb1a88c5d46dd41d1d8da8b7675c9b93eab6946246f1a9589f483792f8",
+   "exists": true,
+   "files_now": 432,
+   "total_bytes_now": 1182242976,
+   "sha256_of_listing_now": "261604fb1a88c5d46dd41d1d8da8b7675c9b93eab6946246f1a9589f483792f8",
+   "listing_equal": true,
+   "by_suffix_now": {
+    "json": 144,
+    "npy": 144,
+    "csv": 144
+   },
+   "first_file_per_suffix": {
+    ".json": {
+     "file": "pert__split_test__batch_Flex_1_01.done.json",
+     "keys": [
+      "chunk_id",
+      "role",
+      "split_source",
+      "batch",
+      "n_cells",
+      "d_emb",
+      "precision",
+      "forward_batch_size",
+      "finite_check_passed",
+      "nan_count",
+      "inf_count",
+      "emb_npy_path",
+      "emb_npy_sha256",
+      "emb_index_path",
+      "gpu_device",
+      "runtime_h5ad_seconds",
+      "runtime_tokenize_seconds",
+      "runtime_embed_seconds",
+      "runtime_total_seconds",
+      "completed_at"
+     ],
+     "n_keys": 20
+    },
+    ".npy": {
+     "file": "pert__split_test__batch_Flex_1_01.npy",
+     "shape": [
+      2516,
+      768
+     ],
+     "dtype": "float32"
+    },
+    ".csv": {
+     "file": "pert__split_test__batch_Flex_1_01_index.csv",
+     "rows": 2516,
+     "columns": [
+      "cell_id",
+      "source_split",
+      "source_batch",
+      "role",
+      "chunk_row_pos"
+     ]
+    }
+   },
+   "records_with_entries": [
+    "bioinf2027/results/D2/input_records.json"
+   ],
+   "missing_now": [],
+   "extra_now": [],
+   "differing_now": []
+  },
+  {
+   "path": "MADA_data/processed/phasec/rpe1_features/full/geneformer_chunks",
+   "files": 432,
+   "total_bytes": 12771696060,
+   "sha256_of_listing": "31f2a410706c596bf63d72497e38c543b2d041a7b5c2b28ba8cf97e60ca13efd",
+   "exists": true,
+   "files_now": 432,
+   "total_bytes_now": 12771696060,
+   "sha256_of_listing_now": "31f2a410706c596bf63d72497e38c543b2d041a7b5c2b28ba8cf97e60ca13efd",
+   "listing_equal": true,
+   "by_suffix_now": {
+    "json": 144,
+    "npy": 48,
+    "parquet": 48,
+    "h5ad": 48,
+    "arrow": 96,
+    "csv": 48
+   },
+   "first_file_per_suffix": {
+    ".json": {
+     "file": "chunk_0000/done.json",
+     "keys": [
+      "chunk_id",
+      "n_cells",
+      "expected_n_cells",
+      "embedding_dim",
+      "embedding_shape",
+      "emb_sha256",
+      "emb_index_sha256",
+      "tokenizer",
+      "embedder",
+      "model_checkpoint",
+      "runtime_seconds",
+      "status",
+      "no_naninf"
+     ],
+     "n_keys": 13
+    },
+    ".npy": {
+     "file": "chunk_0000/emb.npy",
+     "shape": [
+      5000,
+      768
+     ],
+     "dtype": "float32"
+    },
+    ".parquet": {
+     "file": "chunk_0000/emb_index.parquet",
+     "rows": 5000,
+     "columns": [
+      "chunk_row_pos",
+      "orig_obs_idx",
+      "role",
+      "gene_transcript",
+      "cell_id"
+     ]
+    },
+    ".h5ad": {
+     "file": "chunk_0000/input/chunk_input.h5ad"
+    },
+    ".arrow": {
+     "file": "chunk_0000/tokenized/chunk_0000.dataset/cache-05e3ea281d5c55c8.arrow"
+    },
+    ".csv": {
+     "file": "chunk_0000/tokenized/chunk_0000_emb.csv",
+     "rows": 5000,
+     "n_columns": 774,
+     "first_columns": [
+      "",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+     ]
+    }
+   },
+   "records_with_entries": [
+    "bioinf2027/results/D2/input_records.json"
+   ],
+   "missing_now": [],
+   "extra_now": [],
+   "differing_now": []
+  }
+ ]
+}

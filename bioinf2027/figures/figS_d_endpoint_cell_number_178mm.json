@@ -1,0 +1,60 @@
+{
+ "figure": "figS_d_endpoint_cell_number",
+ "width_mm": 178,
+ "dpi_png": 600,
+ "minimum_text_pt": 6.0,
+ "panel_data": "bioinf2027/figures/figS_d_endpoint_cell_number_data.csv",
+ "environment": {
+  "python": "3.13.12",
+  "numpy": "2.4.4",
+  "pandas": "3.0.2",
+  "requirements": {
+   "path": "bioinf2027/requirements.txt",
+   "bytes": 863,
+   "sha256": "f46a415cbe466ba1225adcede4abae7f0dd0b866f29abdf5a6a360e66b1f5702"
+  },
+  "matplotlib": "3.10.8"
+ },
+ "code": {
+  "bioinf2027/scripts/figures/fig2_endpoint_cell_number.py": "1fb634d24fe4ec60011c2a912327990fa76a163fdfc62ab124d9bdd4db24bcd7",
+  "bioinf2027/scripts/figures/figlib.py": "6ce5eb4a41a547d622f887c3002e25524d699a2b8c61fda2ad2737b034dbf617",
+  "bioinf2027/scripts/figures/labels.toml": "b547ce0f4bf5fa7e6d8ee20d3f6237ed91a0f0b49de9cd3e7befb630c4b181d8"
+ },
+ "labels_read": [
+  "[fig2] label_all",
+  "[fig2] label_fixed",
+  "[fig2] own_vcc",
+  "[fig2] own_x",
+  "[fig2] scatter_x",
+  "[fig2] scatter_y",
+  "[fig2] share_row_full",
+  "[fig2] share_x",
+  "[fig2] version_deciding",
+  "[fig2] version_upper",
+  "[names] K562-essential",
+  "[names] RPE1",
+  "[names] VCC",
+  "[names] panel",
+  "[names] test",
+  "[names] train",
+  "[names] val",
+  "[terms] B0_to_B4",
+  "[terms] B2",
+  "[terms] G1",
+  "[terms] G2",
+  "[terms] G5",
+  "[terms] G6"
+ ],
+ "outputs": {
+  "figS_d_endpoint_cell_number_178mm.pdf": {
+   "path": "bioinf2027/figures/figS_d_endpoint_cell_number_178mm.pdf",
+   "bytes": 195369,
+   "sha256": "07bc45c10d2b5e0bd3364aea3768a8ad3d344dd077e7e84e922d953b587f41ef"
+  },
+  "figS_d_endpoint_cell_number_178mm.png": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/figures/figS_d_endpoint_cell_number_178mm.png",
+   "bytes": 928909,
+   "sha256": "1fac36151417a5e8d4cf6c84a8c37cf057dbe7a8e9670e2d4eb8a2337978db5a"
+  }
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "table": "tableS_d_e2d",
+ "code": {
+  "bioinf2027/scripts/figures/tableS_d_e2d.py": "287134ae9af9f5bb7829098d43f791d3b5d6010ee7339f5035f72a801347622c",
+  "bioinf2027/scripts/figures/tablelib.py": "5c546fa57595e02901ba2087d5c2334793762f2cb146db4fd434973bb3fe034f"
+ },
+ "inputs": {
+  "bioinf2027/results/E2/null_external/null_external.csv": {
+   "path": "bioinf2027/results/E2/null_external/null_external.csv",
+   "bytes": 31683,
+   "sha256": "99381a0ebb00d6f6b0ac272d9ff1f3bad0a5c5bc749fbecaa00f94cfda9cb588"
+  },
+  "bioinf2027/results/E2/null_external_followup/saved.csv": {
+   "path": "bioinf2027/results/E2/null_external_followup/saved.csv",
+   "bytes": 81719,
+   "sha256": "3466bd41ca264cd5cc5bc72c83341acc6a05c114ad81e1ba4ccdb5b079fee120"
+  }
+ },
+ "inputs_verified": {
+  "bioinf2027/results/E2/null_external/null_external.csv": "equal to its record in bioinf2027/results/E2/null_external/stats.json",
+  "bioinf2027/results/E2/null_external_followup/saved.csv": "equal to its record in bioinf2027/results/E2/null_external_followup/saved.json"
+ },
+ "environment": {
+  "python": "3.13.12",
+  "numpy": "2.4.4",
+  "pandas": "3.0.2",
+  "requirements": {
+   "path": "bioinf2027/requirements.txt",
+   "bytes": 863,
+   "sha256": "f46a415cbe466ba1225adcede4abae7f0dd0b866f29abdf5a6a360e66b1f5702"
+  }
+ },
+ "tex": "booktabs; Unicode symbols (\u2212, \u03c1, \u2192, \u00bd), so a Unicode TeX engine (XeLaTeX or LuaLaTeX)",
+ "part": "1 of 2, heads trained on the size-fixed (rebuilt) VCC label; external label at 27 against 788 cells",
+ "status": "post hoc, unadjusted, not part of any family; no statement about why the external values are negative (G7, item 6); e \u2212 C1 on the all-cells external label carries no reading (bioinf2027/plans/S1_supplement.md, Section 4)",
+ "intervals": "E1b's joint external target-gene draws (seeds 20260901 and 20260902), head seeds averaged inside each replicate",
+ "not_shown": "(1) M against |T|min and (3c) per fifth of n_t, in bioinf2027/results/E2/null_external_followup/saved.csv",
+ "outputs": {
+  "tableS_d_e2d.csv": {
+   "path": "bioinf2027/tables/tableS_d_e2d.csv",
+   "bytes": 4810,
+   "sha256": "0147a6cfef21fa0c759b0215cf06843dec9dd0d9820f4dd059b237a9a91e1465"
+  },
+  "tableS_d_e2d.tex": {
+   "path": "bioinf2027/tables/tableS_d_e2d.tex",
+   "bytes": 5179,
+   "sha256": "48c3d5d2674e62f3103073522db5dea7a5eba542a0691b66b93cf475de628b7d"
+  }
+ }
+}

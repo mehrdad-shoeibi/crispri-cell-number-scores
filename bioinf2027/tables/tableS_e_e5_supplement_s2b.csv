@@ -1,0 +1,13 @@
+Vector,Setting,Test genes,ρ(Bc),ρ([Bc; F_mean; F_K562]),[Bc; F_mean; F_K562] − Bc,ρ([Bc; F_mean; F_K562] with e),"smaller of e − C, e − S (p)",both above zero,Holm within the 12 (descriptive),"family (b), smaller",Line,DepMap release
+Geneformer,within RPE1,1729,0.096,0.616,"+0.520 [+0.470, +0.570]",0.631,+0.015 (0.031),yes,not kept,+0.281,14,"DepMap 24Q4, not the current release"
+Geneformer,within K562-ess.,1724,0.168,0.492,"+0.324 [+0.275, +0.375]",0.504,+0.012 (0.017),yes,not kept,+0.116,15,"DepMap 24Q4, not the current release"
+Geneformer,RPE1 → K562-ess.,1724,0.083,0.414,"+0.331 [+0.275, +0.387]",0.447,+0.034 (<0.001),yes,kept,+0.230,16,"DepMap 24Q4, not the current release"
+Geneformer,K562-ess. → RPE1,1729,0.032,0.492,"+0.461 [+0.411, +0.511]",0.505,+0.013 (0.003),yes,kept,+0.189,17,"DepMap 24Q4, not the current release"
+scGPT,within RPE1,1729,0.096,0.616,"+0.520 [+0.470, +0.570]",0.638,+0.023 (0.002),yes,kept,+0.282,18,"DepMap 24Q4, not the current release"
+scGPT,within K562-ess.,1724,0.168,0.492,"+0.324 [+0.275, +0.375]",0.519,+0.028 (<0.001),yes,kept,+0.165,19,"DepMap 24Q4, not the current release"
+scGPT,RPE1 → K562-ess.,1724,0.083,0.414,"+0.331 [+0.275, +0.387]",0.465,+0.049 (<0.001),yes,kept,+0.265,20,"DepMap 24Q4, not the current release"
+scGPT,K562-ess. → RPE1,1729,0.032,0.492,"+0.461 [+0.411, +0.511]",0.510,+0.016 (0.024),yes,not kept,+0.229,21,"DepMap 24Q4, not the current release"
+GenePT,within RPE1,1729,0.096,0.616,"+0.520 [+0.470, +0.570]",0.638,+0.022 (0.003),yes,kept,+0.341,22,"DepMap 24Q4, not the current release"
+GenePT,within K562-ess.,1724,0.168,0.492,"+0.324 [+0.275, +0.375]",0.529,+0.037 (0.002),yes,kept,+0.206,23,"DepMap 24Q4, not the current release"
+GenePT,RPE1 → K562-ess.,1724,0.083,0.414,"+0.331 [+0.275, +0.387]",0.456,+0.043 (<0.001),yes,kept,+0.220,24,"DepMap 24Q4, not the current release"
+GenePT,K562-ess. → RPE1,1729,0.032,0.492,"+0.461 [+0.411, +0.511]",0.486,-0.007 (0.528),no,not kept,+0.238,25,"DepMap 24Q4, not the current release"

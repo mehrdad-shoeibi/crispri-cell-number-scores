@@ -1,0 +1,9 @@
+screen,arm,considered,why_not_considered,p,components,holm_threshold,rejected,statement,family
+RPE1,z,False,the R5 gate fails,1.0,{},0.00625,False,not made,"second family, 8 statements, Holm at family-wise 0.05 (0.10 together with the primary family)"
+RPE1,x,False,the R5 gate fails,1.0,{},0.0071428571428571435,False,not made,"second family, 8 statements, Holm at family-wise 0.05 (0.10 together with the primary family)"
+RPE1,m,False,the R5 gate fails,1.0,{},0.008333333333333333,False,not made,"second family, 8 statements, Holm at family-wise 0.05 (0.10 together with the primary family)"
+RPE1,[x; m],False,the R5 gate fails,1.0,{},0.01,False,not made,"second family, 8 statements, Holm at family-wise 0.05 (0.10 together with the primary family)"
+K562-essential,z,False,the R5 gate fails,1.0,{},0.0125,False,not made,"second family, 8 statements, Holm at family-wise 0.05 (0.10 together with the primary family)"
+K562-essential,x,False,the R5 gate fails,1.0,{},0.016666666666666666,False,not made,"second family, 8 statements, Holm at family-wise 0.05 (0.10 together with the primary family)"
+K562-essential,m,False,the R5 gate fails,1.0,{},0.025,False,not made,"second family, 8 statements, Holm at family-wise 0.05 (0.10 together with the primary family)"
+K562-essential,[x; m],False,the R5 gate fails,1.0,{},0.05,False,not made,"second family, 8 statements, Holm at family-wise 0.05 (0.10 together with the primary family)"

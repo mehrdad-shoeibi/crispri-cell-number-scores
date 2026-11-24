@@ -1,0 +1,22 @@
+# Pinned environment of E2's and E5's scGPT part (gate G4, item 8): a virtual environment with system site packages on
+# top of D2's pinned environment (bioinf2027/requirements_d2.txt: Python 3.10.20, torch 2.3.1+cu121, numpy 2.2.6), which
+# it reads and does not change. The data root is exFAT (no symbolic links), so no environment lives there.
+# The layer adds only the packages below (scgpt and torchtext without their declared dependencies; ipython under
+# D2's pins as a constraint).
+asttokens==3.0.2
+decorator==5.3.1
+executing==2.3.0
+ipython==8.39.0
+jedi==0.20.1
+matplotlib-inline==0.2.2
+parso==0.8.7
+pexpect==4.9.0
+prompt_toolkit==3.0.53
+ptyprocess==0.7.0
+pure_eval==0.2.4
+Pygments==2.21.0
+scgpt==0.2.4
+stack-data==0.6.3
+torchtext==0.18.0
+traitlets==5.16.1
+wcwidth==0.9.4

@@ -1,0 +1,21 @@
+{
+ "check": "smoke fits of the new code equal those of make_e2_fits.py at 7f36b1d (bioinf2027/GATE.md, change of 2026-11-15)",
+ "reference": "$IGA_STORAGE_ROOT/bioinf2027/scratch/E2_fits_smoke_before_slots",
+ "new": "$IGA_STORAGE_ROOT/bioinf2027/scratch/E2_fits_smoke_ref_7f36b1d",
+ "subset": true,
+ "files_reference": 240,
+ "files_new": 9,
+ "files_compared_equal": 9,
+ "differences": {},
+ "manifests": {
+  "reference": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/scratch/E2_fits_smoke_before_slots/predictions_manifest_stack_pca50_pca768_gfnull.json",
+   "bytes": 70224,
+   "sha256": "78c7711ef6a35f55a30d404cc0d7e48a080f2f2f8ceb21d4a84ecda42e796434"
+  }
+ },
+ "new_runner": null,
+ "new_input_cache": null,
+ "passed": true,
+ "made": "2026-11-15T16:07:17-0500"
+}

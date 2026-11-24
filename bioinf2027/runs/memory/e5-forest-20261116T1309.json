@@ -1,0 +1,14 @@
+{
+ "label": "e5-forest-20261116T1309",
+ "started": "2026-11-16T13:09:40-0500",
+ "last_sample": "2026-11-17T00:22:38-0500",
+ "samples": 7986,
+ "interval_s": 5.0,
+ "workers_seen": 8,
+ "workers_at_once_max": 8,
+ "main_peak_gb": 0.685,
+ "worker_peak_gb": 0.35,
+ "total_rss_peak_gb": 2.814,
+ "total_pss_peak_gb": 2.033,
+ "note": "peaks are VmHWM per process; totals are sums at one sample; RSS counts shared pages once per process"
+}

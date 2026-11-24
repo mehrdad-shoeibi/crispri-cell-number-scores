@@ -1,0 +1,23 @@
+panel,item,value,source
+a,perturbed cells of the size-fixed label in G1 and G5,27,bioinf2027/plans/E1_design.md:1169-1169
+a,perturbed cells of the size-fixed label in G2 and G6,10,bioinf2027/plans/E1_design.md:1170-1170
+a,control cells of the size-fixed label in G5 and G6 (VCC: of the row's batch),700,bioinf2027/plans/E1_design.md:1173-1173
+a,pooled control cells of the size-fixed label in G1 and G2,788,bioinf2027/plans/E1_design.md:1170-1170
+a,"draws per row or construct, median across draws",25,bioinf2027/plans/E1_design.md:201-201
+b,VCC train target genes analysed (at least 10 perturbed cells),140,bioinf2027/diag/D3_vcc_retention.csv:2
+b,VCC val target genes analysed (at least 10 perturbed cells),49,bioinf2027/diag/D3_vcc_retention.csv:4
+b,VCC test target genes analysed (at least 10 perturbed cells),93,bioinf2027/diag/D3_vcc_retention.csv:6
+b,RPE1 constructs with at least 27 perturbed cells,"1,932",bioinf2027/diag/D3_cell_counts.csv:5
+b,K562-essential constructs with at least 27 perturbed cells,"1,903",bioinf2027/diag/D3_cell_counts.csv:6
+b,analysis 1 uses VCC (used),used,bioinf2027/factsheets/FS1_S1.md:23
+b,analysis 1 uses RPE1 (used),used,bioinf2027/factsheets/FS1_S1.md:113
+b,analysis 1 uses K562-essential (used),used,bioinf2027/factsheets/FS1_S1.md:113
+b,analysis 2 uses VCC (used),used,bioinf2027/factsheets/FS2_S2.md:19
+b,analysis 3 uses VCC (used),used,bioinf2027/factsheets/FS3_S3.md:51
+b,analysis 3 uses RPE1 (used),used,bioinf2027/factsheets/FS3_S3.md:37
+b,analysis 3 uses K562-essential (used),used,bioinf2027/factsheets/FS3_S3.md:38
+b,analysis 4 uses RPE1 (used),used,bioinf2027/factsheets/FS4_S4.md:19
+b,analysis 4 uses K562-essential (used),used,bioinf2027/factsheets/FS4_S4.md:19
+b,analysis 5 uses RPE1 (used),used,bioinf2027/factsheets/FS5_S5.md:23
+b,analysis 5 uses K562-essential (used),used,bioinf2027/factsheets/FS5_S5.md:23
+b,analysis 5 uses VCC (descriptive),descriptive,bioinf2027/factsheets/FS5_S5.md:78

@@ -1,0 +1,132 @@
+{
+ "plan": "bioinf2027/plans/D2.md, Sections 3, 5, 10 to 13",
+ "gpu": {
+  "gpu": "1, NVIDIA TITAN RTX, 7 MiB, 24576 MiB, 0 %",
+  "compute_processes": [],
+  "free": true,
+  "checked_at": "2026-11-10T13:14:39-0500"
+ },
+ "environment": {
+  "python": "3.10.20",
+  "torch": "2.3.1+cu121",
+  "cuda": "12.1",
+  "transformers": "4.49.0",
+  "datasets": "4.8.5",
+  "numpy": "2.2.6",
+  "tf32_matmul": false,
+  "tf32_cudnn": true,
+  "forward_batch_size": 16,
+  "length_sorting": "perturber_utils.downsample_and_sort, longest first",
+  "visible_devices": "1"
+ },
+ "started": "2026-11-10T13:14:46-0500",
+ "identity": {
+  "cells": 2000,
+  "tolerance": 0.0001,
+  "max_abs_difference": 0.0022729039192199707,
+  "cells_above_tolerance": 143,
+  "per_store": {
+   "K562-essential units": {
+    "cells": 500,
+    "max_abs_difference": 0.0018002651631832123,
+    "cells_above_tolerance": 26
+   },
+   "RPE1 chunks": {
+    "cells": 500,
+    "max_abs_difference": 0.0022729039192199707,
+    "cells_above_tolerance": 27
+   },
+   "RPE1 top-up": {
+    "cells": 500,
+    "max_abs_difference": 0.0014427676796913147,
+    "cells_above_tolerance": 23
+   },
+   "VCC": {
+    "cells": 500,
+    "max_abs_difference": 0.0005239620804786682,
+    "cells_above_tolerance": 67
+   }
+  },
+  "mean_error_vector_norm": 5.926834616787001e-05,
+  "error_sd_by_input_length_decile": [
+   {
+    "input_length_from": 644.0,
+    "input_length_to": 2655.8,
+    "cells": 200,
+    "per_cell_error_sd_median": 0.0
+   },
+   {
+    "input_length_from": 2655.8,
+    "input_length_to": 3002.8,
+    "cells": 200,
+    "per_cell_error_sd_median": 0.0
+   },
+   {
+    "input_length_from": 3002.8,
+    "input_length_to": 3266.4,
+    "cells": 200,
+    "per_cell_error_sd_median": 0.0
+   },
+   {
+    "input_length_from": 3266.4,
+    "input_length_to": 3520.2,
+    "cells": 200,
+    "per_cell_error_sd_median": 0.0
+   },
+   {
+    "input_length_from": 3520.2,
+    "input_length_to": 3786.5,
+    "cells": 200,
+    "per_cell_error_sd_median": 0.0
+   },
+   {
+    "input_length_from": 3786.5,
+    "input_length_to": 4085.4,
+    "cells": 200,
+    "per_cell_error_sd_median": 0.0
+   },
+   {
+    "input_length_from": 4085.4,
+    "input_length_to": 4096.0,
+    "cells": 800,
+    "per_cell_error_sd_median": 0.0
+   },
+   {
+    "input_length_from": 4096.0,
+    "input_length_to": 4096.0,
+    "cells": 797,
+    "per_cell_error_sd_median": 0.0
+   },
+   {
+    "input_length_from": 4096.0,
+    "input_length_to": 4096.0,
+    "cells": 797,
+    "per_cell_error_sd_median": 0.0
+   },
+   {
+    "input_length_from": 4096.0,
+    "input_length_to": 4096.0,
+    "cells": 797,
+    "per_cell_error_sd_median": 0.0
+   }
+  ],
+  "median_cached_embedding_norm": 6.618429865639615,
+  "passed": false,
+  "unit": {
+   "part": "identity",
+   "unit": 0,
+   "cells": 2000,
+   "file": {
+    "path": "$IGA_STORAGE_ROOT/bioinf2027/D2/embeddings/identity/unit_00000.npz",
+    "bytes": 6430088,
+    "sha256": "670dcb5f3475fd50b7611a38cb3723c3d9275ca2cfa493b524b30e0ac8850669"
+   },
+   "tokenize_seconds": 4.2,
+   "embed_seconds": 259.2,
+   "cells_per_second": 7.72,
+   "drop": false,
+   "drop_check": "no drop",
+   "reused": false
+  }
+ }
+}

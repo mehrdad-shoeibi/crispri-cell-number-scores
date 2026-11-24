@@ -1,0 +1,13 @@
+Vector,Setting,fifth 1 (lowest b),fifth 2,fifth 3,fifth 4,fifth 5 (highest b)
+Geneformer,within RPE1,-0.090,-0.070,-0.015,+0.056,+0.118
+Geneformer,within K562-ess.,-0.043,-0.014,-0.029,+0.032,+0.053
+Geneformer,RPE1 → K562-ess.,-0.074,-0.069,-0.017,+0.058,+0.102
+Geneformer,K562-ess. → RPE1,-0.058,-0.059,-0.011,+0.050,+0.078
+scGPT,within RPE1,-0.088,-0.074,-0.018,+0.063,+0.116
+scGPT,within K562-ess.,-0.049,-0.052,-0.015,+0.034,+0.081
+scGPT,RPE1 → K562-ess.,-0.078,-0.092,-0.010,+0.063,+0.117
+scGPT,K562-ess. → RPE1,-0.078,-0.061,+0.003,+0.048,+0.088
+GenePT,within RPE1,-0.135,-0.059,-0.014,+0.077,+0.131
+GenePT,within K562-ess.,-0.059,-0.059,-0.010,+0.015,+0.112
+GenePT,RPE1 → K562-ess.,-0.049,-0.079,-0.024,+0.026,+0.126
+GenePT,K562-ess. → RPE1,-0.094,-0.049,-0.005,+0.057,+0.091

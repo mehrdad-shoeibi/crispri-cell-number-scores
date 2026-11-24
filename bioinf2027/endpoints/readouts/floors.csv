@@ -1,0 +1,15 @@
+cell,training_rows,training_target_genes,floor,underpowered,genes_whose_pool_mixes_two_guides
+G1,2843,98,"1,000 rows and 60 target genes",False,
+G2,5740,140,"1,000 rows and 60 target genes",False,
+G3,134,134,60 target genes,False,17.0
+G4,140,140,60 target genes,False,17.0
+G5,2843,98,"1,000 rows and 60 target genes",False,
+G6,5740,140,"1,000 rows and 60 target genes",False,
+G1-SU-RPE1,2843,98,"1,000 rows and 60 target genes",False,
+G1-DT-RPE1,2843,98,"1,000 rows and 60 target genes",False,
+G5-DT-RPE1,2843,98,"1,000 rows and 60 target genes",False,
+G6-DT-RPE1,5740,140,"1,000 rows and 60 target genes",False,
+G1-SU-K562-essential,2843,98,"1,000 rows and 60 target genes",False,
+G1-DT-K562-essential,2843,98,"1,000 rows and 60 target genes",False,
+G5-DT-K562-essential,2843,98,"1,000 rows and 60 target genes",False,
+G6-DT-K562-essential,5740,140,"1,000 rows and 60 target genes",False,

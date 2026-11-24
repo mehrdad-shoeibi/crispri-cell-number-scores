@@ -1,0 +1,28 @@
+{
+ "plan": "bioinf2027/plans/E5.md, Sections 3, 5 to 8, 16 and 18",
+ "smoke": false,
+ "gates": {
+  "RPE1": {
+   "genes_with_halves": 1297,
+   "reliability_spearman": 0.9673759295635906,
+   "spearman_brown_upper_bound": 0.9834174699679048,
+   "reliability_gate_passed": true,
+   "beyond_bc_spearman": 0.5412769101660023,
+   "beyond_bc_gate_passed": true,
+   "genes_in_residual_spearman": 1297
+  },
+  "K562-essential": {
+   "genes_with_halves": 1629,
+   "reliability_spearman": 0.9617439989795767,
+   "spearman_brown_upper_bound": 0.9804989840466838,
+   "reliability_gate_passed": true,
+   "beyond_bc_spearman": 0.6945445712249089,
+   "beyond_bc_gate_passed": true,
+   "genes_in_residual_spearman": 1629
+  }
+ },
+ "rules": {
+  "reliability": 0.5,
+  "beyond Bc": 0.2
+ }
+}

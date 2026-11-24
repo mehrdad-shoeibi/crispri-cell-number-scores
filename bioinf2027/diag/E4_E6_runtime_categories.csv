@@ -1,0 +1,37 @@
+item,category,fits,cpu_hours
+D2,family: D2 head fits,196,45.68
+E4,cell-disjoint,60,22.94
+E4,"corner, other arms and G1, G2",54,21.35
+E4,depth-thinned,216,99.51
+E4,draw-level B2,36,9.54
+E4,family: corner z,6,1.59
+E4,family: matched forests,72,29.64
+E4,fourth corner (existing label),144,59.29
+E4,marker: refits of the family arms,160,65.87
+E4,marker: source-mode labels of the family arms,72,29.64
+E4,"matched, G1 and G2",198,68.85
+E4,"matched, other arms, G5 and G6",108,34.44
+E4,secondary heads,192,1.64
+E4,size factor,216,99.51
+E4,unread: C1 refits,40,10.59
+E4,unread: existing-label C1,36,9.53
+E4,unread: matched [C1; B2] and [z; B2],168,19.62
+E4,unread: matched label positive control,12,0.0
+E4,unread: refits in G1 and G2 (E1b refits G5 and G6 only),200,76.46
+E4,unread: secondary heads of arms outside the family,336,2.17
+E4,unread: source-mode fits in G1 and G2 and of the masked arms and C1,216,88.93
+E4,"z - C2: matched C2, G5 and G6",18,4.77
+E6,E4 matched features,150,20.5
+E6,family: R(z-),30,2.84
+E6,"family: T, R, R- and validity controls",310,41.01
+E6,marker: gene-fold sensitivity,100,13.67
+E6,marker: refits,1000,136.66
+E6,mean-across-draws label,240,35.32
+E6,"namespace sensitivities, other",300,47.3
+E6,other endpoints and models,810,89.03
+E6,paired: C2 at the four endpoints,80,7.57
+E6,paired: E1b's x at 27/788,120,17.66
+E6,paired: size-matched arm,7200,68.21
+E6,paired: the arms and C1 at the other endpoints,250,34.16
+E6,secondary heads,2630,15.24
+E6,whole-screen fit,288,42.94

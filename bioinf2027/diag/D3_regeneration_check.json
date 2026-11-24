@@ -1,0 +1,192 @@
+{
+ "item": "D3",
+ "compared_against": "5bc8088533f92e16245d6140015da801c9733b24",
+ "rename": {},
+ "tables": {
+  "bioinf2027/diag/D3_cell_counts.csv": {
+   "rows_before": 5,
+   "rows_after": 5,
+   "renamed": {},
+   "removed": [],
+   "added": [],
+   "columns": {
+    "screen": {
+     "compared_as": "screen",
+     "identical": true
+    },
+    "split": {
+     "compared_as": "split",
+     "identical": true
+    },
+    "row_unit": {
+     "compared_as": "row_unit",
+     "identical": true
+    },
+    "n_rows": {
+     "compared_as": "n_rows",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "missing_pattern_identical": true
+    },
+    "perturbed_min": {
+     "compared_as": "perturbed_min",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "missing_pattern_identical": true
+    },
+    "perturbed_q25": {
+     "compared_as": "perturbed_q25",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "missing_pattern_identical": true
+    },
+    "perturbed_median": {
+     "compared_as": "perturbed_median",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "missing_pattern_identical": true
+    },
+    "perturbed_q75": {
+     "compared_as": "perturbed_q75",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "missing_pattern_identical": true
+    },
+    "perturbed_max": {
+     "compared_as": "perturbed_max",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "missing_pattern_identical": true
+    },
+    "perturbed_mean": {
+     "compared_as": "perturbed_mean",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "missing_pattern_identical": true
+    },
+    "control_scheme": {
+     "compared_as": "control_scheme",
+     "identical": true
+    },
+    "control_pool_total": {
+     "compared_as": "control_pool_total",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "missing_pattern_identical": true
+    },
+    "control_per_batch_min": {
+     "compared_as": "control_per_batch_min",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "missing_pattern_identical": true
+    },
+    "control_per_batch_median": {
+     "compared_as": "control_per_batch_median",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "missing_pattern_identical": true
+    },
+    "control_per_batch_max": {
+     "compared_as": "control_per_batch_max",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "missing_pattern_identical": true
+    },
+    "n_batches": {
+     "compared_as": "n_batches",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "missing_pattern_identical": true
+    },
+    "batch_local_controls_feasible": {
+     "compared_as": "batch_local_controls_feasible",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "missing_pattern_identical": true
+    },
+    "endpoint_size_controlled": {
+     "compared_as": "endpoint_size_controlled",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "missing_pattern_identical": true
+    },
+    "source": {
+     "compared_as": "source",
+     "identical": true
+    },
+    "denom1_raw_non_nt": {
+     "compared_as": "denom1_raw_non_nt",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "missing_pattern_identical": true
+    },
+    "denom2_post_join": {
+     "compared_as": "denom2_post_join",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "missing_pattern_identical": true
+    },
+    "denom3_transfer": {
+     "compared_as": "denom3_transfer",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "missing_pattern_identical": true
+    },
+    "n_eligible": {
+     "compared_as": "n_eligible",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "missing_pattern_identical": true
+    },
+    "coverage_denom3": {
+     "compared_as": "coverage_denom3",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "missing_pattern_identical": true
+    },
+    "distinct_target_genes": {
+     "compared_as": "distinct_target_genes",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "missing_pattern_identical": true
+    },
+    "excluded_target_not_in_var": {
+     "compared_as": "excluded_target_not_in_var",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "missing_pattern_identical": true
+    },
+    "excluded_too_few_cells": {
+     "compared_as": "excluded_too_few_cells",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "missing_pattern_identical": true
+    },
+    "excluded_both": {
+     "compared_as": "excluded_both",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "missing_pattern_identical": true
+    },
+    "all_non_nt_perturbed_median": {
+     "compared_as": "all_non_nt_perturbed_median",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "missing_pattern_identical": true
+    },
+    "all_non_nt_perturbed_min": {
+     "compared_as": "all_non_nt_perturbed_min",
+     "identical": true,
+     "max_abs_difference": 0.0,
+     "missing_pattern_identical": true
+    },
+    "batch_count_source": {
+     "compared_as": "batch_count_source",
+     "identical": true
+    }
+   },
+   "all_values_identical": true
+  }
+ },
+ "all_values_identical": true
+}

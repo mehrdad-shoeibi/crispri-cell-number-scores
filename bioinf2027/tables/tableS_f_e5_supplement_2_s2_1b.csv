@@ -1,0 +1,13 @@
+Vector,Setting,Genes,Bc,[Bc; FN],[Bc; F],[Bc; FN; F] (p),"joint, prefix clusters",Lines,DepMap release
+Geneformer,within RPE1,1729,+0.276,+0.076,+0.015,+0.013 (<0.001),above zero,50-53,"DepMap 24Q4, not the current release"
+Geneformer,within K562-ess.,1724,+0.116,+0.038,+0.012,+0.005 (0.007),above zero,54-57,"DepMap 24Q4, not the current release"
+Geneformer,RPE1 → K562-ess.,1724,+0.229,+0.092,+0.034,+0.021 (<0.001),above zero,58-61,"DepMap 24Q4, not the current release"
+Geneformer,K562-ess. → RPE1,1729,+0.194,+0.068,+0.013,+0.009 (0.022),not shown,62-65,"DepMap 24Q4, not the current release"
+scGPT,within RPE1,1729,+0.278,+0.091,+0.023,+0.014 (0.004),above zero,66-69,"DepMap 24Q4, not the current release"
+scGPT,within K562-ess.,1724,+0.166,+0.082,+0.028,+0.023 (<0.001),above zero,70-73,"DepMap 24Q4, not the current release"
+scGPT,RPE1 → K562-ess.,1724,+0.262,+0.125,+0.049,+0.032 (<0.001),above zero,74-77,"DepMap 24Q4, not the current release"
+scGPT,K562-ess. → RPE1,1729,+0.233,+0.098,+0.016,+0.015 (0.034),not shown,78-81,"DepMap 24Q4, not the current release"
+GenePT,within RPE1,1729,+0.341,+0.096,+0.022,+0.011 (0.003),above zero,82-85,"DepMap 24Q4, not the current release"
+GenePT,within K562-ess.,1724,+0.197,+0.055,+0.037,+0.013 (<0.001),above zero,86-89,"DepMap 24Q4, not the current release"
+GenePT,RPE1 → K562-ess.,1724,+0.216,+0.086,+0.043,+0.018 (<0.001),above zero,90-93,"DepMap 24Q4, not the current release"
+GenePT,K562-ess. → RPE1,1729,+0.223,+0.058,-0.007,+0.007 (0.079),—,94-97,"DepMap 24Q4, not the current release"

@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this code or these statistics, please cite the article below and this repository."
+title: "crispri-cell-number-scores: code and saved statistics for 'Cell number and effect scores in the evaluation of CRISPRi perturbation models'"
+type: software
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/mehrdad-shoeibi/crispri-cell-number-scores"
+authors:
+  - family-names: Shoeibi
+    given-names: Mehrdad
+    orcid: "https://orcid.org/0009-0006-5470-0397"
+    affiliation: "Department of Industrial Engineering and Management Systems, University of Central Florida"
+keywords:
+  - CRISPR interference
+  - single-cell gene expression
+  - perturbation screens
+  - model evaluation
+preferred-citation:
+  type: unpublished
+  title: "Cell number and effect scores in the evaluation of CRISPRi perturbation models"
+  authors:
+    - family-names: Shoeibi
+      given-names: Mehrdad
+    - family-names: Karwowski
+      given-names: Waldemar
+    - family-names: Yousefi
+      given-names: Niloofar
+  notes: "Manuscript under review."

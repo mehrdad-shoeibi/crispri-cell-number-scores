@@ -1,0 +1,7 @@
+split,scope,groups,one_guide,two_guides,more_than_two
+train,modelled rows,5740,5356,384,0
+train,all groups,7110,6726,384,0
+val,modelled rows,2052,1860,192,0
+val,all groups,2399,2207,192,0
+test,modelled rows,3972,3738,234,0
+test,all groups,4765,4531,234,0

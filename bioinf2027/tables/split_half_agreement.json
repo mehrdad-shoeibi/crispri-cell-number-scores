@@ -1,0 +1,9 @@
+{
+ "table": "split_half_agreement",
+ "rows": 17,
+ "inputs": {
+  "bioinf2027/endpoints/readouts/supplement/5_6_R5_detail.csv": "c5d5139a79d55cf91ffad34f08ea7cf025ed42337e3ae69a0da1ff2956ece879"
+ },
+ "rounding": "three decimals, round half to even",
+ "fits": "none"
+}

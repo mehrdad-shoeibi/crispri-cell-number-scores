@@ -1,0 +1,17 @@
+{
+ "paths_relative_to": "$IGA_STORAGE_ROOT",
+ "source": "$IGA_STORAGE_ROOT/MADA/data/metadata/vcc/final_labels.parquet",
+ "columns_read": [
+  "split",
+  "target_gene",
+  "batch",
+  "n_perturbed_cells"
+ ],
+ "modelled_rows": "groups with at least 10 perturbed cells",
+ "floors": [
+  10,
+  27
+ ],
+ "feature_set": "the 2,000 selected genes of the source feature cache",
+ "note": "cell counts and row keys only; the label columns of the source file are not read"
+}

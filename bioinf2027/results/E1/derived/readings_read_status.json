@@ -1,0 +1,25 @@
+{
+ "decided": "bioinf2027/GATE.md, top section (gate G3, 2026-11-12), item 3",
+ "plan": "bioinf2027/plans/E1b_posthoc.md, Section 7",
+ "rule": "bioinf2027/plans/E1_design.md, Section 21.1, item 2",
+ "derived_from": {
+  "readings.csv": {
+   "path": "bioinf2027/results/E1/readings.csv",
+   "bytes": 2282,
+   "sha256": "d0da78ae5290ad15b0570c599b458311dcd5833c2c79c60d0b76e7189d751898"
+  },
+  "preconditions.csv": {
+   "path": "bioinf2027/results/E1/preconditions.csv",
+   "bytes": 63079,
+   "sha256": "57e385db23a1cd6e8bd12ada398e853c8f50ce68e5bedbedd15dce755f9c0677"
+  }
+ },
+ "rows": 8,
+ "L_read": 0,
+ "L_not_read": 8,
+ "output": {
+  "path": "bioinf2027/results/E1/derived/readings_read_status.csv",
+  "bytes": 3722,
+  "sha256": "aeed6932beb3bd905357392abcc1daeae8f5a8003eb3fb47fe5daac8a2734bd6"
+ }
+}

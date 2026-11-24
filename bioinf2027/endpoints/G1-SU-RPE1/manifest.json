@@ -1,0 +1,21 @@
+{
+ "protocol": {
+  "path": "bioinf2027/endpoints/G1-SU-RPE1/protocol.json",
+  "bytes": 2238,
+  "sha256": "7e9a6eeba7ddd2ff29b0a3eb9567c40a53002a1126766b26eaacf578b9d75ba0"
+ },
+ "tables": {
+  "vcc_labels.csv": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/endpoints/G1-SU-RPE1/vcc_labels.csv",
+   "bytes": 2922008,
+   "sha256": "c10fda225122b58b6a6fa85ebc5129d651de8ac02b83a950db7786c7aee23da8"
+  },
+  "external_RPE1.csv": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/endpoints/G1-SU-RPE1/external_RPE1.csv",
+   "bytes": 670409,
+   "sha256": "4cfdca3ec6ee605d5332ec035845b83337b6b471b79d4f6333a0d9a08e97a920"
+  }
+ },
+ "external_reused_from": null,
+ "seconds": 14.289236068725586
+}

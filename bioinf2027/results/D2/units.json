@@ -1,0 +1,120 @@
+{
+ "plan": "bioinf2027/plans/D2.md, Sections 3 to 5, 10 to 13",
+ "unit_size": 2000,
+ "vcc_perturbed": {
+  "rows": 11764,
+  "cells": 363650,
+  "index_perturbed_cells": 376518,
+  "index_cells_not_in_a_modelled_row": 12868,
+  "cells_equal_the_index": false
+ },
+ "vcc_delta": {
+  "genes": 282,
+  "batches": 48,
+  "cells": 135360,
+  "control_cells_in_the_index": 38176,
+  "control_cells_in_the_training_file": 38176
+ },
+ "rpe1_perturbed": {
+  "constructs": 1932,
+  "cells": 197121,
+  "by_store": {
+   "RPE1 chunks": 188676,
+   "RPE1 top-up": 8445
+  }
+ },
+ "rpe1_delta": {
+  "genes": 1811,
+  "control_cells": 11485,
+  "cells": 181100
+ },
+ "k562_perturbed": {
+  "constructs": 1903,
+  "cells": 273279,
+  "by_store": {
+   "K562-essential units": 273279
+  }
+ },
+ "k562_delta": {
+  "genes": 1811,
+  "control_cells": 10691,
+  "cells": 181100
+ },
+ "files": {
+  "vcc_perturbed": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/D2/units/vcc_perturbed.parquet",
+   "bytes": 7398727,
+   "sha256": "55548a7e480dc2c8c4a3b9dffa2f9c451a37b5dc65b85180d6cac814f30dca23",
+   "cells": 363650,
+   "units": 182,
+   "cells_whose_target_has_no_token": 0
+  },
+  "vcc_delta": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/D2/units/vcc_delta.parquet",
+   "bytes": 2054848,
+   "sha256": "5684447541227ab8b6e06ca081f7cfe1268124fd4ff0e743ce4c935523a2c4bb",
+   "cells": 135360,
+   "units": 68,
+   "cells_whose_target_has_no_token": 0
+  },
+  "rpe1_perturbed": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/D2/units/rpe1_perturbed.parquet",
+   "bytes": 4062753,
+   "sha256": "b677273c72bf96c6bce3ddf2493b28453c2e682e8d221907f6c014946f76c95e",
+   "cells": 197121,
+   "units": 99,
+   "cells_whose_target_has_no_token": 85
+  },
+  "rpe1_delta": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/D2/units/rpe1_delta.parquet",
+   "bytes": 1571439,
+   "sha256": "48e89972f902a9311d7cd2dacff924924e32e2a8d3921aa13abc3063f05b1317",
+   "cells": 181100,
+   "units": 91,
+   "cells_whose_target_has_no_token": 100
+  },
+  "k562_perturbed": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/D2/units/k562_perturbed.parquet",
+   "bytes": 5199750,
+   "sha256": "11532545f60e4b44527af2ef94e7bf4fbd1967d093da0e89f17dc46183265c9e",
+   "cells": 273279,
+   "units": 137,
+   "cells_whose_target_has_no_token": 0
+  },
+  "k562_delta": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/D2/units/k562_delta.parquet",
+   "bytes": 1545481,
+   "sha256": "8d60167bae7ac956f1bd8f5c2670e14faac2b97f4f9a4eeeac6ccbb3635d916e",
+   "cells": 181100,
+   "units": 91,
+   "cells_whose_target_has_no_token": 0
+  },
+  "identity": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/D2/units/identity.parquet",
+   "bytes": 56003,
+   "sha256": "0d6e1ec4f4e1f171cd788e7e6b6df4ba61ef645a1b4f6310f7e4e8cc157055a1",
+   "cells": 2000,
+   "units": 1,
+   "cells_whose_target_has_no_token": null
+  }
+ },
+ "cells_in_all_parts_but_identity": 1331610,
+ "inputs": {
+  "d2_input_records": {
+   "path": "bioinf2027/results/D2/input_records.json",
+   "bytes": 278830,
+   "sha256": "cbae2993ee3572822650d5d0c9c695084812f6b82a8c2b62b9fdec802c0a6f7d"
+  },
+  "g6_manifest": {
+   "path": "bioinf2027/endpoints/G6/manifest.json",
+   "bytes": 1752,
+   "sha256": "c5947bd85270f863132a9a58f145c3521604e19ffb8129524c3d94ea2f3878cc"
+  },
+  "g1_manifest": {
+   "path": "bioinf2027/endpoints/G1/manifest.json",
+   "bytes": 1748,
+   "sha256": "4b85517801ed167a901cefdc0cdba89f5898233be2edbda15cc9852cdd08cc28"
+  }
+ },
+ "seconds": 98.9
+}

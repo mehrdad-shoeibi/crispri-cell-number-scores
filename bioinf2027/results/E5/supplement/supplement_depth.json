@@ -1,0 +1,52 @@
+{
+ "plan": "bioinf2027/plans/E5_supplement.md",
+ "status": "post hoc, unadjusted, not part of E5's family (gate G7, item 3; bioinf2027/plans/E5_supplement.md)",
+ "smoke": false,
+ "part": "depth",
+ "replicates": 10000,
+ "seeds": {
+  "settings": {
+   "within RPE1": 20271121,
+   "within K562-essential": 20271122,
+   "RPE1 to K562-essential": 20271123,
+   "K562-essential to RPE1": 20271124
+  },
+  "within folds": 20271127,
+  "union folds": 20271204,
+  "inner folds": 20271128,
+  "shuffle": 20271126,
+  "kmeans": 20271207,
+  "pool sample": 20271205,
+  "pool subsets": 20271206
+ },
+ "settings": [
+  "within RPE1",
+  "within K562-essential",
+  "RPE1 to K562-essential",
+  "K562-essential to RPE1"
+ ],
+ "inputs": {},
+ "code": {
+  "bioinf2027/scripts/make_e5_supplement.py": "20b6887317eb35a8a418cb672556cc14934033e888a3f0486d9bd985ecb76950"
+ },
+ "inputs_depth": {
+  "RPE1": {
+   "path": "bioinf2027/results/E5/endpoint_b/genes_RPE1.csv",
+   "bytes": 867766,
+   "sha256": "b7e44e3080d233e4ceb51ab9495e3dcbfc21c125d3395d28449399065d915115"
+  },
+  "K562-essential": {
+   "path": "bioinf2027/results/E5/endpoint_b/genes_K562-essential.csv",
+   "bytes": 987631,
+   "sha256": "405398f1bdb74fafd8c96c109e066cf93de14b216e2e396d5be9fc55cda7f9d9"
+  }
+ },
+ "outputs": {
+  "depth.csv": {
+   "path": "bioinf2027/results/E5/supplement/depth.csv",
+   "bytes": 3052,
+   "sha256": "aea1f8d6732dc5acb73129836549ba1aa9b265882f941c98d236dc52f13f2074"
+  }
+ },
+ "seconds": 5.1
+}

@@ -1,0 +1,59 @@
+{
+ "table": "tableS_h_identity_coverage",
+ "code": {
+  "bioinf2027/scripts/figures/tableS_h_encoder_inputs.py": "ba660d6729923dc12cca616a165e6583b99894c92d3715a60cb1da7e7662d92c",
+  "bioinf2027/scripts/figures/tablelib.py": "5c546fa57595e02901ba2087d5c2334793762f2cb146db4fd434973bb3fe034f"
+ },
+ "inputs": {
+  "bioinf2027/results/E5/identity/geneformer_token.json": {
+   "path": "bioinf2027/results/E5/identity/geneformer_token.json",
+   "bytes": 2181,
+   "sha256": "5dc23e6b357817acf6536aeedb72089b5124ce757f83d269d8cec62b3822ff4b"
+  },
+  "bioinf2027/results/E5/identity/scgpt_gene.json": {
+   "path": "bioinf2027/results/E5/identity/scgpt_gene.json",
+   "bytes": 981,
+   "sha256": "e8e80480b13ecd06fa0dcf96003311daff7f581d0318d876ec2d677ec762f2fa"
+  },
+  "bioinf2027/results/E5/identity/genept.json": {
+   "path": "bioinf2027/results/E5/identity/genept.json",
+   "bytes": 1055,
+   "sha256": "cbaaa3aca5e4292d328ffe4a7879e2a85bd7703386d9f3959abe7c6dd1bfc695"
+  },
+  "bioinf2027/results/E5/supplement/supplement_lists.json": {
+   "path": "bioinf2027/results/E5/supplement/supplement_lists.json",
+   "bytes": 4804,
+   "sha256": "78759e6820ea40e6b5ed76b4f5a90464d72e1c3b591b186f2f8278d188dab16b"
+  }
+ },
+ "inputs_verified": {
+  "bioinf2027/results/E5/identity/geneformer_token.json": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/results/E5/identity/scgpt_gene.json": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/results/E5/identity/genept.json": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/results/E5/supplement/supplement_lists.json": "no record lists it; a tracked file without uncommitted changes"
+ },
+ "environment": {
+  "python": "3.13.12",
+  "numpy": "2.4.4",
+  "pandas": "3.0.2",
+  "requirements": {
+   "path": "bioinf2027/requirements.txt",
+   "bytes": 863,
+   "sha256": "f46a415cbe466ba1225adcede4abae7f0dd0b866f29abdf5a6a360e66b1f5702"
+  }
+ },
+ "tex": "booktabs; Unicode symbols (\u2212, \u03c1, \u2192, \u00bd), so a Unicode TeX engine (XeLaTeX or LuaLaTeX)",
+ "part": "2 of 2, the identity vectors of E5; VCC is not an E5 setting, so its joint coverage is not computed",
+ "outputs": {
+  "tableS_h_identity_coverage.csv": {
+   "path": "bioinf2027/tables/tableS_h_identity_coverage.csv",
+   "bytes": 273,
+   "sha256": "55b6bbfaf56772a886c774290f8df39fd55b29e3fb6a2a864b0a5c662be6ef04"
+  },
+  "tableS_h_identity_coverage.tex": {
+   "path": "bioinf2027/tables/tableS_h_identity_coverage.tex",
+   "bytes": 371,
+   "sha256": "e136fce53c2dbac0b060aca3d330f1487e0b5e3edc96e40ceb2782eec26c9f7d"
+  }
+ }
+}

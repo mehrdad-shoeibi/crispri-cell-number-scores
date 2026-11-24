@@ -1,0 +1,136 @@
+table,key,value
+a,train|spearman,0.3454163259710058
+a,train|partial_spearman_given_log1p_n_cells,0.6927761235901877
+a,val|spearman,0.20506201618638839
+a,val|partial_spearman_given_log1p_n_cells,0.57518381035258148
+a,test|spearman,0.11772109425438479
+a,test|partial_spearman_given_log1p_n_cells,0.52135759500161638
+a_quintiles,train|1|spearman,0.71868581477967353
+a_quintiles,train|2|spearman,0.73049967696048146
+a_quintiles,train|3|spearman,0.81159404659879575
+a_quintiles,train|4|spearman,0.71991583709831375
+a_quintiles,train|5|spearman,0.60441659755936394
+a_quintiles,val|1|spearman,0.83721323631891353
+a_quintiles,val|2|spearman,0.56985528893506943
+a_quintiles,val|3|spearman,0.31766073504426362
+a_quintiles,val|4|spearman,0.41838105903055511
+a_quintiles,val|5|spearman,0.5906570546158646
+a_quintiles,test|1|spearman,0.65615531365727742
+a_quintiles,test|2|spearman,0.59631102613302789
+a_quintiles,test|3|spearman,0.52288882170286155
+a_quintiles,test|4|spearman,0.44084513453636764
+a_quintiles,test|5|spearman,0.63636944455536482
+b,VCC train|control_mean_expression|all|spearman,0.51325564892549236
+b,VCC train|control_mean_expression|all|pearson,0.4505457948054038
+b,VCC train|negated_knockdown_fraction|all|spearman,0.10114019464270127
+b,VCC train|negated_knockdown_fraction|all|pearson,0.55348700286250807
+b,VCC train|control_mean_expression|target_not_in_features|spearman,0.54515967371919338
+b,VCC train|control_mean_expression|target_not_in_features|pearson,0.67556717851960024
+b,VCC train|control_mean_expression|target_in_features|spearman,0.28972671957505597
+b,VCC train|control_mean_expression|target_in_features|pearson,0.25984992378724903
+b,VCC train|negated_knockdown_fraction|target_in_features|spearman,0.10114019464270127
+b,VCC train|negated_knockdown_fraction|target_in_features|pearson,0.55348700286250807
+b,VCC val|control_mean_expression|all|spearman,0.33650394913116233
+b,VCC val|control_mean_expression|all|pearson,0.35943468048624738
+b,VCC val|negated_knockdown_fraction|all|spearman,0.38666854700048231
+b,VCC val|negated_knockdown_fraction|all|pearson,0.57104836705060236
+b,VCC val|control_mean_expression|target_not_in_features|spearman,0.44915319418854044
+b,VCC val|control_mean_expression|target_not_in_features|pearson,0.42918777061926006
+b,VCC val|control_mean_expression|target_in_features|spearman,0.0060576278056213712
+b,VCC val|control_mean_expression|target_in_features|pearson,0.2311228526228957
+b,VCC val|negated_knockdown_fraction|target_in_features|spearman,0.38666854700048231
+b,VCC val|negated_knockdown_fraction|target_in_features|pearson,0.57104836705060236
+b,VCC test|control_mean_expression|all|spearman,0.48030978140220626
+b,VCC test|control_mean_expression|all|pearson,0.33644925410297849
+b,VCC test|negated_knockdown_fraction|all|spearman,0.29026074697191323
+b,VCC test|negated_knockdown_fraction|all|pearson,0.49721315080850714
+b,VCC test|control_mean_expression|target_not_in_features|spearman,0.62873369462939988
+b,VCC test|control_mean_expression|target_not_in_features|pearson,0.36574435763602009
+b,VCC test|control_mean_expression|target_in_features|spearman,-0.046433004656151008
+b,VCC test|control_mean_expression|target_in_features|pearson,-0.073058206767112069
+b,VCC test|negated_knockdown_fraction|target_in_features|spearman,0.29026074697191323
+b,VCC test|negated_knockdown_fraction|target_in_features|pearson,0.49721315080850714
+b,K562-essential|control_mean_expression|all|spearman,0.79748767440479762
+b,K562-essential|control_mean_expression|all|pearson,0.57581279105623284
+b,K562-essential|negated_knockdown_fraction|all|spearman,0.19207436617833012
+b,K562-essential|negated_knockdown_fraction|all|pearson,0.4839981132615862
+b,K562-essential|control_mean_expression|target_not_in_features|spearman,0.80689793174448554
+b,K562-essential|control_mean_expression|target_not_in_features|pearson,0.5927168451198449
+b,K562-essential|negated_knockdown_fraction|target_not_in_features|spearman,0.16339996796467543
+b,K562-essential|negated_knockdown_fraction|target_not_in_features|pearson,0.44840131020605856
+b,K562-essential|control_mean_expression|target_in_features|spearman,0.75617384858712622
+b,K562-essential|control_mean_expression|target_in_features|pearson,0.49105927296914437
+b,K562-essential|negated_knockdown_fraction|target_in_features|spearman,0.35033091232194263
+b,K562-essential|negated_knockdown_fraction|target_in_features|pearson,0.65275808955393821
+c,RPE1|Ridge__x_only|all|spearman,-0.090601020235306501
+c,RPE1|Ridge__x_only|target_in_features|spearman,0.0087722630619154786
+c,RPE1|Ridge__x_only|target_not_in_features|spearman,-0.11024006328838407
+c,RPE1|Ridge__mag_only|all|spearman,0.096603284870480449
+c,RPE1|Ridge__mag_only|target_in_features|spearman,0.18872328380047682
+c,RPE1|Ridge__mag_only|target_not_in_features|spearman,0.075687466250597635
+c,RPE1|Ridge__x_plus_mag|all|spearman,-0.067754996026006681
+c,RPE1|Ridge__x_plus_mag|target_in_features|spearman,0.067327630522304879
+c,RPE1|Ridge__x_plus_mag|target_not_in_features|spearman,-0.099717534322386142
+c,RPE1|HistGradientBoosting__x_only|all|spearman,-0.11587333106842272
+c,RPE1|HistGradientBoosting__x_only|target_in_features|spearman,0.0049372568125286573
+c,RPE1|HistGradientBoosting__x_only|target_not_in_features|spearman,-0.14395140233711409
+c,RPE1|HistGradientBoosting__mag_only|all|spearman,0.0085820915403071879
+c,RPE1|HistGradientBoosting__mag_only|target_in_features|spearman,0.070889706353022511
+c,RPE1|HistGradientBoosting__mag_only|target_not_in_features|spearman,-0.009290269184191716
+c,RPE1|HistGradientBoosting__x_plus_mag|all|spearman,-0.037884007837615669
+c,RPE1|HistGradientBoosting__x_plus_mag|target_in_features|spearman,0.05125983461007861
+c,RPE1|HistGradientBoosting__x_plus_mag|target_not_in_features|spearman,-0.063571408586796621
+c,RPE1|RandomForest__x_only|all|spearman,-0.10461096040860267
+c,RPE1|RandomForest__x_only|target_in_features|spearman,0.0061609995588531958
+c,RPE1|RandomForest__x_only|target_not_in_features|spearman,-0.13144212565100769
+c,RPE1|RandomForest__mag_only|all|spearman,0.05297191582945291
+c,RPE1|RandomForest__mag_only|target_in_features|spearman,0.094847551304905811
+c,RPE1|RandomForest__mag_only|target_not_in_features|spearman,0.040733156408875211
+c,RPE1|RandomForest__x_plus_mag|all|spearman,-0.01841651158612459
+c,RPE1|RandomForest__x_plus_mag|target_in_features|spearman,0.087603048118492177
+c,RPE1|RandomForest__x_plus_mag|target_not_in_features|spearman,-0.047246024456964464
+c,RPE1|SPSM baseline|all|spearman,-0.050122987989380294
+c,RPE1|SPSM baseline|target_in_features|spearman,0.060898820724325162
+c,RPE1|SPSM baseline|target_not_in_features|spearman,-0.074278884375545598
+c,RPE1|MAG-SPSM|all|spearman,0.067148118669369483
+c,RPE1|MAG-SPSM|target_in_features|spearman,0.20671017423949659
+c,RPE1|MAG-SPSM|target_not_in_features|spearman,0.035267864563451129
+c,RPE1|MAG-LINEAR|all|spearman,0.056546016278232969
+c,RPE1|MAG-LINEAR|target_in_features|spearman,0.20311192315396914
+c,RPE1|MAG-LINEAR|target_not_in_features|spearman,0.02684359378858418
+c,K562-essential|Ridge__x_only|all|spearman,0.0092914058095571444
+c,K562-essential|Ridge__x_only|target_in_features|spearman,-0.004041383658326428
+c,K562-essential|Ridge__x_only|target_not_in_features|spearman,0.010733034800420418
+c,K562-essential|Ridge__mag_only|all|spearman,0.13341819357914958
+c,K562-essential|Ridge__mag_only|target_in_features|spearman,0.26093827437223732
+c,K562-essential|Ridge__mag_only|target_not_in_features|spearman,0.097140361825077515
+c,K562-essential|Ridge__x_plus_mag|all|spearman,-0.043252632754803268
+c,K562-essential|Ridge__x_plus_mag|target_in_features|spearman,0.11697875772597816
+c,K562-essential|Ridge__x_plus_mag|target_not_in_features|spearman,-0.084965432409912112
+c,K562-essential|HistGradientBoosting__x_only|all|spearman,-0.21099186559974548
+c,K562-essential|HistGradientBoosting__x_only|target_in_features|spearman,-0.1994935546676303
+c,K562-essential|HistGradientBoosting__x_only|target_not_in_features|spearman,-0.21646492718574126
+c,K562-essential|HistGradientBoosting__mag_only|all|spearman,0.15996824841814661
+c,K562-essential|HistGradientBoosting__mag_only|target_in_features|spearman,0.27129534740701233
+c,K562-essential|HistGradientBoosting__mag_only|target_not_in_features|spearman,0.11622238630186728
+c,K562-essential|HistGradientBoosting__x_plus_mag|all|spearman,0.018380893356892584
+c,K562-essential|HistGradientBoosting__x_plus_mag|target_in_features|spearman,0.20009191816735669
+c,K562-essential|HistGradientBoosting__x_plus_mag|target_not_in_features|spearman,-0.033357158257884684
+c,K562-essential|RandomForest__x_only|all|spearman,-0.21820218867474703
+c,K562-essential|RandomForest__x_only|target_in_features|spearman,-0.20741797775684467
+c,K562-essential|RandomForest__x_only|target_not_in_features|spearman,-0.22412116664497905
+c,K562-essential|RandomForest__mag_only|all|spearman,0.17767485033020816
+c,K562-essential|RandomForest__mag_only|target_in_features|spearman,0.3024648649911279
+c,K562-essential|RandomForest__mag_only|target_not_in_features|spearman,0.13311234552348497
+c,K562-essential|RandomForest__x_plus_mag|all|spearman,0.16554293176592547
+c,K562-essential|RandomForest__x_plus_mag|target_in_features|spearman,0.33264260257961942
+c,K562-essential|RandomForest__x_plus_mag|target_not_in_features|spearman,0.11443169319971887
+c,K562-essential|SPSM baseline|all|spearman,-0.069616590181190333
+c,K562-essential|SPSM baseline|target_in_features|spearman,-0.097062032667008039
+c,K562-essential|SPSM baseline|target_not_in_features|spearman,-0.062379789452873223
+c,K562-essential|MAG-SPSM|all|spearman,0.016241245166869644
+c,K562-essential|MAG-SPSM|target_in_features|spearman,0.2177319354333942
+c,K562-essential|MAG-SPSM|target_not_in_features|spearman,-0.029677660587993971
+c,K562-essential|MAG-LINEAR|all|spearman,0.14686720350010013
+c,K562-essential|MAG-LINEAR|target_in_features|spearman,0.18298258922793237
+c,K562-essential|MAG-LINEAR|target_not_in_features|spearman,0.13411990420653519

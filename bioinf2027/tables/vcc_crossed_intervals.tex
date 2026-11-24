@@ -1,0 +1,26 @@
+\begin{tabular}{lllllll}
+\toprule
+Input & Quantity & Score & Estimate & Interval over target genes & Interval over batches & Crossed interval (genes and batches) \\
+\midrule
+Geneformer & Input minus Gaussian features & All cells & +0.179 & [+0.023, +0.350] & [+0.160, +0.197] & [+0.019, +0.354] \\
+Geneformer & Input minus Gaussian features & Fixed count & $-$0.001 & [$-$0.096, +0.086] & [$-$0.019, +0.016] & [$-$0.099, +0.091] \\
+Geneformer & Paired drop & All cells minus fixed count & +0.180 & [+0.064, +0.336] & [+0.161, +0.199] & [+0.062, +0.338] \\
+Geneformer & Count$-$matched control cells minus Gaussian features & All cells & +0.283 & [+0.177, +0.438] & [+0.266, +0.301] & [+0.175, +0.443] \\
+Geneformer & Count$-$matched control cells minus Gaussian features & Fixed count & $-$0.013 & [$-$0.080, +0.027] & [$-$0.026, $-$0.001] & [$-$0.085, +0.032] \\
+scGPT & Input minus Gaussian features & All cells & +0.190 & [+0.053, +0.347] & [+0.170, +0.210] & [+0.050, +0.350] \\
+scGPT & Input minus Gaussian features & Fixed count & $-$0.030 & [$-$0.152, +0.065] & [$-$0.048, $-$0.014] & [$-$0.156, +0.068] \\
+scGPT & Paired drop & All cells minus fixed count & +0.221 & [+0.120, +0.387] & [+0.204, +0.237] & [+0.117, +0.392] \\
+scGPT & Count$-$matched control cells minus Gaussian features & All cells & +0.253 & [+0.150, +0.391] & [+0.234, +0.271] & [+0.146, +0.397] \\
+scGPT & Count$-$matched control cells minus Gaussian features & Fixed count & $-$0.027 & [$-$0.099, +0.010] & [$-$0.041, $-$0.012] & [$-$0.103, +0.015] \\
+Stack & Input minus Gaussian features & All cells & +0.155 & [$-$0.016, +0.313] & [+0.135, +0.173] & [$-$0.020, +0.316] \\
+Stack & Input minus Gaussian features & Fixed count & $-$0.066 & [$-$0.331, +0.117] & [$-$0.090, $-$0.043] & [$-$0.334, +0.122] \\
+Stack & Paired drop & All cells minus fixed count & +0.221 & [+0.105, +0.425] & [+0.199, +0.242] & [+0.101, +0.428] \\
+Stack & Count$-$matched control cells minus Gaussian features & All cells & +0.286 & [+0.180, +0.438] & [+0.269, +0.303] & [+0.176, +0.441] \\
+Stack & Count$-$matched control cells minus Gaussian features & Fixed count & $-$0.035 & [$-$0.126, +0.015] & [$-$0.049, $-$0.022] & [$-$0.128, +0.018] \\
+PCA$-$50 & Input minus Gaussian features & All cells & +0.124 & [$-$0.079, +0.327] & [+0.108, +0.140] & [$-$0.080, +0.330] \\
+PCA$-$50 & Input minus Gaussian features & Fixed count & $-$0.063 & [$-$0.293, +0.110] & [$-$0.088, $-$0.040] & [$-$0.293, +0.112] \\
+PCA$-$50 & Paired drop & All cells minus fixed count & +0.187 & [+0.053, +0.378] & [+0.162, +0.213] & [+0.049, +0.384] \\
+PCA$-$50 & Count$-$matched control cells minus Gaussian features & All cells & +0.291 & [+0.184, +0.455] & [+0.273, +0.309] & [+0.182, +0.458] \\
+PCA$-$50 & Count$-$matched control cells minus Gaussian features & Fixed count & +0.012 & [$-$0.033, +0.047] & [+0.000, +0.024] & [$-$0.037, +0.052] \\
+\bottomrule
+\end{tabular}

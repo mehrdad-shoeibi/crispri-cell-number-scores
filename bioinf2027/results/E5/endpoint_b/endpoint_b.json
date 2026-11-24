@@ -1,0 +1,173 @@
+{
+ "plan": "bioinf2027/plans/E5.md, Sections 4, 5, 16.1 and 17",
+ "smoke": false,
+ "single_cell_inputs": {
+  "train": {
+   "path": "$IGA_STORAGE_ROOT/IGA_MAIN/data/vcc/train/adata_Training.h5ad",
+   "bytes": 15482497461,
+   "sha256": "a09977104fefb622368ca74b50c9d3c1e891733e6c83db07acfca49b0219c02b",
+   "matches_input_records": true
+  },
+  "val": {
+   "path": "$IGA_STORAGE_ROOT/IGA_MAIN/data/vcc/validation/adata_Validation.h5ad",
+   "bytes": 6928967541,
+   "sha256": "376f0bab27d9f22e00dfd888668d3602006d035edc182721c378f4802c77bfe1",
+   "matches_input_records": true
+  },
+  "test": {
+   "path": "$IGA_STORAGE_ROOT/IGA_MAIN/data/vcc/test/adata_Test.h5ad",
+   "bytes": 11950739168,
+   "sha256": "ba5ce66729e4c8e50b6f147c7d73d3f9f28f76c91fa43ff33e3f6bc2ed831f03",
+   "matches_input_records": true
+  },
+  "RPE1": {
+   "path": "$IGA_STORAGE_ROOT/IGA_MAIN/data/replogle/raw_singlecell/rpe1_raw_singlecell_01.h5ad",
+   "bytes": 8700873216,
+   "sha256": "9b05ef1f81526216fa008d677e9e0d03dce9a2f7a95499a4fb81e505e9d88ef1",
+   "matches_input_records": true
+  },
+  "K562-essential": {
+   "path": "$IGA_STORAGE_ROOT/IGA_MAIN/data/replogle/raw_singlecell/K562_essential_raw_singlecell_01.h5ad",
+   "bytes": 10661879995,
+   "sha256": "3e5a63a9e892b21029bb55fca4e12517a49aad7af6c14133ca63d12cf68c6cee",
+   "matches_input_records": true
+  }
+ },
+ "caches": {
+  "E1a_labels": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/cache/E1a_labels/manifest.json",
+   "bytes": 2722,
+   "sha256": "a92c8fe030ed806c1af944d8de24820cce7a6bbc18b305e602c5ac7545979a96"
+  },
+  "E4": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/cache/E4/manifest.json",
+   "bytes": 2903,
+   "sha256": "6b9060186a809f4e02a0afd36257f632c31ac03f78f465d269a1d069a12cd23b"
+  }
+ },
+ "features": {
+  "count": 1303,
+  "rule": "feature symbols that both screens map (E4 cache feature_columns >= 0)"
+ },
+ "seeds": {
+  "draws": [
+   20260801,
+   20260802,
+   20260803,
+   20260804,
+   20260805,
+   20260806,
+   20260807,
+   20260808,
+   20260809,
+   20260810,
+   20260811,
+   20260812,
+   20260813,
+   20260814,
+   20260815,
+   20260816,
+   20260817,
+   20260818,
+   20260819,
+   20260820,
+   20260821,
+   20260822,
+   20260823,
+   20260824,
+   20260825
+  ],
+  "halves": [
+   20270407,
+   20270408
+  ],
+  "within-screen folds": 20271127
+ },
+ "settings": {
+  "components": 50,
+  "controls": 788,
+  "levels": [
+   27,
+   50
+  ],
+  "half floors": {
+   "27": 54,
+   "50": 100
+  },
+  "window": 10000
+ },
+ "screens": {
+  "RPE1": {
+   "constructs": 1932,
+   "genes": 1811,
+   "target_symbol_mismatches_with_the_endpoint_table": 0,
+   "targets_among_the_features": 346,
+   "constructs_with_neighbour_features": 250,
+   "constructs_at_50": 1454,
+   "sac_label_spearman_first_draw": 0.9666841296721012,
+   "seconds": 3880.3
+  },
+  "K562-essential": {
+   "constructs": 1903,
+   "genes": 1811,
+   "target_symbol_mismatches_with_the_endpoint_table": 0,
+   "targets_among_the_features": 333,
+   "constructs_with_neighbour_features": 240,
+   "constructs_at_50": 1740,
+   "sac_label_spearman_first_draw": 0.9252770691252739,
+   "seconds": 3695.9
+  }
+ },
+ "checks": {
+  "iii RPE1": {
+   "constructs": 20,
+   "largest_difference": 0.0,
+   "passed": true
+  },
+  "iv RPE1": {
+   "constructs": 20,
+   "largest_difference": 0.0,
+   "tolerance": 1e-10,
+   "passed": true
+  },
+  "iii K562-essential": {
+   "constructs": 20,
+   "largest_difference": 0.0,
+   "passed": true
+  },
+  "iv K562-essential": {
+   "constructs": 20,
+   "largest_difference": 0.0,
+   "tolerance": 1e-10,
+   "passed": true
+  }
+ },
+ "outputs": {
+  "constructs_K562-essential.csv": {
+   "path": "bioinf2027/results/E5/endpoint_b/constructs_K562-essential.csv",
+   "bytes": 1239203,
+   "sha256": "50a1ff3096f2156204a0835d722a816d06621abdc9fa38076e3cc72884e86ee9"
+  },
+  "constructs_RPE1.csv": {
+   "path": "bioinf2027/results/E5/endpoint_b/constructs_RPE1.csv",
+   "bytes": 1123492,
+   "sha256": "74b48b376892fa67100c69d492dc2c03d14dc5caf563cc39044f4b67c54dbc36"
+  },
+  "genes_K562-essential.csv": {
+   "path": "bioinf2027/results/E5/endpoint_b/genes_K562-essential.csv",
+   "bytes": 987631,
+   "sha256": "405398f1bdb74fafd8c96c109e066cf93de14b216e2e396d5be9fc55cda7f9d9"
+  },
+  "genes_RPE1.csv": {
+   "path": "bioinf2027/results/E5/endpoint_b/genes_RPE1.csv",
+   "bytes": 867766,
+   "sha256": "b7e44e3080d233e4ceb51ab9495e3dcbfc21c125d3395d28449399065d915115"
+  },
+  "gates.json": {
+   "path": "bioinf2027/results/E5/endpoint_b/gates.json",
+   "bytes": 3179,
+   "sha256": "3fedfcc48d059d778296356cbb3231dc5a32512f5f305cd812831a611a3ca80b"
+  }
+ },
+ "seconds": 7851.8
+}

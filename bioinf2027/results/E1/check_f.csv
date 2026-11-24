@@ -1,0 +1,19 @@
+cell,split,comparison,rows,max_abs_difference,rows_above_tolerance
+G5,train,unmodified x against the batch-local own delta,1957,2.6166661442061923e-06,0
+G5,val,unmodified x against the batch-local own delta,592,2.3057036906415362e-06,0
+G5,test,unmodified x against the batch-local own delta,788,2.321018528927965e-06,0
+G6,train,unmodified x against the batch-local own delta,4131,2.633761082559971e-06,0
+G6,val,unmodified x against the batch-local own delta,993,2.5590054801849504e-06,0
+G6,test,unmodified x against the batch-local own delta,1475,2.671481770244455e-06,0
+G1,train,re-referenced x against -B2 native,1957,4.810690628076486e-07,0
+G1,val,re-referenced x against -B2 native,592,2.6158340304949235e-07,0
+G1,test,re-referenced x against -B2 native,788,2.588241456713547e-07,0
+G2,train,re-referenced x against -B2 native,4131,4.810690628076486e-07,0
+G2,val,re-referenced x against -B2 native,993,2.97614253241818e-07,0
+G2,test,re-referenced x against -B2 native,1475,3.904033749613234e-07,0
+G3,train,gene-level re-referenced x against -B2 native,98,1.9297444220356397e-07,0
+G3,val,gene-level re-referenced x against -B2 native,21,1.507131853761834e-07,0
+G3,test,gene-level re-referenced x against -B2 native,33,1.736885477665595e-07,0
+G4,train,gene-level re-referenced x against -B2 native,100,1.9297444220356397e-07,0
+G4,val,gene-level re-referenced x against -B2 native,21,1.507131853761834e-07,0
+G4,test,gene-level re-referenced x against -B2 native,33,1.736885477665595e-07,0

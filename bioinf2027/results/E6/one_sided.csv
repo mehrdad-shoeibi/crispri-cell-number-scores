@@ -1,0 +1,9 @@
+direction,arm,considered,why_not_considered,adjustment,R_estimate,p_R_at_least_0.10,increment_estimate,p_increment_at_least_0.03
+RPE1 to K562-essential,z,False,the R5 gate fails,"secondary, unadjusted; no statement attached (bioinf2027/plans/E6.md, Section 4.1)",,,,
+RPE1 to K562-essential,x,False,the R5 gate fails,"secondary, unadjusted; no statement attached (bioinf2027/plans/E6.md, Section 4.1)",,,,
+RPE1 to K562-essential,m,False,the R5 gate fails,"secondary, unadjusted; no statement attached (bioinf2027/plans/E6.md, Section 4.1)",,,,
+RPE1 to K562-essential,[x; m],False,the R5 gate fails,"secondary, unadjusted; no statement attached (bioinf2027/plans/E6.md, Section 4.1)",,,,
+K562-essential to RPE1,z,True,,"secondary, unadjusted; no statement attached (bioinf2027/plans/E6.md, Section 4.1)",0.024946819577994262,0.00029997000299970003,-0.0024632327686047173,9.999000099990002e-05
+K562-essential to RPE1,x,True,,"secondary, unadjusted; no statement attached (bioinf2027/plans/E6.md, Section 4.1)",0.012112764543196068,9.999000099990002e-05,-0.0028737755429086853,9.999000099990002e-05
+K562-essential to RPE1,m,True,,"secondary, unadjusted; no statement attached (bioinf2027/plans/E6.md, Section 4.1)",0.004110100769950158,9.999000099990002e-05,-0.00023050564781712524,9.999000099990002e-05
+K562-essential to RPE1,[x; m],True,,"secondary, unadjusted; no statement attached (bioinf2027/plans/E6.md, Section 4.1)",0.04167307013193124,0.0047995200479952005,-0.0028644604430281273,9.999000099990002e-05

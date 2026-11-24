@@ -1,0 +1,107 @@
+{
+ "plan": "bioinf2027/plans/E5.md, Sections 3, 5 to 8, 16 and 18 to 20",
+ "smoke": false,
+ "replicates": 10000,
+ "refits": 20,
+ "statistics": 24,
+ "svd_fallbacks_total": 6,
+ "covered_genes": {
+  "RPE1": 1773,
+  "K562-essential": 1765
+ },
+ "inputs": {
+  "RPE1": {
+   "genes": 1811,
+   "b_column": "b27",
+   "genes_with_b": 1811,
+   "genes_with_halves": 1297
+  },
+  "K562-essential": {
+   "genes": 1811,
+   "b_column": "b27",
+   "genes_with_b": 1811,
+   "genes_with_halves": 1629
+  },
+  "union_genes": 2111,
+  "features_mapped_in_both": 1303,
+  "inputs": {
+   "G1_manifest": {
+    "path": "bioinf2027/endpoints/G1/manifest.json",
+    "bytes": 1748,
+    "sha256": "4b85517801ed167a901cefdc0cdba89f5898233be2edbda15cc9852cdd08cc28"
+   },
+   "supplement": {
+    "path": "bioinf2027/endpoints/readouts/supplement/supplement.json",
+    "bytes": 11390,
+    "sha256": "44ff27afec8c9f77321153d02e51f35c581180028ce1e17a61a2c3abf1055310"
+   },
+   "endpoint_b": {
+    "path": "bioinf2027/results/E5/endpoint_b/endpoint_b.json",
+    "bytes": 4550,
+    "sha256": "5884cbad1399d72dbff35828d5ac1f971f61a4093cddd23a9dec8bda244adbd2"
+   },
+   "gates_b": {
+    "path": "bioinf2027/results/E5/endpoint_b/gates.json",
+    "bytes": 3179,
+    "sha256": "3fedfcc48d059d778296356cbb3231dc5a32512f5f305cd812831a611a3ca80b"
+   }
+  }
+ },
+ "embeddings": {
+  "Geneformer": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E5/identity/geneformer_token.npz",
+   "bytes": 7257298,
+   "sha256": "73f0a9d21a2f313caa35d089bb9cdffc67555b1ef846f9cc5a019967284a5fcb"
+  },
+  "scGPT": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E5/identity/scgpt_gene.npz",
+   "bytes": 4802538,
+   "sha256": "9297d8b6790a573da5690d02761fa1689c0ed7b182aed601fc3781a9153e2c89"
+  },
+  "GenePT": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/E5/identity/genept.npz",
+   "bytes": 14238694,
+   "sha256": "f474fecd21fc064b36df7da34444fd56936f061ba17eab0e23d40628413f38c4"
+  }
+ },
+ "prefit": {
+  "path": "bioinf2027/results/E5/prefit/prefit.json",
+  "bytes": 2657,
+  "sha256": "a6eeadcc14ea3643ee28465b8a78766fafa5eb2bdc3dd20397c89e4b8e9a6899"
+ },
+ "prefit_outputs": {
+  "ceiling.csv": {
+   "path": "bioinf2027/results/E5/prefit/ceiling.csv",
+   "bytes": 1534,
+   "sha256": "afcf60f30b61ffdd5f43afc94296fb2b5561dfcb6baf888c87ab5f48ae91a11a"
+  },
+  "positive_control.csv": {
+   "path": "bioinf2027/results/E5/prefit/positive_control.csv",
+   "bytes": 10412,
+   "sha256": "a95e637e0a80321a6c4a2e762df3aa360ef8060d5a3f2014c9fe3dd77fb25d5f"
+  },
+  "gates_a.json": {
+   "path": "bioinf2027/results/E5/prefit/gates_a.json",
+   "bytes": 768,
+   "sha256": "55e99b83ef9eb94956e773d33201c0582fcfd93de074ec9c4130d460e1179ece"
+  }
+ },
+ "positive_control_revised": {
+  "path": "bioinf2027/results/E5/prefit/prefit_revised.json",
+  "bytes": 2587,
+  "sha256": "27fb45e24b7d6f5c0e1f1b4bab6d564668826c8f9d67c6f3b4359c90be30be6e"
+ },
+ "code": {
+  "bioinf2027/scripts/make_e5_fits.py": "bfad78082f63fdd3480c0190da7969e55d85eff1498111dfa7b01162055282c0",
+  "bioinf2027/scripts/e5fit.py": "d1dc23d63b23d13a5608ed62371e115d7d9f9da54d37ee3dc659d2deb4c72063",
+  "bioinf2027/scripts/e5lib.py": "764ebe2010d1655e3fe4dfb6b117783bcea739ad2b0958596c317618af8da9c4"
+ },
+ "outputs": {
+  "family.csv": {
+   "path": "bioinf2027/results/E5/family/family.csv",
+   "bytes": 19104,
+   "sha256": "4520d5f437f8d914d7183087e6fcc142edd6f771434f5c858f7735d7364addbd"
+  }
+ },
+ "seconds": 25096.0
+}

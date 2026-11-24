@@ -1,0 +1,32 @@
+{
+  "title": "crispri-cell-number-scores: code and saved statistics for 'Cell number and effect scores in the evaluation of CRISPRi perturbation models'",
+  "upload_type": "software",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "Analysis code, tests and saved summary statistics for the article 'Cell number and effect scores in the evaluation of CRISPRi perturbation models'. The archive rebuilds the tables and the figure data of the article from the saved statistics and documents the inputs and commands of every analysis stage. Raw single-cell data, model weights, embeddings and per-group predictions are not part of the archive; the documentation lists where to obtain them.",
+  "creators": [
+    {
+      "name": "Shoeibi, Mehrdad",
+      "affiliation": "University of Central Florida",
+      "orcid": "0009-0006-5470-0397"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Karwowski, Waldemar",
+      "affiliation": "University of Central Florida",
+      "type": "Supervisor"
+    },
+    {
+      "name": "Yousefi, Niloofar",
+      "affiliation": "University of Central Florida",
+      "type": "Supervisor"
+    }
+  ],
+  "keywords": [
+    "CRISPR interference",
+    "single-cell gene expression",
+    "perturbation screens",
+    "model evaluation"
+  ]
+}

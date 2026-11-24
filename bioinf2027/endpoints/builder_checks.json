@@ -1,0 +1,1723 @@
+{
+ "checks": {
+  "shared_control_pool": {
+   "training_control_cells": 38176,
+   "val": {
+    "control_cells": 38176,
+    "same_cells_and_batches": true
+   },
+   "test": {
+    "control_cells": 38176,
+    "same_cells_and_batches": true
+   },
+   "passed": true
+  },
+  "a_RPE1": {
+   "screen": "RPE1",
+   "constructs": 1932,
+   "control_cells": 11485,
+   "pools_equal_stored": true,
+   "control_pool_equals_stored": true,
+   "valid_draw_counts_equal_stored": true,
+   "y_primary": {
+    "max_abs_difference": 0.0,
+    "rows_above_tolerance": 0
+   },
+   "y_mean": {
+    "max_abs_difference": 0.0,
+    "rows_above_tolerance": 0
+   },
+   "y_pooled": {
+    "max_abs_difference": 0.0,
+    "rows_above_tolerance": 0
+   },
+   "tolerance": 1e-09,
+   "passed": true
+  },
+  "a_K562-essential": {
+   "screen": "K562-essential",
+   "constructs": 1903,
+   "control_cells": 10691,
+   "pools_equal_stored": true,
+   "control_pool_equals_stored": true,
+   "valid_draw_counts_equal_stored": true,
+   "y_primary": {
+    "max_abs_difference": 0.0,
+    "rows_above_tolerance": 0
+   },
+   "y_mean": {
+    "max_abs_difference": 0.0,
+    "rows_above_tolerance": 0
+   },
+   "y_pooled": {
+    "max_abs_difference": 0.0,
+    "rows_above_tolerance": 0
+   },
+   "tolerance": 1e-09,
+   "passed": true
+  },
+  "b": {
+   "rows": 11764,
+   "max_abs_difference": 2.3841702923022012e-07,
+   "rows_above_tolerance": 0,
+   "tolerance": 2e-06,
+   "cell_counts_equal_recorded": true,
+   "control_counts_equal_recorded": true,
+   "passed": true
+  },
+  "c": {
+   "rows": 11764,
+   "max_abs_difference": 0.00023564373359441504,
+   "rows_above_tolerance": 7,
+   "rows_that_differ_at_all": 1006,
+   "tolerance": 0.0001,
+   "passed": false
+  },
+  "d": {
+   "configurations": [
+    {
+     "side": "VCC, pooled controls",
+     "control_pool": 38176,
+     "controls_drawn": 788,
+     "n_pert": 10,
+     "pool_sizes": [
+      11,
+      4760
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, pooled controls",
+     "control_pool": 38176,
+     "controls_drawn": 788,
+     "n_pert": 27,
+     "pool_sizes": [
+      28,
+      4760
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 707 control cells",
+     "control_pool": 707,
+     "controls_drawn": 700,
+     "n_pert": 10,
+     "pool_sizes": [
+      11,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 707 control cells",
+     "control_pool": 707,
+     "controls_drawn": 700,
+     "n_pert": 27,
+     "pool_sizes": [
+      28,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 709 control cells",
+     "control_pool": 709,
+     "controls_drawn": 700,
+     "n_pert": 10,
+     "pool_sizes": [
+      11,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 709 control cells",
+     "control_pool": 709,
+     "controls_drawn": 700,
+     "n_pert": 27,
+     "pool_sizes": [
+      28,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 713 control cells",
+     "control_pool": 713,
+     "controls_drawn": 700,
+     "n_pert": 10,
+     "pool_sizes": [
+      11,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 713 control cells",
+     "control_pool": 713,
+     "controls_drawn": 700,
+     "n_pert": 27,
+     "pool_sizes": [
+      28,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 730 control cells",
+     "control_pool": 730,
+     "controls_drawn": 700,
+     "n_pert": 10,
+     "pool_sizes": [
+      11,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 730 control cells",
+     "control_pool": 730,
+     "controls_drawn": 700,
+     "n_pert": 27,
+     "pool_sizes": [
+      28,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 733 control cells",
+     "control_pool": 733,
+     "controls_drawn": 700,
+     "n_pert": 10,
+     "pool_sizes": [
+      11,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 733 control cells",
+     "control_pool": 733,
+     "controls_drawn": 700,
+     "n_pert": 27,
+     "pool_sizes": [
+      28,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 735 control cells",
+     "control_pool": 735,
+     "controls_drawn": 700,
+     "n_pert": 10,
+     "pool_sizes": [
+      11,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 735 control cells",
+     "control_pool": 735,
+     "controls_drawn": 700,
+     "n_pert": 27,
+     "pool_sizes": [
+      28,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 749 control cells",
+     "control_pool": 749,
+     "controls_drawn": 700,
+     "n_pert": 10,
+     "pool_sizes": [
+      11,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 749 control cells",
+     "control_pool": 749,
+     "controls_drawn": 700,
+     "n_pert": 27,
+     "pool_sizes": [
+      28,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 753 control cells",
+     "control_pool": 753,
+     "controls_drawn": 700,
+     "n_pert": 10,
+     "pool_sizes": [
+      11,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 753 control cells",
+     "control_pool": 753,
+     "controls_drawn": 700,
+     "n_pert": 27,
+     "pool_sizes": [
+      28,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 757 control cells",
+     "control_pool": 757,
+     "controls_drawn": 700,
+     "n_pert": 10,
+     "pool_sizes": [
+      11,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 757 control cells",
+     "control_pool": 757,
+     "controls_drawn": 700,
+     "n_pert": 27,
+     "pool_sizes": [
+      28,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 765 control cells",
+     "control_pool": 765,
+     "controls_drawn": 700,
+     "n_pert": 10,
+     "pool_sizes": [
+      11,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 765 control cells",
+     "control_pool": 765,
+     "controls_drawn": 700,
+     "n_pert": 27,
+     "pool_sizes": [
+      28,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 767 control cells",
+     "control_pool": 767,
+     "controls_drawn": 700,
+     "n_pert": 10,
+     "pool_sizes": [
+      11,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 767 control cells",
+     "control_pool": 767,
+     "controls_drawn": 700,
+     "n_pert": 27,
+     "pool_sizes": [
+      28,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 768 control cells",
+     "control_pool": 768,
+     "controls_drawn": 700,
+     "n_pert": 10,
+     "pool_sizes": [
+      11,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 768 control cells",
+     "control_pool": 768,
+     "controls_drawn": 700,
+     "n_pert": 27,
+     "pool_sizes": [
+      28,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 769 control cells",
+     "control_pool": 769,
+     "controls_drawn": 700,
+     "n_pert": 10,
+     "pool_sizes": [
+      11,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 769 control cells",
+     "control_pool": 769,
+     "controls_drawn": 700,
+     "n_pert": 27,
+     "pool_sizes": [
+      28,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 770 control cells",
+     "control_pool": 770,
+     "controls_drawn": 700,
+     "n_pert": 10,
+     "pool_sizes": [
+      11,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 770 control cells",
+     "control_pool": 770,
+     "controls_drawn": 700,
+     "n_pert": 27,
+     "pool_sizes": [
+      28,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 771 control cells",
+     "control_pool": 771,
+     "controls_drawn": 700,
+     "n_pert": 10,
+     "pool_sizes": [
+      11,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 771 control cells",
+     "control_pool": 771,
+     "controls_drawn": 700,
+     "n_pert": 27,
+     "pool_sizes": [
+      28,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 775 control cells",
+     "control_pool": 775,
+     "controls_drawn": 700,
+     "n_pert": 10,
+     "pool_sizes": [
+      11,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 775 control cells",
+     "control_pool": 775,
+     "controls_drawn": 700,
+     "n_pert": 27,
+     "pool_sizes": [
+      28,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 779 control cells",
+     "control_pool": 779,
+     "controls_drawn": 700,
+     "n_pert": 10,
+     "pool_sizes": [
+      11,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 779 control cells",
+     "control_pool": 779,
+     "controls_drawn": 700,
+     "n_pert": 27,
+     "pool_sizes": [
+      28,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 780 control cells",
+     "control_pool": 780,
+     "controls_drawn": 700,
+     "n_pert": 10,
+     "pool_sizes": [
+      11,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 780 control cells",
+     "control_pool": 780,
+     "controls_drawn": 700,
+     "n_pert": 27,
+     "pool_sizes": [
+      28,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 782 control cells",
+     "control_pool": 782,
+     "controls_drawn": 700,
+     "n_pert": 10,
+     "pool_sizes": [
+      11,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 782 control cells",
+     "control_pool": 782,
+     "controls_drawn": 700,
+     "n_pert": 27,
+     "pool_sizes": [
+      28,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 784 control cells",
+     "control_pool": 784,
+     "controls_drawn": 700,
+     "n_pert": 10,
+     "pool_sizes": [
+      11,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 784 control cells",
+     "control_pool": 784,
+     "controls_drawn": 700,
+     "n_pert": 27,
+     "pool_sizes": [
+      28,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 785 control cells",
+     "control_pool": 785,
+     "controls_drawn": 700,
+     "n_pert": 10,
+     "pool_sizes": [
+      11,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 785 control cells",
+     "control_pool": 785,
+     "controls_drawn": 700,
+     "n_pert": 27,
+     "pool_sizes": [
+      28,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 791 control cells",
+     "control_pool": 791,
+     "controls_drawn": 700,
+     "n_pert": 10,
+     "pool_sizes": [
+      11,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 791 control cells",
+     "control_pool": 791,
+     "controls_drawn": 700,
+     "n_pert": 27,
+     "pool_sizes": [
+      28,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 793 control cells",
+     "control_pool": 793,
+     "controls_drawn": 700,
+     "n_pert": 10,
+     "pool_sizes": [
+      11,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 793 control cells",
+     "control_pool": 793,
+     "controls_drawn": 700,
+     "n_pert": 27,
+     "pool_sizes": [
+      28,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 797 control cells",
+     "control_pool": 797,
+     "controls_drawn": 700,
+     "n_pert": 10,
+     "pool_sizes": [
+      11,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 797 control cells",
+     "control_pool": 797,
+     "controls_drawn": 700,
+     "n_pert": 27,
+     "pool_sizes": [
+      28,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 805 control cells",
+     "control_pool": 805,
+     "controls_drawn": 700,
+     "n_pert": 10,
+     "pool_sizes": [
+      11,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 805 control cells",
+     "control_pool": 805,
+     "controls_drawn": 700,
+     "n_pert": 27,
+     "pool_sizes": [
+      28,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 806 control cells",
+     "control_pool": 806,
+     "controls_drawn": 700,
+     "n_pert": 10,
+     "pool_sizes": [
+      11,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 806 control cells",
+     "control_pool": 806,
+     "controls_drawn": 700,
+     "n_pert": 27,
+     "pool_sizes": [
+      28,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 807 control cells",
+     "control_pool": 807,
+     "controls_drawn": 700,
+     "n_pert": 10,
+     "pool_sizes": [
+      11,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 807 control cells",
+     "control_pool": 807,
+     "controls_drawn": 700,
+     "n_pert": 27,
+     "pool_sizes": [
+      28,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 808 control cells",
+     "control_pool": 808,
+     "controls_drawn": 700,
+     "n_pert": 10,
+     "pool_sizes": [
+      11,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 808 control cells",
+     "control_pool": 808,
+     "controls_drawn": 700,
+     "n_pert": 27,
+     "pool_sizes": [
+      28,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 810 control cells",
+     "control_pool": 810,
+     "controls_drawn": 700,
+     "n_pert": 10,
+     "pool_sizes": [
+      11,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 810 control cells",
+     "control_pool": 810,
+     "controls_drawn": 700,
+     "n_pert": 27,
+     "pool_sizes": [
+      28,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 816 control cells",
+     "control_pool": 816,
+     "controls_drawn": 700,
+     "n_pert": 10,
+     "pool_sizes": [
+      11,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 816 control cells",
+     "control_pool": 816,
+     "controls_drawn": 700,
+     "n_pert": 27,
+     "pool_sizes": [
+      28,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 825 control cells",
+     "control_pool": 825,
+     "controls_drawn": 700,
+     "n_pert": 10,
+     "pool_sizes": [
+      11,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 825 control cells",
+     "control_pool": 825,
+     "controls_drawn": 700,
+     "n_pert": 27,
+     "pool_sizes": [
+      28,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 833 control cells",
+     "control_pool": 833,
+     "controls_drawn": 700,
+     "n_pert": 10,
+     "pool_sizes": [
+      11,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 833 control cells",
+     "control_pool": 833,
+     "controls_drawn": 700,
+     "n_pert": 27,
+     "pool_sizes": [
+      28,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 838 control cells",
+     "control_pool": 838,
+     "controls_drawn": 700,
+     "n_pert": 10,
+     "pool_sizes": [
+      11,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 838 control cells",
+     "control_pool": 838,
+     "controls_drawn": 700,
+     "n_pert": 27,
+     "pool_sizes": [
+      28,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 845 control cells",
+     "control_pool": 845,
+     "controls_drawn": 700,
+     "n_pert": 10,
+     "pool_sizes": [
+      11,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 845 control cells",
+     "control_pool": 845,
+     "controls_drawn": 700,
+     "n_pert": 27,
+     "pool_sizes": [
+      28,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 854 control cells",
+     "control_pool": 854,
+     "controls_drawn": 700,
+     "n_pert": 10,
+     "pool_sizes": [
+      11,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 854 control cells",
+     "control_pool": 854,
+     "controls_drawn": 700,
+     "n_pert": 27,
+     "pool_sizes": [
+      28,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 855 control cells",
+     "control_pool": 855,
+     "controls_drawn": 700,
+     "n_pert": 10,
+     "pool_sizes": [
+      11,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 855 control cells",
+     "control_pool": 855,
+     "controls_drawn": 700,
+     "n_pert": 27,
+     "pool_sizes": [
+      28,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 858 control cells",
+     "control_pool": 858,
+     "controls_drawn": 700,
+     "n_pert": 10,
+     "pool_sizes": [
+      11,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 858 control cells",
+     "control_pool": 858,
+     "controls_drawn": 700,
+     "n_pert": 27,
+     "pool_sizes": [
+      28,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 865 control cells",
+     "control_pool": 865,
+     "controls_drawn": 700,
+     "n_pert": 10,
+     "pool_sizes": [
+      11,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 865 control cells",
+     "control_pool": 865,
+     "controls_drawn": 700,
+     "n_pert": 27,
+     "pool_sizes": [
+      28,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 868 control cells",
+     "control_pool": 868,
+     "controls_drawn": 700,
+     "n_pert": 10,
+     "pool_sizes": [
+      11,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 868 control cells",
+     "control_pool": 868,
+     "controls_drawn": 700,
+     "n_pert": 27,
+     "pool_sizes": [
+      28,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 875 control cells",
+     "control_pool": 875,
+     "controls_drawn": 700,
+     "n_pert": 10,
+     "pool_sizes": [
+      11,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 875 control cells",
+     "control_pool": 875,
+     "controls_drawn": 700,
+     "n_pert": 27,
+     "pool_sizes": [
+      28,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 879 control cells",
+     "control_pool": 879,
+     "controls_drawn": 700,
+     "n_pert": 10,
+     "pool_sizes": [
+      11,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 879 control cells",
+     "control_pool": 879,
+     "controls_drawn": 700,
+     "n_pert": 27,
+     "pool_sizes": [
+      28,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 897 control cells",
+     "control_pool": 897,
+     "controls_drawn": 700,
+     "n_pert": 10,
+     "pool_sizes": [
+      11,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "VCC, batch of 897 control cells",
+     "control_pool": 897,
+     "controls_drawn": 700,
+     "n_pert": 27,
+     "pool_sizes": [
+      28,
+      121
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "RPE1",
+     "control_pool": 11485,
+     "controls_drawn": 788,
+     "n_pert": 10,
+     "pool_sizes": [
+      11,
+      3580
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "RPE1",
+     "control_pool": 11485,
+     "controls_drawn": 788,
+     "n_pert": 27,
+     "pool_sizes": [
+      28,
+      3580
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "RPE1, 700 controls",
+     "control_pool": 11485,
+     "controls_drawn": 700,
+     "n_pert": 10,
+     "pool_sizes": [
+      11,
+      3580
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "RPE1, 700 controls",
+     "control_pool": 11485,
+     "controls_drawn": 700,
+     "n_pert": 27,
+     "pool_sizes": [
+      28,
+      3580
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "K562-essential",
+     "control_pool": 10691,
+     "controls_drawn": 788,
+     "n_pert": 10,
+     "pool_sizes": [
+      11,
+      1996
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "K562-essential",
+     "control_pool": 10691,
+     "controls_drawn": 788,
+     "n_pert": 27,
+     "pool_sizes": [
+      28,
+      1996
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "K562-essential, 700 controls",
+     "control_pool": 10691,
+     "controls_drawn": 700,
+     "n_pert": 10,
+     "pool_sizes": [
+      11,
+      1996
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    },
+    {
+     "side": "K562-essential, 700 controls",
+     "control_pool": 10691,
+     "controls_drawn": 700,
+     "n_pert": 27,
+     "pool_sizes": [
+      28,
+      1996
+     ],
+     "seed_pool_pairs_that_differ": 0,
+     "first_differences": [],
+     "seeds_where_a_pool_of_exactly_n_pert_shares_the_draw": 0
+    }
+   ],
+   "pools_of_exactly_n_pert": {
+    "VCC rows": {
+     "10": 297,
+     "27": 311
+    },
+    "RPE1": {
+     "10": 0,
+     "27": 19
+    },
+    "K562-essential": {
+     "10": 0,
+     "27": 5
+    }
+   },
+   "passed": true
+  },
+  "e": {
+   "rows": 11764,
+   "keys_equal_the_stored_rows": true,
+   "z_equals_mu_pert_minus_mu_nt_max_abs_difference": 0.0,
+   "batch_control_mean_max_abs_difference": 4.081048908588514e-06,
+   "batches": 48,
+   "control_cell_counts_agree": true,
+   "per_batch": [
+    {
+     "batch": "Flex_1_01",
+     "control_cells_in_file": 749,
+     "control_cells_in_index": 749,
+     "control_cells_recorded": 749,
+     "rows": 239,
+     "max_abs_difference": 2.6273791080555498e-06
+    },
+    {
+     "batch": "Flex_1_02",
+     "control_cells_in_file": 733,
+     "control_cells_in_index": 733,
+     "control_cells_recorded": 733,
+     "rows": 235,
+     "max_abs_difference": 2.5012808642088658e-06
+    },
+    {
+     "batch": "Flex_1_03",
+     "control_cells_in_file": 765,
+     "control_cells_in_index": 765,
+     "control_cells_recorded": 765,
+     "rows": 239,
+     "max_abs_difference": 1.8769619511971314e-06
+    },
+    {
+     "batch": "Flex_1_04",
+     "control_cells_in_file": 771,
+     "control_cells_in_index": 771,
+     "control_cells_recorded": 771,
+     "rows": 241,
+     "max_abs_difference": 7.924866584074763e-07
+    },
+    {
+     "batch": "Flex_1_05",
+     "control_cells_in_file": 775,
+     "control_cells_in_index": 775,
+     "control_cells_recorded": 775,
+     "rows": 247,
+     "max_abs_difference": 2.4746310325340914e-06
+    },
+    {
+     "batch": "Flex_1_06",
+     "control_cells_in_file": 779,
+     "control_cells_in_index": 779,
+     "control_cells_recorded": 779,
+     "rows": 243,
+     "max_abs_difference": 7.541250051090742e-07
+    },
+    {
+     "batch": "Flex_1_07",
+     "control_cells_in_file": 735,
+     "control_cells_in_index": 735,
+     "control_cells_recorded": 735,
+     "rows": 243,
+     "max_abs_difference": 9.02098052257827e-07
+    },
+    {
+     "batch": "Flex_1_08",
+     "control_cells_in_file": 767,
+     "control_cells_in_index": 767,
+     "control_cells_recorded": 767,
+     "rows": 243,
+     "max_abs_difference": 1.8501530414383183e-06
+    },
+    {
+     "batch": "Flex_1_09",
+     "control_cells_in_file": 709,
+     "control_cells_in_index": 709,
+     "control_cells_recorded": 709,
+     "rows": 239,
+     "max_abs_difference": 2.5886406511688165e-06
+    },
+    {
+     "batch": "Flex_1_10",
+     "control_cells_in_file": 793,
+     "control_cells_in_index": 793,
+     "control_cells_recorded": 793,
+     "rows": 245,
+     "max_abs_difference": 7.511838838736296e-07
+    },
+    {
+     "batch": "Flex_1_11",
+     "control_cells_in_file": 765,
+     "control_cells_in_index": 765,
+     "control_cells_recorded": 765,
+     "rows": 245,
+     "max_abs_difference": 1.0582356670951754e-06
+    },
+    {
+     "batch": "Flex_1_12",
+     "control_cells_in_file": 753,
+     "control_cells_in_index": 753,
+     "control_cells_recorded": 753,
+     "rows": 240,
+     "max_abs_difference": 2.8679886980853553e-06
+    },
+    {
+     "batch": "Flex_1_13",
+     "control_cells_in_file": 797,
+     "control_cells_in_index": 797,
+     "control_cells_recorded": 797,
+     "rows": 245,
+     "max_abs_difference": 1.1953834908595695e-06
+    },
+    {
+     "batch": "Flex_1_14",
+     "control_cells_in_file": 780,
+     "control_cells_in_index": 780,
+     "control_cells_recorded": 780,
+     "rows": 242,
+     "max_abs_difference": 2.9625036779279412e-06
+    },
+    {
+     "batch": "Flex_1_15",
+     "control_cells_in_file": 838,
+     "control_cells_in_index": 838,
+     "control_cells_recorded": 838,
+     "rows": 245,
+     "max_abs_difference": 1.8402044981158383e-06
+    },
+    {
+     "batch": "Flex_1_16",
+     "control_cells_in_file": 730,
+     "control_cells_in_index": 730,
+     "control_cells_recorded": 730,
+     "rows": 241,
+     "max_abs_difference": 2.492617254823415e-06
+    },
+    {
+     "batch": "Flex_2_01",
+     "control_cells_in_file": 770,
+     "control_cells_in_index": 770,
+     "control_cells_recorded": 770,
+     "rows": 246,
+     "max_abs_difference": 6.635467726390232e-07
+    },
+    {
+     "batch": "Flex_2_02",
+     "control_cells_in_file": 713,
+     "control_cells_in_index": 713,
+     "control_cells_recorded": 713,
+     "rows": 238,
+     "max_abs_difference": 1.8946418922638486e-06
+    },
+    {
+     "batch": "Flex_2_03",
+     "control_cells_in_file": 757,
+     "control_cells_in_index": 757,
+     "control_cells_recorded": 757,
+     "rows": 238,
+     "max_abs_difference": 1.9961650652433605e-06
+    },
+    {
+     "batch": "Flex_2_04",
+     "control_cells_in_file": 825,
+     "control_cells_in_index": 825,
+     "control_cells_recorded": 825,
+     "rows": 248,
+     "max_abs_difference": 2.793398770073452e-06
+    },
+    {
+     "batch": "Flex_2_05",
+     "control_cells_in_file": 769,
+     "control_cells_in_index": 769,
+     "control_cells_recorded": 769,
+     "rows": 244,
+     "max_abs_difference": 1.00870591301927e-06
+    },
+    {
+     "batch": "Flex_2_06",
+     "control_cells_in_file": 771,
+     "control_cells_in_index": 771,
+     "control_cells_recorded": 771,
+     "rows": 244,
+     "max_abs_difference": 1.313776048394999e-06
+    },
+    {
+     "batch": "Flex_2_07",
+     "control_cells_in_file": 793,
+     "control_cells_in_index": 793,
+     "control_cells_recorded": 793,
+     "rows": 240,
+     "max_abs_difference": 1.998747432452319e-06
+    },
+    {
+     "batch": "Flex_2_08",
+     "control_cells_in_file": 810,
+     "control_cells_in_index": 810,
+     "control_cells_recorded": 810,
+     "rows": 243,
+     "max_abs_difference": 1.5494264200555108e-06
+    },
+    {
+     "batch": "Flex_2_09",
+     "control_cells_in_file": 816,
+     "control_cells_in_index": 816,
+     "control_cells_recorded": 816,
+     "rows": 242,
+     "max_abs_difference": 3.8088536729041778e-06
+    },
+    {
+     "batch": "Flex_2_10",
+     "control_cells_in_file": 785,
+     "control_cells_in_index": 785,
+     "control_cells_recorded": 785,
+     "rows": 242,
+     "max_abs_difference": 1.1237563599664213e-06
+    },
+    {
+     "batch": "Flex_2_11",
+     "control_cells_in_file": 780,
+     "control_cells_in_index": 780,
+     "control_cells_recorded": 780,
+     "rows": 241,
+     "max_abs_difference": 1.3650991981251082e-06
+    },
+    {
+     "batch": "Flex_2_12",
+     "control_cells_in_file": 707,
+     "control_cells_in_index": 707,
+     "control_cells_recorded": 707,
+     "rows": 243,
+     "max_abs_difference": 1.4839617501483104e-06
+    },
+    {
+     "batch": "Flex_2_13",
+     "control_cells_in_file": 782,
+     "control_cells_in_index": 782,
+     "control_cells_recorded": 782,
+     "rows": 248,
+     "max_abs_difference": 1.1452171199133332e-06
+    },
+    {
+     "batch": "Flex_2_14",
+     "control_cells_in_file": 833,
+     "control_cells_in_index": 833,
+     "control_cells_recorded": 833,
+     "rows": 247,
+     "max_abs_difference": 1.201251832450012e-06
+    },
+    {
+     "batch": "Flex_2_15",
+     "control_cells_in_file": 791,
+     "control_cells_in_index": 791,
+     "control_cells_recorded": 791,
+     "rows": 246,
+     "max_abs_difference": 1.2487587524034893e-06
+    },
+    {
+     "batch": "Flex_2_16",
+     "control_cells_in_file": 808,
+     "control_cells_in_index": 808,
+     "control_cells_recorded": 808,
+     "rows": 243,
+     "max_abs_difference": 1.2310424652994811e-06
+    },
+    {
+     "batch": "Flex_3_01",
+     "control_cells_in_file": 768,
+     "control_cells_in_index": 768,
+     "control_cells_recorded": 768,
+     "rows": 252,
+     "max_abs_difference": 1.2897265453393203e-06
+    },
+    {
+     "batch": "Flex_3_02",
+     "control_cells_in_file": 897,
+     "control_cells_in_index": 897,
+     "control_cells_recorded": 897,
+     "rows": 246,
+     "max_abs_difference": 2.0880895847952274e-06
+    },
+    {
+     "batch": "Flex_3_03",
+     "control_cells_in_file": 854,
+     "control_cells_in_index": 854,
+     "control_cells_recorded": 854,
+     "rows": 248,
+     "max_abs_difference": 2.5288003389078995e-06
+    },
+    {
+     "batch": "Flex_3_04",
+     "control_cells_in_file": 855,
+     "control_cells_in_index": 855,
+     "control_cells_recorded": 855,
+     "rows": 249,
+     "max_abs_difference": 2.2425289039063045e-06
+    },
+    {
+     "batch": "Flex_3_05",
+     "control_cells_in_file": 805,
+     "control_cells_in_index": 805,
+     "control_cells_recorded": 805,
+     "rows": 248,
+     "max_abs_difference": 7.558313219746537e-07
+    },
+    {
+     "batch": "Flex_3_06",
+     "control_cells_in_file": 868,
+     "control_cells_in_index": 868,
+     "control_cells_recorded": 868,
+     "rows": 255,
+     "max_abs_difference": 3.177449450220138e-06
+    },
+    {
+     "batch": "Flex_3_07",
+     "control_cells_in_file": 875,
+     "control_cells_in_index": 875,
+     "control_cells_recorded": 875,
+     "rows": 254,
+     "max_abs_difference": 1.3367789133411634e-06
+    },
+    {
+     "batch": "Flex_3_08",
+     "control_cells_in_file": 816,
+     "control_cells_in_index": 816,
+     "control_cells_recorded": 816,
+     "rows": 250,
+     "max_abs_difference": 7.995495608925651e-07
+    },
+    {
+     "batch": "Flex_3_09",
+     "control_cells_in_file": 807,
+     "control_cells_in_index": 807,
+     "control_cells_recorded": 807,
+     "rows": 244,
+     "max_abs_difference": 8.910414308616055e-07
+    },
+    {
+     "batch": "Flex_3_10",
+     "control_cells_in_file": 879,
+     "control_cells_in_index": 879,
+     "control_cells_recorded": 879,
+     "rows": 249,
+     "max_abs_difference": 7.013547678180743e-07
+    },
+    {
+     "batch": "Flex_3_11",
+     "control_cells_in_file": 845,
+     "control_cells_in_index": 845,
+     "control_cells_recorded": 845,
+     "rows": 255,
+     "max_abs_difference": 1.3853671285701807e-06
+    },
+    {
+     "batch": "Flex_3_12",
+     "control_cells_in_file": 784,
+     "control_cells_in_index": 784,
+     "control_cells_recorded": 784,
+     "rows": 241,
+     "max_abs_difference": 1.0748602905508164e-06
+    },
+    {
+     "batch": "Flex_3_13",
+     "control_cells_in_file": 858,
+     "control_cells_in_index": 858,
+     "control_cells_recorded": 858,
+     "rows": 251,
+     "max_abs_difference": 9.993851046719016e-07
+    },
+    {
+     "batch": "Flex_3_14",
+     "control_cells_in_file": 845,
+     "control_cells_in_index": 845,
+     "control_cells_recorded": 845,
+     "rows": 250,
+     "max_abs_difference": 4.081048908588514e-06
+    },
+    {
+     "batch": "Flex_3_15",
+     "control_cells_in_file": 865,
+     "control_cells_in_index": 865,
+     "control_cells_recorded": 865,
+     "rows": 256,
+     "max_abs_difference": 2.237551473882604e-06
+    },
+    {
+     "batch": "Flex_3_16",
+     "control_cells_in_file": 806,
+     "control_cells_in_index": 806,
+     "control_cells_recorded": 806,
+     "rows": 251,
+     "max_abs_difference": 9.06049761439931e-07
+    }
+   ],
+   "tolerance_z": 1e-09,
+   "tolerance_control_mean": 1e-05,
+   "layout": {
+    "cell_index_roles": {
+     "perturbed": 376518,
+     "NT": 38176
+    },
+    "control_embedding_files": 144
+   },
+   "passed": true
+  }
+ },
+ "all_builder_checks_passed": false
+}

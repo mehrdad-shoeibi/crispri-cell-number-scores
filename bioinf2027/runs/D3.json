@@ -1,0 +1,196 @@
+{
+ "item": "D3",
+ "logs_without_a_record": [
+  {
+   "log": "$IGA_STORAGE_ROOT/bioinf2027/logs/D3/20261109T162212_regenerate-portable-paths.log",
+   "reason": "first regeneration on 2026-11-09, launched with a version of the launcher that cut the first character of the first modified path in the record; that record was discarded and the run repeated, with identical outputs, and the repeat is recorded below"
+  }
+ ],
+ "runs": [
+  {
+   "label": "regenerate-portable-paths",
+   "command": "python bioinf2027/scripts/make_d3_cell_counts.py",
+   "working_directory": "repository root",
+   "commit": "4622436f477f9fdcd018ef5fa15ecb2c66b2d152",
+   "branch": "bioinf-2027",
+   "tracked_files_modified": [
+    "bioinf2027/audit/number_provenance.csv",
+    "bioinf2027/diag/D1_external_provenance.json",
+    "bioinf2027/diag/D1_vcc_provenance.json",
+    "bioinf2027/diag/D1b_provenance.json",
+    "bioinf2027/diag/D3_cell_counts.csv",
+    "bioinf2027/diag/D3_cell_counts_provenance.json",
+    "bioinf2027/plans/D1b.md",
+    "bioinf2027/plans/E1_design.md"
+   ],
+   "environment": {
+    "python": "3.13.12",
+    "implementation": "CPython",
+    "system": "Linux",
+    "machine": "x86_64",
+    "packages": {
+     "numpy": "2.4.4",
+     "scipy": "1.17.1",
+     "pandas": "3.0.2",
+     "pyarrow": "24.0.0",
+     "h5py": "3.16.0",
+     "pytest": "9.0.3"
+    },
+    "requirements_file": "bioinf2027/requirements.txt",
+    "requirements_sha256": "0237f3a09bb89a8ead20245a623aab1213c84fbec9842f00773684906fd8f501",
+    "matches_requirements": true,
+    "mismatched_distributions": []
+   },
+   "started": "2026-11-09T16:33:45-05:00",
+   "finished": "2026-11-09T16:33:46-05:00",
+   "returncode": 0,
+   "log": "$IGA_STORAGE_ROOT/bioinf2027/logs/D3/20261109T163345_regenerate-portable-paths.log"
+  },
+  {
+   "label": "vcc-retention",
+   "command": "python bioinf2027/scripts/make_d3_vcc_retention.py",
+   "working_directory": "repository root",
+   "commit": "621e3deeb852f450a94a97fbdc45c3a57d054dd4",
+   "branch": "bioinf-2027",
+   "tracked_files_modified": [
+    "bioinf2027/plans/D1b.md",
+    "bioinf2027/plans/E1_design.md",
+    "bioinf2027/scripts/make_d1_external.py",
+    "bioinf2027/scripts/make_d1_vcc_own_delta.py",
+    "bioinf2027/scripts/make_d1b.py",
+    "bioinf2027/scripts/make_d3_cell_counts.py",
+    "bioinf2027/src/bioinf2027/stats.py",
+    "bioinf2027/tests/test_stats_and_features.py"
+   ],
+   "environment": {
+    "python": "3.13.12",
+    "implementation": "CPython",
+    "system": "Linux",
+    "machine": "x86_64",
+    "packages": {
+     "numpy": "2.4.4",
+     "scipy": "1.17.1",
+     "pandas": "3.0.2",
+     "pyarrow": "24.0.0",
+     "h5py": "3.16.0",
+     "pytest": "9.0.3"
+    },
+    "requirements_file": "bioinf2027/requirements.txt",
+    "requirements_sha256": "0237f3a09bb89a8ead20245a623aab1213c84fbec9842f00773684906fd8f501",
+    "matches_requirements": true,
+    "mismatched_distributions": []
+   },
+   "started": "2026-11-09T16:50:57-05:00",
+   "finished": "2026-11-09T16:50:57-05:00",
+   "returncode": 0,
+   "log": "$IGA_STORAGE_ROOT/bioinf2027/logs/D3/20261109T165057_vcc-retention.log"
+  },
+  {
+   "label": "input-records",
+   "command": "python bioinf2027/scripts/make_d3_cell_counts.py",
+   "script_sha256": "476711add23dbf8e4c3c9812979418c92f6c0b5b36e4c3ba639305116176300d",
+   "working_directory": "repository root",
+   "commit": "5bc8088533f92e16245d6140015da801c9733b24",
+   "branch": "bioinf-2027",
+   "tracked_files_modified": [
+    "bioinf2027/diag/D1_external_provenance.json",
+    "bioinf2027/diag/D1_vcc_provenance.json",
+    "bioinf2027/runs/D1.json",
+    "bioinf2027/runs/D1b.json",
+    "bioinf2027/runs/D3.json",
+    "bioinf2027/scripts/make_d1_external.py",
+    "bioinf2027/scripts/make_d1_vcc_own_delta.py",
+    "bioinf2027/scripts/make_d1b.py",
+    "bioinf2027/scripts/make_d3_cell_counts.py",
+    "bioinf2027/src/bioinf2027/config.py",
+    "bioinf2027/src/bioinf2027/features.py",
+    "bioinf2027/src/bioinf2027/runlog.py",
+    "bioinf2027/src/bioinf2027/stats.py",
+    "bioinf2027/tests/test_runlog.py",
+    "bioinf2027/tests/test_stats_and_features.py"
+   ],
+   "untracked_files_in_bioinf2027": [
+    "bioinf2027/PROGRESS.md",
+    "bioinf2027/reviews/D1_audit_r1.md",
+    "bioinf2027/src/bioinf2027/provenance.py"
+   ],
+   "environment": {
+    "python": "3.13.12",
+    "implementation": "CPython",
+    "system": "Linux",
+    "machine": "x86_64",
+    "packages": {
+     "numpy": "2.4.4",
+     "scipy": "1.17.1",
+     "pandas": "3.0.2",
+     "pyarrow": "24.0.0",
+     "h5py": "3.16.0",
+     "pytest": "9.0.3"
+    },
+    "requirements_file": "bioinf2027/requirements.txt",
+    "requirements_sha256": "0237f3a09bb89a8ead20245a623aab1213c84fbec9842f00773684906fd8f501",
+    "matches_requirements": true,
+    "mismatched_distributions": []
+   },
+   "started": "2026-11-09T18:27:38-05:00",
+   "finished": "2026-11-09T18:27:38-05:00",
+   "returncode": 0,
+   "log": "$IGA_STORAGE_ROOT/bioinf2027/logs/D3/20261109T182738_input-records.log"
+  },
+  {
+   "label": "regeneration-check-input-records",
+   "command": "python bioinf2027/scripts/check_regeneration.py --item D3 --against 5bc8088 bioinf2027/diag/D3_cell_counts.csv",
+   "script_sha256": "8a1859547c917f5ab646319052d8dfca3bc4ceee58cf3d832517ef56a2feef2c",
+   "working_directory": "repository root",
+   "commit": "5bc8088533f92e16245d6140015da801c9733b24",
+   "branch": "bioinf-2027",
+   "tracked_files_modified": [
+    "bioinf2027/diag/D1_external_provenance.json",
+    "bioinf2027/diag/D1_regeneration_check.json",
+    "bioinf2027/diag/D1_vcc_provenance.json",
+    "bioinf2027/diag/D3_cell_counts_provenance.json",
+    "bioinf2027/runs/D1.json",
+    "bioinf2027/runs/D1b.json",
+    "bioinf2027/runs/D3.json",
+    "bioinf2027/scripts/make_d1_external.py",
+    "bioinf2027/scripts/make_d1_vcc_own_delta.py",
+    "bioinf2027/scripts/make_d1b.py",
+    "bioinf2027/scripts/make_d3_cell_counts.py",
+    "bioinf2027/src/bioinf2027/config.py",
+    "bioinf2027/src/bioinf2027/features.py",
+    "bioinf2027/src/bioinf2027/runlog.py",
+    "bioinf2027/src/bioinf2027/stats.py",
+    "bioinf2027/tests/test_runlog.py",
+    "bioinf2027/tests/test_stats_and_features.py"
+   ],
+   "untracked_files_in_bioinf2027": [
+    "bioinf2027/PROGRESS.md",
+    "bioinf2027/reviews/D1_audit_r1.md",
+    "bioinf2027/reviews/D1b_plan_r2.md",
+    "bioinf2027/src/bioinf2027/provenance.py"
+   ],
+   "environment": {
+    "python": "3.13.12",
+    "implementation": "CPython",
+    "system": "Linux",
+    "machine": "x86_64",
+    "packages": {
+     "numpy": "2.4.4",
+     "scipy": "1.17.1",
+     "pandas": "3.0.2",
+     "pyarrow": "24.0.0",
+     "h5py": "3.16.0",
+     "pytest": "9.0.3"
+    },
+    "requirements_file": "bioinf2027/requirements.txt",
+    "requirements_sha256": "0237f3a09bb89a8ead20245a623aab1213c84fbec9842f00773684906fd8f501",
+    "matches_requirements": true,
+    "mismatched_distributions": []
+   },
+   "started": "2026-11-09T18:28:39-05:00",
+   "finished": "2026-11-09T18:28:40-05:00",
+   "returncode": 0,
+   "log": "$IGA_STORAGE_ROOT/bioinf2027/logs/D3/20261109T182839_regeneration-check-input-records.log"
+  }
+ ]
+}

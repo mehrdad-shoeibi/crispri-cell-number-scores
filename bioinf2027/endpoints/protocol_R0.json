@@ -1,0 +1,78 @@
+{
+ "item": "E1a, first part: R0 and the builder checks (a) to (e)",
+ "plan": "bioinf2027/plans/E1_design.md, Sections 7, 9 and 21 to 23 (Section 23.4 fixes R0)",
+ "no_perturbed_cell_label_of_any_grid_cell": true,
+ "cache_manifest": {
+  "path": "$IGA_STORAGE_ROOT/bioinf2027/cache/E1a/manifest.json",
+  "bytes": 52966,
+  "sha256": "128f5c9f17c52fb556fe0d4c59cc0a8702fafe6bfb975ea012a0b540b1ba4118"
+ },
+ "script_sha256": "1bd1bebe331ee7057c566b549059a8a5e720de240b0d7985e14bcde44be934dd",
+ "statistic": "log1p(max(0, anderson_ksamp([a, b]).statistic)), scipy default midrank variant",
+ "seeds": [
+  20260801,
+  20260802,
+  20260803,
+  20260804,
+  20260805,
+  20260806,
+  20260807,
+  20260808,
+  20260809,
+  20260810,
+  20260811,
+  20260812,
+  20260813,
+  20260814,
+  20260815,
+  20260816,
+  20260817,
+  20260818,
+  20260819,
+  20260820,
+  20260821,
+  20260822,
+  20260823,
+  20260824,
+  20260825
+ ],
+ "minimum_valid_draws": 20,
+ "tolerances": {
+  "a": 1e-09,
+  "b": 2e-06,
+  "c": 0.0001,
+  "e_z": 1e-09,
+  "e_nt": 1e-05
+ },
+ "check_a": "external mode, 27 perturbed against 788 pooled control cells, median of the valid draws before the 20-draw rule, against y_primary",
+ "check_b": "source mode, all perturbed cells of a row against all control cells of its batch, against the stored label",
+ "check_c": "external mode against source mode, same cells",
+ "check_d": "control indices drawn after the perturbed draw, every pool size from n_pert + 1 to the largest pool of each side, n_pert 27 and 10",
+ "check_e": "gf_mu_pert minus gf_mu_nt against gf_z_emb on every row and dimension; mean of each batch's cached control-cell embeddings against gf_mu_nt",
+ "r0": {
+  "slot_levels": [
+   10,
+   27
+  ],
+  "controls_per_draw": 788,
+  "draw_order": "per seed one generator: slots first (the row's batch's control cells, ascending, or all pooled control cells, ascending), then 788 control cells from the pooled set without the slot cells, ascending",
+  "rows": "10 slots: all modelled rows; 27 slots: rows with at least 27 perturbed cells",
+  "units": "split by Flex run, at each slot level; units with fewer than 15 target genes are descriptive",
+  "bootstrap": {
+   "replicates": 10000,
+   "seed": 20270301,
+   "unit": "target gene, within each unit",
+   "interval": "95 % percentile, 2.5th and 97.5th"
+  },
+  "component": "sqrt(max(0, SD^2 batch-own - SD^2 pooled-draw)) / scale; scales: SD of the existing VCC label on the unit's rows (recomputed per replicate), SD of the existing 27-cell label on RPE1 and on K562-essential (fixed); the scale giving the largest point component is kept in every replicate",
+  "ten_slot_component": "understated (no 10-cell label exists); enters only the batch-local condition",
+  "D": "Spearman(batch-own null, B1) - Spearman(pooled-draw null, B1); B1 = pooled control mean of the target gene, external mode",
+  "abs_D_bounds": "upper = max(|lo|, |hi|); lower = 0 if the interval contains 0, else min(|lo|, |hi|)",
+  "reading": {
+   "favours the batch-local pair": "read first: any unit that enters, either level: lower bound of the component or of |D| at least 0.25",
+   "favours the pooled pair": "the batch-local condition does not hold, and in every unit that enters: upper bound of |D| below 0.10 at both levels and upper bound of the 27-slot component below 0.10",
+   "favours neither": "otherwise"
+  },
+  "depth_trigger": "control cells, totals over the genes VCC shares with the screen (Ensembl identifiers), medians compared; G1-DT is built for a screen if the larger median exceeds the smaller by more than a factor of 1.5"
+ }
+}

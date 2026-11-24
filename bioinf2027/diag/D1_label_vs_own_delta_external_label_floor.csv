@@ -1,0 +1,3 @@
+screen,predictor,outcome,subset,row_unit,n_rows_in_screen,n_excluded_label_at_zero,spearman,spearman_lo,spearman_hi,pearson,pearson_lo,pearson_hi,bootstrap_b,bootstrap_seed,n_skipped,n_rows,n_target_genes,descriptive
+RPE1,negated_own_delta_native,y_primary,label_above_zero,construct,1932,63,0.9768080123265077,0.9725918277868253,0.9803431909526124,0.808825681444844,0.7993507279540611,0.8187533492848192,10000,20270301,0,1869,1789,False
+K562-essential,negated_own_delta_native,y_primary,label_above_zero,construct,1903,82,0.9728792486435074,0.969378167845537,0.9758484617544375,0.8090793478381593,0.7995403191179827,0.8198798667549753,10000,20270301,0,1821,1782,False

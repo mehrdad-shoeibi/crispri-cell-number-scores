@@ -1,0 +1,45 @@
+{
+ "r0_reading": {
+  "reading": "favours the batch-local pair",
+  "units": 18,
+  "units_entering": 18,
+  "units_not_entering": [],
+  "largest_upper_bound_of_abs_D": 0.5094287355449865,
+  "largest_upper_bound_of_27_slot_component": 1.5238039599306692,
+  "largest_lower_bound_of_component": 0.26753017252106503,
+  "largest_lower_bound_of_abs_D": 0.0,
+  "consequence_under_section_22_item_3": "batch-local pair primary unless the reading favours the pooled pair; the author fixes the pair"
+ },
+ "external_scales": {
+  "RPE1": 1.1292482856775707,
+  "K562-essential": 1.133355689081735
+ },
+ "depth_trigger": {
+  "RPE1": {
+   "vcc_median": 46904.0,
+   "screen_median": 8194.0,
+   "ratio_larger_to_smaller": 5.724188430558946,
+   "factor": 1.5,
+   "build_G1_DT": true,
+   "deeper_side": "VCC"
+  },
+  "K562-essential": {
+   "vcc_median": 45513.5,
+   "screen_median": 9245.0,
+   "ratio_larger_to_smaller": 4.9230394808004325,
+   "factor": 1.5,
+   "build_G1_DT": true,
+   "deeper_side": "VCC"
+  }
+ },
+ "missing_null_rows": {
+  "10": {
+   "batch_own": 0,
+   "pooled_draw": 0
+  },
+  "27": {
+   "batch_own": 0,
+   "pooled_draw": 0
+  }
+ }
+}

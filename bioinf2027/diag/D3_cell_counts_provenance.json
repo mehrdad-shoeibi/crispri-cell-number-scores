@@ -1,0 +1,61 @@
+{
+ "paths_relative_to": "$IGA_STORAGE_ROOT",
+ "sources": {
+  "vcc_subsample_sizes": "$IGA_STORAGE_ROOT/IGA_MAIN/results_v4/harmonized_endpoint_v1/subsample_sizes.json",
+  "RPE1_endpoint": "$IGA_STORAGE_ROOT/IGA_MAIN/results_v4/harmonized_endpoint_v1/rpe1_endpoint_by_construct.csv",
+  "RPE1_eligibility": "$IGA_STORAGE_ROOT/IGA_MAIN/results_v4/harmonized_endpoint_v1/rpe1_eligibility.csv",
+  "RPE1_coverage": "$IGA_STORAGE_ROOT/IGA_MAIN/results_v4/harmonized_endpoint_v1/coverage_summary.json",
+  "K562-essential_endpoint": "$IGA_STORAGE_ROOT/IGA_MAIN/results_v4/harmonized_endpoint_k562_essential_v1/endpoint_by_construct.csv",
+  "K562-essential_eligibility": "$IGA_STORAGE_ROOT/IGA_MAIN/results_v4/harmonized_endpoint_k562_essential_v1/eligibility.csv",
+  "K562-essential_coverage": "$IGA_STORAGE_ROOT/IGA_MAIN/results_v4/harmonized_endpoint_k562_essential_v1/coverage_summary.json",
+  "k562_gemgroup_nt": "$IGA_STORAGE_ROOT/IGA_MAIN/results_v4/k562_essential_coverage_gate_v1/gemgroup_nt.csv"
+ },
+ "input_records": {
+  "vcc_subsample_sizes": {
+   "path": "$IGA_STORAGE_ROOT/IGA_MAIN/results_v4/harmonized_endpoint_v1/subsample_sizes.json",
+   "bytes": 3846,
+   "sha256": "d6068e3b7106fb89d1c4f6b7d3d5bf0fa8e26ee2f0207e4660a08966ae7562dd"
+  },
+  "RPE1_endpoint": {
+   "path": "$IGA_STORAGE_ROOT/IGA_MAIN/results_v4/harmonized_endpoint_v1/rpe1_endpoint_by_construct.csv",
+   "bytes": 440592,
+   "sha256": "353c04d3ac8e3380a3addf3abc1953d30799423f7cd467006adc36800e26a126"
+  },
+  "RPE1_eligibility": {
+   "path": "$IGA_STORAGE_ROOT/IGA_MAIN/results_v4/harmonized_endpoint_v1/rpe1_eligibility.csv",
+   "bytes": 228919,
+   "sha256": "71da80a16e6cd982fd280b616675106f770ad01f8aeeb5a0aa309fdf996ba071"
+  },
+  "RPE1_coverage": {
+   "path": "$IGA_STORAGE_ROOT/IGA_MAIN/results_v4/harmonized_endpoint_v1/coverage_summary.json",
+   "bytes": 1721,
+   "sha256": "dfd586a2b0fd0d425c023d72e8614b5e58e22fedd625dce1fda5d1aa4e50f8a8"
+  },
+  "K562-essential_endpoint": {
+   "path": "$IGA_STORAGE_ROOT/IGA_MAIN/results_v4/harmonized_endpoint_k562_essential_v1/endpoint_by_construct.csv",
+   "bytes": 433586,
+   "sha256": "051269eeeae93c75c84ca1fc050529a096ebd15e1990cb14bb24669c1b9672ff"
+  },
+  "K562-essential_eligibility": {
+   "path": "$IGA_STORAGE_ROOT/IGA_MAIN/results_v4/harmonized_endpoint_k562_essential_v1/eligibility.csv",
+   "bytes": 190992,
+   "sha256": "b10de8bfbf95c825efeaa6f562bb0ed9981f55897242ce91c5c22f7b773f9158"
+  },
+  "K562-essential_coverage": {
+   "path": "$IGA_STORAGE_ROOT/IGA_MAIN/results_v4/harmonized_endpoint_k562_essential_v1/coverage_summary.json",
+   "bytes": 902,
+   "sha256": "93634aafe2405b5b56085628218b488c6d61c67f2fff49fd46cb23d1da89e05c"
+  },
+  "k562_gemgroup_nt": {
+   "path": "$IGA_STORAGE_ROOT/IGA_MAIN/results_v4/k562_essential_coverage_gate_v1/gemgroup_nt.csv",
+   "bytes": 598,
+   "sha256": "c6ef19cc6f64c4914d03b370f265e9359396cdb1c0f28b3c988d7df4faf8b00f"
+  }
+ },
+ "conventions": {
+  "VCC": "endpoint uses all perturbed cells of the row against the batch local control cells; not size controlled",
+  "external": "endpoint draws 27 perturbed and 788 control cells per draw, 25 draws, median across draws",
+  "batch_local_controls_feasible": "constructs with at least three batches meeting ten perturbed and fifty control cells"
+ },
+ "known_cell_set_difference": "the encoder feature accumulator used a slightly different RPE1 cell set from the endpoint construction, so the RPE1 perturbed median differs between the two conventions; both are recorded in the source specifications"
+}

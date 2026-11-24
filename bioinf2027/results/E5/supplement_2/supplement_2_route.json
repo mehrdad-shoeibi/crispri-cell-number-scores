@@ -1,0 +1,162 @@
+{
+ "plan": "bioinf2027/plans/E5_supplement_2.md",
+ "status": "post hoc, unadjusted, not part of E5's family (the stop of 2026-11-17 06:50, item 7; bioinf2027/plans/E5_supplement_2.md)",
+ "smoke": false,
+ "part": "route",
+ "replicates": 10000,
+ "seeds": {
+  "settings": {
+   "within RPE1": 20271121,
+   "within K562-essential": 20271122,
+   "RPE1 to K562-essential": 20271123,
+   "K562-essential to RPE1": 20271124
+  },
+  "within folds": 20271127,
+  "union folds": 20271204,
+  "inner folds": 20271128,
+  "shuffle": 20271126,
+  "B0 with F_mean": {
+   "RPE1": 20271121,
+   "K562-essential": 20271122
+  }
+ },
+ "settings": [
+  "within RPE1",
+  "within K562-essential",
+  "RPE1 to K562-essential",
+  "K562-essential to RPE1"
+ ],
+ "inputs": {
+  "harness": {
+   "RPE1": {
+    "genes": 1811,
+    "b_column": "b27",
+    "genes_with_b": 1811,
+    "genes_with_halves": 1297
+   },
+   "K562-essential": {
+    "genes": 1811,
+    "b_column": "b27",
+    "genes_with_b": 1811,
+    "genes_with_halves": 1629
+   },
+   "union_genes": 2111,
+   "features_mapped_in_both": 1303,
+   "inputs": {
+    "G1_manifest": {
+     "path": "bioinf2027/endpoints/G1/manifest.json",
+     "bytes": 1748,
+     "sha256": "4b85517801ed167a901cefdc0cdba89f5898233be2edbda15cc9852cdd08cc28"
+    },
+    "supplement": {
+     "path": "bioinf2027/endpoints/readouts/supplement/supplement.json",
+     "bytes": 11390,
+     "sha256": "44ff27afec8c9f77321153d02e51f35c581180028ce1e17a61a2c3abf1055310"
+    },
+    "endpoint_b": {
+     "path": "bioinf2027/results/E5/endpoint_b/endpoint_b.json",
+     "bytes": 4550,
+     "sha256": "5884cbad1399d72dbff35828d5ac1f971f61a4093cddd23a9dec8bda244adbd2"
+    },
+    "gates_b": {
+     "path": "bioinf2027/results/E5/endpoint_b/gates.json",
+     "bytes": 3179,
+     "sha256": "3fedfcc48d059d778296356cbb3231dc5a32512f5f305cd812831a611a3ca80b"
+    }
+   }
+  },
+  "G1_manifest": {
+   "path": "bioinf2027/endpoints/G1/manifest.json",
+   "bytes": 1748,
+   "sha256": "4b85517801ed167a901cefdc0cdba89f5898233be2edbda15cc9852cdd08cc28"
+  },
+  "genes_RPE1.csv": {
+   "path": "bioinf2027/results/E5/endpoint_b/genes_RPE1.csv",
+   "bytes": 867766,
+   "sha256": "b7e44e3080d233e4ceb51ab9495e3dcbfc21c125d3395d28449399065d915115"
+  },
+  "genes_K562-essential.csv": {
+   "path": "bioinf2027/results/E5/endpoint_b/genes_K562-essential.csv",
+   "bytes": 987631,
+   "sha256": "405398f1bdb74fafd8c96c109e066cf93de14b216e2e396d5be9fc55cda7f9d9"
+  },
+  "prefit": {
+   "path": "bioinf2027/results/E5/prefit/prefit.json",
+   "bytes": 2657,
+   "sha256": "a6eeadcc14ea3643ee28465b8a78766fafa5eb2bdc3dd20397c89e4b8e9a6899"
+  },
+  "prefit_revised": {
+   "path": "bioinf2027/results/E5/prefit/prefit_revised.json",
+   "bytes": 2587,
+   "sha256": "27fb45e24b7d6f5c0e1f1b4bab6d564668826c8f9d67c6f3b4359c90be30be6e"
+  },
+  "embeddings": {
+   "Geneformer": {
+    "path": "$IGA_STORAGE_ROOT/bioinf2027/E5/identity/geneformer_token.npz",
+    "bytes": 7257298,
+    "sha256": "73f0a9d21a2f313caa35d089bb9cdffc67555b1ef846f9cc5a019967284a5fcb"
+   },
+   "scGPT": {
+    "path": "$IGA_STORAGE_ROOT/bioinf2027/E5/identity/scgpt_gene.npz",
+    "bytes": 4802538,
+    "sha256": "9297d8b6790a573da5690d02761fa1689c0ed7b182aed601fc3781a9153e2c89"
+   },
+   "GenePT": {
+    "path": "$IGA_STORAGE_ROOT/bioinf2027/E5/identity/genept.npz",
+    "bytes": 14238694,
+    "sha256": "f474fecd21fc064b36df7da34444fd56936f061ba17eab0e23d40628413f38c4"
+   }
+  },
+  "prefit50": {
+   "path": "bioinf2027/results/E5/secondary/secondary_prefit50.json",
+   "bytes": 6260,
+   "sha256": "8559eae63dca789221b2df6adacd4300ee792d12e9904e9163b62b22e88191ed"
+  }
+ },
+ "code": {
+  "bioinf2027/scripts/make_e5_secondary.py": "685255dc6a40c7391e4c274061f5bd29a19c4fe8c58648eff877837088446877",
+  "bioinf2027/scripts/make_e5_fits.py": "bfad78082f63fdd3480c0190da7969e55d85eff1498111dfa7b01162055282c0",
+  "bioinf2027/scripts/e5fit.py": "d1dc23d63b23d13a5608ed62371e115d7d9f9da54d37ee3dc659d2deb4c72063",
+  "bioinf2027/scripts/e5lib.py": "764ebe2010d1655e3fe4dfb6b117783bcea739ad2b0958596c317618af8da9c4",
+  "bioinf2027/src/bioinf2027/heads.py": "c03831822a147661bfd3fd1ae36dfa51c003b679941a90208156c8d410abd9f7",
+  "bioinf2027/scripts/make_e5_supplement.py": "20b6887317eb35a8a418cb672556cc14934033e888a3f0486d9bd985ecb76950",
+  "bioinf2027/scripts/make_e5_supplement_2.py": "ee94ac574e53e553b0831a3259103e0dc39058e93c64d5c0684202711e1b39c0"
+ },
+ "depmap": {
+  "release": "DepMap 24Q4 Public (figshare+ 27993248), not the current DepMap release (26Q3)",
+  "coverage": {
+   "RPE1": {
+    "covered_genes": 1773,
+    "with_F_mean": 1750,
+    "with_F_K562": 1729,
+    "several_columns": 0,
+    "misses": 23
+   },
+   "K562-essential": {
+    "covered_genes": 1765,
+    "with_F_mean": 1745,
+    "with_F_K562": 1724,
+    "several_columns": 0,
+    "misses": 20
+   }
+  },
+  "download_record": {
+   "path": "bioinf2027/results/E5/supplement/depmap_download.json",
+   "bytes": 1908,
+   "sha256": "fa280cd7d101942f9e37ae993c02a5d8a6c608e653534d6c0f27e7055de1489a"
+  }
+ },
+ "tasks": {
+  "listed": 12,
+  "reused": 0,
+  "shed_and_queued_again": 0
+ },
+ "outputs": {
+  "route.csv": {
+   "path": "bioinf2027/results/E5/supplement_2/route.csv",
+   "bytes": 10453,
+   "sha256": "ff9d507ac45c31f96b38db059d512fc2af386ba57ae0711d1ec7a6b06233b295"
+  }
+ },
+ "seconds": 269.2
+}

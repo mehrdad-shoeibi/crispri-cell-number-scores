@@ -1,0 +1,53 @@
+{
+ "figure": "fig3_vcc_difference_G6_r2",
+ "code": {
+  "bioinf2027/scripts/figures/fig3_vcc_difference.py": "8a227f4c12b4ce5f06027a44b4f9216d0480a9a13ffb2390cc18cc121c4c8c68",
+  "bioinf2027/scripts/figures/figlib.py": "6ce5eb4a41a547d622f887c3002e25524d699a2b8c61fda2ad2737b034dbf617",
+  "bioinf2027/scripts/figures/tablelib.py": "5c546fa57595e02901ba2087d5c2334793762f2cb146db4fd434973bb3fe034f"
+ },
+ "inputs": {
+  "bioinf2027/results/E2/stats/vcc.csv": {
+   "path": "bioinf2027/results/E2/stats/vcc.csv",
+   "bytes": 921725,
+   "sha256": "5d164862404091fb59dcd3767ba2e2c2e84bbebea9a92104bf9e0dec7dd3742b"
+  },
+  "bioinf2027/results/S1_supplement/external_control.csv": {
+   "path": "bioinf2027/results/S1_supplement/external_control.csv",
+   "bytes": 32753,
+   "sha256": "2dd58df4b59de75f3a89ce4e5cc4952ab796a87b0c6e5bf903f1f6765bf666a0"
+  },
+  "bioinf2027/results/E2/null_external_followup/existing_label/null_external.csv": {
+   "path": "bioinf2027/results/E2/null_external_followup/existing_label/null_external.csv",
+   "bytes": 33681,
+   "sha256": "982695a09acc62a1a4b484f0f82abcfef43e47ca52cdc77d7a13d1d945e7a2af"
+  }
+ },
+ "inputs_verified": {
+  "bioinf2027/results/E2/stats/vcc.csv": "equal to its record in bioinf2027/results/E2/stats/stats.json",
+  "bioinf2027/results/S1_supplement/external_control.csv": "equal to its record in bioinf2027/results/S1_supplement/s1_supplement_control.json",
+  "bioinf2027/results/E2/null_external_followup/existing_label/null_external.csv": "equal to its record in bioinf2027/results/E2/null_external_followup/existing_label/stats.json"
+ },
+ "environment": {
+  "python": "3.13.12",
+  "numpy": "2.4.4",
+  "pandas": "3.0.2",
+  "requirements": {
+   "path": "bioinf2027/requirements.txt",
+   "bytes": 863,
+   "sha256": "f46a415cbe466ba1225adcede4abae7f0dd0b866f29abdf5a6a360e66b1f5702"
+  }
+ },
+ "cell": "G6",
+ "metric": "r2",
+ "pca768": false,
+ "scope": "(a) to (c): VCC test rows, forest heads, head seeds averaged; target-gene cluster bootstrap, 10,000 replicates, seed 20270301; intervals on fewer than 50 target genes are descriptive. (d): Replogle constructs, Spearman scale, forest heads trained on VCC's all-cells label, head seeds 0 to 2 averaged, E1b's target-gene draws; the null has one control draw (seed 20271131); S1 supplement part (d) and follow-up (4) of E2 (d), both post hoc and unadjusted",
+ "marker": "* Stack: possibly in Stack's pre-training data [VERIFY] (bioinf2027/results/E2/pretraining_check.json)",
+ "bounds": "bioinf2027/factsheets/FS2_S2.md (no ranking of encoders; not 'the difference is due to cell count'); FS1_S1.md (part (d) says nothing about the encoders' path or their negative external values)",
+ "outputs": {
+  "fig3_vcc_difference_G6_r2_data.csv": {
+   "path": "bioinf2027/figures/fig3_vcc_difference_G6_r2_data.csv",
+   "bytes": 9761,
+   "sha256": "658ae55c239a351a0fb4aaa69064004c8b0aabd4e390f47ece81fd54bf6bcfe9"
+  }
+ }
+}

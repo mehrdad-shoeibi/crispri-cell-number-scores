@@ -1,0 +1,149 @@
+{
+ "plan": "bioinf2027/plans/S1_supplement.md",
+ "status": "post hoc, unadjusted, not part of any family (the stop of 2026-11-17 06:50, S1 supplement; bioinf2027/plans/S1_supplement.md)",
+ "smoke": false,
+ "part": "vcc",
+ "replicates": 10000,
+ "seeds": {
+  "R2 bootstrap": 20270301,
+  "R2 simulation": 20270406,
+  "VCC curve": 20271213,
+  "external subsampling": 20271214,
+  "label draws": [
+   20260801,
+   20260802,
+   20260803,
+   20260804,
+   20260805,
+   20260806,
+   20260807,
+   20260808,
+   20260809,
+   20260810,
+   20260811,
+   20260812,
+   20260813,
+   20260814,
+   20260815,
+   20260816,
+   20260817,
+   20260818,
+   20260819,
+   20260820,
+   20260821,
+   20260822,
+   20260823,
+   20260824,
+   20260825
+  ]
+ },
+ "code": {
+  "bioinf2027/scripts/make_s1_supplement.py": "2e4bf5f540bb1f8fd1be2ee645b2faf9e03eb249129ab1f5ab27a5b4772f0941",
+  "bioinf2027/scripts/make_e1a_labels.py": "44a0ea9dd47a522e9e2c40b5c7df8a342789053534a6b39f49cdb2cf0ddb989e",
+  "bioinf2027/src/bioinf2027/endpoint.py": "663eb3a07f9398fc2b8a624456e6cecc0f2ecbe7756ab792a59a2586a8505ce9",
+  "bioinf2027/src/bioinf2027/stats.py": "9e5dab5cb78fc6697702d9e82f3ad418939da7830a16259e1c186b1799497505"
+ },
+ "checks": {
+  "G5": {
+   "existing_label_full_pool_largest_difference": 2.3841702923022012e-07,
+   "tolerance": 2e-06,
+   "rows": 6077,
+   "simulated_sizes_equal_pool_size_simulation_csv": true,
+   "rebuilt_simulated_labels_checked": 40,
+   "rebuilt_simulated_largest_difference": 0.0,
+   "R2_between_csv_reproduced": true
+  },
+  "G6": {
+   "existing_label_full_pool_largest_difference": 2.3841702923022012e-07,
+   "tolerance": 2e-06,
+   "rows": 11764,
+   "simulated_sizes_equal_pool_size_simulation_csv": true,
+   "rebuilt_simulated_labels_checked": 205,
+   "rebuilt_simulated_largest_difference": 0.0,
+   "R2_between_csv_reproduced": true
+  }
+ },
+ "inputs": {
+  "count_cache": {
+   "path": "$IGA_STORAGE_ROOT/bioinf2027/cache/E1a_labels/manifest.json",
+   "bytes": 2722,
+   "sha256": "a92c8fe030ed806c1af944d8de24820cce7a6bbc18b305e602c5ac7545979a96"
+  },
+  "G5": {
+   "vcc_labels.csv": {
+    "manifest": {
+     "path": "bioinf2027/endpoints/G5/manifest.json",
+     "bytes": 1749,
+     "sha256": "845cd1dc6de849a711a9e198acb5a26cab3bd376aadffcba5e8347e737962461"
+    },
+    "table": {
+     "path": "$IGA_STORAGE_ROOT/bioinf2027/endpoints/G5/vcc_labels.csv",
+     "bytes": 2924258,
+     "sha256": "029c3bb966d1138ca0c7afade66115f58fbe5b773d64aef10a8b3dc196e1b08c"
+    }
+   },
+   "pool_size_simulation.csv": {
+    "manifest": {
+     "path": "bioinf2027/endpoints/G5/manifest.json",
+     "bytes": 1749,
+     "sha256": "845cd1dc6de849a711a9e198acb5a26cab3bd376aadffcba5e8347e737962461"
+    },
+    "table": {
+     "path": "$IGA_STORAGE_ROOT/bioinf2027/endpoints/G5/pool_size_simulation.csv",
+     "bytes": 367161,
+     "sha256": "4536b1ce2a5424ed90fd831f01bf5a2372a749ba3b594131a012cf8c56f86dda"
+    }
+   }
+  },
+  "G6": {
+   "vcc_labels.csv": {
+    "manifest": {
+     "path": "bioinf2027/endpoints/G6/manifest.json",
+     "bytes": 1752,
+     "sha256": "c5947bd85270f863132a9a58f145c3521604e19ffb8129524c3d94ea2f3878cc"
+    },
+    "table": {
+     "path": "$IGA_STORAGE_ROOT/bioinf2027/endpoints/G6/vcc_labels.csv",
+     "bytes": 5678098,
+     "sha256": "67af61dada7c980aa011a061f173eb6c82e3dd45e0f90532373834d9ebe93cd8"
+    }
+   },
+   "pool_size_simulation.csv": {
+    "manifest": {
+     "path": "bioinf2027/endpoints/G6/manifest.json",
+     "bytes": 1752,
+     "sha256": "c5947bd85270f863132a9a58f145c3521604e19ffb8129524c3d94ea2f3878cc"
+    },
+    "table": {
+     "path": "$IGA_STORAGE_ROOT/bioinf2027/endpoints/G6/pool_size_simulation.csv",
+     "bytes": 2928978,
+     "sha256": "8a75a59a33c704895f17ab01e4049c8e972d39df964923b73a15bd51b2f498fa"
+    }
+   }
+  },
+  "R2_between.csv": {
+   "path": "bioinf2027/endpoints/readouts/R2_between.csv",
+   "bytes": 6440,
+   "sha256": "69165339c4ffac1f5977fc8d5ec2430751d64650e00309119cb2419c97952e6e"
+  }
+ },
+ "readouts_code": "360241c5d31e7fd0adf3b7c7303fbd5cf242ba0c3bd9cd00438a753b1dce9712",
+ "outputs": {
+  "vcc_paired.csv": {
+   "path": "bioinf2027/results/S1_supplement/vcc_paired.csv",
+   "bytes": 4522,
+   "sha256": "89634edd77132ac47155fd910bbed160f6f98d2a4b3295e0d90c0653d95c61e1"
+  },
+  "vcc_mechanical.csv": {
+   "path": "bioinf2027/results/S1_supplement/vcc_mechanical.csv",
+   "bytes": 3739,
+   "sha256": "94d429e88d0372e3f53afabce3188d8f697ea6f3926f4b9e50d77d18add49208"
+  },
+  "vcc_curve.csv": {
+   "path": "bioinf2027/results/S1_supplement/vcc_curve.csv",
+   "bytes": 4165,
+   "sha256": "6870655d080355e2d6edfcbffdadd58d3192a0856ad410b2d678878aef69dc65"
+  }
+ },
+ "seconds": 730.6
+}

@@ -1,0 +1,60 @@
+{
+ "table": "tableS_b_e4_family",
+ "code": {
+  "bioinf2027/scripts/figures/tableS_b_e4_family.py": "71f66004d2b3b12034b2ab4ab890e33e35cf0d3925f40e6671afb5b3e7fbc0f3",
+  "bioinf2027/scripts/figures/tablelib.py": "5c546fa57595e02901ba2087d5c2334793762f2cb146db4fd434973bb3fe034f"
+ },
+ "inputs": {
+  "bioinf2027/results/E4/family.csv": {
+   "path": "bioinf2027/results/E4/family.csv",
+   "bytes": 8845,
+   "sha256": "d9cf4bb28d8023d610785f1da041709f8dc4ca013705541a912abf4244c1a3e2"
+  },
+  "bioinf2027/results/E4/readings.csv": {
+   "path": "bioinf2027/results/E4/readings.csv",
+   "bytes": 5303,
+   "sha256": "cd8211df8edf8338d18fa63e5895ee6373987bbd5ed09d68b7f2633451a67a98"
+  },
+  "bioinf2027/results/E4/stats.json": {
+   "path": "bioinf2027/results/E4/stats.json",
+   "bytes": 9100,
+   "sha256": "16cbb91529b52d447c477b68a0a97b8d5341f036a6a9ba58f2bfee2619daa986"
+  }
+ },
+ "inputs_verified": {
+  "bioinf2027/results/E4/family.csv": "equal to its record in bioinf2027/results/E4/stats.json",
+  "bioinf2027/results/E4/readings.csv": "equal to its record in bioinf2027/results/E4/stats.json",
+  "bioinf2027/results/E4/stats.json": "no record lists it; a tracked file without uncommitted changes"
+ },
+ "environment": {
+  "python": "3.13.12",
+  "numpy": "2.4.4",
+  "pandas": "3.0.2",
+  "requirements": {
+   "path": "bioinf2027/requirements.txt",
+   "bytes": 863,
+   "sha256": "f46a415cbe466ba1225adcede4abae7f0dd0b866f29abdf5a6a360e66b1f5702"
+  }
+ },
+ "tex": "booktabs; Unicode symbols (\u2212, \u03c1, \u2192, \u00bd), so a Unicode TeX engine (XeLaTeX or LuaLaTeX)",
+ "sources": {
+  "values": "bioinf2027/results/E4/family.csv",
+  "status": "bioinf2027/results/E4/readings.csv",
+  "equality with the family pass": "bioinf2027/results/E4/stats.json"
+ },
+ "status_of_every_row": "computed and reported, not read",
+ "family": "16 statistics, Holm at family-wise 0.05; E4's full pass over tiers 1 to 3, whose family values equal those of the pass of gate G2",
+ "in_distribution_check": "VCC-test R-squared minus that of the Gaussian control under matched features, with its lower bound (family.csv, columns precondition_matched_estimate and precondition_matched_lo); every arm fails in both configurations",
+ "outputs": {
+  "tableS_b_e4_family.csv": {
+   "path": "bioinf2027/tables/tableS_b_e4_family.csv",
+   "bytes": 5109,
+   "sha256": "2b11d8a21e00062b65d3110e31d0de30ba82e2ac7b5b58f31ce335c336b0b2e1"
+  },
+  "tableS_b_e4_family.tex": {
+   "path": "bioinf2027/tables/tableS_b_e4_family.tex",
+   "bytes": 5542,
+   "sha256": "2f9cbc473e12f130a48eccf40aae04294e03372a39336d3ae450cf4f0fcdf420"
+  }
+ }
+}

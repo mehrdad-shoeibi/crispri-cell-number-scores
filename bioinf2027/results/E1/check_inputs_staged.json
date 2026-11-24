@@ -1,0 +1,230 @@
+{
+ "purpose": "inputs of the E1b pre-run checks, staged under the data root",
+ "plan": "bioinf2027/plans/E1_design.md, Sections 25 to 29; bioinf2027/reviews/E1b_audit_r1.md, hygiene findings",
+ "checks_run": "bioinf2027/runs/E1.json, label e1b-checks (commit dd13c55), which read the repository copies; every copy staged here carries the same size and SHA-256, so it is the file the checks read",
+ "checks_not_rerun": "a rerun would repeat the timing probe that fixed the refits of the fit run (bioinf2027/results/E1/checks.json)",
+ "earlier_records": {
+  "D0": {
+   "path": "bioinf2027/audit/D0_input_manifest.csv",
+   "bytes": 45257,
+   "sha256": "9e2092689164244fc64dfe5b1d3a08a914a296ee9f06de85e7887c1ad3f63a87"
+  },
+  "E1": {
+   "path": "bioinf2027/results/E1/input_records.json",
+   "bytes": 40895,
+   "sha256": "8e5203ece9d95b5602ef872e314f35cbe044532422bbaf98b44d3f49d3db73cb"
+  }
+ },
+ "files": {
+  "earlier_revision/phase1/preds/test_z.npy": {
+   "source": {
+    "path": "earlier_revision/phase1/preds/test_z.npy",
+    "bytes": 95456,
+    "sha256": "2da0f39d252c5c2685245b37bfba9cc3b47a6a2417ece4080848eb02a806f603"
+   },
+   "staged": {
+    "path": "$IGA_STORAGE_ROOT/bioinf2027/cache/e1b_check_inputs/earlier_revision/phase1/preds/test_z.npy",
+    "bytes": 95456,
+    "sha256": "2da0f39d252c5c2685245b37bfba9cc3b47a6a2417ece4080848eb02a806f603"
+   },
+   "read_by": "bioinf2027/scripts/make_e1b_checks.py, harness_summary (stored VCC-test predictions)",
+   "earlier_records_matched": [
+    {
+     "record": "bioinf2027/audit/D0_input_manifest.csv, line 211",
+     "bytes": 95456,
+     "sha256": "2da0f39d252c5c2685245b37bfba9cc3b47a6a2417ece4080848eb02a806f603"
+    }
+   ]
+  },
+  "earlier_revision/phase1/preds/test_zm.npy": {
+   "source": {
+    "path": "earlier_revision/phase1/preds/test_zm.npy",
+    "bytes": 95456,
+    "sha256": "1328570a8f7657fae3af10bcb3b08423d672ddccb62cc8cee114cf3658e32a3d"
+   },
+   "staged": {
+    "path": "$IGA_STORAGE_ROOT/bioinf2027/cache/e1b_check_inputs/earlier_revision/phase1/preds/test_zm.npy",
+    "bytes": 95456,
+    "sha256": "1328570a8f7657fae3af10bcb3b08423d672ddccb62cc8cee114cf3658e32a3d"
+   },
+   "read_by": "bioinf2027/scripts/make_e1b_checks.py, harness_summary (stored VCC-test predictions)",
+   "earlier_records_matched": [
+    {
+     "record": "bioinf2027/audit/D0_input_manifest.csv, line 212",
+     "bytes": 95456,
+     "sha256": "1328570a8f7657fae3af10bcb3b08423d672ddccb62cc8cee114cf3658e32a3d"
+    }
+   ]
+  },
+  "earlier_revision/phase1/preds/test_C1.npy": {
+   "source": {
+    "path": "earlier_revision/phase1/preds/test_C1.npy",
+    "bytes": 95456,
+    "sha256": "737139f5ad073cf1d7c7ab43b5fa3fec7165f060aa4af43eb2a23f35df66e79a"
+   },
+   "staged": {
+    "path": "$IGA_STORAGE_ROOT/bioinf2027/cache/e1b_check_inputs/earlier_revision/phase1/preds/test_C1.npy",
+    "bytes": 95456,
+    "sha256": "737139f5ad073cf1d7c7ab43b5fa3fec7165f060aa4af43eb2a23f35df66e79a"
+   },
+   "read_by": "bioinf2027/scripts/make_e1b_checks.py, harness_summary (stored VCC-test predictions)",
+   "earlier_records_matched": [
+    {
+     "record": "bioinf2027/audit/D0_input_manifest.csv, line 206",
+     "bytes": 95456,
+     "sha256": "737139f5ad073cf1d7c7ab43b5fa3fec7165f060aa4af43eb2a23f35df66e79a"
+    }
+   ]
+  },
+  "earlier_revision/phase1/preds/test_C2.npy": {
+   "source": {
+    "path": "earlier_revision/phase1/preds/test_C2.npy",
+    "bytes": 95456,
+    "sha256": "01624effcecb5aad20000d0def3b3834af57d8807b30e2b89c6668780e1d0be0"
+   },
+   "staged": {
+    "path": "$IGA_STORAGE_ROOT/bioinf2027/cache/e1b_check_inputs/earlier_revision/phase1/preds/test_C2.npy",
+    "bytes": 95456,
+    "sha256": "01624effcecb5aad20000d0def3b3834af57d8807b30e2b89c6668780e1d0be0"
+   },
+   "read_by": "bioinf2027/scripts/make_e1b_checks.py, harness_summary (stored VCC-test predictions)",
+   "earlier_records_matched": [
+    {
+     "record": "bioinf2027/audit/D0_input_manifest.csv, line 207",
+     "bytes": 95456,
+     "sha256": "01624effcecb5aad20000d0def3b3834af57d8807b30e2b89c6668780e1d0be0"
+    }
+   ]
+  },
+  "earlier_revision/phase1/preds/test_C3.npy": {
+   "source": {
+    "path": "earlier_revision/phase1/preds/test_C3.npy",
+    "bytes": 95456,
+    "sha256": "8b926c08e040f990bcaacd435e983e2f19ed77fcf03b5aef5f04344200dc3e1e"
+   },
+   "staged": {
+    "path": "$IGA_STORAGE_ROOT/bioinf2027/cache/e1b_check_inputs/earlier_revision/phase1/preds/test_C3.npy",
+    "bytes": 95456,
+    "sha256": "8b926c08e040f990bcaacd435e983e2f19ed77fcf03b5aef5f04344200dc3e1e"
+   },
+   "read_by": "bioinf2027/scripts/make_e1b_checks.py, harness_summary (stored VCC-test predictions)",
+   "earlier_records_matched": [
+    {
+     "record": "bioinf2027/audit/D0_input_manifest.csv, line 208",
+     "bytes": 95456,
+     "sha256": "8b926c08e040f990bcaacd435e983e2f19ed77fcf03b5aef5f04344200dc3e1e"
+    }
+   ]
+  },
+  "earlier_revision/phase1/preds/test_C4.npy": {
+   "source": {
+    "path": "earlier_revision/phase1/preds/test_C4.npy",
+    "bytes": 95456,
+    "sha256": "375f74856940fda6397f8f0567ed653f9d309299241404b74a7790c83f471b1b"
+   },
+   "staged": {
+    "path": "$IGA_STORAGE_ROOT/bioinf2027/cache/e1b_check_inputs/earlier_revision/phase1/preds/test_C4.npy",
+    "bytes": 95456,
+    "sha256": "375f74856940fda6397f8f0567ed653f9d309299241404b74a7790c83f471b1b"
+   },
+   "read_by": "bioinf2027/scripts/make_e1b_checks.py, harness_summary (stored VCC-test predictions)",
+   "earlier_records_matched": [
+    {
+     "record": "bioinf2027/audit/D0_input_manifest.csv, line 209",
+     "bytes": 95456,
+     "sha256": "375f74856940fda6397f8f0567ed653f9d309299241404b74a7790c83f471b1b"
+    }
+   ]
+  },
+  "earlier_revision/phase1/preds/test_C5.npy": {
+   "source": {
+    "path": "earlier_revision/phase1/preds/test_C5.npy",
+    "bytes": 95456,
+    "sha256": "83c8a02335fdbab3b1e001640df62930bc8e771884cd471c770641901d26c415"
+   },
+   "staged": {
+    "path": "$IGA_STORAGE_ROOT/bioinf2027/cache/e1b_check_inputs/earlier_revision/phase1/preds/test_C5.npy",
+    "bytes": 95456,
+    "sha256": "83c8a02335fdbab3b1e001640df62930bc8e771884cd471c770641901d26c415"
+   },
+   "read_by": "bioinf2027/scripts/make_e1b_checks.py, harness_summary (stored VCC-test predictions)",
+   "earlier_records_matched": [
+    {
+     "record": "bioinf2027/audit/D0_input_manifest.csv, line 210",
+     "bytes": 95456,
+     "sha256": "83c8a02335fdbab3b1e001640df62930bc8e771884cd471c770641901d26c415"
+    }
+   ]
+  },
+  "earlier_revision/phase1/preds/y_test.npy": {
+   "source": {
+    "path": "earlier_revision/phase1/preds/y_test.npy",
+    "bytes": 16016,
+    "sha256": "b9f68f16fb2098aacd1991f40d1c4a6084e662d34a8b6757ceb324dc40f3dd7b"
+   },
+   "staged": {
+    "path": "$IGA_STORAGE_ROOT/bioinf2027/cache/e1b_check_inputs/earlier_revision/phase1/preds/y_test.npy",
+    "bytes": 16016,
+    "sha256": "b9f68f16fb2098aacd1991f40d1c4a6084e662d34a8b6757ceb324dc40f3dd7b"
+   },
+   "read_by": "bioinf2027/scripts/make_e1b_checks.py, harness_summary (stored VCC-test label)",
+   "earlier_records_matched": [
+    {
+     "record": "bioinf2027/audit/D0_input_manifest.csv, line 213",
+     "bytes": 16016,
+     "sha256": "b9f68f16fb2098aacd1991f40d1c4a6084e662d34a8b6757ceb324dc40f3dd7b"
+    },
+    {
+     "record": "bioinf2027/results/E1/input_records.json, inputs.submitted_vcc_test_label",
+     "bytes": 16016,
+     "sha256": "b9f68f16fb2098aacd1991f40d1c4a6084e662d34a8b6757ceb324dc40f3dd7b"
+    }
+   ]
+  },
+  "earlier_revision/phase4/m_tilde/m_tilde_xcell_RPE1.npz": {
+   "source": {
+    "path": "earlier_revision/phase4/m_tilde/m_tilde_xcell_RPE1.npz",
+    "bytes": 62338,
+    "sha256": "efc853da01ef611ad3dac3d312c943d11cdecfac5f11651b2d91bca21124ae4f"
+   },
+   "staged": {
+    "path": "$IGA_STORAGE_ROOT/bioinf2027/cache/e1b_check_inputs/earlier_revision/phase4/m_tilde/m_tilde_xcell_RPE1.npz",
+    "bytes": 62338,
+    "sha256": "efc853da01ef611ad3dac3d312c943d11cdecfac5f11651b2d91bca21124ae4f"
+   },
+   "read_by": "bioinf2027/src/bioinf2027/e1inputs.py, paths(), RPE1_submitted_magnitude, read by make_e1b_checks.py for the external [z; m] blocks",
+   "earlier_records_matched": [
+    {
+     "record": "bioinf2027/audit/D0_input_manifest.csv, line 216",
+     "bytes": 62338,
+     "sha256": "efc853da01ef611ad3dac3d312c943d11cdecfac5f11651b2d91bca21124ae4f"
+    },
+    {
+     "record": "bioinf2027/results/E1/input_records.json, inputs.submitted_rpe1_magnitude",
+     "bytes": 62338,
+     "sha256": "efc853da01ef611ad3dac3d312c943d11cdecfac5f11651b2d91bca21124ae4f"
+    }
+   ]
+  },
+  "earlier_revision/phase4/m_tilde/m_tilde_xcell_K562.npz": {
+   "source": {
+    "path": "earlier_revision/phase4/m_tilde/m_tilde_xcell_K562.npz",
+    "bytes": 61410,
+    "sha256": "416fc81568f13228c5646db1ea2b03600ddfcf82ecc736edd76c3545b0640a47"
+   },
+   "staged": {
+    "path": "$IGA_STORAGE_ROOT/bioinf2027/cache/e1b_check_inputs/earlier_revision/phase4/m_tilde/m_tilde_xcell_K562.npz",
+    "bytes": 61410,
+    "sha256": "416fc81568f13228c5646db1ea2b03600ddfcf82ecc736edd76c3545b0640a47"
+   },
+   "read_by": "bioinf2027/src/bioinf2027/e1inputs.py, paths(), K562-essential_submitted_magnitude, read by make_e1b_checks.py for the external [z; m] blocks",
+   "earlier_records_matched": [
+    {
+     "record": "bioinf2027/results/E1/input_records.json, inputs.submitted_k562_magnitude",
+     "bytes": 61410,
+     "sha256": "416fc81568f13228c5646db1ea2b03600ddfcf82ecc736edd76c3545b0640a47"
+    }
+   ]
+  }
+ }
+}

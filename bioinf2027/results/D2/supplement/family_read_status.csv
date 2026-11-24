@@ -1,0 +1,19 @@
+cell,scope,statistic,estimate,p,holm_threshold,state,read_status,monte_carlo_se_of_p,p_minus_threshold_in_monte_carlo_se
+G5,VCC test,dR2_token,0.001459908856413672,0.8763123687631237,0.025,inconclusive,"not read: reading (f), z fails its VCC precondition in this cell",0.0032922484887366386,258.58083667609327
+G5,VCC test,dR2_rest,-0.21706135677615923,0.15858414158584141,0.004545454545454546,inconclusive,"not read: reading (f), z fails its VCC precondition in this cell",0.0036528784762611967,42.16912444293765
+G5,VCC test,VCC noise check R2(z~) - R2(z-),0.007372091625529431,0.5767423257674232,0.00625,inconclusive,"not read: reading (f), z fails its VCC precondition in this cell",0.004940755159242428,115.46662552185596
+G5,RPE1,drho_token,-0.006857719155419106,0.0627937206279372,0.0035714285714285718,inconclusive,read: inconclusive; external statement in readings.csv,0.0024259156885109955,24.412345547284342
+G5,RPE1,R(z-),0.005693976264061903,0.7865213478652134,0.0125,inconclusive,not read: E1's R5 gate fails on this screen,0.004097627572358198,188.8949969701033
+G5,RPE1,external noise check rho(z~) - rho(z-),-0.006771052346979806,0.0871912808719128,0.0038461538461538464,inconclusive,read: inconclusive; external statement in readings.csv,0.0028211515629584316,29.542945554601175
+G5,K562-essential,drho_token,-0.008484573183758892,0.018998100189981004,0.0029411764705882353,inconclusive,read: inconclusive; external statement in readings.csv,0.0013651802950215932,11.761760536646769
+G5,K562-essential,R(z-),0.0141520853772248,0.49135086491350866,0.005,inconclusive,not read: E1's R5 gate fails on this screen,0.004999251868652505,97.28472933383118
+G5,K562-essential,external noise check rho(z~) - rho(z-),-0.011381119292305009,0.0027997200279972004,0.002777777777777778,inconclusive,read: inconclusive; external statement in readings.csv,0.0005283825882598736,0.041527201514503106
+G6,VCC test,dR2_token,-0.0029371701942041,0.6775322467753224,0.0071428571428571435,inconclusive,"not read: reading (f), z fails its VCC precondition in this cell",0.004674209038488823,143.42306561650975
+G6,VCC test,dR2_rest,0.0018450575654254814,0.9979002099790021,0.05,inconclusive,"not read: reading (f), z fails its VCC precondition in this cell",0.000457753307237166,2070.7664914540674
+G6,VCC test,VCC noise check R2(z~) - R2(z-),-0.0025964752625521684,0.6839316068393161,0.008333333333333333,inconclusive,"not read: reading (f), z fails its VCC precondition in this cell",0.004649399574197805,145.30871410907906
+G6,RPE1,drho_token,-0.007223099124284663,0.062193780621937804,0.0033333333333333335,inconclusive,read: inconclusive; external statement in readings.csv,0.0024150717230320114,24.372132192706843
+G6,RPE1,R(z-),0.008457312641893602,0.7041295870412959,0.01,inconclusive,not read: E1's R5 gate fails on this screen,0.004564330308975787,152.07698392824142
+G6,RPE1,external noise check rho(z~) - rho(z-),-0.007904344854129788,0.0425957404259574,0.003125,inconclusive,read: inconclusive; external statement in readings.csv,0.0020194391133065105,19.54539761356327
+G6,K562-essential,drho_token,0.0007172551812336669,0.8503149685031497,0.016666666666666666,inconclusive,read: inconclusive; external statement in readings.csv,0.0035676241792352128,233.67043723063654
+G6,K562-essential,R(z-),0.03780524572508925,0.0907909209079092,0.004166666666666667,inconclusive,not read: E1's R5 gate fails on this screen,0.002873115549166148,30.149937501254733
+G6,K562-essential,external noise check rho(z~) - rho(z-),-0.0026216137014952734,0.5395460453954605,0.005555555555555556,inconclusive,read: inconclusive; external statement in readings.csv,0.004984336568627566,107.13371428425407

@@ -1,0 +1,363 @@
+{
+ "item": "D0",
+ "runs": [
+  {
+   "label": "recompute-quoted-values",
+   "command": "python bioinf2027/scripts/make_d0_checks.py",
+   "working_directory": "repository root",
+   "commit": "ce6c8496659fe06b90b6ae62b9d1e1eb099e8297",
+   "branch": "bioinf-2027",
+   "tracked_files_modified": [],
+   "environment": {
+    "python": "3.13.12",
+    "implementation": "CPython",
+    "system": "Linux",
+    "machine": "x86_64",
+    "packages": {
+     "numpy": "2.4.4",
+     "scipy": "1.17.1",
+     "pandas": "3.0.2",
+     "pyarrow": "24.0.0",
+     "h5py": "3.16.0",
+     "pytest": "9.0.3"
+    },
+    "requirements_file": "bioinf2027/requirements.txt",
+    "requirements_sha256": "0237f3a09bb89a8ead20245a623aab1213c84fbec9842f00773684906fd8f501",
+    "matches_requirements": true,
+    "mismatched_distributions": []
+   },
+   "started": "2026-11-09T18:13:11-05:00",
+   "finished": "2026-11-09T18:13:42-05:00",
+   "returncode": 0,
+   "log": "$IGA_STORAGE_ROOT/bioinf2027/logs/D0/20261109T181311_recompute-quoted-values.log"
+  },
+  {
+   "label": "recompute-after-table-corrections",
+   "command": "python bioinf2027/scripts/make_d0_checks.py",
+   "working_directory": "repository root",
+   "commit": "ce6c8496659fe06b90b6ae62b9d1e1eb099e8297",
+   "branch": "bioinf-2027",
+   "tracked_files_modified": [
+    "bioinf2027/audit/number_provenance.csv"
+   ],
+   "environment": {
+    "python": "3.13.12",
+    "implementation": "CPython",
+    "system": "Linux",
+    "machine": "x86_64",
+    "packages": {
+     "numpy": "2.4.4",
+     "scipy": "1.17.1",
+     "pandas": "3.0.2",
+     "pyarrow": "24.0.0",
+     "h5py": "3.16.0",
+     "pytest": "9.0.3"
+    },
+    "requirements_file": "bioinf2027/requirements.txt",
+    "requirements_sha256": "0237f3a09bb89a8ead20245a623aab1213c84fbec9842f00773684906fd8f501",
+    "matches_requirements": true,
+    "mismatched_distributions": []
+   },
+   "started": "2026-11-09T18:18:20-05:00",
+   "finished": "2026-11-09T18:18:50-05:00",
+   "returncode": 0,
+   "log": "$IGA_STORAGE_ROOT/bioinf2027/logs/D0/20261109T181820_recompute-after-table-corrections.log"
+  },
+  {
+   "label": "recompute-with-state-and-coverage",
+   "command": "python bioinf2027/scripts/make_d0_checks.py",
+   "working_directory": "repository root",
+   "commit": "ce6c8496659fe06b90b6ae62b9d1e1eb099e8297",
+   "branch": "bioinf-2027",
+   "tracked_files_modified": [
+    "bioinf2027/audit/number_provenance.csv"
+   ],
+   "environment": {
+    "python": "3.13.12",
+    "implementation": "CPython",
+    "system": "Linux",
+    "machine": "x86_64",
+    "packages": {
+     "numpy": "2.4.4",
+     "scipy": "1.17.1",
+     "pandas": "3.0.2",
+     "pyarrow": "24.0.0",
+     "h5py": "3.16.0",
+     "pytest": "9.0.3"
+    },
+    "requirements_file": "bioinf2027/requirements.txt",
+    "requirements_sha256": "0237f3a09bb89a8ead20245a623aab1213c84fbec9842f00773684906fd8f501",
+    "matches_requirements": true,
+    "mismatched_distributions": []
+   },
+   "started": "2026-11-09T18:19:46-05:00",
+   "finished": "2026-11-09T18:20:17-05:00",
+   "returncode": 0,
+   "log": "$IGA_STORAGE_ROOT/bioinf2027/logs/D0/20261109T181946_recompute-with-state-and-coverage.log"
+  },
+  {
+   "label": "recompute-after-second-audit",
+   "command": "python bioinf2027/scripts/make_d0_checks.py",
+   "script_sha256": "2bb5e22661bc2df21ddf2afe6858f0570a8502f4c5938cfba6d54c7fa2234297",
+   "working_directory": "repository root",
+   "commit": "8b0758f47ed0a336911ccb04122b967df76ffcbe",
+   "branch": "bioinf-2027",
+   "tracked_files_modified": [
+    "bioinf2027/audit/number_provenance.csv",
+    "bioinf2027/scripts/make_d0_checks.py"
+   ],
+   "untracked_files_in_bioinf2027": [
+    "bioinf2027/PROGRESS.md",
+    "bioinf2027/reviews/D0_audit_r2.md"
+   ],
+   "environment": {
+    "python": "3.13.12",
+    "implementation": "CPython",
+    "system": "Linux",
+    "machine": "x86_64",
+    "packages": {
+     "numpy": "2.4.4",
+     "scipy": "1.17.1",
+     "pandas": "3.0.2",
+     "pyarrow": "24.0.0",
+     "h5py": "3.16.0",
+     "pytest": "9.0.3"
+    },
+    "requirements_file": "bioinf2027/requirements.txt",
+    "requirements_sha256": "0237f3a09bb89a8ead20245a623aab1213c84fbec9842f00773684906fd8f501",
+    "matches_requirements": true,
+    "mismatched_distributions": []
+   },
+   "started": "2026-11-09T18:47:04-05:00",
+   "finished": "2026-11-09T18:47:33-05:00",
+   "returncode": 1,
+   "log": "$IGA_STORAGE_ROOT/bioinf2027/logs/D0/20261109T184704_recompute-after-second-audit.log"
+  },
+  {
+   "label": "recompute-after-second-audit",
+   "command": "python bioinf2027/scripts/make_d0_checks.py",
+   "script_sha256": "64ec3910fbfbd26a38dcfbb0ede8a0eba46c712dee4f04d17cc5b760b894e4b9",
+   "working_directory": "repository root",
+   "commit": "8b0758f47ed0a336911ccb04122b967df76ffcbe",
+   "branch": "bioinf-2027",
+   "tracked_files_modified": [
+    "bioinf2027/audit/number_provenance.csv",
+    "bioinf2027/runs/D0.json",
+    "bioinf2027/scripts/make_d0_checks.py"
+   ],
+   "untracked_files_in_bioinf2027": [
+    "bioinf2027/PROGRESS.md",
+    "bioinf2027/reviews/D0_audit_r2.md"
+   ],
+   "environment": {
+    "python": "3.13.12",
+    "implementation": "CPython",
+    "system": "Linux",
+    "machine": "x86_64",
+    "packages": {
+     "numpy": "2.4.4",
+     "scipy": "1.17.1",
+     "pandas": "3.0.2",
+     "pyarrow": "24.0.0",
+     "h5py": "3.16.0",
+     "pytest": "9.0.3"
+    },
+    "requirements_file": "bioinf2027/requirements.txt",
+    "requirements_sha256": "0237f3a09bb89a8ead20245a623aab1213c84fbec9842f00773684906fd8f501",
+    "matches_requirements": true,
+    "mismatched_distributions": []
+   },
+   "started": "2026-11-09T18:47:47-05:00",
+   "finished": "2026-11-09T18:48:19-05:00",
+   "returncode": 0,
+   "log": "$IGA_STORAGE_ROOT/bioinf2027/logs/D0/20261109T184747_recompute-after-second-audit.log"
+  },
+  {
+   "label": "recompute-with-change-counts",
+   "command": "python bioinf2027/scripts/make_d0_checks.py",
+   "script_sha256": "0f76b9ffae21a558dee8cf924842e98f5126dcadc682e08b45e74dbcea433563",
+   "working_directory": "repository root",
+   "commit": "8b0758f47ed0a336911ccb04122b967df76ffcbe",
+   "branch": "bioinf-2027",
+   "tracked_files_modified": [
+    "bioinf2027/audit/D0_checks.json",
+    "bioinf2027/audit/D0_input_manifest.csv",
+    "bioinf2027/audit/number_provenance.csv",
+    "bioinf2027/runs/D0.json",
+    "bioinf2027/scripts/make_d0_checks.py"
+   ],
+   "untracked_files_in_bioinf2027": [
+    "bioinf2027/PROGRESS.md",
+    "bioinf2027/reviews/D0_audit_r2.md"
+   ],
+   "environment": {
+    "python": "3.13.12",
+    "implementation": "CPython",
+    "system": "Linux",
+    "machine": "x86_64",
+    "packages": {
+     "numpy": "2.4.4",
+     "scipy": "1.17.1",
+     "pandas": "3.0.2",
+     "pyarrow": "24.0.0",
+     "h5py": "3.16.0",
+     "pytest": "9.0.3"
+    },
+    "requirements_file": "bioinf2027/requirements.txt",
+    "requirements_sha256": "0237f3a09bb89a8ead20245a623aab1213c84fbec9842f00773684906fd8f501",
+    "matches_requirements": true,
+    "mismatched_distributions": []
+   },
+   "started": "2026-11-09T18:48:45-05:00",
+   "finished": "2026-11-09T18:49:17-05:00",
+   "returncode": 0,
+   "log": "$IGA_STORAGE_ROOT/bioinf2027/logs/D0/20261109T184845_recompute-with-change-counts.log"
+  },
+  {
+   "label": "recompute-after-third-audit",
+   "command": "python bioinf2027/scripts/make_d0_checks.py",
+   "script_sha256": "dabc8c0026ddae3996560f0ed1b54d6ff2f0614d70733669f9a9e1334526ea16",
+   "module_sha256": {
+    "bioinf2027/src/bioinf2027/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bioinf2027/src/bioinf2027/config.py": "ae8a841e511f735af8063e132a475b835f6015755fb628d2ee7d04f949b5f760",
+    "bioinf2027/src/bioinf2027/features.py": "109241aaaa33c7a8bc9ddcdaa3bf307924cf8ffb67264aa7f81948f7150b96fb",
+    "bioinf2027/src/bioinf2027/partial.py": "c748fda46f9d5b8eb98ffcccbc3f19b888aceaa4373c0e4a34a7418579c41903",
+    "bioinf2027/src/bioinf2027/provenance.py": "dbfcb8c9cd0c0a965852b466584c89d6005ca7c4851e11fe5560d020ede4eb5d",
+    "bioinf2027/src/bioinf2027/runlog.py": "5e1b325fb507a0a874b516a5ce497efe15eeec0ecd443f54c87a0726a4b1100b",
+    "bioinf2027/src/bioinf2027/singlecell.py": "6de60f867c2f53eb07d8f20cc2ca2feb08a9b342153e4694bbfef151ccdbce97",
+    "bioinf2027/src/bioinf2027/stats.py": "9e5dab5cb78fc6697702d9e82f3ad418939da7830a16259e1c186b1799497505"
+   },
+   "code_changed_during_run": [],
+   "working_directory": "repository root",
+   "commit": "4e4ba7db2d9fefe7a558dac723985d694a57a4d5",
+   "branch": "bioinf-2027",
+   "tracked_files_modified": [],
+   "untracked_files_in_bioinf2027": [
+    "bioinf2027/PROGRESS.md",
+    "bioinf2027/reports/C1.md",
+    "bioinf2027/reports/D0.md"
+   ],
+   "environment": {
+    "python": "3.13.12",
+    "implementation": "CPython",
+    "system": "Linux",
+    "machine": "x86_64",
+    "packages": {
+     "numpy": "2.4.4",
+     "scipy": "1.17.1",
+     "pandas": "3.0.2",
+     "pyarrow": "24.0.0",
+     "h5py": "3.16.0",
+     "pytest": "9.0.3"
+    },
+    "requirements_file": "bioinf2027/requirements.txt",
+    "requirements_sha256": "0237f3a09bb89a8ead20245a623aab1213c84fbec9842f00773684906fd8f501",
+    "matches_requirements": true,
+    "mismatched_distributions": []
+   },
+   "started": "2026-11-09T19:35:37-05:00",
+   "finished": "2026-11-09T19:36:09-05:00",
+   "returncode": 0,
+   "log": "$IGA_STORAGE_ROOT/bioinf2027/logs/D0/20261109T193537_recompute-after-third-audit.log"
+  },
+  {
+   "label": "recompute-after-fourth-audit",
+   "command": "python bioinf2027/scripts/make_d0_checks.py",
+   "script_sha256": "b540e3f50fda1a8f6b873278e6d94b68883efba057b9af9abaa2dbf7407ad162",
+   "module_sha256": {
+    "bioinf2027/src/bioinf2027/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bioinf2027/src/bioinf2027/config.py": "ae8a841e511f735af8063e132a475b835f6015755fb628d2ee7d04f949b5f760",
+    "bioinf2027/src/bioinf2027/features.py": "109241aaaa33c7a8bc9ddcdaa3bf307924cf8ffb67264aa7f81948f7150b96fb",
+    "bioinf2027/src/bioinf2027/partial.py": "c748fda46f9d5b8eb98ffcccbc3f19b888aceaa4373c0e4a34a7418579c41903",
+    "bioinf2027/src/bioinf2027/provenance.py": "dbfcb8c9cd0c0a965852b466584c89d6005ca7c4851e11fe5560d020ede4eb5d",
+    "bioinf2027/src/bioinf2027/runlog.py": "5e1b325fb507a0a874b516a5ce497efe15eeec0ecd443f54c87a0726a4b1100b",
+    "bioinf2027/src/bioinf2027/singlecell.py": "6de60f867c2f53eb07d8f20cc2ca2feb08a9b342153e4694bbfef151ccdbce97",
+    "bioinf2027/src/bioinf2027/stats.py": "9e5dab5cb78fc6697702d9e82f3ad418939da7830a16259e1c186b1799497505"
+   },
+   "code_changed_during_run": [],
+   "working_directory": "repository root",
+   "commit": "8615861221c0c7504ad78aec2e43692f491a99bf",
+   "branch": "bioinf-2027",
+   "tracked_files_modified": [],
+   "untracked_files_in_bioinf2027": [
+    "bioinf2027/GATE.md",
+    "bioinf2027/PROGRESS.md",
+    "bioinf2027/reports/C1.md"
+   ],
+   "environment": {
+    "python": "3.13.12",
+    "implementation": "CPython",
+    "system": "Linux",
+    "machine": "x86_64",
+    "packages": {
+     "numpy": "2.4.4",
+     "scipy": "1.17.1",
+     "pandas": "3.0.2",
+     "pyarrow": "24.0.0",
+     "h5py": "3.16.0",
+     "pytest": "9.0.3"
+    },
+    "requirements_file": "bioinf2027/requirements.txt",
+    "requirements_sha256": "0237f3a09bb89a8ead20245a623aab1213c84fbec9842f00773684906fd8f501",
+    "matches_requirements": true,
+    "mismatched_distributions": []
+   },
+   "started": "2026-11-09T20:13:25-05:00",
+   "finished": "2026-11-09T20:13:57-05:00",
+   "returncode": 0,
+   "log": "$IGA_STORAGE_ROOT/bioinf2027/logs/D0/20261109T201325_recompute-after-fourth-audit.log"
+  },
+  {
+   "label": "recompute-after-fourth-audit-counts",
+   "command": "python bioinf2027/scripts/make_d0_checks.py",
+   "script_sha256": "8caf04d1d6458edb57db4b71ca59744d2325b1f0ae8ea0a36a94aa2d9e42ba52",
+   "module_sha256": {
+    "bioinf2027/src/bioinf2027/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bioinf2027/src/bioinf2027/config.py": "ae8a841e511f735af8063e132a475b835f6015755fb628d2ee7d04f949b5f760",
+    "bioinf2027/src/bioinf2027/features.py": "109241aaaa33c7a8bc9ddcdaa3bf307924cf8ffb67264aa7f81948f7150b96fb",
+    "bioinf2027/src/bioinf2027/partial.py": "c748fda46f9d5b8eb98ffcccbc3f19b888aceaa4373c0e4a34a7418579c41903",
+    "bioinf2027/src/bioinf2027/provenance.py": "dbfcb8c9cd0c0a965852b466584c89d6005ca7c4851e11fe5560d020ede4eb5d",
+    "bioinf2027/src/bioinf2027/runlog.py": "5e1b325fb507a0a874b516a5ce497efe15eeec0ecd443f54c87a0726a4b1100b",
+    "bioinf2027/src/bioinf2027/singlecell.py": "6de60f867c2f53eb07d8f20cc2ca2feb08a9b342153e4694bbfef151ccdbce97",
+    "bioinf2027/src/bioinf2027/stats.py": "9e5dab5cb78fc6697702d9e82f3ad418939da7830a16259e1c186b1799497505"
+   },
+   "code_changed_during_run": [],
+   "working_directory": "repository root",
+   "commit": "09886a557f5b271ede197fa6acadd1174766bad7",
+   "branch": "bioinf-2027",
+   "tracked_files_modified": [
+    "bioinf2027/audit/D0_checks.json",
+    "bioinf2027/audit/D0_counts.json",
+    "bioinf2027/audit/D0_input_manifest.csv",
+    "bioinf2027/runs/D0.json"
+   ],
+   "untracked_files_in_bioinf2027": [
+    "bioinf2027/GATE.md",
+    "bioinf2027/PROGRESS.md",
+    "bioinf2027/reports/C1.md"
+   ],
+   "environment": {
+    "python": "3.13.12",
+    "implementation": "CPython",
+    "system": "Linux",
+    "machine": "x86_64",
+    "packages": {
+     "numpy": "2.4.4",
+     "scipy": "1.17.1",
+     "pandas": "3.0.2",
+     "pyarrow": "24.0.0",
+     "h5py": "3.16.0",
+     "pytest": "9.0.3"
+    },
+    "requirements_file": "bioinf2027/requirements.txt",
+    "requirements_sha256": "0237f3a09bb89a8ead20245a623aab1213c84fbec9842f00773684906fd8f501",
+    "matches_requirements": true,
+    "mismatched_distributions": []
+   },
+   "started": "2026-11-09T20:14:13-05:00",
+   "finished": "2026-11-09T20:14:45-05:00",
+   "returncode": 0,
+   "log": "$IGA_STORAGE_ROOT/bioinf2027/logs/D0/20261109T201413_recompute-after-fourth-audit-counts.log"
+  }
+ ]
+}

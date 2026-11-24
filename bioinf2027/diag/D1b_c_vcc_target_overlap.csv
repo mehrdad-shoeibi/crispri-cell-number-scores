@@ -1,0 +1,7 @@
+screen,subset,matched_on,n_constructs,n_target_genes,vcc_training_target_constructs,vcc_training_target_target_genes,vcc_validation_target_constructs,vcc_validation_target_target_genes,vcc_test_target_constructs,vcc_test_target_target_genes,not_a_vcc_target_constructs,not_a_vcc_target_target_genes,vcc_training_target_constructs_by_symbol,vcc_training_target_target_genes_by_symbol,vcc_validation_target_constructs_by_symbol,vcc_validation_target_target_genes_by_symbol,vcc_test_target_constructs_by_symbol,vcc_test_target_target_genes_by_symbol
+RPE1,all,Ensembl identifier,1932,1811,37,36,18,16,23,23,1854,1736,37,36,18,16,23,23
+RPE1,target_in_features,Ensembl identifier,353,330,27,26,4,4,8,8,314,292,27,26,4,4,8,8
+RPE1,target_not_in_features,Ensembl identifier,1579,1481,10,10,14,12,15,15,1540,1444,10,10,14,12,15,15
+K562-essential,all,Ensembl identifier,1903,1811,29,28,18,16,19,19,1837,1748,29,28,18,16,19,19
+K562-essential,target_in_features,Ensembl identifier,337,315,22,21,3,3,7,7,305,284,22,21,3,3,7,7
+K562-essential,target_not_in_features,Ensembl identifier,1566,1496,7,7,15,13,12,12,1532,1464,7,7,15,13,12,12

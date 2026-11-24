@@ -1,0 +1,393 @@
+{
+ "plan": "bioinf2027/plans/E5.md, Sections 3 to 8, 11 and 16 to 20 (secondary, unadjusted, and diagnostics)",
+ "smoke": false,
+ "part": "main",
+ "replicates": 10000,
+ "seeds": {
+  "settings": {
+   "within RPE1": 20271121,
+   "within K562-essential": 20271122,
+   "RPE1 to K562-essential": 20271123,
+   "K562-essential to RPE1": 20271124
+  },
+  "VCC": 20271125,
+  "union folds": 20271204,
+  "within folds": 20271127,
+  "prefix folds": {
+   "within": 20271127,
+   "between": 20271204
+  },
+  "inner folds": 20271128,
+  "shuffle": 20271126,
+  "forest head seeds": [
+   0,
+   1,
+   2
+  ]
+ },
+ "ridge_grid": [
+  0.01,
+  0.03162277660168379,
+  0.1,
+  0.31622776601683794,
+  1.0,
+  3.1622776601683795,
+  10.0,
+  31.622776601683793,
+  100.0,
+  316.22776601683796,
+  1000.0,
+  3162.2776601683795,
+  10000.0,
+  31622.776601683792,
+  100000.0,
+  316227.7660168379,
+  1000000.0
+ ],
+ "forest": {
+  "n_estimators": 200,
+  "max_depth": 20,
+  "min_samples_leaf": 2
+ },
+ "settings": [
+  "within RPE1",
+  "within K562-essential",
+  "RPE1 to K562-essential",
+  "K562-essential to RPE1"
+ ],
+ "inputs": {
+  "harness": {
+   "RPE1": {
+    "genes": 1811,
+    "b_column": "b27",
+    "genes_with_b": 1811,
+    "genes_with_halves": 1297
+   },
+   "K562-essential": {
+    "genes": 1811,
+    "b_column": "b27",
+    "genes_with_b": 1811,
+    "genes_with_halves": 1629
+   },
+   "union_genes": 2111,
+   "features_mapped_in_both": 1303,
+   "inputs": {
+    "G1_manifest": {
+     "path": "bioinf2027/endpoints/G1/manifest.json",
+     "bytes": 1748,
+     "sha256": "4b85517801ed167a901cefdc0cdba89f5898233be2edbda15cc9852cdd08cc28"
+    },
+    "supplement": {
+     "path": "bioinf2027/endpoints/readouts/supplement/supplement.json",
+     "bytes": 11390,
+     "sha256": "44ff27afec8c9f77321153d02e51f35c581180028ce1e17a61a2c3abf1055310"
+    },
+    "endpoint_b": {
+     "path": "bioinf2027/results/E5/endpoint_b/endpoint_b.json",
+     "bytes": 4550,
+     "sha256": "5884cbad1399d72dbff35828d5ac1f971f61a4093cddd23a9dec8bda244adbd2"
+    },
+    "gates_b": {
+     "path": "bioinf2027/results/E5/endpoint_b/gates.json",
+     "bytes": 3179,
+     "sha256": "3fedfcc48d059d778296356cbb3231dc5a32512f5f305cd812831a611a3ca80b"
+    }
+   }
+  },
+  "G1_manifest": {
+   "path": "bioinf2027/endpoints/G1/manifest.json",
+   "bytes": 1748,
+   "sha256": "4b85517801ed167a901cefdc0cdba89f5898233be2edbda15cc9852cdd08cc28"
+  },
+  "genes_RPE1.csv": {
+   "path": "bioinf2027/results/E5/endpoint_b/genes_RPE1.csv",
+   "bytes": 867766,
+   "sha256": "b7e44e3080d233e4ceb51ab9495e3dcbfc21c125d3395d28449399065d915115"
+  },
+  "genes_K562-essential.csv": {
+   "path": "bioinf2027/results/E5/endpoint_b/genes_K562-essential.csv",
+   "bytes": 987631,
+   "sha256": "405398f1bdb74fafd8c96c109e066cf93de14b216e2e396d5be9fc55cda7f9d9"
+  },
+  "prefit": {
+   "path": "bioinf2027/results/E5/prefit/prefit.json",
+   "bytes": 2657,
+   "sha256": "a6eeadcc14ea3643ee28465b8a78766fafa5eb2bdc3dd20397c89e4b8e9a6899"
+  },
+  "prefit_revised": {
+   "path": "bioinf2027/results/E5/prefit/prefit_revised.json",
+   "bytes": 2587,
+   "sha256": "27fb45e24b7d6f5c0e1f1b4bab6d564668826c8f9d67c6f3b4359c90be30be6e"
+  },
+  "embeddings": {
+   "Geneformer": {
+    "path": "$IGA_STORAGE_ROOT/bioinf2027/E5/identity/geneformer_token.npz",
+    "bytes": 7257298,
+    "sha256": "73f0a9d21a2f313caa35d089bb9cdffc67555b1ef846f9cc5a019967284a5fcb"
+   },
+   "scGPT": {
+    "path": "$IGA_STORAGE_ROOT/bioinf2027/E5/identity/scgpt_gene.npz",
+    "bytes": 4802538,
+    "sha256": "9297d8b6790a573da5690d02761fa1689c0ed7b182aed601fc3781a9153e2c89"
+   },
+   "GenePT": {
+    "path": "$IGA_STORAGE_ROOT/bioinf2027/E5/identity/genept.npz",
+    "bytes": 14238694,
+    "sha256": "f474fecd21fc064b36df7da34444fd56936f061ba17eab0e23d40628413f38c4"
+   }
+  },
+  "prefit50": {
+   "path": "bioinf2027/results/E5/secondary/secondary_prefit50.json",
+   "bytes": 6260,
+   "sha256": "8559eae63dca789221b2df6adacd4300ee792d12e9904e9163b62b22e88191ed"
+  },
+  "family": {
+   "path": "bioinf2027/results/E5/family/family.json",
+   "bytes": 3380,
+   "sha256": "74c7c9f56ea2a23fdf8b1f09dbb6a8d5fd41c9600b51eeeeab8820ca2fbff845"
+  }
+ },
+ "code": {
+  "bioinf2027/scripts/make_e5_secondary.py": "685255dc6a40c7391e4c274061f5bd29a19c4fe8c58648eff877837088446877",
+  "bioinf2027/scripts/make_e5_fits.py": "bfad78082f63fdd3480c0190da7969e55d85eff1498111dfa7b01162055282c0",
+  "bioinf2027/scripts/e5fit.py": "d1dc23d63b23d13a5608ed62371e115d7d9f9da54d37ee3dc659d2deb4c72063",
+  "bioinf2027/scripts/e5lib.py": "764ebe2010d1655e3fe4dfb6b117783bcea739ad2b0958596c317618af8da9c4",
+  "bioinf2027/src/bioinf2027/heads.py": "c03831822a147661bfd3fd1ae36dfa51c003b679941a90208156c8d410abd9f7",
+  "bioinf2027/scripts/fit_slots.py": "4ed982ea8b3c197710a3d025ce0a47e3b1afb7df12b8d67d565508c3f60c5353"
+ },
+ "checks": {
+  "family recomputed": {
+   "compared": true,
+   "statistics": 24,
+   "quantities": [
+    "iu_estimate",
+    "iu_p",
+    "minus_bar_estimate",
+    "minus_bar_hi",
+    "minus_bar_lo",
+    "minus_bar_p",
+    "minus_bar_se",
+    "minus_gaussian_estimate",
+    "minus_gaussian_hi",
+    "minus_gaussian_lo",
+    "minus_gaussian_p",
+    "minus_gaussian_se",
+    "minus_shuffled_estimate",
+    "minus_shuffled_hi",
+    "minus_shuffled_lo",
+    "minus_shuffled_p",
+    "minus_shuffled_se",
+    "power_2.80se",
+    "spearman_C",
+    "spearman_S",
+    "spearman_bar",
+    "spearman_e"
+   ],
+   "largest_difference": 0.0,
+   "tolerance": 1e-09
+  },
+  "inputs": "every input checked against its record at load (Section 11, check 1)"
+ },
+ "items": {
+  "the family, recomputed": {
+   "labels": [
+    "a",
+    "b"
+   ],
+   "bar": "Bc",
+   "folds": "gene folds",
+   "role": "family, recomputed"
+  },
+  "B1 as the bar": {
+   "labels": [
+    "a",
+    "b"
+   ],
+   "bar": "B1",
+   "folds": "gene folds",
+   "role": "secondary, unadjusted"
+  },
+  "10 kb neighbours removed": {
+   "labels": [
+    "b_10kb"
+   ],
+   "bar": "Bc",
+   "folds": "gene folds",
+   "role": "secondary, unadjusted"
+  },
+  "full space": {
+   "labels": [
+    "b_full"
+   ],
+   "bar": "Bc",
+   "folds": "gene folds",
+   "role": "secondary, unadjusted"
+  },
+  "depth-matched controls": {
+   "labels": [
+    "b_depth"
+   ],
+   "bar": "Bc",
+   "folds": "gene folds",
+   "role": "secondary, unadjusted"
+  },
+  "50-cell version": {
+   "labels": [
+    "b50"
+   ],
+   "bar": "Bc",
+   "folds": "gene folds",
+   "role": "secondary, unadjusted"
+  },
+  "(b) residualised on B2": {
+   "labels": [
+    "b_minus_B2"
+   ],
+   "bar": "Bc",
+   "folds": "gene folds",
+   "role": "secondary, unadjusted"
+  },
+  "prefix-grouped folds": {
+   "labels": [
+    "a",
+    "b"
+   ],
+   "bar": "Bc",
+   "folds": "prefix-grouped folds",
+   "role": "secondary, unadjusted"
+  },
+  "[Bc; B0] as the bar": {
+   "labels": [
+    "a",
+    "b"
+   ],
+   "bar": "[Bc; B0]",
+   "folds": "gene folds",
+   "role": "diagnostic"
+  },
+  "B1 from e": {
+   "labels": [
+    "B1"
+   ],
+   "bar": null,
+   "folds": "gene folds",
+   "role": "diagnostic"
+  },
+  "detection rate from e": {
+   "labels": [
+    "detection_rate"
+   ],
+   "bar": null,
+   "folds": "gene folds",
+   "role": "diagnostic"
+  },
+  "B0 from e": {
+   "labels": [
+    "B0"
+   ],
+   "bar": null,
+   "folds": "gene folds",
+   "role": "diagnostic"
+  }
+ },
+ "svd_fallbacks_total": 7,
+ "covered_genes": {
+  "RPE1": 1773,
+  "K562-essential": 1765
+ },
+ "prefixes": {
+  "RPE1": 984,
+  "K562-essential": 930
+ },
+ "label_sources": {
+  "RPE1": {
+   "a": "G1 y, median over the gene's eligible constructs",
+   "b": "b27",
+   "b_10kb": "b27_10kb",
+   "b_full": "b27_full",
+   "b_depth": "b27_depth",
+   "b50": "b50",
+   "b_minus_B2": "b27 minus its out-of-fold rank-spline prediction from B2 (G1, gene median), within-screen folds",
+   "B1": "B1 (control cells)",
+   "detection_rate": "control detection rate",
+   "B0": "G1 B0, gene median"
+  },
+  "K562-essential": {
+   "a": "G1 y, median over the gene's eligible constructs",
+   "b": "b27",
+   "b_10kb": "b27_10kb",
+   "b_full": "b27_full",
+   "b_depth": "b27_depth",
+   "b50": "b50",
+   "b_minus_B2": "b27 minus its out-of-fold rank-spline prediction from B2 (G1, gene median), within-screen folds",
+   "B1": "B1 (control cells)",
+   "detection_rate": "control detection rate",
+   "B0": "G1 B0, gene median"
+  }
+ },
+ "statistics": {
+  "secondary": 132,
+  "diagnostics": 60,
+  "family recomputed": 24
+ },
+ "predictions": {
+  "path": "$IGA_STORAGE_ROOT/bioinf2027/E5/secondary/predictions_main.npz",
+  "bytes": 13772519,
+  "sha256": "f735d4638daa6dcec082be279740efa51565a010e54aef7bad044e56ba7c4ea7"
+ },
+ "saved_tasks": {
+  "folder": "$IGA_STORAGE_ROOT/bioinf2027/E5/secondary/main_tasks",
+  "tasks": {
+   "stage one": 192,
+   "stage two": 8
+  },
+  "reused": {
+   "stage one": 0,
+   "stage two": 0
+  },
+  "rule": "each task saved as it ends and reused when its specification is unchanged (gate G4, item 4)"
+ },
+ "runner": "one process per task (fit_slots.py)",
+ "tasks_shed_and_queued_again": {
+  "stage one": 4,
+  "stage two": 0
+ },
+ "outputs": {
+  "secondary.csv": {
+   "path": "bioinf2027/results/E5/secondary/secondary.csv",
+   "bytes": 97792,
+   "sha256": "fcda1aa1d68bb2f590a4604a87a92356eba02cd24c1fd58455d7d3854257af8f"
+  },
+  "diagnostics.csv": {
+   "path": "bioinf2027/results/E5/secondary/diagnostics.csv",
+   "bytes": 38524,
+   "sha256": "3c1b110d55d7f21d517853de63b4eeca55e990965d819d6a51cdc51fae821df0"
+  },
+  "folds.csv": {
+   "path": "bioinf2027/results/E5/secondary/folds.csv",
+   "bytes": 35655,
+   "sha256": "33b8d49a1b487ccba13e24e5b0775a903d293d005d8ea7b0da15ba590ae76c56"
+  },
+  "between_embeddings.csv": {
+   "path": "bioinf2027/results/E5/secondary/between_embeddings.csv",
+   "bytes": 8930,
+   "sha256": "fafc8c4559370d6f6b62a57a609c9389ea2586361add9e7ef33f17741c16395c"
+  },
+  "family_baseline.csv": {
+   "path": "bioinf2027/results/E5/secondary/family_baseline.csv",
+   "bytes": 10847,
+   "sha256": "1c6f32ac4e96e9aa50bbe4afb1425529b4ece4d89d14335afba7e6a665b85c21"
+  },
+  "power.csv": {
+   "path": "bioinf2027/results/E5/secondary/power.csv",
+   "bytes": 6819,
+   "sha256": "9cd46196b8bd677a34792df2d74b3f7a5ec9eaa498d3b3a659ea7a96c15268cb"
+  },
+  "agreement.csv": {
+   "path": "bioinf2027/results/E5/secondary/agreement.csv",
+   "bytes": 1701,
+   "sha256": "009cfdf5a00466931bc78cd12942dad350802447d7fcfe05ca5b817e607342dd"
+  }
+ },
+ "seconds": 17087.5
+}

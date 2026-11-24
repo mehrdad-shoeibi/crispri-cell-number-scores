@@ -1,0 +1,5 @@
+screen,item,comparison,constructs,max_abs_difference,median_abs_difference,p99_abs_difference,above_1e-4
+RPE1,d,B1 against the stored control mean,1932,2.3407871196923224e-09,7.933081969113687e-11,1.1196427207593729e-09,0
+RPE1,d,negated B2 against the native delta,1932,2.9749408270163258e-08,2.836400003758399e-10,6.5725267495153615e-09,0
+K562-essential,d,B1 against the stored control mean,1903,4.757803040433828e-09,1.0254619375871243e-10,1.1505946195811136e-09,0
+K562-essential,d,negated B2 against the native delta,1903,2.0393315036670856e-08,3.660189928922364e-10,6.110491668209762e-09,0

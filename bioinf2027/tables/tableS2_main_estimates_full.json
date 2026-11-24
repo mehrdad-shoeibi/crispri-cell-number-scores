@@ -1,0 +1,142 @@
+{
+ "table": "tableS2_main_estimates_full",
+ "code": {
+  "bioinf2027/scripts/figures/table2_main_estimates.py": "6bced21fa82e24e1355f6f3ae42a98770b8fbce3ab4930dda4403d0181a30007",
+  "bioinf2027/scripts/figures/tablelib.py": "5c546fa57595e02901ba2087d5c2334793762f2cb146db4fd434973bb3fe034f"
+ },
+ "inputs": {
+  "bioinf2027/endpoints/readouts/R2_between.csv": {
+   "path": "bioinf2027/endpoints/readouts/R2_between.csv",
+   "bytes": 6440,
+   "sha256": "69165339c4ffac1f5977fc8d5ec2430751d64650e00309119cb2419c97952e6e"
+  },
+  "bioinf2027/results/S1_supplement/vcc_paired.csv": {
+   "path": "bioinf2027/results/S1_supplement/vcc_paired.csv",
+   "bytes": 4522,
+   "sha256": "89634edd77132ac47155fd910bbed160f6f98d2a4b3295e0d90c0653d95c61e1"
+  },
+  "bioinf2027/results/S1_supplement/external_association.csv": {
+   "path": "bioinf2027/results/S1_supplement/external_association.csv",
+   "bytes": 5572,
+   "sha256": "655a7060779d46e11030f4cbb513c0fcf11a6442dcf3192bfb8c958dd4a19e2d"
+  },
+  "bioinf2027/results/S1_supplement/external_control.csv": {
+   "path": "bioinf2027/results/S1_supplement/external_control.csv",
+   "bytes": 32753,
+   "sha256": "2dd58df4b59de75f3a89ce4e5cc4952ab796a87b0c6e5bf903f1f6765bf666a0"
+  },
+  "bioinf2027/results/S1_supplement/external_labels.csv": {
+   "path": "bioinf2027/results/S1_supplement/external_labels.csv",
+   "bytes": 448470,
+   "sha256": "5f8aacc860375e56a0343ada091346bb95660c3ff4c621fb45a732be982c8923"
+  },
+  "bioinf2027/results/E1/posthoc/posthoc_vcc.csv": {
+   "path": "bioinf2027/results/E1/posthoc/posthoc_vcc.csv",
+   "bytes": 14367,
+   "sha256": "fc0fbb0f35a04ec5cd0355e9c81309ff5bd7c499009ab26ecd722ccdb5bb2650"
+  },
+  "bioinf2027/results/E1/preconditions.csv": {
+   "path": "bioinf2027/results/E1/preconditions.csv",
+   "bytes": 63079,
+   "sha256": "57e385db23a1cd6e8bd12ada398e853c8f50ce68e5bedbedd15dce755f9c0677"
+  },
+  "bioinf2027/results/E1/vcc_test.csv": {
+   "path": "bioinf2027/results/E1/vcc_test.csv",
+   "bytes": 244420,
+   "sha256": "464b679ca9b4faece1590012c641c0d8b7d1ef418a25919ccfdfe3e4b40b1591"
+  },
+  "bioinf2027/results/E2/stats/vcc.csv": {
+   "path": "bioinf2027/results/E2/stats/vcc.csv",
+   "bytes": 921725,
+   "sha256": "5d164862404091fb59dcd3767ba2e2c2e84bbebea9a92104bf9e0dec7dd3742b"
+  },
+  "bioinf2027/diag/D1_label_vs_own_delta_external.csv": {
+   "path": "bioinf2027/diag/D1_label_vs_own_delta_external.csv",
+   "bytes": 1972,
+   "sha256": "308949e31229fe46d1c4c2d76a62d01cef184c6139c87ab7ff9ba0730d24fa5b"
+  },
+  "bioinf2027/results/E6/family.csv": {
+   "path": "bioinf2027/results/E6/family.csv",
+   "bytes": 10639,
+   "sha256": "8afd41db341bbc341a56f58a040ece5eff8da09aaa60581ec21ebafc82f75ff1"
+  },
+  "bioinf2027/results/E6/secondary.csv": {
+   "path": "bioinf2027/results/E6/secondary.csv",
+   "bytes": 36642,
+   "sha256": "76746df3b77291fe9221d3e29e5e784c1d8f034fa405b1b286576416941f69bf"
+  },
+  "bioinf2027/results/E2/stats/e6.csv": {
+   "path": "bioinf2027/results/E2/stats/e6.csv",
+   "bytes": 31245,
+   "sha256": "1a08ef21c77de39781841b6b88824cb05a426718c17d594b6e9de056ef1aaaf1"
+  },
+  "bioinf2027/results/E5/family/family.csv": {
+   "path": "bioinf2027/results/E5/family/family.csv",
+   "bytes": 19104,
+   "sha256": "4520d5f437f8d914d7183087e6fcc142edd6f771434f5c858f7735d7364addbd"
+  },
+  "bioinf2027/results/E5/supplement/depmap.csv": {
+   "path": "bioinf2027/results/E5/supplement/depmap.csv",
+   "bytes": 35022,
+   "sha256": "b49769b1f8c650e0d80e50c5c67d34c512d6682963041f7612435f6d00997200"
+  },
+  "bioinf2027/results/E5/supplement_2/comparisons.csv": {
+   "path": "bioinf2027/results/E5/supplement_2/comparisons.csv",
+   "bytes": 52249,
+   "sha256": "ef57908a087b8e4da6a1b0971e1717db641d6b53394b211dbd419740858099a7"
+  },
+  "bioinf2027/results/E5/supplement_2/same_rows.csv": {
+   "path": "bioinf2027/results/E5/supplement_2/same_rows.csv",
+   "bytes": 133986,
+   "sha256": "d7ed732dec5a537370313889bf854b8646ebd9b5949b57c7e351fe83833a5010"
+  },
+  "bioinf2027/diag/D3_cell_counts.csv": {
+   "path": "bioinf2027/diag/D3_cell_counts.csv",
+   "bytes": 2220,
+   "sha256": "b7d13fd6ca6a37dadac0ba4431da09da6c2177ac8776f9cdcad814989ced405e"
+  }
+ },
+ "inputs_verified": {
+  "bioinf2027/endpoints/readouts/R2_between.csv": "equal to its record in bioinf2027/endpoints/readouts/readouts.json",
+  "bioinf2027/results/S1_supplement/vcc_paired.csv": "equal to its record in bioinf2027/results/S1_supplement/s1_supplement_vcc.json",
+  "bioinf2027/results/S1_supplement/external_association.csv": "equal to its record in bioinf2027/results/S1_supplement/s1_supplement_external.json",
+  "bioinf2027/results/S1_supplement/external_control.csv": "equal to its record in bioinf2027/results/S1_supplement/s1_supplement_control.json",
+  "bioinf2027/results/S1_supplement/external_labels.csv": "equal to its record in bioinf2027/results/S1_supplement/s1_supplement_control.json",
+  "bioinf2027/results/E1/posthoc/posthoc_vcc.csv": "equal to its record in bioinf2027/results/E1/attribution/amendment/amendment.json",
+  "bioinf2027/results/E1/preconditions.csv": "equal to its record in bioinf2027/results/D2/supplement/supplement.json",
+  "bioinf2027/results/E1/vcc_test.csv": "equal to its record in bioinf2027/results/E1/posthoc/posthoc.json",
+  "bioinf2027/results/E2/stats/vcc.csv": "equal to its record in bioinf2027/results/E2/stats/stats.json",
+  "bioinf2027/diag/D1_label_vs_own_delta_external.csv": "no record lists it; a tracked file without uncommitted changes",
+  "bioinf2027/results/E6/family.csv": "equal to its record in bioinf2027/results/E2/stats/stats.json",
+  "bioinf2027/results/E6/secondary.csv": "equal to its record in bioinf2027/results/E2/supplement/supplement.json",
+  "bioinf2027/results/E2/stats/e6.csv": "equal to its record in bioinf2027/results/E2/stats/stats.json",
+  "bioinf2027/results/E5/family/family.csv": "equal to its record in bioinf2027/results/E5/family/family.json",
+  "bioinf2027/results/E5/supplement/depmap.csv": "equal to its record in bioinf2027/results/E5/supplement/supplement_depmap.json",
+  "bioinf2027/results/E5/supplement_2/comparisons.csv": "equal to its record in bioinf2027/results/E5/supplement_2/supplement_2_fits.json",
+  "bioinf2027/results/E5/supplement_2/same_rows.csv": "equal to its record in bioinf2027/results/E5/supplement_2/supplement_2_fits.json",
+  "bioinf2027/diag/D3_cell_counts.csv": "equal to its record in bioinf2027/results/missing_analyses_closing/closing.json"
+ },
+ "environment": {
+  "python": "3.13.12",
+  "numpy": "2.4.4",
+  "pandas": "3.0.2",
+  "requirements": {
+   "path": "bioinf2027/requirements.txt",
+   "bytes": 863,
+   "sha256": "f46a415cbe466ba1225adcede4abae7f0dd0b866f29abdf5a6a360e66b1f5702"
+  }
+ },
+ "tex": "booktabs; Unicode symbols (\u2212, \u03c1, \u2192, \u00bd), so a Unicode TeX engine (XeLaTeX or LuaLaTeX)",
+ "outputs": {
+  "tableS2_main_estimates_full.csv": {
+   "path": "bioinf2027/tables/tableS2_main_estimates_full.csv",
+   "bytes": 5671,
+   "sha256": "879109afff443caf5c3877248dc018dc6e27beb1b158c2e555985138e3a04f85"
+  },
+  "tableS2_main_estimates_full.tex": {
+   "path": "bioinf2027/tables/tableS2_main_estimates_full.tex",
+   "bytes": 5973,
+   "sha256": "b04c4c7f7271922ea77d7ed4b41fcefca427c07d2a19178429c021e186f73cde"
+  }
+ }
+}
